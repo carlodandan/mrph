@@ -1,0 +1,227 @@
+[
+  {
+    "id": "subpro_peacehr_01",
+    "text": "Which of the following BEST describes the concept of human rights?",
+    "options": [
+      { "id": "a", "text": "Privileges given by the government to selected individuals" },
+      { "id": "b", "text": "Fundamental rights inherent to all people regardless of status" },
+      { "id": "c", "text": "Rules that apply only to citizens of a country" },
+      { "id": "d", "text": "Benefits granted to workers in public service" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Human rights are inherent, universal, and not dependent on nationality, status, or conditions.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_02",
+    "text": "What is the primary purpose of the Universal Declaration of Human Rights (UDHR)?",
+    "options": [
+      { "id": "a", "text": "To punish countries that violate human rights" },
+      { "id": "b", "text": "To set a global standard for the protection of human rights" },
+      { "id": "c", "text": "To create international courts" },
+      { "id": "d", "text": "To regulate national elections" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The UDHR establishes universal standards for human rights protection and guidelines for nations.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_03",
+    "text": "Which of the following acts violates a person’s right to equality?",
+    "options": [
+      { "id": "a", "text": "Allowing everyone equal chance to apply for a job" },
+      { "id": "b", "text": "Giving a benefit only to those who pay a fee" },
+      { "id": "c", "text": "Rejecting an applicant solely due to religion" },
+      { "id": "d", "text": "Requiring IDs for security purposes" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Discrimination based on religion violates the right to equality and freedom from discrimination.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_04",
+    "text": "A community resolves conflict through dialogue and cooperation. This illustrates:",
+    "options": [
+      { "id": "a", "text": "Peacebuilding" },
+      { "id": "b", "text": "Punitive action" },
+      { "id": "c", "text": "Martial law" },
+      { "id": "d", "text": "Economic development" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Peacebuilding involves fostering cooperation, dialogue, and long-term conflict resolution.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_05",
+    "text": "Which agency in the Philippines is primarily responsible for investigating human rights violations?",
+    "options": [
+      { "id": "a", "text": "DOJ" },
+      { "id": "b", "text": "CHR" },
+      { "id": "c", "text": "DILG" },
+      { "id": "d", "text": "NBI" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Commission on Human Rights (CHR) investigates alleged human rights violations.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_06",
+    "text": "Freedom from torture is considered what type of human right?",
+    "options": [
+      { "id": "a", "text": "Economic right" },
+      { "id": "b", "text": "Cultural right" },
+      { "id": "c", "text": "Civil and political right" },
+      { "id": "d", "text": "Environmental right" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Freedom from torture is a civil and political right protected under international law.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_07",
+    "text": "A public official treats all citizens fairly regardless of belief or background. This is an example of:",
+    "options": [
+      { "id": "a", "text": "Discrimination" },
+      { "id": "b", "text": "Equality" },
+      { "id": "c", "text": "Censorship" },
+      { "id": "d", "text": "Restrictive practice" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Equality means treating people fairly and without prejudice.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_08",
+    "text": "Which of the following promotes a culture of peace?",
+    "options": [
+      { "id": "a", "text": "Encouraging dialogue and understanding" },
+      { "id": "b", "text": "Promoting revenge when wronged" },
+      { "id": "c", "text": "Withholding information" },
+      { "id": "d", "text": "Supporting violent solutions" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A culture of peace is achieved through dialogue, understanding, and cooperation.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_09",
+    "text": "A worker is denied fair wages and forced to work long hours. Which human right is being violated?",
+    "options": [
+      { "id": "a", "text": "Right to education" },
+      { "id": "b", "text": "Right to just and favorable work conditions" },
+      { "id": "c", "text": "Right to freedom of movement" },
+      { "id": "d", "text": "Right to leisure and culture" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Fair labor conditions are part of economic, social, and cultural rights.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_10",
+    "text": "Promoting non-violence in schools and communities supports:",
+    "options": [
+      { "id": "a", "text": "Self-governance" },
+      { "id": "b", "text": "Social harmony and peace" },
+      { "id": "c", "text": "Economic growth" },
+      { "id": "d", "text": "Private sector development" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Non-violence supports peaceful coexistence and social stability.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_11",
+    "text": "The principle of Social Justice is enshrined in the Philippine Constitution. It mandates the State to promote which of the following?",
+    "options": [
+      { "id": "a", "text": "Absolute equality of all citizens" },
+      { "id": "b", "text": "Equitable distribution of wealth and opportunities" },
+      { "id": "c", "text": "Unlimited political power for the poor" },
+      { "id": "d", "text": "Suppression of labor unions" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Social Justice aims to reduce inequalities and provide opportunities for everyone, especially the disadvantaged, by balancing the interests of the rich and the poor.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_12",
+    "text": "Sa konteksto ng kapayapaan at karapatang pantao, ang 'negative peace' ay tumutukoy sa kawalan ng alin?",
+    "options": [
+      { "id": "a", "text": "Structural violence" },
+      { "id": "b", "text": "Cultural conflict" },
+      { "id": "c", "text": "Direct (physical) violence" },
+      { "id": "d", "text": "Economic inequality" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang 'negative peace' ay ang simpleng kawalan ng giyera, armadong labanan, o direktang pisikal na karahasan.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "subpro_peacehr_13",
+    "text": "Republic Act 8371, or the Indigenous Peoples’ Rights Act (IPRA), primarily recognizes the rights of Indigenous Cultural Communities/Indigenous Peoples (ICCs/IPs) to their ancestral lands, which includes the right to:",
+    "options": [
+      { "id": "a", "text": "Self-governance and ancestral domains" },
+      { "id": "b", "text": "Exemption from all national taxes" },
+      { "id": "c", "text": "Separate citizenship" },
+      { "id": "d", "text": "Unlimited resource extraction" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "IPRA legally recognizes the inherent right of ICCs/IPs to their ancestral domains and the right to self-governance and empowerment.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_peacehr_14",
+    "text": "Ang karapatang bumoto sa eleksyon, na nakasaad sa Saligang Batas, ay isang uri ng:",
+    "options": [
+      { "id": "a", "text": "Karapatang Sibil" },
+      { "id": "b", "text": "Karapatang Pampulitika" },
+      { "id": "c", "text": "Karapatang Pangkabuhayan" },
+      { "id": "d", "text": "Karapatang Kultural" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang karapatan sa pagboto (suffrage) ay isang pangunahing karapatang pampulitika na nagbibigay-daan sa mamamayan na makilahok sa pamamahala.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "subpro_peacehr_15",
+    "text": "The core obligation of the State in relation to socio-economic rights (like the right to health or education) is generally categorized into three levels: Respect, Protect, and:",
+    "options": [
+      { "id": "a", "text": "Promote" },
+      { "id": "b", "text": "Fulfill" },
+      { "id": "c", "text": "Enforce" },
+      { "id": "d", "text": "Monitor" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The three-fold obligation of the State is to Respect (refrain from interfering), Protect (prevent third parties from violating), and Fulfill (take positive measures to ensure the realization of the right).",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  }
+]

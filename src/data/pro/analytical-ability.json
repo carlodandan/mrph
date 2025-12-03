@@ -1,0 +1,167 @@
+[
+  {
+    "id": "ana_pro_1",
+    "text": "All government employees must follow the Code of Conduct. Some people in this building are government employees. Therefore:",
+    "options": [
+      { "id": "a", "text": "All people in this building follow the Code of Conduct" },
+      { "id": "b", "text": "Some people in this building follow the Code of Conduct" },
+      { "id": "c", "text": "No people in this building follow the Code of Conduct" },
+      { "id": "d", "text": "Only government employees follow the Code of Conduct" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Since some people in the building are government employees, and all government employees must follow the Code, it follows that at least some people in the building follow the Code.",
+    "category": "Analytical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ana_pro_2",
+    "text": "Statement: 'If there is heavy rain, then government offices may declare work suspension.' Heavy rain is occurring. What conclusion can be drawn?",
+    "options": [
+      { "id": "a", "text": "Government offices will definitely declare work suspension" },
+      { "id": "b", "text": "Government offices may declare work suspension" },
+      { "id": "c", "text": "Government offices will not declare work suspension" },
+      { "id": "d", "text": "No conclusion can be drawn" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The statement says 'may declare', not 'will declare', so the condition being met only makes suspension possible, not certain.",
+    "category": "Analytical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ana_pro_3",
+    "text": "Lahat ng pampublikong opisina ay dapat bukas mula 8:00 AM hanggang 5:00 PM. Ang Tanggapan ng Mayor ay isang pampublikong opisina. Ano ang maaaring mahinuha?",
+    "options": [
+      { "id": "a", "text": "Ang Tanggapan ng Mayor ay dapat bukas mula 8:00 AM hanggang 5:00 PM" },
+      { "id": "b", "text": "Ang Tanggapan ng Mayor ay hindi dapat bukas mula 8:00 AM hanggang 5:00 PM" },
+      { "id": "c", "text": "Ang Tanggapan ng Mayor ay maaaring bukas sa ibang oras" },
+      { "id": "d", "text": "Walang maaaring mahinuha" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Dahil ang Tanggapan ng Mayor ay isang pampublikong opisina, ito ay sakop ng panuntunan na dapat bukas mula 8:00 AM hanggang 5:00 PM.",
+    "category": "Analytical Ability",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "ana_pro_4",
+    "text": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+    "options": [
+      { "id": "a", "text": "108" },
+      { "id": "b", "text": "162" },
+      { "id": "c", "text": "216" },
+      { "id": "d", "text": "324" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Each number is multiplied by 3 to get the next number: 2×3=6, 6×3=18, 18×3=54, 54×3=162",
+    "category": "Analytical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ana_pro_5",
+    "text": "If all As are Bs, and some Bs are Cs, which of the following must be true?",
+    "options": [
+      { "id": "a", "text": "All As are Cs" },
+      { "id": "b", "text": "Some As are Cs" },
+      { "id": "c", "text": "No As are Cs" },
+      { "id": "d", "text": "Some Cs are As" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Since all As are Bs, and some Bs are Cs, it follows that at least some As (those that are also in the 'some Bs' group) must be Cs.",
+    "category": "Analytical Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "ana_pro_6",
+    "text": "All civil service examination passers are eligible for permanent positions. Maria is eligible for a permanent position. Therefore:",
+    "options": [
+      { "id": "a", "text": "Maria is a civil service examination passer" },
+      { "id": "b", "text": "Maria is not a civil service examination passer" },
+      { "id": "c", "text": "Maria may or may not be a civil service examination passer" },
+      { "id": "d", "text": "Only civil service examination passers are eligible" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The original statement is 'If Passer, then Eligible.' Maria is Eligible (the consequence). This does not guarantee she is a Passer (the premise), as there may be other ways to become eligible (fallacy of affirming the consequent).",
+    "category": "Analytical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ana_pro_7",
+    "text": "Statement: 'Kung maganda ang serbisyo, tataas ang satisfaction ng publiko.' Hindi tumaas ang satisfaction ng publiko. Ano ang maaaring mahinuha?",
+    "options": [
+      { "id": "a", "text": "Maganda ang serbisyo" },
+      { "id": "b", "text": "Hindi maganda ang serbisyo" },
+      { "id": "c", "text": "Wala itong kinalaman sa serbisyo" },
+      { "id": "d", "text": "Ang satisfaction ng publiko ay bababa" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ito ay batay sa batas ng 'Modus Tollens' (Denying the Consequence). Kung ang resulta (pagtaas ng satisfaction) ay hindi nangyari, dapat na hindi rin nangyari ang kundisyon (maganda ang serbisyo). (If P, then Q. Not Q. Therefore, Not P.)",
+    "category": "Analytical Ability",
+    "difficulty": "difficult",
+    "language": "filipino"
+  },
+  {
+    "id": "ana_pro_8",
+    "text": "Look at this series: 1, 4, 9, 16, 25, ... What number should come next?",
+    "options": [
+      { "id": "a", "text": "30" },
+      { "id": "b", "text": "32" },
+      { "id": "c", "text": "36" },
+      { "id": "d", "text": "49" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "This is the series of perfect squares: $1^2=1$, $2^2=4$, $3^2=9$, $4^2=16$, $5^2=25$. The next number is $6^2=36$.",
+    "category": "Analytical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ana_pro_9",
+    "text": "Ang lahat ng nag-aplay sa posisyon ng 'Engineer' ay may lisensya. Si Ricardo ay walang lisensya. Samakatuwid:",
+    "options": [
+      { "id": "a", "text": "Nag-aplay si Ricardo sa posisyon ng 'Engineer'" },
+      { "id": "b", "text": "Hindi nag-aplay si Ricardo sa posisyon ng 'Engineer'" },
+      { "id": "c", "text": "Maaaring nag-aplay si Ricardo sa posisyon ng 'Engineer'" },
+      { "id": "d", "text": "Hindi kinakailangan ang lisensya para sa posisyong 'Engineer'" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Dahil ang pagkakaroon ng lisensya ay kinakailangan ng lahat ng aplikante para sa Engineer (If Apply, then License), ang kawalan ng lisensya ni Ricardo ay nangangahulugang hindi siya maaaring nag-aplay. (Modus Tollens: If P, then Q. Not Q. Therefore, Not P.)",
+    "category": "Analytical Ability",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "ana_pro_10",
+    "text": "CHAIR is to FURNITURE as SHIRT is to:",
+    "options": [
+      { "id": "a", "text": "COTTON" },
+      { "id": "b", "text": "CLOTHING" },
+      { "id": "c", "text": "WEAR" },
+      { "id": "d", "text": "WARDROBE" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A CHAIR is a specific item belonging to the category of FURNITURE. Likewise, a SHIRT is a specific item belonging to the category of CLOTHING.",
+    "category": "Analytical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ana_pro_11",
+    "text": "According to DTI, ₱500 for Noche Buena is enough. If ham = 35% of the budget, spaghetti = 26%, macaroni salad = 22% but no drinks yet. How much are left for drinks?",
+    "options": [
+      { "id": "a", "text": "₱65" },
+      { "id": "b", "text": "₱75" },
+      { "id": "c", "text": "₱85" },
+      { "id": "d", "text": "₱90" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "For ham: convert it to decimal > 35%/100 = 0.35, then multiply it with the budget > 0.35*500 = ₱175. Do the same with spaghetti and macaroni, ₱130 and ₱110 respectively. Sum it: ₱175 + ₱130 + ₱110 = ₱415. Subtract it from budget: ₱500 - ₱415 = ₱85. Budget for drinks will be ₱85",
+    "category": "Analytical Ability",
+    "difficulty": "medium",
+    "language": "english"
+  }
+]

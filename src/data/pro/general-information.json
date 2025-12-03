@@ -1,0 +1,227 @@
+[
+  {
+    "id": "gen_001",
+    "text": "What is the primary function of the legislative branch of government?",
+    "options": [
+      { "id": "a", "text": "To enforce laws" },
+      { "id": "b", "text": "To interpret laws" },
+      { "id": "c", "text": "To create laws" },
+      { "id": "d", "text": "To implement development programs" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The legislative branch, composed of the Senate and House of Representatives, is responsible for making laws.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_002",
+    "text": "Which of the following is considered the supreme law of the Philippines?",
+    "options": [
+      { "id": "a", "text": "The Revised Penal Code" },
+      { "id": "b", "text": "The Philippine Constitution" },
+      { "id": "c", "text": "The Civil Code" },
+      { "id": "d", "text": "The Local Government Code" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Constitution is the highest legal authority in the country and all laws must conform to it.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_003",
+    "text": "The term 'GDP' refers to the total value of goods and services produced within a country. What does GDP stand for?",
+    "options": [
+      { "id": "a", "text": "Global Development Product" },
+      { "id": "b", "text": "General Domestic Price" },
+      { "id": "c", "text": "Gross Domestic Product" },
+      { "id": "d", "text": "Gross Development Proceeds" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "GDP measures the economic performance of a country by calculating the value of goods and services produced.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_004",
+    "text": "Which Philippine agency is primarily responsible for disaster preparedness and response coordination?",
+    "options": [
+      { "id": "a", "text": "DENR" },
+      { "id": "b", "text": "DOH" },
+      { "id": "c", "text": "Pag-asa" },
+      { "id": "d", "text": "NDRRMC" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The National Disaster Risk Reduction and Management Council (NDRRMC) coordinates disaster risk reduction and emergency response efforts.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_005",
+    "text": "Which of the following is a renewable source of energy?",
+    "options": [
+      { "id": "a", "text": "Coal" },
+      { "id": "b", "text": "Natural Gas" },
+      { "id": "c", "text": "Solar Power" },
+      { "id": "d", "text": "Oil" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Solar power is renewable because it is derived from the sun, a naturally replenished source.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_006",
+    "text": "Which ASEAN member state is geographically the largest?",
+    "options": [
+      { "id": "a", "text": "Philippines" },
+      { "id": "b", "text": "Malaysia" },
+      { "id": "c", "text": "Indonesia" },
+      { "id": "d", "text": "Vietnam" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Indonesia is the largest country in ASEAN in terms of land area and population.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_007",
+    "text": "Which of the following is considered a basic human right according to the Universal Declaration of Human Rights?",
+    "options": [
+      { "id": "a", "text": "Right to own a business" },
+      { "id": "b", "text": "Right to freedom of opinion and expression" },
+      { "id": "c", "text": "Right to receive government employment" },
+      { "id": "d", "text": "Right to vote at any age" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The UDHR includes freedom of speech as a fundamental human right.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_008",
+    "text": "The agency responsible for collecting taxes in the Philippines is:",
+    "options": [
+      { "id": "a", "text": "DBM" },
+      { "id": "b", "text": "BSP" },
+      { "id": "c", "text": "BIR" },
+      { "id": "d", "text": "DTI" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Bureau of Internal Revenue (BIR) collects internal revenue taxes, fees, and charges.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_009",
+    "text": "In the Philippines, the Sandiganbayan primarily handles cases involving:",
+    "options": [
+      { "id": "a", "text": "Tax disputes" },
+      { "id": "b", "text": "Criminal cases involving public officials" },
+      { "id": "c", "text": "Civil cases between private citizens" },
+      { "id": "d", "text": "Immigration violations" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Sandiganbayan investigates and tries graft and corruption cases involving public officers and employees.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_010",
+    "text": "Which of the following is an example of a government-owned and controlled corporation (GOCC)?",
+    "options": [
+      { "id": "a", "text": "SM Investments Corporation" },
+      { "id": "b", "text": "Philippine National Bank (PNB)" },
+      { "id": "c", "text": "Jollibee Foods Corporation" },
+      { "id": "d", "text": "ABS-CBN Corporation" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "PNB is one of the recognized GOCCs in the Philippines, although partly privatized.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_011",
+    "text": "Aling nobela ni Jose Rizal ang tumatalakay sa pang-aabuso ng mga prayle at pamahalaan sa Pilipinas, na nagsisilbing kritikal na paglalarawan ng lipunan sa kanyang panahon?",
+    "options": [
+      { "id": "a", "text": "El Filibusterismo" },
+      { "id": "b", "text": "Mi Ultimo Adios" },
+      { "id": "c", "text": "Noli Me Tangere" },
+      { "id": "d", "text": "La Solidaridad" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang 'Noli Me Tangere' ang unang nobela ni Rizal na direktang tumalakay sa mga sakit ng lipunan at pang-aabuso ng mga nasa kapangyarihan noong panahon ng Kastila.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "gen_012",
+    "text": "What is the longest river system in the Philippines, located in the northeastern part of Luzon?",
+    "options": [
+      { "id": "a", "text": "Rio Grande de Mindanao" },
+      { "id": "b", "text": "Agusan River" },
+      { "id": "c", "text": "Cagayan River" },
+      { "id": "d", "text": "Pampanga River" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Cagayan River (Rio Grande de Cagayan) is the longest and largest river system in the Philippines.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_013",
+    "text": "What process do green plants use to convert light energy, carbon dioxide, and water into chemical energy (sugars) and oxygen?",
+    "options": [
+      { "id": "a", "text": "Respiration" },
+      { "id": "b", "text": "Transpiration" },
+      { "id": "c", "text": "Metabolism" },
+      { "id": "d", "text": "Photosynthesis" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Photosynthesis is the fundamental biological process by which plants produce their own food using light.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_014",
+    "text": "Ano ang tawag sa patuloy at pangkalahatang pagtaas ng presyo ng mga bilihin at serbisyo sa isang ekonomiya, na nagpapababa sa halaga ng pera?",
+    "options": [
+      { "id": "a", "text": "Deflation" },
+      { "id": "b", "text": "Recession" },
+      { "id": "c", "text": "Implasyon (Inflation)" },
+      { "id": "d", "text": "Stagnation" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang implasyon (inflation) ay tumutukoy sa pagtaas ng presyo ng mga produkto at serbisyo, na nagreresulta sa pagbaba ng purchasing power ng pera.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "gen_015",
+    "text": "Which specialized agency of the United Nations is primarily concerned with directing and coordinating international health within the UN system?",
+    "options": [
+      { "id": "a", "text": "UNICEF" },
+      { "id": "b", "text": "UNESCO" },
+      { "id": "c", "text": "WHO" },
+      { "id": "d", "text": "IMF" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The World Health Organization (WHO) is the UN agency dedicated to global public health.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  }
+]

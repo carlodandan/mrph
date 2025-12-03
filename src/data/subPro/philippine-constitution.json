@@ -1,0 +1,227 @@
+[
+  {
+    "id": "pc_001",
+    "text": "What is the supreme law of the Philippines?",
+    "options": [
+      { "id": "a", "text": "The Civil Code" },
+      { "id": "b", "text": "The Revised Penal Code" },
+      { "id": "c", "text": "The 1987 Philippine Constitution" },
+      { "id": "d", "text": "The Local Government Code" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The 1987 Philippine Constitution is the highest law of the land; all laws must conform to it.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pc_002",
+    "text": "Which branch of government is tasked to execute and implement laws?",
+    "options": [
+      { "id": "a", "text": "Legislative Branch" },
+      { "id": "b", "text": "Judicial Branch" },
+      { "id": "c", "text": "Executive Branch" },
+      { "id": "d", "text": "Civil Service Commission" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Executive Branch, headed by the President, enforces and implements the laws.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pc_003",
+    "text": "The power of judicial review belongs to which government body?",
+    "options": [
+      { "id": "a", "text": "Office of the Ombudsman" },
+      { "id": "b", "text": "Supreme Court" },
+      { "id": "c", "text": "Senate" },
+      { "id": "d", "text": "Department of Justice" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Supreme Court interprets laws and determines whether acts of the government are constitutional.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pc_004",
+    "text": "How many years is the term of office of the President of the Philippines?",
+    "options": [
+      { "id": "a", "text": "4 years" },
+      { "id": "b", "text": "5 years" },
+      { "id": "c", "text": "6 years" },
+      { "id": "d", "text": "7 years" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The President serves a single 6-year term without re-election.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pc_005",
+    "text": "The Bill of Rights is found in which Article of the 1987 Constitution?",
+    "options": [
+      { "id": "a", "text": "Article II" },
+      { "id": "b", "text": "Article III" },
+      { "id": "c", "text": "Article VI" },
+      { "id": "d", "text": "Article VII" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Article III contains the Bill of Rights, which protects the fundamental liberties of individuals.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pc_006",
+    "text": "Who has the power to declare martial law?",
+    "options": [
+      { "id": "a", "text": "Congress" },
+      { "id": "b", "text": "Supreme Court" },
+      { "id": "c", "text": "President" },
+      { "id": "d", "text": "Chief Justice" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The President may declare martial law but is subject to review by Congress and the Supreme Court.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pc_007",
+    "text": "The right to due process and equal protection of the law is guaranteed under which section of the Bill of Rights?",
+    "options": [
+      { "id": "a", "text": "Section 1" },
+      { "id": "b", "text": "Section 2" },
+      { "id": "c", "text": "Section 3" },
+      { "id": "d", "text": "Section 7" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Section 1 of Article III guarantees due process and equal protection.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pc_008",
+    "text": "Who presides over the Senate?",
+    "options": [
+      { "id": "a", "text": "Chief Justice" },
+      { "id": "b", "text": "Senate President" },
+      { "id": "c", "text": "House Speaker" },
+      { "id": "d", "text": "Vice President" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Senate President leads and presides over sessions in the Senate.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pc_009",
+    "text": "Who has the exclusive power to initiate impeachment cases?",
+    "options": [
+      { "id": "a", "text": "Senate" },
+      { "id": "b", "text": "House of Representatives" },
+      { "id": "c", "text": "Supreme Court" },
+      { "id": "d", "text": "Office of the Ombudsman" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The House of Representatives initiates all impeachment cases, while the Senate conducts the trial.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pc_010",
+    "text": "Which of the following is NOT a qualification to become a Senator?",
+    "options": [
+      { "id": "a", "text": "Natural-born citizen" },
+      { "id": "b", "text": "Able to read and write" },
+      { "id": "c", "text": "At least 25 years old" },
+      { "id": "d", "text": "Registered voter" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A Senator must be at least 35 years old. The age 25 requirement applies to members of the House of Representatives.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pc_011",
+    "text": "How many Senators compose the Senate of the Philippines?",
+    "options": [
+      { "id": "a", "text": "12" },
+      { "id": "b", "text": "18" },
+      { "id": "c", "text": "24" },
+      { "id": "d", "text": "30" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Senate is composed of twenty-four (24) Senators elected at large by the qualified voters of the Philippines.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pc_012",
+    "text": "Sa ilalim ng Bill of Rights, ang karapatan ng isang tao na manahimik (right to remain silent) at magkaroon ng abogado ay kinikilala sa anong yugto?",
+    "options": [
+      { "id": "a", "text": "Sa pagpapatupad ng hatol" },
+      { "id": "b", "text": "Sa paglilitis lamang" },
+      { "id": "c", "text": "Sa ilalim ng kustodiya o 'custodial investigation'" },
+      { "id": "d", "text": "Sa pagdinig ng testigo" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang karapatang ito (Miranda Rights) ay dapat ibigay sa sinumang taong sinisiyasat para sa paggawa ng krimen habang nasa kustodiya ng pulisya o 'custodial investigation'.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "pc_013",
+    "text": "The appointments made by the President, such as the heads of executive departments and ambassadors, must be confirmed by which body?",
+    "options": [
+      { "id": "a", "text": "Supreme Court" },
+      { "id": "b", "text": "Commission on Elections (COMELEC)" },
+      { "id": "c", "text": "Commission on Appointments (CA)" },
+      { "id": "d", "text": "Sandiganbayan" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Commission on Appointments (CA), composed of members from both the Senate and the House of Representatives, is mandated to approve or reject key appointments made by the President.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pc_014",
+    "text": "What is the maximum number of consecutive terms a Member of the House of Representatives is allowed to serve?",
+    "options": [
+      { "id": "a", "text": "Three consecutive terms of three years each" },
+      { "id": "b", "text": "Two consecutive terms of four years each" },
+      { "c": "c", "text": "A single six-year term" },
+      { "id": "d", "text": "Three consecutive terms of four years each" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A Representative can serve a maximum of three consecutive three-year terms. After a break, they may run again.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pc_015",
+    "text": "Ayon sa Artikulo II, Seksyon 1 ng Konstitusyon, saan nakasalalay ang kapangyarihan (sovereignty) ng isang estado?",
+    "options": [
+      { "id": "a", "text": "Sa Kongreso" },
+      { "id": "b", "text": "Sa militar" },
+      { "id": "c", "text": "Sa sambayanan (the people)" },
+      { "id": "d", "text": "Sa Pangulo" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang probisyong ito ay nagsasaad na 'Ang Pilipinas ay isang estadong republikano at demokratiko. Ang ganap na kapangyarihan ay nakasalalay sa sambayanan at nagmumula sa kanila ang lahat ng awtoridad ng pamahalaan.'",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "filipino"
+  }
+]

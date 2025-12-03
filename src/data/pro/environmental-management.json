@@ -1,0 +1,152 @@
+[
+  {
+    "id": "env_001",
+    "text": "Which of the following BEST describes sustainable development?",
+    "options": [
+      { "id": "a", "text": "Meeting current needs without considering future generations" },
+      { "id": "b", "text": "Economic growth even at the cost of environmental degradation" },
+      { "id": "c", "text": "Balancing environmental protection, economic growth, and social well-being" },
+      { "id": "d", "text": "Focusing solely on conservation efforts regardless of economic impact" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Sustainable development ensures that environmental, social, and economic needs are balanced for long-term viability.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "env_002",
+    "text": "Which Philippine law serves as the primary framework for environmental protection?",
+    "options": [
+      { "id": "a", "text": "Republic Act 8749 or Clean Air Act of 1999" },
+      { "id": "b", "text": "Republic Act 9003 or Ecological Solid Waste Management Act" },
+      { "id": "c", "text": "Republic Act 9275 or Clean Water Act of 2004" },
+      { "id": "d", "text": "Presidential Decree 1152 or Philippine Environmental Code" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "P.D. 1152 provides a comprehensive and integrated framework for environmental protection and management in the Philippines.",
+    "category": "Environmental Management",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "env_003",
+    "text": "The process of assessing the potential environmental impacts of a proposed project before its implementation is known as:",
+    "options": [
+      { "id": "a", "text": "Biodiversity Monitoring" },
+      { "id": "b", "text": "Environmental Impact Assessment (EIA)" },
+      { "id": "c", "text": "Solid Waste Segregation" },
+      { "id": "d", "text": "Environmental Compliance Certification" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "EIA evaluates environmental consequences of proposed activities to minimize negative effects before approval.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "env_004",
+    "text": "Which of the following is an example of climate change mitigation?",
+    "options": [
+      { "id": "a", "text": "Constructing sea walls to reduce coastal flooding" },
+      { "id": "b", "text": "Developing drought-resilient crops" },
+      { "id": "c", "text": "Planting trees to absorb carbon dioxide" },
+      { "id": "d", "text": "Implementing evacuation plans for typhoons" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Tree planting is a mitigation strategy because it reduces greenhouse gases by absorbing CO₂.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "env_005",
+    "text": "Which solid waste management principle promotes reducing waste generation and conserving resources by reusing materials?",
+    "options": [
+      { "id": "a", "text": "Sanitary Landfilling" },
+      { "id": "b", "text": "Waste Recovery" },
+      { "id": "c", "text": "Waste Segregation" },
+      { "id": "d", "text": "Waste Minimization" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Waste minimization reduces waste generation through reuse, repair, and resource efficiency.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "env_006",
+    "text": "Republic Act 8749, or the Clean Air Act, primarily regulates emissions from what two major categories of sources?",
+    "options": [
+      { "id": "a", "text": "Agricultural runoff and residential development" },
+      { "id": "b", "text": "Coastal zones and marine dumping" },
+      { "id": "c", "text": "Mobile sources and stationary sources" },
+      { "id": "d", "text": "Deforestation and mining operations" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Clean Air Act focuses on controlling pollution from motor vehicles (mobile sources) and factories/power plants (stationary sources).",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "env_007",
+    "text": "A species of plant or animal that is native to and found only within a specific geographic area, like the Philippine Eagle, is classified as:",
+    "options": [
+      { "id": "a", "text": "Invasive" },
+      { "id": "b", "text": "Endemic" },
+      { "id": "c", "text": "Keystone" },
+      { "id": "d", "text": "Generalist" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Endemic species are those restricted to a particular region or area, which highlights the Philippines' rich, unique biodiversity.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "env_008",
+    "text": "Alin sa mga sumusunod ang **mahigpit na ipinagbabawal** ng RA 9003 (Ecological Solid Waste Management Act)?",
+    "options": [
+      { "id": "a", "text": "Pagsusunog ng basura (open burning)" },
+      { "id": "b", "text": "Paggamit ng basurahan" },
+      { "id": "c", "text": "Pagrerecycle ng plastic" },
+      { "id": "d", "text": "Paghihiwalay ng nabubulok at di-nabubulok" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang open burning o pagsusunog ng basura sa bukas na lugar ay tahasang ipinagbabawal ng RA 9003 dahil nagdudulot ito ng mapanganib na polusyon sa hangin.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "env_009",
+    "text": "Ang Environmental Management Bureau (EMB) sa ilalim ng DENR ang pangunahing responsible sa pagpapatupad ng aling batas?",
+    "options": [
+      { "id": "a", "text": "RA 7942 (Philippine Mining Act)" },
+      { "id": "b", "text": "RA 8371 (Indigenous Peoples’ Rights Act)" },
+      { "id": "c", "text": "RA 9275 (Clean Water Act)" },
+      { "id": "d", "text": "RA 7586 (National Integrated Protected Areas System Act)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang EMB ang pangunahing ahensya na nagpapatupad ng mga batas laban sa polusyon tulad ng Clean Water Act (RA 9275) at Clean Air Act (RA 8749).",
+    "category": "Environmental Management",
+    "difficulty": "difficult",
+    "language": "filipino"
+  },
+  {
+    "id": "env_010",
+    "text": "In the context of the environment, what term refers to the region or area of land where all water drains into a single body of water, making it the fundamental unit for water resource management?",
+    "options": [
+      { "id": "a", "text": "Coastal Zone" },
+      { "id": "b", "text": "Estuary" },
+      { "id": "c", "text": "Protected Area" },
+      { "id": "d", "text": "Watershed/River Basin" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "A watershed or river basin is the land area that channels rainfall and runoff to a stream, river, or lake, and is the standard geographic unit used for water quality and resource planning.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  }
+]

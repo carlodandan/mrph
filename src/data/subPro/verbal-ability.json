@@ -1,0 +1,287 @@
+[
+  {
+    "id": "va_001",
+    "text": "Which word is the SYNONYM of the word 'abundant'?",
+    "options": [
+      { "id": "a", "text": "scarce" },
+      { "id": "b", "text": "plentiful" },
+      { "id": "c", "text": "limited" },
+      { "id": "d", "text": "few" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "‘Plentiful’ has a similar meaning to ‘abundant,’ which refers to something in large quantity.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_002",
+    "text": "Choose the correctly spelled word.",
+    "options": [
+      { "id": "a", "text": "accomodate" },
+      { "id": "b", "text": "accommodate" },
+      { "id": "c", "text": "acommodate" },
+      { "id": "d", "text": "accomadate" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "‘Accommodate’ is spelled with two C’s and two M’s.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_003",
+    "text": "Which of the following is the ANTONYM of 'generous'?",
+    "options": [
+      { "id": "a", "text": "kind" },
+      { "id": "b", "text": "selfless" },
+      { "id": "c", "text": "stingy" },
+      { "id": "d", "text": "giving" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Stingy’ is the opposite of ‘generous,’ which means not willing to give.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_004",
+    "text": "Choose the sentence with the correct subject-verb agreement.",
+    "options": [
+      { "id": "a", "text": "The list of items are on the table." },
+      { "id": "b", "text": "The books on the shelf belongs to my sister." },
+      { "id": "c", "text": "Each of the students is required to submit the form." },
+      { "id": "d", "text": "The group of dancers were excited for the show." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Each’ is always singular, so the verb should be ‘is.’",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "va_005",
+    "text": "Complete the analogy: BOOK is to READ as PIANO is to ______.",
+    "options": [
+      { "id": "a", "text": "sound" },
+      { "id": "b", "text": "music" },
+      { "id": "c", "text": "play" },
+      { "id": "d", "text": "instrument" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "You READ a book, and you PLAY a piano.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_006",
+    "text": "Which word BEST completes the sentence: ‘Maria is known for her ______ in handling customer complaints.’",
+    "options": [
+      { "id": "a", "text": "patience" },
+      { "id": "b", "text": "patient" },
+      { "id": "c", "text": "patients" },
+      { "id": "d", "text": "patently" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The noun ‘patience’ correctly fits the sentence.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "va_007",
+    "text": "Choose the correct preposition: ‘They arrived ____ the airport early.’",
+    "options": [
+      { "id": "a", "text": "in" },
+      { "id": "b", "text": "to" },
+      { "id": "c", "text": "at" },
+      { "id": "d", "text": "on" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The correct phrase is ‘arrived at the airport.’",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_008",
+    "text": "Which sentence is punctuated correctly?",
+    "options": [
+      { "id": "a", "text": "Let's eat, Grandpa!" },
+      { "id": "b", "text": "Lets eat Grandpa!" },
+      { "id": "c", "text": "Let’s eat Grandpa" },
+      { "id": "d", "text": "Lets eat, Grandpa" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The comma changes the meaning and makes the sentence grammatically correct.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_009",
+    "text": "Which word correctly completes the sentence: ‘The employees were praised for their ______.’",
+    "options": [
+      { "id": "a", "text": "dedicate" },
+      { "id": "b", "text": "dedicated" },
+      { "id": "c", "text": "dedication" },
+      { "id": "d", "text": "dedicating" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The noun ‘dedication’ properly completes the sentence.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_010",
+    "text": "Choose the pair of words that form a meaningful analogy: ‘Teacher : Classroom’",
+    "options": [
+      { "id": "a", "text": "Doctor : Hospital" },
+      { "id": "b", "text": "Driver : Table" },
+      { "id": "c", "text": "Painter : Books" },
+      { "id": "d", "text": "Chef : Laptop" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A doctor works in a hospital, just as a teacher works in a classroom.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_011",
+    "text": "Choose the word that is the ANTONYM of 'transient'.",
+    "options": [
+      { "id": "a", "text": "temporary" },
+      { "id": "b", "text": "fleeting" },
+      { "id": "c", "text": "permanent" },
+      { "id": "d", "text": "quick" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Transient’ means lasting for only a short time; therefore, its opposite is ‘permanent,’ meaning lasting indefinitely.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "va_012",
+    "text": "Identify the section that contains a grammatical error: The city council (A) / has approve (B) / the new budget (C) / for next year (D).",
+    "options": [
+      { "id": "a", "text": "(A) The city council" },
+      { "id": "b", "text": "(B) has approve" },
+      { "id": "c", "text": "(C) the new budget" },
+      { "id": "d", "text": "(D) for next year" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The auxiliary verb ‘has’ must be followed by the past participle form of the main verb, which is 'approved,' not 'approve.'",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "va_013",
+    "text": "Complete the analogy: SCALPEL is to SURGEON as KEYBOARD is to ______.",
+    "options": [
+      { "id": "a", "text": "printer" },
+      { "id": "b", "text": "computer" },
+      { "id": "c", "text": "writer" },
+      { "id": "d", "text": "monitor" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A scalpel is the primary tool used by a surgeon, and a keyboard is the primary tool used by a writer (or typist) to perform their work.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "va_014",
+    "text": "Choose the word that BEST completes the sentence: ‘The documents were classified as ______ because they contained sensitive national security details.’",
+    "options": [
+      { "id": "a", "text": "confidential" },
+      { "id": "b", "text": "obvious" },
+      { "id": "c", "text": "transparent" },
+      { "id": "d", "text": "public" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "‘Confidential’ is the best fit as it means private or secret, often pertaining to state security.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_015",
+    "text": "Choose the correctly spelled word.",
+    "options": [
+      { "id": "a", "text": "necessarry" },
+      { "id": "b", "text": "neccesary" },
+      { "id": "c", "text": "necessary" },
+      { "id": "d", "text": "necesarry" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Necessary’ is spelled with one 'c' and two 's's.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "va_016",
+  "text": "Sarah ______ an interesting point about the country's yearly budget.",
+  "options": [
+    { "id": "a", "text": "brought down" },
+    { "id": "b", "text": "brought in" },
+    { "id": "c", "text": "brought up" },
+    { "id": "d", "text": "brought on" }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The phrasal verb 'brought up' means to introduce a topic or subject into a discussion. Therefore, Sarah introduced an interesting point.",
+  "category": "Verbal Ability",
+  "difficulty": "easy",
+  "language": "english"
+  },
+  {
+    "id": "va_017",
+  "text": "She has a RUGGED appearance.",
+  "options": [
+    { "id": "a", "text": "Smooth" },
+    { "id": "b", "text": "Polished" },
+    { "id": "c", "text": "Rough" },
+    { "id": "d", "text": "Soft" }
+  ],
+  "correctAnswer": "c",
+  "explanation": "“Rugged” describes someone or something with a rough or sturdy look, so “rough” is the closest synonym.",
+  "category": "Verbal Ability",
+  "difficulty": "easy",
+  "language": "english"
+  },
+  {
+    "id": "va_018",
+    "text": "Tragic stories had so much PATHOS that it left me feeling down. Which word is a SYNONYM of 'pathos'?",
+    "options": [
+      { "id": "a", "text": "anguish" },
+      { "id": "b", "text": "woe" },
+      { "id": "c", "text": "intrigue" },
+      { "id": "d", "text": "humor" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "'Pathos' is a quality that evokes pity or sadness. 'Anguish' means severe mental or physical pain or suffering, making it a strong synonym in this context. 'Woe' (b) is also a synonym.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "va__019",
+    "text": "Tragic stories had so much **pathos** that it left me feeling down. Which word is an ANTONYM of 'pathos'?",
+    "options": [
+      { "id": "a", "text": "anguish" },
+      { "id": "b", "text": "woe" },
+      { "id": "c", "text": "intrigue" },
+      { "id": "d", "text": "humor" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "'Pathos' is associated with sadness and sorrow. 'Humor' is the quality of being amusing or comical, which directly contrasts with the feeling evoked by pathos.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  }
+]

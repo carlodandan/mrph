@@ -1,0 +1,152 @@
+[
+  {
+    "id": "num_sub_1",
+    "text": "What is 25% of 200?",
+    "options": [
+      { "id": "a", "text": "25" },
+      { "id": "b", "text": "50" },
+      { "id": "c", "text": "75" },
+      { "id": "d", "text": "100" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "25% of 200 = 200 x 0.25 = 50",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_2",
+    "text": "If 5 workers can complete a task in 8 days, how many days will it take 10 workers?",
+    "options": [
+      { "id": "a", "text": "2 days" },
+      { "id": "b", "text": "4 days" },
+      { "id": "c", "text": "6 days" },
+      { "id": "d", "text": "8 days" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "More workers means less time. 5 workers x 8 days = 40 worker-days. 40 worker-days ÷ 10 workers = 4 days",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_3",
+    "text": "What is the average (mean) of the following numbers: 15, 20, 25, 30?",
+    "options": [
+      { "id": "a", "text": "20" },
+      { "id": "b", "text": "22.5" },
+      { "id": "c", "text": "25" },
+      { "id": "d", "text": "30" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "To find the average, sum the numbers and divide by the count: $(15 + 20 + 25 + 30) / 4 = 90 / 4 = 22.5$.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_4",
+    "text": "Find the missing number in the sequence: 5, 10, 20, 40, ___",
+    "options": [
+      { "id": "a", "text": "50" },
+      { "id": "b", "text": "60" },
+      { "id": "c", "text": "80" },
+      { "id": "d", "text": "100" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "This is a geometric sequence where each term is multiplied by 2 to get the next term. $40 \times 2 = 80$.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_5",
+    "text": "A clerk is paid $500 per day. If they worked for 4 and 1/2 days, how much did they earn?",
+    "options": [
+      { "id": "a", "text": "$2,000" },
+      { "id": "b", "text": "$2,250" },
+      { "id": "c", "text": "$2,500" },
+      { "id": "d", "text": "$2,750" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Total earnings = daily rate x number of days worked: $500 x 4.5 = $2,250.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_6",
+    "text": "If a rectangle has a length of $10$ cm and a width of $5$ cm, what is its perimeter?",
+    "options": [
+      { "id": "a", "text": "15cm" },
+      { "id": "b", "text": "25cm" },
+      { "id": "c", "text": "30cm" },
+      { "id": "d", "text": "50cm" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The perimeter of a rectangle is calculated as 2 x (length + width), so 2 x (10cm + 5cm) = 2 x 15cm = 30cm.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_7",
+    "text": "Subtract the fraction 1/4 from 3/4.",
+    "options": [
+      { "id": "a", "text": "1/2" },
+      { "id": "b", "text": "2/3" },
+      { "id": "c", "text": "1/4" },
+      { "id": "d", "text": "1/8" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Since the denominators are the same, subtract the numerators: 1/4 - 3/4 = 2/4. This simplifies to 1/2.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_8",
+    "text": "According to DTI, ₱500 for Noche Buena is enough. If ham = 35% of the budget, spaghetti = 26%, macaroni salad = 22% but no drinks yet. How much are left for drinks?",
+    "options": [
+      { "id": "a", "text": "₱65" },
+      { "id": "b", "text": "₱75" },
+      { "id": "c", "text": "₱85" },
+      { "id": "d", "text": "₱90" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "For ham: convert it to decimal > 35%/100 = 0.35, then multiply it with the budget > 0.35*500 = ₱175. Do the same with spaghetti and macaroni, ₱130 and ₱110 respectively. Sum it: ₱175 + ₱130 + ₱110 = ₱415. Subtract it from budget: ₱500 - ₱415 = ₱85. Budget for drinks will be ₱85",
+    "category": "Analytical Ability",
+    "difficulty": "medium",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_9",
+    "text": "PEMDAS: 10 ÷ 2 x 5 - (12 ÷ 3 x 4)  +1 =__?",
+    "options": [
+      { "id": "a", "text": "10" },
+      { "id": "b", "text": "1" },
+      { "id": "c", "text": "-1" },
+      { "id": "d", "text": "23" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "PEMDAS (Parentheses, Exponents, Multiplication/Division left to right, Addition/Subtraction left to right). In 10÷2x5-(12÷3x4)+1, solve inside parentheses first. Since M/D and A/S uses left-to-right basis, regardless if its D/M or S/A, so 12÷3=4 then multiply by 4 equals to 16. Now the expression is: 10÷2x5-16+1. Now we solve it bits by bits: 10÷2=5 > 5x5=25 > 25-16+1 > 25-16=9 > 9+1=10. Therefore the answer is 10.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+  "id": "num_sub_10",
+  "text": "In a survey of 3,200 people, 1,024 said local-level corruption is “very high.” What percentage is this?",
+  "options": [
+      { "id": "a", "text": "28%" },
+      { "id": "b", "text": "30%" },
+      { "id": "c", "text": "32%" },
+      { "id": "d", "text": "34%" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "To find the percentage, divide the part (1,024) by the whole (3,200) and multiply by 100: Percentage = (Part / Whole) x 100, Percentage = (1,024 / 3,200) x 100, Percentage = 0.32 x 100, Percentage = 32%",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  }
+]

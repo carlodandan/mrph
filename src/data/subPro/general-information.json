@@ -1,0 +1,227 @@
+[
+  {
+    "id": "subpro_gi_01",
+    "text": "Which of the following is considered the largest body of water on Earth?",
+    "options": [
+      { "id": "a", "text": "Atlantic Ocean" },
+      { "id": "b", "text": "Indian Ocean" },
+      { "id": "c", "text": "Pacific Ocean" },
+      { "id": "d", "text": "Arctic Ocean" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Pacific Ocean is the world's largest and deepest ocean basin.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_02",
+    "text": "What is the capital city of the Philippines?",
+    "options": [
+      { "id": "a", "text": "Quezon City" },
+      { "id": "b", "text": "Manila" },
+      { "id": "c", "text": "Cebu City" },
+      { "id": "d", "text": "Davao City" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Manila is the official capital of the Philippines.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_03",
+    "text": "Which of the following is the smallest unit of life?",
+    "options": [
+      { "id": "a", "text": "Organ" },
+      { "id": "b", "text": "Cell" },
+      { "id": "c", "text": "Tissue" },
+      { "id": "d", "text": "Organ system" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A cell is the basic structural and functional unit of life.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_04",
+    "text": "Which of the following Philippine heroes is known as the 'Great Plebeian'?",
+    "options": [
+      { "id": "a", "text": "Jose Rizal" },
+      { "id": "b", "text": "Andres Bonifacio" },
+      { "id": "c", "text": "Emilio Aguinaldo" },
+      { "id": "d", "text": "Apolinario Mabini" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Andres Bonifacio earned the title due to his humble origins and leadership in the revolution.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_05",
+    "text": "Which planet is known as the 'Red Planet'?",
+    "options": [
+      { "id": "a", "text": "Venus" },
+      { "id": "b", "text": "Jupiter" },
+      { "id": "c", "text": "Mars" },
+      { "id": "d", "text": "Mercury" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Mars appears reddish due to iron oxide on its surface.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_06",
+    "text": "What do we call the line that divides the Earth into the Northern and Southern Hemispheres?",
+    "options": [
+      { "id": "a", "text": "Tropic of Cancer" },
+      { "id": "b", "text": "Equator" },
+      { "id": "c", "text": "Prime Meridian" },
+      { "id": "d", "text": "International Date Line" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Equator is the zero-degree latitude line dividing the Earth into two hemispheres.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_07",
+    "text": "Which of the following is a primary color of light?",
+    "options": [
+      { "id": "a", "text": "Yellow" },
+      { "id": "b", "text": "Green" },
+      { "id": "c", "text": "Orange" },
+      { "id": "d", "text": "Violet" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The primary colors of light are red, green, and blue.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_08",
+    "text": "In Philippine geography, which region is known as the 'Rice Granary of the Philippines'?",
+    "options": [
+      { "id": "a", "text": "Region II (Cagayan Valley)" },
+      { "id": "b", "text": "Region III (Central Luzon)" },
+      { "id": "c", "text": "Region VI (Western Visayas)" },
+      { "id": "d", "text": "Region X (Northern Mindanao)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Central Luzon is known for its vast rice-producing lands.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_09",
+    "text": "Which of the following is an example of a simple machine?",
+    "options": [
+      { "id": "a", "text": "Refrigerator" },
+      { "id": "b", "text": "Pulley" },
+      { "id": "c", "text": "Television" },
+      { "id": "d", "text": "Computer" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A pulley is a basic mechanical device used to lift or move loads.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_10",
+    "text": "What is the primary function of the Legislative branch of government?",
+    "options": [
+      { "id": "a", "text": "To enforce laws" },
+      { "id": "b", "text": "To interpret laws" },
+      { "id": "c", "text": "To create laws" },
+      { "id": "d", "text": "To implement programs" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Legislative branch is responsible for making laws.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_11",
+    "text": "Ano ang pambansang isda ng Pilipinas?",
+    "options": [
+      { "id": "a", "text": "Tuna" },
+      { "id": "b", "text": "Tilapia" },
+      { "id": "c", "text": "Bangus" },
+      { "id": "d", "text": "Lapu-Lapu" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang Bangus (Milkfish) ay opisyal na idineklarang pambansang isda ng Pilipinas.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "subpro_gi_12",
+    "text": "Which Philippine institution is responsible for printing money, regulating the country's money supply, and setting official interest rates?",
+    "options": [
+      { "id": "a", "text": "Bureau of Internal Revenue (BIR)" },
+      { "id": "b", "text": "Bangko Sentral ng Pilipinas (BSP)" },
+      { "id": "c", "text": "Department of Trade and Industry (DTI)" },
+      { "id": "d", "text": "Securities and Exchange Commission (SEC)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Bangko Sentral ng Pilipinas (BSP) serves as the country's central monetary authority.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_13",
+    "text": "What instrument is used by meteorologists to measure air temperature?",
+    "options": [
+      { "id": "a", "text": "Barometer" },
+      { "id": "b", "text": "Anemometer" },
+      { "id": "c", "text": "Thermometer" },
+      { "id": "d", "text": "Hygrometer" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A thermometer measures temperature. A barometer measures pressure, an anemometer measures wind speed, and a hygrometer measures humidity.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_14",
+    "text": "Alin ang pinakamataas na bundok sa Pilipinas?",
+    "options": [
+      { "id": "a", "text": "Bundok Apo (Mt. Apo)" },
+      { "id": "b", "text": "Bundok Pulag (Mt. Pulag)" },
+      { "id": "c", "text": "Bundok Kanlaon (Mt. Kanlaon)" },
+      { "id": "d", "text": "Bundok Mayon (Mt. Mayon)" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang Bundok Apo sa Mindanao ang pinakamataas na bundok sa Pilipinas.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "subpro_gi_15",
+    "text": "The first official unfurling of the Philippine Flag, sewn in Hong Kong by Marcela Agoncillo and others, happened in which specific historical event?",
+    "options": [
+      { "id": "a", "text": "Declaration of Philippine Independence" },
+      { "id": "b", "text": "Battle of Mactan" },
+      { "id": "c", "text": "Cry of Pugad Lawin" },
+      { "id": "d", "text": "Battle of Alapan" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The Philippine Flag was first unfurled after the revolutionary forces, led by Emilio Aguinaldo, defeated the Spanish troops in the Battle of Alapan in Imus, Cavite, on May 28, 1898, preceding the formal declaration of Independence on June 12.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  }
+]

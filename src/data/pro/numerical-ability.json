@@ -1,0 +1,182 @@
+[
+  {
+    "id": "num_pro_1",
+    "text": "If a government employee's monthly salary is ₱25,000 and it's increased by 15%, what is the new monthly salary?",
+    "options": [
+      { "id": "a", "text": "₱28,750" },
+      { "id": "b", "text": "₱28,500" },
+      { "id": "c", "text": "₱28,000" },
+      { "id": "d", "text": "₱27,500" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "15% of ₱25,000 = ₱3,750. New salary = ₱25,000 + ₱3,750 = ₱28,750",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_pro_2",
+    "text": "A government project was completed in 45 days by 12 workers. How many days would it take 15 workers to complete the same project?",
+    "options": [
+      { "id": "a", "text": "36 days" },
+      { "id": "b", "text": "30 days" },
+      { "id": "c", "text": "28 days" },
+      { "id": "d", "text": "25 days" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Work = workers × days. 12 × 45 = 15 × x → x = (12 × 45)/15 = 36 days",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_pro_3",
+    "text": "Kung ang badyet ng isang proyekto ay ₱500,000 at 65% nito ay nagastos na, magkano ang natitira?",
+    "options": [
+      { "id": "a", "text": "₱175,000" },
+      { "id": "b", "text": "₱180,000" },
+      { "id": "c", "text": "₱185,000" },
+      { "id": "d", "text": "₱190,000" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "65% spent = ₱500,000 × 0.65 = ₱325,000. Remaining = ₱500,000 - ₱325,000 = ₱175,000",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "num_pro_4",
+    "text": "The ratio of male to female employees in a government office is 3:5. If there are 24 male employees, how many employees are there in total?",
+    "options": [
+      { "id": "a", "text": "40" },
+      { "id": "b", "text": "48" },
+      { "id": "c", "text": "56" },
+      { "id": "d", "text": "64" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "3:5 ratio. If 3 parts = 24, then 1 part = 8. Total parts = 3+5=8, so total employees = 8 × 8 = 64",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_pro_5",
+    "text": "A government vehicle travels 180 km in 3 hours. What is its average speed in km per hour?",
+    "options": [
+      { "id": "a", "text": "50 km/h" },
+      { "id": "b", "text": "55 km/h" },
+      { "id": "c", "text": "60 km/h" },
+      { "id": "d", "text": "65 km/h" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Average speed = total distance ÷ total time = 180 km ÷ 3 hours = 60 km/h",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_pro_6",
+    "text": "Ilang porsyento ang 75 sa 300?",
+    "options": [
+      { "id": "a", "text": "20%" },
+      { "id": "b", "text": "25%" },
+      { "id": "c", "text": "30%" },
+      { "id": "d", "text": "35%" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "(75 ÷ 300) × 100% = 0.25 × 100% = 25%",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "num_pro_7",
+    "text": "If ₱8,000 is invested at 5% simple interest per year, how much interest will it earn in 3 years?",
+    "options": [
+      { "id": "a", "text": "₱1,000" },
+      { "id": "b", "text": "₱1,200" },
+      { "id": "c", "text": "₱1,400" },
+      { "id": "d", "text": "₱1,600" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Simple interest = Principal × Rate × Time = ₱8,000 × 0.05 × 3 = ₱1,200",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_pro_8",
+    "text": "Ang isang rektanggulo ay may haba na 12 metro at lapad na 8 metro. Ano ang area nito?",
+    "options": [
+      { "id": "a", "text": "80 sq m" },
+      { "id": "b", "text": "86 sq m" },
+      { "id": "c", "text": "92 sq m" },
+      { "id": "d", "text": "96 sq m" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Area = length × width = 12 m × 8 m = 96 square meters",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "num_pro_9",
+    "text": "A government office ordered 15 boxes of office supplies. Each box contains 24 packs of paper. If each pack has 500 sheets, how many sheets of paper were ordered in total?",
+    "options": [
+      { "id": "a", "text": "150,000" },
+      { "id": "b", "text": "160,000" },
+      { "id": "c", "text": "170,000" },
+      { "id": "d", "text": "180,000" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Total sheets = boxes × packs per box × sheets per pack = 15 × 24 × 500 = 180,000",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_pro_10",
+    "text": "Ano ang pinakamalaking numero na naghahati sa parehong 36 at 48 nang walang natitira?",
+    "options": [
+      { "id": "a", "text": "6" },
+      { "id": "b", "text": "8" },
+      { "id": "c", "text": "12" },
+      { "id": "d", "text": "16" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang Greatest Common Divisor (GCD) ng 36 at 48 ay 12",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "num_pro_11",
+    "text": "PEMDAS: 10 ÷ 2 x 5 - (12 ÷ 3 x 4)  +1 =__?",
+    "options": [
+      { "id": "a", "text": "10" },
+      { "id": "b", "text": "1" },
+      { "id": "c", "text": "-1" },
+      { "id": "d", "text": "23" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "PEMDAS (Parentheses, Exponents, Multiplication/Division left to right, Addition/Subtraction left to right). In 10÷2x5-(12÷3x4)+1, solve inside parentheses first. Since M/D and A/S uses left-to-right basis, regardless if its D/M or S/A, so 12÷3=4 then multiply by 4 equals to 16. Now the expression is: 10÷2x5-16+1. Now we solve it bits by bits: 10÷2=5 > 5x5=25 > 25-16+1 > 25-16=9 > 9+1=10. Therefore the answer is 10.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+  "id": "num_pro_12",
+  "text": "In a survey of 3,200 people, 1,024 said local-level corruption is “very high.” What percentage is this?",
+  "options": [
+      { "id": "a", "text": "28%" },
+      { "id": "b", "text": "30%" },
+      { "id": "c", "text": "32%" },
+      { "id": "d", "text": "34%" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "To find the percentage, divide the part (1,024) by the whole (3,200) and multiply by 100: Percentage = (Part / Whole) x 100, Percentage = (1,024 / 3,200) x 100, Percentage = 0.32 x 100, Percentage = 32%",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  }
+]

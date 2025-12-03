@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ra6713_pro_1",
+    "text": "What is the primary purpose of RA 6713?",
+    "options": [
+      { "id": "a", "text": "To increase government salaries" },
+      { "id": "b", "text": "To establish a code of conduct for public officials" },
+      { "id": "c", "text": "To create new government positions" },
+      { "id": "d", "text": "To reduce government spending" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RA 6713 is known as the 'Code of Conduct and Ethical Standards for Public Officials and Employees'.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ra6713_pro_2",
+    "text": "Ano ang ibig sabihin ng 'public office is a public trust' sa RA 6713?",
+    "options": [
+      { "id": "a", "text": "Ang pampublikong opisina ay isang pribadong negosyo" },
+      { "id": "b", "text": "Ang mga opisyal ay dapat pagkatiwalaan ng publiko" },
+      { "id": "c", "text": "Ang pampublikong opisina ay pagtitiwala ng publiko at dapat gamitin para sa kapakanan ng publiko" },
+      { "id": "d", "text": "Ang publiko ay dapat magtiwala sa lahat ng opisyal" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang prinsipyo ng 'public office is a public trust' ay nangangahulugan na ang kapangyarihan sa pamahalaan ay ipinagkatiwala ng mamamayan at dapat gamitin para sa kanilang kapakanan.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "ra6713_pro_3",
+    "text": "Which of the following is NOT one of the eight norms of conduct for public officials and employees under RA 6713?",
+    "options": [
+      { "id": "a", "text": "Professionalism" },
+      { "id": "b", "text": "Commitment to Public Interest" },
+      { "id": "c", "text": "Political Neutrality" },
+      { "id": "d", "text": "Financial Conservatism" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The eight norms are: Commitment to Public Interest, Professionalism, Justness and Sincerity, Political Neutrality, Responsiveness to the Public, Nationalism and Patriotism, Commitment to Democracy, and Simple Living. 'Financial Conservatism' is not one of the explicit norms.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra6713_pro_4",
+    "text": "Under RA 6713, sino ang kinakailangang magsumite ng Statement of Assets, Liabilities and Net Worth (SALN)?",
+    "options": [
+      { "id": "a", "text": "Ang mga opisyal lamang na inihalal" },
+      { "id": "b", "text": "Ang lahat ng pampublikong opisyal at empleyado" },
+      { "id": "c", "d": "Tanging ang mga opisyal na may Salary Grade 25 pataas" },
+      { "id": "d", "text": "Tanging ang mga pinuno ng ahensya" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang lahat ng pampublikong opisyal at empleyado ay kinakailangang magsumite ng SALN ayon sa Seksyon 8 ng batas.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "ra6713_pro_5",
+    "text": "According to RA 6713, a public official or employee may not solicit or accept a gift from a person in the course of their official duties. What is the exception to this rule?",
+    "options": [
+      { "id": "a", "text": "Unsolicited gifts of nominal value not exceeding P1,000" },
+      { "id": "b", "text": "Gifts received during a special holiday or celebration" },
+      { "id": "c", "text": "A gift from a relative up to the fourth civil degree of consanguinity" },
+      { "id": "d", "text": "A monetary gift intended for charitable purposes" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The law (Sec. 7) and its IRR generally prohibit receiving gifts, but allow for 'unsolicited gift of nominal value not given in anticipation of, or in exchange for, a favor' (and the IRR defines nominal value as not exceeding P1,000). Gifts from relatives are also allowed, but the option 'a' covers the most common exception related to official duties.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra6713_pro_6",
+    "text": "Alin ang itinuturing na 'conflict of interest' sa ilalim ng RA 6713?",
+    "options": [
+      { "id": "a", "text": "Ang pagkakaroon ng pribadong interes na sumasalungat sa tungkulin niya sa publiko" },
+      { "id": "b", "text": "Ang pagpuna sa isang kasamahan sa trabaho" },
+      { "id": "c", "text": "Ang hindi pagdalo sa isang mandatoryong seminar" },
+      { "id": "d", "text": "Ang pag-uwi ng trabaho sa bahay" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang 'Conflict of Interest' ay nangyayari kapag ang pribadong interes ng isang opisyal o empleyado ay nakikialam, o may kakayahang makialam, sa kanyang pagganap sa tungkulin sa publiko.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "ra6713_pro_7",
+    "text": "What is the penalty for a first violation of RA 6713, if the violation is not serious and warrants a minor sanction?",
+    "options": [
+      { "id": "a", "text": "Dismissal from the service" },
+      { "id": "b", "text": "Imprisonment of one (1) year" },
+      { "id": "c", "text": "Reprimand" },
+      { "id": "d", "text": "Suspension for six (6) months" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "For a first violation, the penalty shall be a reprimand. For the second violation, the penalty is suspension not exceeding six (6) months. For the third violation, it is dismissal from the service (Sec. 11).",
+    "category": "RA 6713",
+    "difficulty": "difficult",
+    "language": "english"
+  }
+]

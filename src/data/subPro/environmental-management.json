@@ -1,0 +1,227 @@
+[
+  {
+    "id": "subpro_envmgmt_01",
+    "text": "Which of the following BEST describes environmental management?",
+    "options": [
+      { "id": "a", "text": "The use of natural resources without any regulation" },
+      { "id": "b", "text": "A planned approach to conserving and protecting the environment" },
+      { "id": "c", "text": "A system of punishing people for environmental violations" },
+      { "id": "d", "text": "A method of increasing industrial production" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Environmental management involves planning and implementing actions to protect natural resources.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_02",
+    "text": "Which government agency is primarily responsible for implementing environmental laws in the Philippines?",
+    "options": [
+      { "id": "a", "text": "DOH" },
+      { "id": "b", "text": "DPWH" },
+      { "id": "c", "text": "DENR" },
+      { "id": "d", "text": "DA" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Department of Environment and Natural Resources (DENR) oversees environmental policies and programs.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_03",
+    "text": "Proper waste segregation helps reduce pollution. Which of the following items should be placed in the biodegradable bin?",
+    "options": [
+      { "id": "a", "text": "Plastic bottles" },
+      { "id": "b", "text": "Glass jars" },
+      { "id": "c", "text": "Fruit peels" },
+      { "id": "d", "text": "Aluminum cans" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Biodegradable waste includes organic materials such as food scraps and plant matter.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_04",
+    "text": "Which of the following is an example of a renewable energy source?",
+    "options": [
+      { "id": "a", "text": "Coal" },
+      { "id": "b", "text": "Oil" },
+      { "id": "c", "text": "Solar energy" },
+      { "id": "d", "text": "Natural gas" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Solar energy is renewable and replenished naturally without depleting resources.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_05",
+    "text": "The Clean Air Act (RA 8749) aims to:",
+    "options": [
+      { "id": "a", "text": "Regulate the use of pesticides in farms" },
+      { "id": "b", "text": "Improve air quality by reducing pollutants" },
+      { "id": "c", "text": "Prohibit all motor vehicles" },
+      { "id": "d", "text": "Regulate commercial fishing" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RA 8749 focuses on air quality management and pollution control.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_06",
+    "text": "Planting trees and protecting forests help reduce global warming because trees:",
+    "options": [
+      { "id": "a", "text": "Absorb sunlight and heat" },
+      { "id": "b", "text": "Release carbon dioxide" },
+      { "id": "c", "text": "Produce electricity" },
+      { "id": "d", "text": "Absorb carbon dioxide and produce oxygen" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Trees absorb CO₂ during photosynthesis and help reduce greenhouse gases.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_07",
+    "text": "Which practice helps conserve water at home?",
+    "options": [
+      { "id": "a", "text": "Washing vehicles daily" },
+      { "id": "b", "text": "Fixing leaking faucets immediately" },
+      { "id": "c", "text": "Leaving the shower running while soaping" },
+      { "id": "d", "text": "Using a garden hose to clean pavements" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Repairing leaks prevents water waste and promotes conservation.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_08",
+    "text": "What is the main purpose of recycling?",
+    "options": [
+      { "id": "a", "text": "To increase waste disposal costs" },
+      { "id": "b", "text": "To reduce the amount of waste going to landfills" },
+      { "id": "c", "text": "To encourage more waste production" },
+      { "id": "d", "text": "To replace biodegradable waste" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Recycling reduces landfill waste and conserves resources.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_09",
+    "text": "Which of the following is a major cause of water pollution?",
+    "options": [
+      { "id": "a", "text": "Proper waste segregation" },
+      { "id": "b", "text": "Dumping chemicals into rivers" },
+      { "id": "c", "text": "Planting mangroves" },
+      { "id": "d", "text": "Rainwater harvesting" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Industrial chemicals and toxic wastes contaminate water sources.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_10",
+    "text": "Which action supports disaster risk reduction in communities?",
+    "options": [
+      { "id": "a", "text": "Ignoring early warning systems" },
+      { "id": "b", "text": "Building houses in flood-prone areas" },
+      { "id": "c", "text": "Participating in earthquake and fire drills" },
+      { "id": "d", "text": "Cutting down trees near rivers" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Drills help communities prepare and reduce the impact of disasters.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_11",
+    "text": "Sa Ecological Solid Waste Management Act (RA 9003), ang '3Rs' na isinusulong para sa pamamahala ng basura ay tumutukoy sa Reduce, Reuse, at ano ang nawawalang R?",
+    "options": [
+      { "id": "a", "text": "Recycle (Pag-rerecycle)" },
+      { "id": "b", "text": "Regulate (Pag-reregula)" },
+      { "id": "c", "text": "Report (Pag-uulat)" },
+      { "id": "d", "text": "Retrieve (Pagkuha)" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang 3Rs ay Reduce, Reuse, at Recycle. Ito ang pangunahing prinsipyo ng RA 9003 sa pagbawas ng basura.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "subpro_envmgmt_12",
+    "text": "Which of the following actions is the most effective way to conserve water when doing kitchen chores?",
+    "options": [
+      { "id": "a", "text": "Washing dishes under running water" },
+      { "id": "b", "text": "Scraping food residue directly into the sink" },
+      { "id": "c", "text": "Soaking dishes first before rinsing them all at once" },
+      { "id": "d", "text": "Using the dishwasher for small loads" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Soaking dishes allows for more efficient cleaning and rinsing, using less water than continually running the faucet.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_13",
+    "text": "Ang pagtatayo ng mga mas matibay at mataas na istruktura malapit sa dagat upang makayanan ang malalakas na bagyo ay isang halimbawa ng climate change:",
+    "options": [
+      { "id": "a", "text": "Mitigation (Pagpapagaan)" },
+      { "id": "b", "text": "Adaptation (Pag-aangkop)" },
+      { "id": "c", "text": "Regulation (Pagreregula)" },
+      { "id": "d", "text": "Segregation (Paghihiwalay)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang adaptation o pag-aangkop ay tumutukoy sa pagbabago sa proseso, gawi, o istraktura upang mabawasan ang pinsala mula sa mga epekto ng climate change.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "subpro_envmgmt_14",
+    "text": "Biodiversity refers to the variety of:",
+    "options": [
+      { "id": "a", "text": "Land area and terrain" },
+      { "id": "b", "text": "All forms of life, including plants, animals, and microorganisms" },
+      { "id": "c", "text": "Climate patterns and weather conditions" },
+      { "id": "d", "text": "Non-living elements in the environment" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Biodiversity is the degree of variation of life forms within a given ecosystem, biome, or planet.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_envmgmt_15",
+    "text": "What is the primary objective of the Ecological Solid Waste Management Act (RA 9003)?",
+    "options": [
+      { "id": "a", "text": "To stop all mining operations" },
+      { "id": "b", "text": "To prohibit all forms of air pollution" },
+      { "id": "c", "text": "To ensure systematic, comprehensive, and ecological solid waste management" },
+      { "id": "d", "text": "To promote reforestation in all provinces" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "RA 9003 provides the legal framework for the 3Rs, segregation, and the establishment of local solid waste management systems.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  }
+]

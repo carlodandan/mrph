@@ -1,0 +1,271 @@
+[
+  {
+    "id": "verb_pro_1",
+    "text": "Choose the sentence with correct grammar:",
+    "options": [
+      { "id": "a", "text": "Neither the employees nor the manager are present" },
+      { "id": "b", "text": "Neither the employees nor the manager is present" },
+      { "id": "c", "text": "Neither the employees nor the manager be present" },
+      { "id": "d", "text": "Neither the employees nor the manager were present" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "When using 'neither/nor', the verb agrees with the subject closest to it. 'Manager' is singular, so 'is' is correct.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_2",
+    "text": "What is the synonym of 'meticulous'?",
+    "options": [
+      { "id": "a", "text": "Careless" },
+      { "id": "b", "text": "Thorough" },
+      { "id": "c", "text": "Quick" },
+      { "id": "d", "text": "Simple" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Meticulous means showing great attention to detail; very careful and precise. Thorough is the closest synonym.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_3",
+    "text": "Pumili ng tamang pagbaybay:",
+    "options": [
+      { "id": "a", "text": "Akomodasyon" },
+      { "id": "b", "text": "Akumodasyon" },
+      { "id": "c", "text": "Akomodasyón" },
+      { "id": "d", "text": "Akumodasyón" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang tamang pagbaybay sa Filipino ay 'akomodasyon' na hango sa salitang Espanyol na 'acomodación'.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "verb_pro_4",
+    "text": "Rearrange the following sentences to form a coherent paragraph:\n1. The Civil Service Commission issued new guidelines.\n2. These guidelines will take effect next month.\n3. All government agencies must comply with them.\n4. The guidelines aim to improve public service.",
+    "options": [
+      { "id": "a", "text": "1-4-3-2" },
+      { "id": "b", "text": "1-4-2-3" },
+      { "id": "c", "text": "1-3-4-2" },
+      { "id": "d", "text": "4-1-3-2" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The logical flow is: issuance (1), purpose (4), requirement (3), implementation date (2).",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },{
+    "id": "verb_pro_5",
+    "text": "What is the antonym of 'obfuscate'?",
+    "options": [
+      { "id": "a", "text": "Confuse" },
+      { "id": "b", "text": "Baffle" },
+      { "id": "c", "text": "Clarify" },
+      { "id": "d", "text": "Muddle" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "To obfuscate means to make something obscure, unclear, or unintelligible. The direct opposite, or antonym, is to clarify, which means to make something clear and understandable.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_6",
+    "text": "Choose the most appropriate word to complete the sentence: The team's productivity was severely ___________ by the lack of proper training.",
+    "options": [
+      { "id": "a", "text": "enhanced" },
+      { "id": "b", "text": "impeded" },
+      { "id": "c", "text": "promoted" },
+      { "id": "d", "text": "instigated" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Impeded means 'hindered or obstructed' and is the only word that logically follows from the negative consequence of 'lack of proper training.'",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_7",
+    "text": "Piliin ang pangungusap na may tamang gamit ng 'ng' at 'nang':",
+    "options": [
+      { "id": "a", "text": "Bumili ng isda si Aling Nena nang palengke" },
+      { "id": "b", "text": "Bumili nang isda si Aling Nena ng palengke" },
+      { "id": "c", "text": "Bumili ng isda si Aling Nena sa palengke" },
+      { "id": "d", "text": "Bumili nang isda si Aling Nena sa palengke" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang 'ng' ay ginagamit para sa pananda ng tuwirang layon ('ng isda'), habang ang 'sa' ay ginagamit para sa lokasyon ('sa palengke').",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "filipino"
+  },
+  {
+    "id": "verb_pro_8",
+    "text": "Complete the analogy: HAND is to GLOVE as FOOT is to:",
+    "options": [
+      { "id": "a", "text": "LEG" },
+      { "id": "b", "text": "SHOE" },
+      { "id": "c", "text": "ANKLE" },
+      { "id": "d", "text": "WALK" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A GLOVE is an article of clothing worn on the HAND. Similarly, a SHOE is an article of clothing worn on the FOOT.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_9",
+    "text": "Ang ___________ ng pagbabago sa sistema ay agad na ipinatupad ng bagong pinuno.",
+    "options": [
+      { "id": "a", "text": "pagpapatupad" },
+      { "id": "b", "text": "pagpapatuparin" },
+      { "id": "c", "text": "pinatupad" },
+      { "id": "d", "text": "ipatutupad" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang 'pagpapatupad' ay isang pangngalan (noun) na siyang angkop na paksa (subject) para sa pandiwang 'ipinag-utos' (implied action) o 'ipinatupad' sa pangungusap. Ang iba ay mga anyo ng pandiwa (verb forms).",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "verb_pro_10",
+    "text": "What is the meaning of the idiom 'to throw in the towel'?",
+    "options": [
+      { "id": "a", "text": "To clean up a mess" },
+      { "id": "b", "text": "To admit defeat" },
+      { "id": "c", "text": "To challenge someone" },
+      { "id": "d", "text": "To start a project" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The idiom originated in boxing, where throwing a towel into the ring signaled a fighter's surrender or defeat.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_11",
+    "text": "Piliin ang pangungusap na may tamang gamit ng 'raw' at 'daw':",
+    "options": [
+      { "id": "a", "text": "Umuulan daw sa labas." },
+      { "id": "b", "text": "Umuulan raw sa labas." },
+      { "id": "c", "text": "Maganda daw ang tanawin." },
+      { "id": "d", "text": "Masarap raw ang pagkain." }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang 'daw' ay ginagamit kapag ang salitang sinundan nito ay nagtatapos sa katinig (consonant), tulad ng 'ulan'. Ang 'raw' ay ginagamit kapag nagtatapos sa patinig (vowel) o malapatinig (semivowel) tulad ng W at Y, tulad ng 'Maganda raw'.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "verb_pro_12",
+    "text": "In the sentence, 'The government implemented austerity measures to curb unnecessary expenditure,' what does 'austerity' mean?",
+    "options": [
+      { "id": "a", "text": "Luxury and abundance" },
+      { "id": "b", "text": "Strict economy and lack of expenditure" },
+      { "id": "c", "text": "Transparency and clarity" },
+      { "id": "d", "text": "Rapid change and innovation" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Austerity refers to difficult economic conditions created by government measures to reduce public expenditure.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_13",
+    "text": "Choose the correct preposition to complete the sentence: The office will be closed ___________ Christmas Day.",
+    "options": [
+      { "id": "a", "text": "at" },
+      { "id": "b", "text": "in" },
+      { "id": "c", "text": "on" },
+      { "id": "d", "text": "to" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The preposition 'on' is used for specific days or dates (e.g., on Friday, on December 25th, on Christmas Day).",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_14",
+    "text": "Aling salita ang may pinakamalapit na kahulugan sa 'mapanuri'?",
+    "options": [
+      { "id": "a", "text": "Madaldal" },
+      { "id": "b", "text": "Matiyaga" },
+      { "id": "c", "text": "Mabusisi" },
+      { "id": "d", "text": "Maligaya" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang 'mapanuri' ay nangangahulugang nagpapakita ng maingat at masusing pagsusuri. Ang 'mabusisi' (meticulous/fastidious) ang pinakamalapit na kasingkahulugan.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "va_pro_015",
+  "text": "Sarah ______ an interesting point about the country's yearly budget.",
+  "options": [
+    { "id": "a", "text": "brought down" },
+    { "id": "b", "text": "brought in" },
+    { "id": "c", "text": "brought up" },
+    { "id": "d", "text": "brought on" }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The phrasal verb 'brought up' means to introduce a topic or subject into a discussion. Therefore, Sarah introduced an interesting point.",
+  "category": "Verbal Ability",
+  "difficulty": "easy",
+  "language": "english"
+  },
+  {
+    "id": "va_pro_016",
+  "text": "She has a RUGGED appearance.",
+  "options": [
+    { "id": "a", "text": "Smooth" },
+    { "id": "b", "text": "Polished" },
+    { "id": "c", "text": "Rough" },
+    { "id": "d", "text": "Soft" }
+  ],
+  "correctAnswer": "c",
+  "explanation": "“Rugged” describes someone or something with a rough or sturdy look, so “rough” is the closest synonym.",
+  "category": "Verbal Ability",
+  "difficulty": "easy",
+  "language": "english"
+  },
+  {
+    "id": "va_pro_017",
+    "text": "Tragic stories had so much PATHOS that it left me feeling down. Which word is a SYNONYM of 'pathos'?",
+    "options": [
+      { "id": "a", "text": "anguish" },
+      { "id": "b", "text": "woe" },
+      { "id": "c", "text": "intrigue" },
+      { "id": "d", "text": "humor" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "'Pathos' is a quality that evokes pity or sadness. 'Anguish' means severe mental or physical pain or suffering, making it a strong synonym in this context. 'Woe' (b) is also a synonym.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "va_pro_018",
+    "text": "Tragic stories had so much **pathos** that it left me feeling down. Which word is an ANTONYM of 'pathos'?",
+    "options": [
+      { "id": "a", "text": "anguish" },
+      { "id": "b", "text": "woe" },
+      { "id": "c", "text": "intrigue" },
+      { "id": "d", "text": "humor" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "'Pathos' is associated with sadness and sorrow. 'Humor' is the quality of being amusing or comical, which directly contrasts with the feeling evoked by pathos.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  }
+]

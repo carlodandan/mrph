@@ -1,0 +1,107 @@
+[
+  {
+    "id": "con_pro_1",
+    "text": "Which article of the Philippine Constitution declares that the Philippines is a democratic and republican state?",
+    "options": [
+      { "id": "a", "text": "Article I" },
+      { "id": "b", "text": "Article II" },
+      { "id": "c", "text": "Article III" },
+      { "id": "d", "text": "Article IV" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Article II, Section 1 of the 1987 Philippine Constitution states: 'The Philippines is a democratic and republican State.'",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_2",
+    "text": "Ano ang sinasabi ng Saligang Batas tungkol sa pagiging sakop ng batas?",
+    "options": [
+      { "id": "a", "text": "Ang Pangulo lamang ang sakop ng batas" },
+      { "id": "b", "text": "Ang mga ordinaryong mamamayan lamang ang sakop ng batas" },
+      { "id": "c", "text": "Walang sinuman ang sakop ng batas" },
+      { "id": "d", "text": "Walang sinuman ang nakaaangat sa batas" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Ipinahahayag ng Saligang Batas ang prinsipyo ng 'Rule of Law' kung saan walang sinuman, maging pangulo o ordinaryong mamamayan, ang nakaaangat sa batas.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "con_pro_3",
+    "text": "The constitutional guarantee that 'No person shall be deprived of life, liberty, or property without due process of law' is found in which section of the Bill of Rights?",
+    "options": [
+      { "id": "a", "text": "Section 1" },
+      { "id": "b", "text": "Section 4" },
+      { "id": "c", "text": "Section 11" },
+      { "id": "d", "text": "Section 14" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "This fundamental guarantee, which applies to all persons, is explicitly stated in Article III (Bill of Rights), Section 1 of the 1987 Philippine Constitution.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_4",
+    "text": "Ayon sa Saligang Batas, ilang taon ang termino ng isang regular na miyembro ng Kapulungan ng mga Kinatawan (House of Representatives)?",
+    "options": [
+      { "id": "a", "text": "Tatlong (3) taon at maaaring mahalal muli" },
+      { "id": "b", "text": "Apat (4) na taon at maaaring mahalal muli" },
+      { "id": "c", "text": "Anim (6) na taon at maaaring mahalal muli" },
+      { "id": "d", "text": "Anim (6) na taon at hindi na maaaring mahalal muli" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang mga Kinatawan ay nagsisilbi sa loob ng tatlong (3) taon at maaaring mahalal muli, ngunit hindi hihigit sa tatlong magkakasunod na termino (Article VI, Sec. 7).",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "con_pro_5",
+    "text": "What is the term of office for the President of the Philippines, as stipulated by the 1987 Constitution?",
+    "options": [
+      { "id": "a", "text": "Four years, with one re-election allowed" },
+      { "id": "b", "text": "Six years, with one re-election allowed" },
+      { "id": "c", "text": "Six years, without re-election" },
+      { "id": "d", "text": "Four years, without re-election" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The President shall have a term of six years, which shall begin at noon on the thirtieth day of June next following the election, and shall not be eligible for any reelection (Article VII, Sec. 4).",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_6",
+    "text": "Ang ___________ ay ang doktrina na nagsasaad na ang mga probinsya, lungsod, at munisipalidad ay nagtatamasa ng kapangyarihan na pamahalaan ang kanilang sarili.",
+    "options": [
+      { "id": "a", "text": "Archipelagic Principle" },
+      { "id": "b", "text": "Social Justice" },
+      { "id": "c", "text": "Local Autonomy" },
+      { "id": "d", "text": "Separation of Powers" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang Local Autonomy (Lokal na Awtonomiya) ay ang kapangyarihan ng mga local government units (LGUs) na pamahalaan ang kanilang sarili, na itinataguyod ng Article X ng Saligang Batas.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "con_pro_7",
+    "text": "Which Article of the Constitution establishes the Commission on Audit (COA), Civil Service Commission (CSC), and Commission on Elections (COMELEC) as independent constitutional commissions?",
+    "options": [
+      { "id": "a", "text": "Article VIII (Judicial Department)" },
+      { "id": "b", "text": "Article IX (Constitutional Commissions)" },
+      { "id": "c", "text": "Article X (Local Government)" },
+      { "id": "d", "text": "Article XI (Accountability of Public Officers)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Article IX of the 1987 Constitution is dedicated entirely to the three independent Constitutional Commissions: the CSC, COMELEC, and COA.",
+    "category": "Philippine Constitution",
+    "difficulty": "difficult",
+    "language": "english"
+  }
+]

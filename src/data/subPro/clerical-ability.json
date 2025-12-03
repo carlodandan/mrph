@@ -1,0 +1,107 @@
+[
+  {
+    "id": "cler_sub_1",
+    "text": "Which of the following is the correct alphabetical order?",
+    "options": [
+      { "id": "a", "text": "Adams, Anderson, Alvarez, Aguilar" },
+      { "id": "b", "text": "Aguilar, Alvarez, Adams, Anderson" },
+      { "id": "c", "text": "Adams, Aguilar, Alvarez, Anderson" },
+      { "id": "d", "text": "Alvarez, Adams, Anderson, Aguilar" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Correct alphabetical order: Adams (Ad), Aguilar (Ag), Alvarez (Al), Anderson (An)",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_2",
+    "text": "Which word is spelled correctly?",
+    "options": [
+      { "id": "a", "text": "Receive" },
+      { "id": "b", "text": "Recieve" },
+      { "id": "c", "text": "Receeve" },
+      { "id": "d", "text": "Resieve" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "'Receive' follows the rule: 'i before e except after c'",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_3",
+    "text": "Which pair of file codes is **identical**?",
+    "options": [
+      { "id": "a", "text": "7001-B vs. 7001-D" },
+      { "id": "b", "text": "C-113845 vs. C-113854" },
+      { "id": "c", "text": "PAB-901-T vs. PAB-901-T" },
+      { "id": "d", "text": "Santos Jr. vs. Santos Sr." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "To check for identical pairs, every character must match. PAB-901-T is identical to PAB-901-T.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_4",
+    "text": "Which sequence is correctly arranged in numerical-alphabetical order?",
+    "options": [
+      { "id": "a", "text": "M-10, M-101, C-10, C-101" },
+      { "id": "b", "text": "C-10, C-101, M-10, M-101" },
+      { "id": "c", "text": "C-101, C-10, M-101, M-10" },
+      { "id": "d", "text": "M-101, M-10, C-101, C-10" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The order should be alphabetical by letter (C before M), and then numerical by number (10 before 101). The correct order is C-10, C-101, M-10, M-101.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_5",
+    "text": "A document requires 8 sheets of paper per copy. If the office needs to print 15 copies, how many sheets of paper are required in total?",
+    "options": [
+      { "id": "a", "text": "100" },
+      { "id": "b", "text": "110" },
+      { "id": "c", "text": "120" },
+      { "id": "d", "text": "130" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The calculation is $8 \text{ sheets} \times 15 \text{ copies} = 120 \text{ sheets}$.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_6",
+    "text": "Sa pamamahala ng opisina, ano ang tawag sa proseso ng paghihiwalay at pagsasaayos ng mga dokumento batay sa isang sistema (tulad ng alphabetical o chronological) para madali itong mahanap?",
+    "options": [
+      { "id": "a", "text": "Networking" },
+      { "id": "b", "text": "Filing" },
+      { "id": "c", "text": "Auditing" },
+      { "id": "d", "text": "Budgeting" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang 'Filing' o pag-i-file ang tawag sa sistematikong pag-aayos at pagtatabi ng mga dokumento.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "cler_sub_7",
+    "text": "Alin sa mga sumusunod ang tamang baybay sa Filipino ng salitang Ingles na **'Schedule'**?",
+    "options": [
+      { "id": "a", "text": "Iskedyul" },
+      { "id": "b", "c": "Eskeyul" },
+      { "id": "c", "text": "Sikedul" },
+      { "id": "d", "text": "Iskedyole" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang 'Iskedyul' ang opisyal at tinatanggap na baybay sa Filipino para sa salitang Ingles na 'Schedule'.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "filipino"
+  }
+]

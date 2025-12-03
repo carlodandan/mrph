@@ -1,0 +1,77 @@
+[
+  {
+    "id": "phr_001",
+    "text": "Which of the following best describes the purpose of the Universal Declaration of Human Rights (UDHR)?",
+    "options": [
+      { "id": "a", "text": "To impose identical laws on all member states of the United Nations" },
+      { "id": "b", "text": "To outline fundamental human rights that should be universally protected" },
+      { "id": "c", "text": "To replace national constitutions with a global bill of rights" },
+      { "id": "d", "text": "To allow countries to withdraw from human rights obligations" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The UDHR serves as a universal standard for fundamental human rights that all nations should uphold.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_002",
+    "text": "Which government body in the Philippines is primarily responsible for the promotion and protection of human rights?",
+    "options": [
+      { "id": "a", "text": "Department of Justice (DOJ)" },
+      { "id": "b", "text": "Supreme Court (SC)" },
+      { "id": "c", "text": "Commission on Human Rights (CHR)" },
+      { "id": "d", "text": "Civil Service Commission (CSC)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Commission on Human Rights (CHR) is mandated to investigate human rights violations and promote human rights awareness.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_003",
+    "text": "A peace-building approach that addresses the root causes of conflict by promoting social justice, equality, and economic opportunity is known as:",
+    "options": [
+      { "id": "a", "text": "Conflict escalation" },
+      { "id": "b", "text": "Structural peacebuilding" },
+      { "id": "c", "text": "Ceasefire negotiation" },
+      { "id": "d", "text": "Peacekeeping operations" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Structural peacebuilding focuses on resolving underlying social, political, and economic issues that fuel conflict.",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_004",
+    "text": "Which of the following actions BEST reflects respect for cultural rights?",
+    "options": [
+      { "id": "a", "text": "Discouraging indigenous traditions to promote modernization" },
+      { "id": "b", "text": "Allowing communities to freely practice their languages and customs" },
+      { "id": "c", "text": "Mandating one national culture for unity" },
+      { "id": "d", "text": "Restricting cultural festivals to avoid public gatherings" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Cultural rights include the freedom of individuals and communities to practice and preserve their cultural traditions.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_005",
+    "text": "Which principle states that no person shall be subjected to torture or to cruel, inhuman, or degrading treatment or punishment?",
+    "options": [
+      { "id": "a", "text": "Right to Due Process" },
+      { "id": "b", "text": "Right to Self-Determination" },
+      { "id": "c", "text": "Prohibition Against Torture" },
+      { "id": "d", "text": "Right to Privacy" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The prohibition against torture is a non-derogable human right under both international and Philippine laws.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  }
+]
