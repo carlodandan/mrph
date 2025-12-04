@@ -45,7 +45,7 @@ class ExamService {
     this.sessionUsedQuestions = new Set();
     this.examProgress = new Map();
     this.currentSessionId = null;
-    this.isInitialized = true; // Static imports mean we're already initialized
+    this.isInitialized = true;
 
     // Log statistics
     this.logQuestionStats();
@@ -72,55 +72,67 @@ class ExamService {
   }
 
   async initialize() {
-    // Already initialized with static imports
     return Promise.resolve();
   }
 
   getExamCategories(examType) {
-    if (examType === 'professional') {
-      return [
-        'Numerical Ability',
-        'Analytical Ability',
-        'Verbal Ability',
-        'Philippine Constitution',
-        'RA 6713',
-        'Peace and Human Rights',
-        'Environmental Management',
-        'General Information'
-      ];
-    } else { // subprofessional
-      return [
-        'Numerical Ability',
-        'Clerical Ability',
-        'Verbal Ability',
-        'Philippine Constitution',
-        'RA 6713',
-        'Peace and Human Rights',
-        'Environmental Management',
-        'General Information'
-      ];
+    // Categories are the same for Pro and Sub
+    return [
+      'Numerical Ability',
+      'Analytical Ability',
+      'Verbal Ability',
+      'Philippine Constitution',
+      'RA 6713',
+      'Peace and Human Rights',
+      'Environmental Management',
+      'General Information'
+    ];
+  }
+
+  /**
+   * Returns the base target number of questions for a category.
+   * Note: The final count is capped by the overall exam limit (170/165) in generateExam.
+   */
+  getQuestionsPerCategory(examType, category) {
+    if (category === 'General Information') {
+      return 10;
     }
+    
+    // Set a high base target (25) for main categories to ensure we reach the 170/165 limit,
+    // as the overall limit check in generateExam will cap the final total.
+    return 25; 
   }
 
   getRandomQuestions(array, count, excludeIds = new Set()) {
     if (!array || !Array.isArray(array) || array.length === 0) return [];
-    
+  
     // Filter out excluded questions
     const availableQuestions = array.filter(q => q && q.id && !excludeIds.has(q.id));
-    
+  
+    console.log(`Available questions after filtering: ${availableQuestions.length} out of ${array.length}`);
+  
     if (availableQuestions.length === 0) return [];
-    
+  
     // If we need more questions than available, return all available
-    if (availableQuestions.length <= count) {
-      return this.shuffleArray([...availableQuestions]);
+    const actualCount = Math.min(count, availableQuestions.length);
+  
+    // Create a copy to avoid modifying the original array
+    const questionsCopy = [...availableQuestions];
+  
+    // Fisher-Yates shuffle for random selection
+    for (let i = questionsCopy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [questionsCopy[i], questionsCopy[j]] = [questionsCopy[j], questionsCopy[i]];
     }
-    
-    // Select random questions without replacement
-    const shuffled = this.shuffleArray([...availableQuestions]);
-    return shuffled.slice(0, count);
+  
+    // Return the requested number of questions
+    return questionsCopy.slice(0, actualCount);
   }
 
-  getCategoryQuestions(examType, category, language = 'english', count = 10) {
+  getCategoryQuestions(examType, category, targetCount = null) {
+    // targetCount is passed from generateExam, reflecting the overall limit constraint.
+    const count = targetCount || this.getQuestionsPerCategory(examType, category);
+    
     const questionPool = examType === 'professional' 
       ? this.proQuestions?.[category]
       : this.subQuestions?.[category];
@@ -130,21 +142,16 @@ class ExamService {
       return [];
     }
 
-    // Filter by language first
-    const languageFilteredQuestions = questionPool.filter(q => {
-      if (!q) return false;
-      const qLanguage = q.language || 'english';
-      return qLanguage === language;
-    });
-
-    // Get random questions, excluding already used ones in this session
+    // **FIX IMPLEMENTED:** Pass a new, empty Set() to ensure no questions are excluded
+    // based on prior session usage. This guarantees a random draw from the full pool.
     const selectedQuestions = this.getRandomQuestions(
-      languageFilteredQuestions.length > 0 ? languageFilteredQuestions : questionPool,
+      questionPool,
       count,
-      this.sessionUsedQuestions
+      new Set() 
     );
 
-    // Mark as used in this session
+    // Still mark them as used for potential save/load progress functionality, 
+    // but the exclusion logic is ignored during the draw itself.
     selectedQuestions.forEach(q => {
       if (q && q.id) this.sessionUsedQuestions.add(q.id);
     });
@@ -152,36 +159,81 @@ class ExamService {
     return selectedQuestions;
   }
 
-  async generateExam(examType, language = 'english') {
-    // Generate new session ID and reset used questions
+  getAvailableQuestionCounts(examType) {
+    const questionPool = examType === 'professional' ? this.proQuestions : this.subQuestions;
+    const counts = {};
+    
+    Object.entries(questionPool).forEach(([category, questions]) => {
+      if (!Array.isArray(questions)) {
+        counts[category] = { total: 0 };
+        return;
+      }
+      
+      counts[category] = {
+        total: questions.length,
+        target: this.getQuestionsPerCategory(examType, category) // Use examType here
+      };
+    });
+    
+    return counts;
+  }
+
+  async generateExam(examType) {
     this.currentSessionId = Date.now();
-    this.clearSessionQuestions();
+    this.clearSessionQuestions(); // Reset tracking for this new exam session
     
     const categories = this.getExamCategories(examType);
     const allQuestions = [];
 
-    console.log(`Generating ${examType} exam in ${language} (Session: ${this.currentSessionId})`);
+    // Define the overall total limit based on exam type
+    const overallLimit = examType === 'professional' ? 170 : 165;
+    let runningTotal = 0;
+
+    console.log(`Generating ${examType} exam (Session: ${this.currentSessionId}, Overall Limit: ${overallLimit})`);
 
     for (const category of categories) {
-      const categoryQuestions = this.getCategoryQuestions(examType, category, language, 10);
-      console.log(`${category}: ${categoryQuestions.length} questions selected`);
-      allQuestions.push(...categoryQuestions);
+        // 1. Calculate the base target for the current category (e.g., 25 or 10)
+        const categoryBaseTarget = this.getQuestionsPerCategory(examType, category); 
+        
+        // 2. Calculate remaining slots needed to hit the overall limit
+        const remainingSlots = overallLimit - runningTotal;
+        
+        // 3. The actual draw count is the minimum of the category's base target and the remaining slots
+        const targetCount = Math.min(categoryBaseTarget, remainingSlots);
+
+        // Break if no more questions should be drawn
+        if (targetCount <= 0) break;
+        
+        // 4. Draw questions, limited by targetCount and available pool size
+        const categoryQuestions = this.getCategoryQuestions(examType, category, targetCount); 
+        
+        runningTotal += categoryQuestions.length;
+        allQuestions.push(...categoryQuestions);
+        
+        console.log(`${category}: ${categoryQuestions.length} questions selected (target cap: ${targetCount}, accumulated: ${runningTotal})`);
+        
+        // 5. Exit loop immediately if limit is hit
+        if (runningTotal >= overallLimit) break; 
     }
 
-    // Shuffle all questions together
+    // Shuffle all questions together for the final exam
     const shuffledQuestions = this.shuffleArray(allQuestions);
-    console.log(`Total questions generated: ${shuffledQuestions.length}`);
+    console.log(`Total questions generated: ${shuffledQuestions.length} (Capped at: ${overallLimit})`);
+    
+    // Calculate expected total
+    const expectedTotal = overallLimit;
+    
+    console.log(`Expected total questions: ${expectedTotal}`);
+    console.log(`Session ID: ${this.currentSessionId}, Used questions: ${this.sessionUsedQuestions.size}`);
+    
     return shuffledQuestions;
   }
 
   getAdaptedTimeLimit(examType, questionCount) {
-    const originalTimes = {
-      professional: 3 * 3600 + 10 * 60, // 3h 10m for 170 questions
-      subprofessional: 2 * 3600 + 40 * 60 // 2h 40m for 165 questions
-    };
-
-    const originalQuestionCount = examType === 'professional' ? 170 : 165;
-    const timePerQuestion = originalTimes[examType] / originalQuestionCount;
+    // Calculate based on actual question count
+    const baseTime = examType === 'professional' ? 3 * 3600 + 10 * 60 : 2 * 3600 + 40 * 60;
+    const baseQuestions = examType === 'professional' ? 170 : 165;
+    const timePerQuestion = baseTime / baseQuestions;
     
     return Math.round(timePerQuestion * questionCount);
   }
@@ -266,10 +318,8 @@ class ExamService {
         const progress = JSON.parse(saved);
         this.examProgress.set(key, progress);
         
-        // Restore session ID if continuing
         if (progress.sessionId) {
           this.currentSessionId = progress.sessionId;
-          // Mark questions from saved progress as used
           if (progress.questions && Array.isArray(progress.questions)) {
             progress.questions.forEach(q => {
               if (q && q.id) this.sessionUsedQuestions.add(q.id);
@@ -320,17 +370,12 @@ class ExamService {
     
     Object.entries(questions).forEach(([category, questionArray]) => {
       if (!Array.isArray(questionArray)) {
-        stats[category] = { total: 0, english: 0, filipino: 0 };
+        stats[category] = { total: 0 };
         return;
       }
       
-      const englishCount = questionArray.filter(q => q && (q.language || 'english') === 'english').length;
-      const filipinoCount = questionArray.filter(q => q && q.language === 'filipino').length;
-      
       stats[category] = {
         total: questionArray.length,
-        english: englishCount,
-        filipino: filipinoCount
       };
     });
     

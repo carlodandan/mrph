@@ -60,20 +60,20 @@
     "language": "english"
   },
   {
-    "id": "cler_sub_5",
-    "text": "A document requires 8 sheets of paper per copy. If the office needs to print 15 copies, how many sheets of paper are required in total?",
-    "options": [
-      { "id": "a", "text": "100" },
-      { "id": "b", "text": "110" },
-      { "id": "c", "text": "120" },
-      { "id": "d", "text": "130" }
-    ],
-    "correctAnswer": "c",
-    "explanation": "The calculation is $8 \text{ sheets} \times 15 \text{ copies} = 120 \text{ sheets}$.",
-    "category": "Clerical Ability",
-    "difficulty": "easy",
-    "language": "english"
-  },
+      "id": "cler_sub_5",
+      "text": "A document requires 8 sheets of paper per copy. If the office needs to print 15 copies, how many sheets of paper are required in total?",
+      "options": [
+        { "id": "a", "text": "100" },
+        { "id": "b", "text": "110" },
+        { "id": "c", "text": "120" },
+        { "id": "d", "text": "130" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "The calculation is 8 sheets * 15 copies = 120 sheets.",
+      "category": "Clerical Ability",
+      "difficulty": "easy",
+      "language": "english"
+    },
   {
     "id": "cler_sub_6",
     "text": "Sa pamamahala ng opisina, ano ang tawag sa proseso ng paghihiwalay at pagsasaayos ng mga dokumento batay sa isang sistema (tulad ng alphabetical o chronological) para madali itong mahanap?",
@@ -103,5 +103,455 @@
     "category": "Clerical Ability",
     "difficulty": "moderate",
     "language": "filipino"
+  },
+  {
+    "id": "cler_sub_8",
+    "text": "Arrange the following names in strict alphabetical order: Dela Cruz, Juan; De Guzman, Maria; Delos Reyes, Jose; Del Castillo, Ana",
+    "options": [
+      { "id": "a", "text": "Dela Cruz, Juan; Del Castillo, Ana; De Guzman, Maria; Delos Reyes, Jose" },
+      { "id": "b", "text": "De Guzman, Maria; Dela Cruz, Juan; Del Castillo, Ana; Delos Reyes, Jose" },
+      { "id": "c", "text": "De Guzman, Maria; Del Castillo, Ana; Dela Cruz, Juan; Delos Reyes, Jose" },
+      { "id": "d", "text": "Del Castillo, Ana; Dela Cruz, Juan; De Guzman, Maria; Delos Reyes, Jose" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Names with prefixes (De, Dela, Delos) are filed based on the full last name as a single unit, except when mandated otherwise. Treating them as one word: De Guzman, Del Castillo, Dela Cruz, Delos Reyes.",
+    "category": "Clerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_9",
+    "text": "Which word is spelled correctly?",
+    "options": [
+      { "id": "a", "text": "Commitee" },
+      { "id": "b", "text": "Commitee" },
+      { "id": "c", "text": "Committee" },
+      { "id": "d", "text": "Comittee" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "'Committee' is spelled correctly with double M, double T, and double E.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_10",
+    "text": "If a letter is marked 'Confidential,' what is the proper clerical procedure for handling it?",
+    "options": [
+      { "id": "a", "text": "Open it, scan it, and file it immediately." },
+      { "id": "b", "text": "Open it and read it to determine urgency before routing." },
+      { "id": "c", "text": "Forward it unopened directly to the addressee." },
+      { "id": "d", "text": "Place it in the general mail pile to be sorted later." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Documents marked 'Confidential,' 'Personal,' or 'Private' should be forwarded unopened to the intended recipient to maintain privacy and security.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_11",
+    "text": "Which sequence of numbers is correctly arranged in numerical order?",
+    "options": [
+      { "id": "a", "text": "205, 1100, 950, 400" },
+      { "id": "b", "text": "1100, 950, 400, 205" },
+      { "id": "c", "text": "205, 400, 950, 1100" },
+      { "id": "d", "text": "400, 205, 1100, 950" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The correct numerical sequence is 205, 400, 950, 1100.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_12",
+    "text": "If you are filing a folder labeled 'Annual Reports 2019-2022' using chronological order, where would a report dated July 2021 be placed?",
+    "options": [
+      { "id": "a", "text": "After the 2022 documents." },
+      { "id": "b", "text": "Before the 2019 documents." },
+      { "id": "c", "text": "Between the 2020 and 2022 documents." },
+      { "id": "d", "text": "Between the 2019 and 2020 documents." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Chronological order means arranging by date/time. July 2021 falls between the year 2020 and the year 2022.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_13",
+    "text": "The phrase 'due process' most nearly means:",
+    "options": [
+      { "id": "a", "text": "An efficient and quick decision." },
+      { "id": "b", "text": "Following established legal and procedural steps." },
+      { "id": "c", "text": "Making a fair judgment without investigation." },
+      { "id": "d", "text": "A delayed legal decision." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "'Due process' refers to the legal requirement that the state must respect all legal rights that are owed to a person, which includes following established rules and procedures.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_14",
+    "text": "You have the following files: R. Gomez, Rafael Jr.; Gomez, Robert; Gomez, R. A. Sr. What is the correct filing order, treating titles/suffixes as secondary sorting factors?",
+    "options": [
+      { "id": "a", "text": "Gomez, R. A. Sr.; Gomez, Robert; R. Gomez, Rafael Jr." },
+      { "id": "b", "text": "Gomez, R. A. Sr.; Gomez, Robert; Gomez, Rafael Jr." },
+      { "id": "c", "text": "Gomez, Rafael Jr.; Gomez, R. A. Sr.; Gomez, Robert" },
+      { "id": "d", "text": "Gomez, R. A. Sr.; Gomez, Rafael Jr.; Gomez, Robert" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "All names start with 'Gomez'. Secondary sorting is by the first name/initial. R.A. (R. A.) comes first, followed by Rafael (Jr.), and finally Robert.",
+    "category": "Clerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_15",
+    "text": "What is the result of $120 / 4 + 15$?",
+    "options": [
+      { "id": "a", "text": "45" },
+      { "id": "b", "text": "33" },
+      { "id": "c", "text": "48" },
+      { "id": "d", "text": "60" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Following the order of operations (PEMDAS/BODMAS), division is done first: $120 / 4 = 30$. Then addition: $30 + 15 = 45$.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_16",
+    "text": "If a meeting is scheduled to start at 9:30 AM and last for 1 hour and 45 minutes, what time will the meeting end?",
+    "options": [
+      { "id": "a", "text": "10:15 AM" },
+      { "id": "b", "text": "11:00 AM" },
+      { "id": "c", "text": "11:15 AM" },
+      { "id": "d", "text": "11:45 AM" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Add 1 hour to 9:30 AM to get 10:30 AM. Add 45 minutes to 10:30 AM (30 min to 11:00 AM, 15 more min) to get 11:15 AM.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_17",
+    "text": "Which word is spelled correctly?",
+    "options": [
+      { "id": "a", "text": "Acommodation" },
+      { "id": "b", "text": "Accomodation" },
+      { "id": "c", "text": "Accommodation" },
+      { "id": "d", "text": "Acomodation" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "'Accommodation' is spelled correctly with double C and double M.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_18",
+    "text": "Which file code pair is **identical**?",
+    "options": [
+      { "id": "a", "text": "TR-2023-F vs. TR-2023-f" },
+      { "id": "b", "text": "12A-456 vs. 12B-456" },
+      { "id": "c", "text": "DMO-Project-9 vs. DMO-Project-9" },
+      { "id": "d", "text": "Bldg. 10 vs. Bldg 10" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "In clerical matching, every character, including capitalization and symbols, must match exactly. DMO-Project-9 vs. DMO-Project-9 is an exact match.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_19",
+    "text": "Arrange the following by state name, then city name: Batangas, Lipa City; Rizal, Antipolo City; Rizal, Cainta; Batangas, Calaca.",
+    "options": [
+      { "id": "a", "text": "Batangas, Calaca; Batangas, Lipa City; Rizal, Cainta; Rizal, Antipolo City" },
+      { "id": "b", "text": "Batangas, Lipa City; Batangas, Calaca; Rizal, Antipolo City; Rizal, Cainta" },
+      { "id": "c", "text": "Rizal, Antipolo City; Rizal, Cainta; Batangas, Calaca; Batangas, Lipa City" },
+      { "id": "d", "text": "Batangas, Calaca; Batangas, Lipa City; Rizal, Antipolo City; Rizal, Cainta" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Primary sort: Batangas before Rizal. Secondary sort: Calaca before Lipa, and Antipolo before Cainta. Result: Batangas, Calaca; Batangas, Lipa City; Rizal, Antipolo City; Rizal, Cainta.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_20",
+    "text": "What clerical tool is used to punch holes in paper so they can be securely placed in a binder?",
+    "options": [
+      { "id": "a", "text": "Stapler" },
+      { "id": "b", "text": "Paper Clip" },
+      { "id": "c", "text": "Hole Puncher" },
+      { "id": "d", "text": "Laminator" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A Hole Puncher is specifically designed to create holes in paper for filing.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_21",
+    "text": "In a budget spreadsheet, a column for 'Total Monthly Expenses' is the SUM of 12 rows. If you accidentally delete one expense row, what is the best immediate action?",
+    "options": [
+      { "id": "a", "text": "Recalculate the sum manually." },
+      { "id": "b", "text": "Use the 'Undo' function." },
+      { "id": "c", "text": "Save the file immediately." },
+      { "id": "d", "text": "Check the last modified date." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The 'Undo' function is the most efficient and direct way to reverse an accidental action in most computer applications, restoring the deleted row.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_22",
+    "text": "In clerical work, **Peripherals** typically refers to:",
+    "options": [
+      { "id": "a", "text": "Documents related to travel and expense reports." },
+      { "id": "b", "text": "Software programs used for accounting." },
+      { "id": "c", "text": "Hardware devices connected to a computer (e.g., printer, scanner)." },
+      { "id": "d", "text": "The external walls of the office building." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "In the context of office technology and computers, peripherals are external devices that connect to the CPU (e.g., keyboard, mouse, printer, scanner).",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_23",
+    "text": "Which of the following is the **least** effective method for backing up important digital files?",
+    "options": [
+      { "id": "a", "text": "Saving copies to a cloud storage service (e.g., Google Drive)." },
+      { "id": "b", "text": "Saving copies to an external hard drive." },
+      { "id": "c", "text": "Saving a single copy in the same computer folder as the original." },
+      { "id": "d", "text": "Saving copies to a Network Attached Storage (NAS) device." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Saving a copy in the same folder offers no protection against hardware failure (the whole drive dies) or a malicious virus attack. Effective backups require separation (physical or cloud) from the original data.",
+    "category": "Clerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_24",
+    "text": "If a courier charges a fixed fee of ₱50 plus ₱10 per kilometer, what is the total charge for a delivery of 12 kilometers?",
+    "options": [
+      { "id": "a", "text": "₱170" },
+      { "id": "b", "text": "₱120" },
+      { "id": "c", "text": "₱180" },
+      { "id": "d", "text": "₱220" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Calculation: $(12 \text{ km} \times \text{₱}10/\text{km}) + \text{₱}50 \text{ fixed fee} = \text{₱}120 + \text{₱}50 = \text{₱}170$.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_25",
+    "text": "In professional correspondence, the acronym 'RSVP' stands for:",
+    "options": [
+      { "id": "a", "text": "Review, Submit, Verify, Proceed" },
+      { "id": "b", "text": "Répondez S'il Vous Plaît (Please reply)" },
+      { "id": "c", "text": "Request Sent Via Post" },
+      { "id": "d", "text": "Reply Soon, Virtually or Physically" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RSVP is an initialism derived from the French phrase 'Répondez s'il vous plaît,' meaning 'Please reply.'",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_26",
+    "text": "Which list is arranged correctly by last name, and then by first name?",
+    "options": [
+      { "id": "a", "text": "Ramos, Allan; Ramos, Ben; Rivera, Allan; Rivera, Mark" },
+      { "id": "b", "text": "Ramos, Ben; Ramos, Allan; Rivera, Mark; Rivera, Allan" },
+      { "id": "c", "text": "Rivera, Mark; Rivera, Allan; Ramos, Ben; Ramos, Allan" },
+      { "id": "d", "text": "Ramos, Allan; Rivera, Allan; Ramos, Ben; Rivera, Mark" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Primary sort by Last Name (Ramos before Rivera). Secondary sort by First Name (Allan before Ben; Allan before Mark). Correct order: Ramos, Allan; Ramos, Ben; Rivera, Allan; Rivera, Mark.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_27",
+    "text": "Which word is spelled correctly?",
+    "options": [
+      { "id": "a", "text": "Seperate" },
+      { "id": "b", "text": "Separate" },
+      { "id": "c", "text": "Sepperate" },
+      { "id": "d", "text": "Seperate" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "'Separate' is correctly spelled with an 'a' in the middle ('sep-A-rate'). A common memory aid is to remember 'a rat' in 'separate'.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_28",
+    "text": "What is the primary purpose of using a CC (Carbon Copy or Courtesy Copy) field when sending an email in a professional setting?",
+    "options": [
+      { "id": "a", "text": "To hide the recipients' email addresses from each other." },
+      { "id": "b", "text": "To send a private message that only the CC recipient can read." },
+      { "id": "c", "text": "To inform additional parties that the email was sent, but they are not the primary recipient." },
+      { "id": "d", "text": "To mark the email as urgent or high priority." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The CC field is used to keep other people in the loop for informational purposes; they are aware of the communication but are not expected to take direct action.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_29",
+    "text": "Arrange the following by chronological date: Feb 15, 2023; Jan 20, 2024; Mar 1, 2023; Dec 31, 2022.",
+    "options": [
+      { "id": "a", "text": "Jan 20, 2024; Mar 1, 2023; Feb 15, 2023; Dec 31, 2022" },
+      { "id": "b", "text": "Dec 31, 2022; Feb 15, 2023; Mar 1, 2023; Jan 20, 2024" },
+      { "id": "c", "text": "Dec 31, 2022; Mar 1, 2023; Feb 15, 2023; Jan 20, 2024" },
+      { "id": "d", "text": "Jan 20, 2024; Dec 31, 2022; Feb 15, 2023; Mar 1, 2023" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The correct chronological (time) order is: December 31, 2022; February 15, 2023; March 1, 2023; January 20, 2024.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_30",
+    "text": "What is the standard procedure for handling incoming mail that has insufficient postage?",
+    "options": [
+      { "id": "a", "text": "Immediately return the mail to the sender." },
+      { "id": "b", "text": "Pay the remaining postage due to accept the mail." },
+      { "id": "c", "text": "Discard the mail as it is the sender's error." },
+      { "id": "d", "text": "Open the mail and contact the sender to ask for payment." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "In most professional settings, the recipient office or individual will pay the necessary balance to accept mail with insufficient postage, especially if the mail is important.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_31",
+    "text": "Which pair of alphanumeric codes is **NOT** identical?",
+    "options": [
+      { "id": "a", "text": "File-2023/P vs. File-2023/P" },
+      { "id": "b", "text": "ABC100-Y vs. ABC100-y" },
+      { "id": "c", "text": "R-55-A-B vs. R-55-A-B" },
+      { "id": "d", "text": "1999-01-01 vs. 1999-01-01" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The pair 'ABC100-Y vs. ABC100-y' is not identical because the capitalization of the last letter ('Y' vs. 'y') is different.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_32",
+    "text": "If you are asked to prepare a **memo** (memorandum), which section is typically **NOT** included?",
+    "options": [
+      { "id": "a", "text": "TO and FROM fields" },
+      { "id": "b", "text": "DATE and SUBJECT fields" },
+      { "id": "c", "text": "Closing Salutation (e.g., 'Sincerely,')" },
+      { "id": "d", "text": "Body paragraphs outlining the purpose" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Memoranda (memos) are internal, informal communications and typically omit formal elements like a signature line or a closing salutation (e.g., 'Sincerely' or 'Best regards').",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_33",
+    "text": "A clerk handles 25 documents on Monday, 35 on Tuesday, 10 on Wednesday, and 30 on Thursday. What is the average number of documents handled per day?",
+    "options": [
+      { "id": "a", "text": "25" },
+      { "id": "b", "c": "30" },
+      { "id": "c", "text": "35" },
+      { "id": "d", "text": "100" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Total documents: $25 + 35 + 10 + 30 = 100$. Number of days: 4. Average: $100 / 4 = 25$ documents per day.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_34",
+    "text": "In filing rules, how is the name 'Mac Donald' treated compared to 'Mcdonald'?",
+    "options": [
+      { "id": "a", "text": "They are filed identically because spacing is ignored." },
+      { "id": "b", "text": "They are filed alphabetically as two separate words: Mac then Donald." },
+      { "id": "c", "text": "'Mac Donald' is filed immediately after 'Mcdonald'." },
+      { "id": "d", "text": "Spacing (Mac Donald) is filed before no spacing (Mcdonald)." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The 'Nothing Before Something' rule applies: Names with prefixes are typically filed as one word. However, if the spacing is present (Mac Donald), it is usually treated as a separate filing unit, placing it alphabetically by 'Mac' then 'Donald,' while 'Mcdonald' is filed based on 'Mcdonald' as a single unit. In many systems, Mcdonald would come before Mac Donald.",
+    "category": "Clerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_35",
+    "text": "Which word is spelled correctly?",
+    "options": [
+      { "id": "a", "text": "Neccessary" },
+      { "id": "b", "text": "Necessary" },
+      { "id": "c", "text": "Necessery" },
+      { "id": "d", "text": "Neccesary" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "'Necessary' is spelled correctly with one C and two S's.",
+    "category": "Clerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_36",
+    "text": "If a department must reduce its supply budget by 15% and the current budget is ₱15,000, what will the new supply budget be?",
+    "options": [
+      { "id": "a", "text": "₱12,750" },
+      { "id": "b", "text": "₱2,250" },
+      { "id": "c", "text": "₱13,500" },
+      { "id": "d", "text": "₱14,750" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "First, calculate the reduction: $\text{₱}15,000 \times 0.15 = \text{₱}2,250$. Then, subtract the reduction from the original budget: $\text{₱}15,000 - \text{₱}2,250 = \text{₱}12,750$.",
+    "category": "Clerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_37",
+    "text": "When cross-referencing files, what is the purpose of placing a 'dummy' sheet or card in the original location?",
+    "options": [
+      { "id": "a", "text": "To prevent unauthorized access to the folder." },
+      { "id": "b", "text": "To serve as a guide pointing to the document's actual new location." },
+      { "id": "c", "text": "To mark the file for destruction." },
+      { "id": "d", "text": "To signify that the document has been digitized." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A 'dummy' sheet, often called a guide sheet or out guide, is a placeholder inserted where the document should be, indicating that the original document has been filed elsewhere and showing its new location.",
+    "category": "Clerical Ability",
+    "difficulty": "hard",
+    "language": "english"
   }
 ]

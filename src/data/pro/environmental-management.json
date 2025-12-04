@@ -148,5 +148,155 @@
     "category": "Environmental Management",
     "difficulty": "moderate",
     "language": "english"
+  },
+  {
+    "id": "env_011",
+    "text": "What is the primary objective of the Montreal Protocol?",
+    "options": [
+      { "id": "a", "text": "To reduce greenhouse gas emissions causing global warming" },
+      { "id": "b", "text": "To protect endangered marine species" },
+      { "id": "c", "text": "To phase out the production of ozone-depleting substances" },
+      { "id": "d", "text": "To regulate the international trade of hazardous waste" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Montreal Protocol is an international treaty designed to protect the ozone layer by phasing out the production of numerous substances that are responsible for ozone depletion.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "env_012",
+    "text": "The layer of the atmosphere that protects the Earth from most of the Sun's harmful ultraviolet (UV) radiation is the:",
+    "options": [
+      { "id": "a", "text": "Troposphere" },
+      { "id": "b", "text": "Stratosphere (Ozone Layer)" },
+      { "id": "c", "text": "Mesosphere" },
+      { "id": "d", "text": "Thermosphere" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The ozone layer is a region of the Earth's stratosphere that absorbs most of the Sun's ultraviolet radiation.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "env_013",
+    "text": "Ang **Philippine Environmental Impact Statement (EIS) System** ay itinatag sa pamamagitan ng aling Presidential Decree (PD)?",
+    "options": [
+      { "id": "a", "text": "PD 1152" },
+      { "id": "b", "text": "PD 1586" },
+      { "id": "c", "text": "RA 8749" },
+      { "id": "d", "text": "RA 9275" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang PD 1586 ang nagtatag ng Philippine EIS System, na nangangailangan ng Environmental Impact Assessment (EIA) para sa environmentally critical projects.",
+    "category": "Environmental Management",
+    "difficulty": "difficult",
+    "language": "filipino"
+  },
+  {
+    "id": "env_014",
+    "text": "Which concept describes the maximum population size of a species that the environment can sustain indefinitely, given the food, habitat, water, and other necessities available in the environment?",
+    "options": [
+      { "id": "a", "text": "Critical Mass" },
+      { "id": "b", "text": "Ecosystem Services" },
+      { "id": "c", "text": "Carrying Capacity" },
+      { "id": "d", "text": "Biogeochemical Cycle" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Carrying capacity is a key ecological concept defining the limit of a population size the environment can support without degradation.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "env_015",
+    "text": "An example of a **point source** of water pollution is:",
+    "options": [
+      { "id": "a", "text": "Rainfall runoff from agricultural fields" },
+      { "id": "b", "text": "Wastewater discharge pipe from a factory" },
+      { "id": "c", "text": "Oil slick spread across the ocean surface" },
+      { "id": "d", "text": "Leaching of fertilizer into groundwater" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Point source pollution originates from a single, identifiable source, such as a pipe, ditch, or smokestack.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "env_016",
+    "text": "The **primary function** of coral reefs in a marine ecosystem is to provide:",
+    "options": [
+      { "id": "a", "text": "A source of deep-sea fishing grounds" },
+      { "id": "b", "text": "A protective barrier against tsunamis" },
+      { "id": "c", "text": "Habitat and nursery grounds for marine life" },
+      { "id": "d", "text": "A source of raw materials for construction" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Coral reefs are often called the 'rainforests of the sea' because they support a vast diversity of marine species by providing essential habitat, food, and breeding grounds.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "env_017",
+    "text": "Aling gas ang **pangunahing greenhouse gas** na responsable sa global warming?",
+    "options": [
+      { "id": "a", "text": "Oxygen (O₂)" },
+      { "id": "b", "text": "Carbon Dioxide (CO₂)" },
+      { "id": "c", "text": "Nitrogen (N₂)" },
+      { "id": "d", "text": "Argon (Ar)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang Carbon Dioxide (CO₂) ang pinakamalaking kontribyutor sa greenhouse effect na nagdudulot ng global warming, lalo na mula sa pagsunog ng fossil fuels.",
+    "category": "Environmental Management",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "env_018",
+    "text": "The **Plan-Do-Check-Act (PDCA)** cycle is the foundational framework for which international standard in environmental management?",
+    "options": [
+      { "id": "a", "text": "ISO 9001 (Quality Management)" },
+      { "id": "b", "text": "ISO 14001 (Environmental Management System)" },
+      { "id": "c", "text": "ISO 45001 (Occupational Health and Safety)" },
+      { "id": "d", "text": "The Paris Agreement" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The ISO 14001 standard for Environmental Management Systems (EMS) is fundamentally based on the concept of continual improvement using the PDCA cycle.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "env_019",
+    "text": "Ano ang tawag sa pagtatayo at pamamahala ng mga urban area sa paraang pinoprotektahan ang kalikasan at pinapahusay ang kalidad ng buhay ng tao?",
+    "options": [
+      { "id": "a", "text": "Suburbanization" },
+      { "id": "b", "text": "Ecotourism" },
+      { "id": "c", "text": "Sustainable Urban Planning" },
+      { "id": "d", "text": "Gentrification" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang Sustainable Urban Planning ay tumutukoy sa pagdidisenyo at pamamahala ng mga lungsod upang matugunan ang mga pangangailangan ng kasalukuyan nang hindi nakokompromiso ang kapasidad ng susunod na henerasyon.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "env_020",
+    "text": "Which Philippine law is primarily concerned with establishing and managing a national network of protected areas (e.g., national parks, wildlife sanctuaries)?",
+    "options": [
+      { "id": "a", "text": "RA 7942 (Philippine Mining Act)" },
+      { "id": "b", "text": "RA 7586 (National Integrated Protected Areas System or NIPAS Act)" },
+      { "id": "c", "text": "RA 9003 (Ecological Solid Waste Management Act)" },
+      { "id": "d", "text": "RA 9275 (Clean Water Act)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The NIPAS Act provides the legal framework for the establishment, demarcation, management, and preservation of nationally significant areas of the country's flora and fauna.",
+    "category": "Environmental Management",
+    "difficulty": "moderate",
+    "language": "english"
   }
 ]

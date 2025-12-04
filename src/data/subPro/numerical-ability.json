@@ -115,7 +115,7 @@
     ],
     "correctAnswer": "d",
     "explanation": "For ham: convert it to decimal > 35%/100 = 0.35, then multiply it with the budget > 0.35*500 = ₱175. Do the same with spaghetti and macaroni, ₱130 and ₱110 respectively. Sum it: ₱175 + ₱130 + ₱110 = ₱415. Subtract it from budget: ₱500 - ₱415 = ₱85. Budget for drinks will be ₱85",
-    "category": "Analytical Ability",
+    "category": "Numerical Ability",
     "difficulty": "medium",
     "language": "english"
   },
@@ -147,6 +147,441 @@
     "explanation": "To find the percentage, divide the part (1,024) by the whole (3,200) and multiply by 100: Percentage = (Part / Whole) x 100, Percentage = (1,024 / 3,200) x 100, Percentage = 0.32 x 100, Percentage = 32%",
     "category": "Numerical Ability",
     "difficulty": "easy",
+    "language": "english"
+  },
+  {
+  "id": "num_sub_11",
+  "text": "The ratio of boys to girls in a class is 3 : 4. If there are 21 boys, how many girls are there?",
+  "options": [
+      { "id": "a", "text": "24" },
+      { "id": "b", "text": "26" },
+      { "id": "c", "text": "28" },
+      { "id": "d", "text": "30" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "If boys:girls ratio is 3:4, and the current value for boys is 21. We divide value of boys to its corresponding ratio: 21 / 3 = 7. Use the same value to get the value for girls by multiplying it: 4 x 7 = 28. Therefore, the number of girls are 28.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+  "id": "num_sub_12",
+  "text": "Ham costs ₱220 for 1.5 kg. What is the price per 100 grams? (Round to three decimal places if needed.)",
+  "options": [
+      { "id": "a", "text": "₱12.000" },
+      { "id": "b", "text": "₱14.667" },
+      { "id": "c", "text": "₱16.000" },
+      { "id": "d", "text": "₱18.333" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "First, lets convert 1.5kg into gram unit. Since kilo means 1,000, 1.5 x 1000 = 1500. Then we divide the cost using it, 200 / 1500 = 0.1466666667. Then we multiply it with 100 since we need the price of 100grams. 0.1466666667 x 100 = 14.66666667 then round it to three decimal places; 14.667.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+  "id": "num_sub_13",
+  "text": "SEQUENCE: 2,6,12,20,30,__",
+  "options": [
+      { "id": "a", "text": "36" },
+      { "id": "b", "text": "40" },
+      { "id": "c", "text": "42" },
+      { "id": "d", "text": "44" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The differences (4, 6, 8, 10) increase by 2 each time, so the next difference should be 12. Adding 12 to the last term (30) gives the next number in the sequence: 42.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_14",
+    "text": "A car travels at an average speed of 60 km/h for the first 2 hours and 75 km/h for the next 3 hours. What is the car's average speed for the entire trip?",
+    "options": [
+      { "id": "a", "text": "65 km/h" },
+      { "id": "b", "text": "67.5 km/h" },
+      { "id": "c", "text": "69 km/h" },
+      { "id": "d", "text": "70 km/h" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Total distance = (60 km/h * 2 h) + (75 km/h * 3 h) = 120 km + 225 km = 345 km. Total time = 2 h + 3 h = 5 h. Average speed = 345 km / 5 h = 69 km/h.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_15",
+    "text": "The length of a rectangular garden is three times its width. If the perimeter is 64 meters, what is the area of the garden?",
+    "options": [
+      { "id": "a", "text": "192 sq m" },
+      { "id": "b", "text": "160 sq m" },
+      { "id": "c", "text": "144 sq m" },
+      { "id": "d", "text": "128 sq m" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Let w be the width. Length l = 3w. Perimeter P = 2(l + w) = 2(3w + w) = 8w. 8w = 64, so w = 8 m. l = 24 m. Area A = 24 * 8 = 192 sq m.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_16",
+    "text": "If x is 20% of y, and y is 40% of z, what percentage is x of z?",
+    "options": [
+      { "id": "a", "text": "8%" },
+      { "id": "b", "text": "12%" },
+      { "id": "c", "text": "16%" },
+      { "id": "d", "text": "20%" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "x = 0.20y and y = 0.40z. Substitute y: x = 0.20(0.40z) = 0.08z, which is 8%.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_17",
+    "text": "A shop offers a 20% discount on a shirt. The discounted price is ₱480. What was the original price of the shirt?",
+    "options": [
+      { "id": "a", "text": "₱576" },
+      { "id": "b", "text": "₱600" },
+      { "id": "c", "text": "₱640" },
+      { "id": "d", "text": "₱700" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The discounted price represents 100% - 20% = 80% of the original price P. 0.80 * P = 480. P = 480 / 0.80 = 600.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_18",
+    "text": "Simplify: (3/5 + 1/3) / 7/15",
+    "options": [
+      { "id": "a", "text": "1" },
+      { "id": "b", "text": "2" },
+      { "id": "c", "text": "3" },
+      { "id": "d", "text": "4" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Add fractions: 3/5 + 1/3 = 9/15 + 5/15 = 14/15. Divide: (14/15) * (15/7) = 14/7 = 2.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_19",
+    "text": "A cistern can be filled by two pipes, A and B, in 10 hours and 15 hours, respectively. If both pipes are opened simultaneously, how long will it take to fill the cistern?",
+    "options": [
+      { "id": "a", "text": "5 hours" },
+      { "id": "b", "text": "6 hours" },
+      { "id": "c", "text": "7.5 hours" },
+      { "id": "d", "text": "12.5 hours" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Combined rate R: 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. Time T = 1 / R = 6 hours.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_20",
+    "text": "SEQUENCE: 3, 5, 9, 17, 33, ___",
+    "options": [
+      { "id": "a", "text": "49" },
+      { "id": "b", "text": "55" },
+      { "id": "c", "text": "65" },
+      { "id": "d", "text": "67" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The differences are 2, 4, 8, 16. The next difference is 16 * 2 = 32. Next term: 33 + 32 = 65.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_21",
+    "text": "If 12 machines can produce 480 toys in 5 hours, how many toys can 15 machines produce in 8 hours?",
+    "options": [
+      { "id": "a", "text": "600" },
+      { "id": "b", "text": "768" },
+      { "id": "c", "text": "960" },
+      { "id": "d", "text": "1152" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Rate per machine-hour: 480 / (12 * 5) = 8 toys/machine-hour. Production: 15 * 8 * 8 = 960 toys.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_22",
+    "text": "In a town, the ratio of adults to children is 5:2. If the total population is 4,900, how many adults are there?",
+    "options": [
+      { "id": "a", "text": "1,400" },
+      { "id": "b", "text": "2,450" },
+      { "id": "c", "text": "3,500" },
+      { "id": "d", "text": "4,200" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Total parts: 5 + 2 = 7. Value per part: 4,900 / 7 = 700. Adults (5 parts): 5 * 700 = 3,500.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_23",
+    "text": "What is the simple interest on a principal of ₱10,000 at an annual rate of 4% for 3 years?",
+    "options": [
+      { "id": "a", "text": "₱800" },
+      { "id": "b", "text": "₱1,000" },
+      { "id": "c", "text": "₱1,200" },
+      { "id": "d", "text": "₱1,500" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Simple Interest I = P * r * t. I = ₱10,000 * 0.04 * 3 = ₱1,200.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_24",
+    "text": "If 3x - 5 = 10, what is the value of 2x + 1?",
+    "options": [
+      { "id": "a", "text": "6" },
+      { "id": "b", "text": "11" },
+      { "id": "c", "text": "12" },
+      { "id": "d", "text": "15" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Solve for x: 3x = 15, so x = 5. 2x + 1 = 2(5) + 1 = 11.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_25",
+    "text": "A sum of money is divided among A, B, and C in the ratio 2:3:5. If A receives ₱2,400, what is the total amount of money?",
+    "options": [
+      { "id": "a", "text": "₱9,600" },
+      { "id": "b", "text": "₱12,000" },
+      { "id": "c", "text": "₱14,400" },
+      { "id": "d", "text": "₱16,800" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A's 2 parts = ₱2,400, so 1 part = ₱1,200. Total parts: 2 + 3 + 5 = 10. Total amount = 10 * ₱1,200 = ₱12,000.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_26",
+    "text": "The price of a product increased by 10% and then decreased by 10%. If the final price is ₱990, what was the original price?",
+    "options": [
+      { "id": "a", "text": "₱990" },
+      { "id": "b", "text": "₱1,000" },
+      { "id": "c", "text": "₱1,010" },
+      { "id": "d", "text": "₱1,100" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Final price = P * (1.10) * (0.90) = 0.99P. 0.99P = 990, so P = 990 / 0.99 = 1,000.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_27",
+    "text": "If a number is multiplied by 5 and 7 is subtracted from the product, the result is 33. What is the number?",
+    "options": [
+      { "id": "a", "text": "4" },
+      { "id": "b", "text": "6" },
+      { "id": "c", "text": "8" },
+      { "id": "d", "text": "10" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Equation: 5n - 7 = 33. 5n = 40. n = 8.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_28",
+    "text": "A circle has a diameter of 14 meters. What is its circumference? (Use pi approximately 22/7)",
+    "options": [
+      { "id": "a", "text": "22 m" },
+      { "id": "b", "text": "44 m" },
+      { "id": "c", "text": "88 m" },
+      { "id": "d", "text": "154 m" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Circumference C = pi * d. C = (22/7) * 14 = 44 m.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_29",
+    "text": "What is the median of the following set of numbers: 8, 15, 12, 5, 20, 10, 18?",
+    "options": [
+      { "id": "a", "text": "12" },
+      { "id": "b", "text": "13" },
+      { "id": "c", "text": "14" },
+      { "id": "d", "text": "15" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Order: 5, 8, 10, 12, 15, 18, 20. The middle (4th) number is 12.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_30",
+    "text": "If the sum of three consecutive even integers is 78, what is the largest of these integers?",
+    "options": [
+      { "id": "a", "text": "24" },
+      { "id": "b", "text": "26" },
+      { "id": "c", "text": "28" },
+      { "id": "d", "text": "30" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The middle integer is the average: 78 / 3 = 26. The integers are 24, 26, 28. The largest is 28.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_31",
+    "text": "A train passes a station platform 100 meters long in 10 seconds and a signal post in 4 seconds. What is the speed of the train in m/s? (Round to 2 decimal places)",
+    "options": [
+      { "id": "a", "text": "15 m/s" },
+      { "id": "b", "text": "16.67 m/s" },
+      { "id": "c", "text": "18 m/s" },
+      { "id": "d", "text": "25 m/s" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Let L be length and S be speed. S = L/4, so L = 4S. S = (L + 100) / 10. 10S = 4S + 100, so 6S = 100. S = 100/6 approx 16.67 m/s.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_32",
+    "text": "If x^2 - 4x + 4 = 0, what is the value of x?",
+    "options": [
+      { "id": "a", "text": "-2" },
+      { "id": "b", "text": "2" },
+      { "id": "c", "text": "4" },
+      { "id": "d", "text": "-4" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The equation is (x-2)^2 = 0. Therefore, x = 2.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_33",
+    "text": "A clock gains 10 minutes every 24 hours. If it is set correctly at 8:00 AM on Monday, what will be the correct time when the clock shows 8:00 PM on Tuesday?",
+    "options": [
+      { "id": "a", "text": "7:55 PM" },
+      { "id": "b", "text": "7:50 PM" },
+      { "id": "c", "text": "7:45 PM" },
+      { "id": "d", "text": "7:40 PM" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Total time elapsed: 36 hours. Total gain: 36 hours * (10 min / 24 hours) = 15 minutes. Correct time is 15 minutes before 8:00 PM Tuesday, which is 7:45 PM.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_34",
+    "text": "The ratio of the ages of two people is 4:5. Ten years from now, the ratio of their ages will be 5:6. What is the current age of the older person?",
+    "options": [
+      { "id": "a", "text": "40 years" },
+      { "id": "b", "text": "50 years" },
+      { "id": "c", "text": "60 years" },
+      { "id": "d", "text": "70 years" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ages: 4x, 5x. (4x + 10) / (5x + 10) = 5/6. 6(4x + 10) = 5(5x + 10). 24x + 60 = 25x + 50. x = 10. Older age: 5x = 50 years.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_35",
+    "text": "The volume of a cube is 125 cm^3. What is the total surface area of the cube?",
+    "options": [
+      { "id": "a", "text": "25 cm^2" },
+      { "id": "b", "text": "100 cm^2" },
+      { "id": "c", "text": "150 cm^2" },
+      { "id": "d", "text": "200 cm^2" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Side length a = cube root of 125 = 5 cm. Area A = 6a^2 = 6 * 5^2 = 150 cm^2.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_36",
+    "text": "What is the result of 1 - 1/2 + 1/3 - 1/4 + 1/5 - 1/6? (Express as a simplified fraction)",
+    "options": [
+      { "id": "a", "text": "2/5" },
+      { "id": "b", "text": "37/60" },
+      { "id": "c", "text": "13/20" },
+      { "id": "d", "text": "1/2" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "LCD is 60. (60 - 30 + 20 - 15 + 12 - 10) / 60 = 37/60.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_37",
+    "text": "The price of diesel was ₱40 per liter. It increased by 15%. What is the new price per liter?",
+    "options": [
+      { "id": "a", "text": "₱44.00" },
+      { "id": "b", "text": "₱45.00" },
+      { "id": "c", "text": "₱46.00" },
+      { "id": "d", "text": "₱47.50" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "New price = ₱40 * (1 + 0.15) = ₱40 * 1.15 = ₱46.00.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_38",
+    "text": "If square root of x = 9, then what is the value of x^2?",
+    "options": [
+      { "id": "a", "text": "81" },
+      { "id": "b", "text": "729" },
+      { "id": "c", "text": "6,561" },
+      { "id": "d", "text": "8,100" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "If square root of x = 9, then x = 81. x^2 = 81^2 = 6,561.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_39",
+    "text": "A number leaves a remainder of 3 when divided by 5 and a remainder of 5 when divided by 7. What is the smallest such number?",
+    "options": [
+      { "id": "a", "text": "13" },
+      { "id": "b", "text": "23" },
+      { "id": "c", "text": "33" },
+      { "id": "d", "text": "43" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The number N satisfies N equals 5k + 3 and N equals 7m + 5. The smallest number is 33. (33 divided by 5 equals 6 R 3; 33 divided by 7 equals 4 R 5).",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
     "language": "english"
   }
 ]

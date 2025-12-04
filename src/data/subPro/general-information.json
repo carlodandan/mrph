@@ -223,5 +223,290 @@
     "category": "General Information",
     "difficulty": "moderate",
     "language": "english"
+  },
+  {
+    "id": "subpro_gi_16",
+    "text": "Which body hears impeachment cases?",
+    "options": [
+      { "id": "a", "text": "House of Representatives" },
+      { "id": "b", "text": "Senate" },
+      { "id": "c", "text": "Supreme Court" },
+      { "id": "d", "text": "COA" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Though, Supreme Court is the highest court in country's judicial system, the Senate shall have the sole power to try and decide all cases of impeachment according to 1987 Philippine Constitution.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_17",
+    "text": "What is the primary product of photosynthesis in plants that is essential for the plant's energy and growth?",
+    "options": [
+        {
+          "id": "a",
+          "text": "Carbon Dioxide (CO2)"
+        },
+        {
+          "id": "b",
+          "text": "Water (H2O)"
+        },
+        {
+          "id": "c",
+          "text": "Glucose (Sugar)"
+        },
+        {
+          "id": "d",
+          "text": "Oxygen (O2)"
+        }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Photosynthesis converts light energy into chemical energy, storing it in the form of glucose (a type of sugar), which the plant uses for fuel and as a building block for cellulose. Oxygen is a crucial byproduct.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_18",
+    "text": "Which Renaissance artist is credited with painting the ceiling of the Sistine Chapel?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leonardo da Vinci"
+      },
+      {
+        "id": "b",
+        "text": "Raphael"
+      },
+      {
+        "id": "c",
+        "text": "Michelangelo"
+      },
+      {
+        "id": "d",
+        "text": "Donatello"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Michelangelo Buonarroti painted the famous ceiling frescoes, including 'The Creation of Adam,' between 1508 and 1512.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_19",
+    "text": "According to the 1987 Philippine Constitution, who or what body has the exclusive power to initiate all cases of impeachment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Senate"
+      },
+      {
+        "id": "b",
+        "text": "The Supreme Court"
+      },
+      {
+        "id": "c",
+        "text": "The House of Representatives"
+      },
+      {
+        "id": "d",
+        "text": "The Office of the Ombudsman"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Article XI, Section 3(1) of the 1987 Constitution states that the House of Representatives shall have the exclusive power to initiate all cases of impeachment.",
+    "category": "General Information",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_20",
+    "text": "What is the chemical element with the symbol 'Au'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Silver"
+      },
+      {
+        "id": "b",
+        "text": "Aluminum"
+      },
+      {
+        "id": "c",
+        "text": "Gold"
+      },
+      {
+        "id": "d",
+        "text": "Copper"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The symbol 'Au' comes from the Latin word 'aurum,' meaning gold.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_21",
+    "text": "Which Asian country is known for pioneering the concept of Gross National Happiness (GNH) as a measure of progress instead of Gross Domestic Product (GDP)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Japan"
+      },
+      {
+        "id": "b",
+        "text": "Bhutan"
+      },
+      {
+        "id": "c",
+        "text": "South Korea"
+      },
+      {
+        "id": "d",
+        "text": "Nepal"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Bhutan famously adopted GNH, which balances economic development with cultural preservation, environmental conservation, and good governance.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_22",
+    "text": "The **Theory of Relativity** is fundamentally associated with which renowned physicist?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Isaac Newton"
+      },
+      {
+        "id": "b",
+        "text": "Galileo Galilei"
+      },
+      {
+        "id": "c",
+        "text": "Albert Einstein"
+      },
+      {
+        "id": "d",
+        "text": "Stephen Hawking"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Albert Einstein developed the Special Theory of Relativity (1905) and the General Theory of Relativity (1915), which revolutionized physics with the equation $E=mc^2$.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_23",
+    "text": "In literature, who wrote the epic poem **'The Iliad'**?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Virgil"
+      },
+      {
+        "id": "b",
+        "text": "Homer"
+      },
+      {
+        "id": "c",
+        "text": "Sophocles"
+      },
+      {
+        "id": "d",
+        "text": "Plato"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Homer, the legendary Greek poet, is traditionally credited as the author of 'The Iliad' and 'The Odyssey'.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_24",
+    "text": "Which Philippine island province is often called the 'Last Frontier' of the country, known for its rich biodiversity and environmental conservation efforts?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cebu"
+      },
+      {
+        "id": "b",
+        "text": "Bohol"
+      },
+      {
+        "id": "c",
+        "text": "Palawan"
+      },
+      {
+        "id": "d",
+        "text": "Batanes"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Palawan is internationally recognized for its unique flora and fauna, pristine landscapes, and has strict environmental protection laws, earning it the nickname 'The Last Frontier'.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_25",
+    "text": "The Great Wall of China was primarily built for which purpose?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To serve as a road network for trade caravans"
+      },
+      {
+        "id": "b",
+        "text": "To define the exact boundary between China and India"
+      },
+      {
+        "id": "c",
+        "text": "To protect the northern borders of the Chinese Empire against invasions"
+      },
+      {
+        "id": "d",
+        "text": "To control flooding from major rivers"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Great Wall was constructed and rebuilt over centuries primarily to protect the Chinese states and empires against the raids and invasions of nomadic groups from the Eurasian Steppe, particularly the Mongols.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "subpro_gi_26",
+    "text": "What is the main property of a material that determines whether it is an electrical conductor or an insulator?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Its density"
+      },
+      {
+        "id": "b",
+        "text": "Its ability to resist heat"
+      },
+      {
+        "id": "c",
+        "text": "The mobility of its outer electrons"
+      },
+      {
+        "id": "d",
+        "text": "Its magnetic field strength"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A material's electrical conductivity is determined by the number of free electrons (mobile outer shell electrons) it possesses. Conductors have many free electrons, while insulators have few.",
+    "category": "General Information",
+    "difficulty": "difficult",
+    "language": "english"
   }
 ]

@@ -178,5 +178,50 @@
     "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
+  },
+  {
+  "id": "num_pro_13",
+  "text": "The ratio of boys to girls in a class is 3 : 4. If there are 21 boys, how many girls are there?",
+  "options": [
+      { "id": "a", "text": "24" },
+      { "id": "b", "text": "26" },
+      { "id": "c", "text": "28" },
+      { "id": "d", "text": "30" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "If boys:girls ratio is 3:4, and the current value for boys is 21. We divide value of boys to its corresponding ratio: 21 / 3 = 7. Use the same value to get the value for girls by multiplying it: 4 x 7 = 28. Therefore, the number of girls are 28.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+  "id": "num_pro_14",
+  "text": "Ham costs ₱220 for 1.5 kg. What is the price per 100 grams? (Round to three decimal places if needed.)",
+  "options": [
+      { "id": "a", "text": "₱12.000" },
+      { "id": "b", "text": "₱14.667" },
+      { "id": "c", "text": "₱16.000" },
+      { "id": "d", "text": "₱18.333" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "First, lets convert 1.5kg into gram unit. Since kilo means 1,000, 1.5 x 1000 = 1500. Then we divide the cost using it, 200 / 1500 = 0.1466666667. Then we multiply it with 100 since we need the price of 100grams. 0.1466666667 x 100 = 14.66666667 then round it to three decimal places; 14.667.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+  "id": "num_pro_15",
+  "text": "SEQUENCE: 2,6,12,20,30,__",
+  "options": [
+      { "id": "a", "text": "36" },
+      { "id": "b", "text": "40" },
+      { "id": "c", "text": "42" },
+      { "id": "d", "text": "44" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The differences (4, 6, 8, 10) increase by 2 each time, so the next difference should be 12. Adding 12 to the last term (30) gives the next number in the sequence: 42.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
   }
 ]

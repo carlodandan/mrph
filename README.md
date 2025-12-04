@@ -30,6 +30,8 @@
 - Professional Level
 - Sub-Professional Level
 - Practice Level (Combination of Professional and Sub-Professional)
+- Able to go back to previous questions that you skip.
+- Exam results has explanation of answer.
 
 </details>
 

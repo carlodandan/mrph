@@ -70,7 +70,7 @@
     "correctAnswer": "c",
     "explanation": "To obfuscate means to make something obscure, unclear, or unintelligible. The direct opposite, or antonym, is to clarify, which means to make something clear and understandable.",
     "category": "Verbal Ability",
-    "difficulty": "difficult",
+    "difficulty": "hard",
     "language": "english"
   },
   {
@@ -100,7 +100,7 @@
     "correctAnswer": "c",
     "explanation": "Ang 'ng' ay ginagamit para sa pananda ng tuwirang layon ('ng isda'), habang ang 'sa' ay ginagamit para sa lokasyon ('sa palengke').",
     "category": "Verbal Ability",
-    "difficulty": "difficult",
+    "difficulty": "hard",
     "language": "filipino"
   },
   {
@@ -173,9 +173,9 @@
       { "id": "d", "text": "Rapid change and innovation" }
     ],
     "correctAnswer": "b",
-    "explanation": "Austerity refers to difficult economic conditions created by government measures to reduce public expenditure.",
+    "explanation": "Austerity refers to hard economic conditions created by government measures to reduce public expenditure.",
     "category": "Verbal Ability",
-    "difficulty": "difficult",
+    "difficulty": "hard",
     "language": "english"
   },
   {
@@ -264,6 +264,321 @@
     ],
     "correctAnswer": "d",
     "explanation": "'Pathos' is associated with sadness and sorrow. 'Humor' is the quality of being amusing or comical, which directly contrasts with the feeling evoked by pathos.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "va_pro_019",
+    "text": "VOCABULARY: Sherlock Holmes is a famous sleuth.",
+    "options": [
+      { "id": "a", "text": "adventurer" },
+      { "id": "b", "text": "scientist" },
+      { "id": "c", "text": "detective" },
+      { "id": "d", "text": "criminal" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Sleuth means some who investigates and solves mysteries or crimes, therefore Detective.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_16",
+    "text": "Choose the correct sentence structure and subject-verb agreement: A series of unfortunate events ___________ the mayor's plans for reelection.",
+    "options": [
+      { "id": "a", "text": "have sabotaged" },
+      { "id": "b", "text": "has sabotaged" },
+      { "id": "c", "text": "were sabotaging" },
+      { "id": "d", "text": "are sabotaging" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The actual subject is 'series' (singular), not 'events' (plural). Therefore, the verb must be singular ('has sabotaged').",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_17",
+    "text": "What is the antonym of **'perfunctory'**?",
+    "options": [
+      { "id": "a", "text": "Careless" },
+      { "id": "b", "text": "Enthusiastic" },
+      { "id": "c", "text": "Cursory" },
+      { "id": "d", "text": "Hasty" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "'Perfunctory' means carried out with a minimum of effort or reflection, essentially 'done without enthusiasm or interest'. The opposite is 'enthusiastic' or 'thorough'.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_18",
+    "text": "Identify the word that is misspelled:",
+    "options": [
+      { "id": "a", "text": "Consensus" },
+      { "id": "b", "text": "Conscientious" },
+      { "id": "c", "text": "Sacreligious" },
+      { "id": "d", "text": "Separate" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The correct spelling is 'sacrilegious', not 'sacreligious'.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_19",
+    "text": "Which sentence uses the subjunctive mood correctly?",
+    "options": [
+      { "id": "a", "text": "If I was the manager, I would change the policy." },
+      { "id": "b", "text": "If I were the manager, I would change the policy." },
+      { "id": "c", "text": "If I am the manager, I would change the policy." },
+      { "id": "d", "text": "If I had been the manager, I would change the policy." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The subjunctive mood is used to express hypothetical, contrary-to-fact, or impossible conditions. For present hypothetical conditions, 'were' is used regardless of the subject's number, even with 'I'.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_20",
+    "text": "Choose the most appropriate word to complete the sentence: The department's official statement was often seen as ___________ rather than transparent.",
+    "options": [
+      { "id": "a", "text": "edifying" },
+      { "id": "b", "text": "lucid" },
+      { "id": "c", "text": "equivocal" },
+      { "id": "d", "text": "definitive" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The sentence sets up an opposition with 'transparent'. 'Equivocal' means open to more than one interpretation; ambiguous, which is the opposite of transparent or clear.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_21",
+    "text": "Complete the analogy: JUROR is to JURY as MINISTER is to:",
+    "options": [
+      { "id": "a", "text": "CABINET" },
+      { "id": "b", "text": "CHURCH" },
+      { "id": "c", "text": "PARISH" },
+      { "id": "d", "text": "CONGREGATION" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A JUROR is a single member of a JURY (a group that makes a collective legal decision). A MINISTER (in a governmental sense) is a single member of the CABINE T (a group that makes a collective governmental decision).",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_22",
+    "text": "Which option provides the most precise and formal phrasing for the following: 'The budget cuts made things really bad for everyone.'",
+    "options": [
+      { "id": "a", "text": "The budget cuts caused a huge mess." },
+      { "id": "b", "text": "The budget cuts adversely affected numerous stakeholders." },
+      { "id": "c", "text": "The budget cuts were a real downer on the staff." },
+      { "id": "d", "text": "The budget cuts made things difficult for the workers." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Option (b) uses formal language ('adversely affected,' 'numerous stakeholders') appropriate for official communication, capturing the extent and negative impact accurately.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_23",
+    "text": "The idiom **'to steal someone's thunder'** means:",
+    "options": [
+      { "id": "a", "text": "To take credit for someone else's idea." },
+      { "id": "b", "text": "To secretly sabotage an opponent's plan." },
+      { "id": "c", "text": "To be caught doing something wrong." },
+      { "id": "d", "text": "To loudly announce a great achievement." }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The idiom means to appropriate the ideas or methods of another or to reduce the effect of someone's dramatic entrance or achievement by doing or saying the same thing first.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_24",
+    "text": "The principle that one should be given a fair hearing before any adverse decision is made is known as **'audi alteram partem'**. This principle advocates for:",
+    "options": [
+      { "id": "a", "text": "Judicial review" },
+      { "id": "b", "text": "Due process" },
+      { "id": "c", "d": "Habeas corpus" },
+      { "id": "d", "text": "Stare decisis" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Latin phrase 'audi alteram partem' (hear the other side) is a fundamental component of the constitutional right to **Due Process**, ensuring fairness in legal proceedings.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_25",
+    "text": "Find the word with the same meaning as **'deleterious'**:",
+    "options": [
+      { "id": "a", "text": "Beneficial" },
+      { "id": "b", "text": "Harmful" },
+      { "id": "c", "text": "Temporary" },
+      { "id": "d", "text": "Painless" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "'Deleterious' means causing harm or damage. 'Harmful' is the direct synonym.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_26",
+    "text": "Which word is the most suitable for the sentence: The witness's account of the event was too **___________** to be credible.",
+    "options": [
+      { "id": "a", "text": "coherent" },
+      { "id": "b", "text": "plausible" },
+      { "id": "c", "text": "incredulous" },
+      { "id": "d", "text": "incongruous" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "'Incongruous' means not consistent or compatible with other things or ideas. An account that is too incongruous (out of place/contradictory) is not credible.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_27",
+    "text": "Identify the logical flaw in the following statement: 'Since the new policy was implemented, corruption has decreased. Therefore, the new policy caused the decrease in corruption.'",
+    "options": [
+      { "id": "a", "text": "Ad hominem" },
+      { "id": "b", "text": "Appeal to emotion" },
+      { "id": "c", "text": "Post hoc ergo propter hoc" },
+      { "id": "d", "text": "False dichotomy" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Latin phrase 'Post hoc ergo propter hoc' means 'after this, therefore because of this.' It's a fallacy where one assumes that because B happened after A, A must have caused B.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_28",
+    "text": "Choose the correctly punctuated sentence:",
+    "options": [
+      { "id": "a", "text": "She submitted the report; however, it was incomplete." },
+      { "id": "b", "text": "She submitted the report, however it was incomplete." },
+      { "id": "c", "text": "She submitted the report however, it was incomplete." },
+      { "id": "d", "text": "She submitted the report: however it was incomplete." }
+    ],
+    "correctAnswer": "a",
+    "explanation": "When using a conjunctive adverb like 'however' to join two independent clauses, a semicolon (;) must precede the conjunctive adverb, and a comma (,) must follow it.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_29",
+    "text": "Which word is the antonym of **'ephemeral'**?",
+    "options": [
+      { "id": "a", "text": "Transient" },
+      { "id": "b", "text": "Momentary" },
+      { "id": "c", "d": "Lasting" },
+      { "id": "d", "text": "Fleeting" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "'Ephemeral' means lasting for a very short time. The opposite is 'lasting' or 'permanent'.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_30",
+    "text": "Rearrange the following sentences to form a coherent paragraph:\n1. The agency is currently drafting a new manual.\n2. This initiative is a response to public demands for greater clarity.\n3. It will serve as the primary guide for all operational procedures.\n4. The expected completion date is the end of the second quarter.",
+    "options": [
+      { "id": "a", "text": "1-3-2-4" },
+      { "id": "b", "text": "2-1-3-4" },
+      { "id": "c", "text": "1-2-3-4" },
+      { "id": "d", "text": "3-1-2-4" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The order should be: The main action (1), the purpose of the action (3), the reason for the action (2), and the conclusion/timeline (4).",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_31",
+    "text": "The word **'disingenuous'** is best defined as:",
+    "options": [
+      { "id": "a", "text": "Completely honest and sincere" },
+      { "id": "b", "text": "Slightly dishonest or insincere; pretending to be naive" },
+      { "id": "c", "text": "Lacking talent or skill" },
+      { "id": "d", "text": "Quick to forgive and forget" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Disingenuous means not candid or sincere, typically by pretending that one knows less about something than one really does. It implies a subtle lack of sincerity.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_32",
+    "text": "Which preposition most accurately completes the sentence: The new regulation is aimed ___________ improving citizen engagement.",
+    "options": [
+      { "id": "a", "text": "on" },
+      { "id": "b", "text": "at" },
+      { "id": "c", "d": "to" },
+      { "id": "d", "text": "for" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The phrasal verb is 'aimed at,' meaning the regulation has that specific goal or purpose.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_33",
+    "text": "Identify the error in the following sentence: 'Everyone, including the supervisors, were surprised by the sudden resignation.'",
+    "options": [
+      { "id": "a", "text": "The use of 'Everyone'" },
+      { "id": "b", "text": "The phrase 'including the supervisors'" },
+      { "id": "c", "text": "The verb 'were surprised'" },
+      { "id": "d", "text": "The word 'sudden'" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The main subject is 'Everyone,' which is grammatically singular, regardless of the phrase 'including the supervisors.' Therefore, the verb must be singular: **'was surprised'**.",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_34",
+    "text": "Complete the sentence with the correct pair of homophones: The new **___________** must follow the **___________** for filing documents.",
+    "options": [
+      { "id": "a", "text": "principle, principal" },
+      { "id": "b", "text": "principal, principle" },
+      { "id": "c", "d": "complement, compliment" },
+      { "id": "d", "text": "compliment, complement" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "**Principal** means the head of an organization (the new head/official). **Principle** means a fundamental truth or rule (the rule for filing documents).",
+    "category": "Verbal Ability",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_35",
+    "text": "The word **'inadvertent'** most closely means:",
+    "options": [
+      { "id": "a", "text": "Intentional" },
+      { "id": "b", "text": "Accidental or unintentional" },
+      { "id": "c", "text": "Highly publicized" },
+      { "id": "d", "text": "Deeply felt" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Inadvertent describes something that is not resulting from or achieved through deliberate planning.",
     "category": "Verbal Ability",
     "difficulty": "moderate",
     "language": "english"

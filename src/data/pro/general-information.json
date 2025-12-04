@@ -223,5 +223,20 @@
     "category": "General Information",
     "difficulty": "easy",
     "language": "english"
+  },
+  {
+    "id": "gen_016",
+    "text": "Which body hears impeachment cases?",
+    "options": [
+      { "id": "a", "text": "House of Representatives" },
+      { "id": "b", "text": "Senate" },
+      { "id": "c", "text": "Supreme Court" },
+      { "id": "d", "text": "COA" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Though, Supreme Court is the highest court in country's judicial system, the Senate shall have the sole power to try and decide all cases of impeachment according to 1987 Philippine Constitution.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
   }
 ]
