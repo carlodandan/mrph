@@ -166,7 +166,7 @@
   },
   {
     "id": "con_pro_12",
-    "text": "Ang **Social Justice** o Katarungang Panlipunan ay ipinapahayag ng Saligang Batas bilang:",
+    "text": "Ang Social Justice o Katarungang Panlipunan ay ipinapahayag ng Saligang Batas bilang:",
     "options": [
       { "id": "a", "text": "Ang pagsasagawa ng karapatan sa pribadong ari-arian" },
       { "id": "b", "text": "Ang pangako ng pamahalaan na bawasan ang hindi pagkakapantay-pantay" },
@@ -226,7 +226,7 @@
   },
   {
     "id": "con_pro_16",
-    "text": "The State policy recognizing the **vital role of the youth** in nation-building and promoting their physical, moral, intellectual, and social well-being is found in which article?",
+    "text": "The State policy recognizing the vital role of the youth in nation-building and promoting their physical, moral, intellectual, and social well-being is found in which article?",
     "options": [
       { "id": "a", "text": "Article III (Bill of Rights)" },
       { "id": "b", "text": "Article V (Suffrage)" },
@@ -331,7 +331,7 @@
   },
   {
     "id": "con_pro_23",
-    "text": "The principle of **'Sovereignty of the People'** is expressed in the Constitution through the exercise of:",
+    "text": "The principle of 'Sovereignty of the People' is expressed in the Constitution through the exercise of:",
     "options": [
       { "id": "a", "text": "The power of the President to declare martial law." },
       { "id": "b", "text": "The right to suffrage (voting) and the power of initiative and referendum." },
@@ -346,7 +346,7 @@
   },
   {
     "id": "con_pro_24",
-    "text": "What does the **Archipelagic Principle** in the Philippine Constitution assert?",
+    "text": "What does the Archipelagic Principle in the Philippine Constitution assert?",
     "options": [
       { "id": "a", "text": "That the government must promote local autonomy." },
       { "id": "b", "text": "That the judicial power includes the duty to settle actual controversies." },
@@ -361,7 +361,7 @@
   },
   {
     "id": "con_pro_25",
-    "text": "Ang **Official Language** ng Pilipinas at ang wikang pantulong sa komunikasyon at pagtuturo ayon sa Saligang Batas ay:",
+    "text": "Ang Official Language ng Pilipinas at ang wikang pantulong sa komunikasyon at pagtuturo ayon sa Saligang Batas ay:",
     "options": [
       { "id": "a", "text": "English at Filipino" },
       { "id": "b", "text": "Filipino at Spanish" },
@@ -376,7 +376,7 @@
   },
   {
     "id": "con_pro_26",
-    "text": "The Constitutional provision regarding the **Non-Establishment Clause** ensures the separation of:",
+    "text": "The Constitutional provision regarding the Non-Establishment Clause ensures the separation of:",
     "options": [
       { "id": "a", "text": "Church and State" },
       { "id": "b", "text": "Legislative and Executive Powers" },
@@ -399,7 +399,7 @@
       { "id": "d", "text": "It must be approved by the Department of Justice Secretary." }
     ],
     "correctAnswer": "b",
-    "explanation": "Article III, Section 2 states that no search warrant or warrant of arrest shall issue except upon **probable cause to be determined personally by the judge** after examination under oath or affirmation of the complainant and the witnesses he may produce.",
+    "explanation": "Article III, Section 2 states that no search warrant or warrant of arrest shall issue except upon probable cause to be determined personally by the judge after examination under oath or affirmation of the complainant and the witnesses he may produce.",
     "category": "Philippine Constitution",
     "difficulty": "difficult",
     "language": "english"
@@ -421,7 +421,7 @@
   },
   {
     "id": "con_pro_29",
-    "text": "The mandate of the **Office of the Ombudsman** is primarily found under which Article?",
+    "text": "The mandate of the Office of the Ombudsman is primarily found under which Article?",
     "options": [
       { "id": "a", "text": "Article VI (Legislative Department)" },
       { "id": "b", "text": "Article VII (Executive Department)" },
@@ -451,7 +451,7 @@
   },
   {
     "id": "con_pro_31",
-    "text": "Aling **Principle of State Policies** ang nagsasabing ang Estado ay nagpapahalaga sa dignidad ng bawat tao at ginagarantiyahan ang lubos na paggalang sa mga karapatang pantao?",
+    "text": "Aling Principle of State Policies ang nagsasabing ang Estado ay nagpapahalaga sa dignidad ng bawat tao at ginagarantiyahan ang lubos na paggalang sa mga karapatang pantao?",
     "options": [
       { "id": "a", "text": "Rule of Law" },
       { "id": "b", "text": "Separation of Church and State" },
@@ -466,7 +466,7 @@
   },
   {
     "id": "con_pro_32",
-    "text": "Which condition is **NOT** a required qualification for a member of the House of Representatives?",
+    "text": "Which condition is NOT a required qualification for a member of the House of Representatives?",
     "options": [
       { "id": "a", "text": "At least twenty-five years of age" },
       { "id": "b", "text": "A registered voter in the district in which he shall be elected" },
@@ -474,14 +474,14 @@
       { "id": "d", "text": "A natural-born citizen of the Philippines" }
     ],
     "correctAnswer": "c",
-    "explanation": "Article VI, Section 6 requires residency for not less than **one year**, not two years, immediately preceding the election. The other options are correct qualifications.",
+    "explanation": "Article VI, Section 6 requires residency for not less than one year, not two years, immediately preceding the election. The other options are correct qualifications.",
     "category": "Philippine Constitution",
     "difficulty": "difficult",
     "language": "english"
   },
   {
     "id": "con_pro_33",
-    "text": "The provision that the **military shall be the protector of the people and the State** is found in which article?",
+    "text": "The provision that the military shall be the protector of the people and the State is found in which article?",
     "options": [
       { "id": "a", "text": "Article III (Bill of Rights)" },
       { "id": "b", "text": "Article VI (Legislative Department)" },
@@ -496,7 +496,7 @@
   },
   {
     "id": "con_pro_34",
-    "text": "Ang kapangyarihan ng Pangulo na **'Suspend the privilege of the writ of habeas corpus'** ay maaari lamang gamitin sa kaso ng:",
+    "text": "Ang kapangyarihan ng Pangulo na 'Suspend the privilege of the writ of habeas corpus' ay maaari lamang gamitin sa kaso ng:",
     "options": [
       { "id": "a", "text": "Malawakang korapsyon sa gobyerno" },
       { "id": "b", "text": "Pambansang krisis sa ekonomiya" },
@@ -541,7 +541,7 @@
   },
   {
     "id": "con_pro_37",
-    "text": "Ang **principle of checks and balances** ay nilalayon na:",
+    "text": "Ang principle of checks and balances ay nilalayon na:",
     "options": [
       { "id": "a", "text": "Pagsamahin ang kapangyarihan sa Pangulo" },
       { "id": "b", "text": "Pigilan ang labis na kapangyarihan ng isang sangay ng gobyerno" },

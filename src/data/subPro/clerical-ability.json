@@ -31,7 +31,7 @@
   },
   {
     "id": "cler_sub_3",
-    "text": "Which pair of file codes is **identical**?",
+    "text": "Which pair of file codes is identical?",
     "options": [
       { "id": "a", "text": "7001-B vs. 7001-D" },
       { "id": "b", "text": "C-113845 vs. C-113854" },
@@ -91,7 +91,7 @@
   },
   {
     "id": "cler_sub_7",
-    "text": "Alin sa mga sumusunod ang tamang baybay sa Filipino ng salitang Ingles na **'Schedule'**?",
+    "text": "Alin sa mga sumusunod ang tamang baybay sa Filipino ng salitang Ingles na 'Schedule'?",
     "options": [
       { "id": "a", "text": "Iskedyul" },
       { "id": "b", "c": "Eskeyul" },
@@ -256,7 +256,7 @@
   },
   {
     "id": "cler_sub_18",
-    "text": "Which file code pair is **identical**?",
+    "text": "Which file code pair is identical?",
     "options": [
       { "id": "a", "text": "TR-2023-F vs. TR-2023-f" },
       { "id": "b", "text": "12A-456 vs. 12B-456" },
@@ -316,7 +316,7 @@
   },
   {
     "id": "cler_sub_22",
-    "text": "In clerical work, **Peripherals** typically refers to:",
+    "text": "In clerical work, Peripherals typically refers to:",
     "options": [
       { "id": "a", "text": "Documents related to travel and expense reports." },
       { "id": "b", "text": "Software programs used for accounting." },
@@ -331,7 +331,7 @@
   },
   {
     "id": "cler_sub_23",
-    "text": "Which of the following is the **least** effective method for backing up important digital files?",
+    "text": "Which of the following is the least effective method for backing up important digital files?",
     "options": [
       { "id": "a", "text": "Saving copies to a cloud storage service (e.g., Google Drive)." },
       { "id": "b", "text": "Saving copies to an external hard drive." },
@@ -451,7 +451,7 @@
   },
   {
     "id": "cler_sub_31",
-    "text": "Which pair of alphanumeric codes is **NOT** identical?",
+    "text": "Which pair of alphanumeric codes is NOT identical?",
     "options": [
       { "id": "a", "text": "File-2023/P vs. File-2023/P" },
       { "id": "b", "text": "ABC100-Y vs. ABC100-y" },
@@ -466,7 +466,7 @@
   },
   {
     "id": "cler_sub_32",
-    "text": "If you are asked to prepare a **memo** (memorandum), which section is typically **NOT** included?",
+    "text": "If you are asked to prepare a memo (memorandum), which section is typically NOT included?",
     "options": [
       { "id": "a", "text": "TO and FROM fields" },
       { "id": "b", "text": "DATE and SUBJECT fields" },

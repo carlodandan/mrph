@@ -106,7 +106,7 @@
   },
   {
     "id": "env_008",
-    "text": "Alin sa mga sumusunod ang **mahigpit na ipinagbabawal** ng RA 9003 (Ecological Solid Waste Management Act)?",
+    "text": "Alin sa mga sumusunod ang mahigpit na ipinagbabawal ng RA 9003 (Ecological Solid Waste Management Act)?",
     "options": [
       { "id": "a", "text": "Pagsusunog ng basura (open burning)" },
       { "id": "b", "text": "Paggamit ng basurahan" },
@@ -181,7 +181,7 @@
   },
   {
     "id": "env_013",
-    "text": "Ang **Philippine Environmental Impact Statement (EIS) System** ay itinatag sa pamamagitan ng aling Presidential Decree (PD)?",
+    "text": "Ang Philippine Environmental Impact Statement (EIS) System ay itinatag sa pamamagitan ng aling Presidential Decree (PD)?",
     "options": [
       { "id": "a", "text": "PD 1152" },
       { "id": "b", "text": "PD 1586" },
@@ -211,7 +211,7 @@
   },
   {
     "id": "env_015",
-    "text": "An example of a **point source** of water pollution is:",
+    "text": "An example of a point source of water pollution is:",
     "options": [
       { "id": "a", "text": "Rainfall runoff from agricultural fields" },
       { "id": "b", "text": "Wastewater discharge pipe from a factory" },
@@ -226,7 +226,7 @@
   },
   {
     "id": "env_016",
-    "text": "The **primary function** of coral reefs in a marine ecosystem is to provide:",
+    "text": "The primary function of coral reefs in a marine ecosystem is to provide:",
     "options": [
       { "id": "a", "text": "A source of deep-sea fishing grounds" },
       { "id": "b", "text": "A protective barrier against tsunamis" },
@@ -241,7 +241,7 @@
   },
   {
     "id": "env_017",
-    "text": "Aling gas ang **pangunahing greenhouse gas** na responsable sa global warming?",
+    "text": "Aling gas ang pangunahing greenhouse gas na responsable sa global warming?",
     "options": [
       { "id": "a", "text": "Oxygen (O₂)" },
       { "id": "b", "text": "Carbon Dioxide (CO₂)" },
@@ -256,7 +256,7 @@
   },
   {
     "id": "env_018",
-    "text": "The **Plan-Do-Check-Act (PDCA)** cycle is the foundational framework for which international standard in environmental management?",
+    "text": "The Plan-Do-Check-Act (PDCA) cycle is the foundational framework for which international standard in environmental management?",
     "options": [
       { "id": "a", "text": "ISO 9001 (Quality Management)" },
       { "id": "b", "text": "ISO 14001 (Environmental Management System)" },

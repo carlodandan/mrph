@@ -256,7 +256,7 @@
   },
   {
     "id": "subpro_envmgmt_018",
-    "text": "Ang **Philippine Environmental Impact Statement (EIS) System** ay itinatag sa pamamagitan ng aling Presidential Decree (PD)?",
+    "text": "Ang Philippine Environmental Impact Statement (EIS) System ay itinatag sa pamamagitan ng aling Presidential Decree (PD)?",
     "options": [
       { "id": "a", "text": "PD 1152" },
       { "id": "b", "text": "PD 1586" },
@@ -286,7 +286,7 @@
   },
   {
     "id": "subpro_envmgmt_020",
-    "text": "An example of a **point source** of water pollution is:",
+    "text": "An example of a point source of water pollution is:",
     "options": [
       { "id": "a", "text": "Rainfall runoff from agricultural fields" },
       { "id": "b", "text": "Wastewater discharge pipe from a factory" },
@@ -301,7 +301,7 @@
   },
   {
     "id": "subpro_envmgmt_021",
-    "text": "The **primary function** of coral reefs in a marine ecosystem is to provide:",
+    "text": "The primary function of coral reefs in a marine ecosystem is to provide:",
     "options": [
       { "id": "a", "text": "A source of deep-sea fishing grounds" },
       { "id": "b", "text": "A protective barrier against tsunamis" },
@@ -316,7 +316,7 @@
   },
   {
     "id": "subpro_envmgmt_022",
-    "text": "Aling gas ang **pangunahing greenhouse gas** na responsable sa global warming?",
+    "text": "Aling gas ang pangunahing greenhouse gas na responsable sa global warming?",
     "options": [
       { "id": "a", "text": "Oxygen (O₂)" },
       { "id": "b", "text": "Carbon Dioxide (CO₂)" },
@@ -331,7 +331,7 @@
   },
   {
     "id": "subpro_envmgmt_023",
-    "text": "The **Plan-Do-Check-Act (PDCA)** cycle is the foundational framework for which international standard in environmental management?",
+    "text": "The Plan-Do-Check-Act (PDCA) cycle is the foundational framework for which international standard in environmental management?",
     "options": [
       { "id": "a", "text": "ISO 9001 (Quality Management)" },
       { "id": "b", "text": "ISO 14001 (Environmental Management System)" },
@@ -376,7 +376,7 @@
   },
   {
     "id": "subpro_envmgmt_026",
-    "text": "What is the primary mechanism by which **acid rain** causes damage to historical stone buildings and monuments?",
+    "text": "What is the primary mechanism by which acid rain causes damage to historical stone buildings and monuments?",
     "options": [
       {
         "id": "a",
@@ -403,7 +403,7 @@
   },
   {
     "id": "subpro_envmgmt_027",
-    "text": "The concept of **'Tragedy of the Commons'** is most closely associated with which environmental issue?",
+    "text": "The concept of 'Tragedy of the Commons' is most closely associated with which environmental issue?",
     "options": [
       {
         "id": "a",
@@ -430,7 +430,7 @@
   },
   {
     "id": "subpro_envmgmt_028",
-    "text": "Which of the following pollutants is a major contributor to the formation of **photochemical smog**?",
+    "text": "Which of the following pollutants is a major contributor to the formation of photochemical smog?",
     "options": [
       {
         "id": "a",
@@ -457,7 +457,7 @@
   },
   {
     "id": "subpro_envmgmt_029",
-    "text": "The **Kyoto Protocol** is an international agreement that specifically aimed to:",
+    "text": "The Kyoto Protocol is an international agreement that specifically aimed to:",
     "options": [
       {
         "id": "a",
@@ -504,14 +504,14 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "**Eutrophication** is a form of water pollution usually caused by runoff of fertilizer or sewage, which introduces excess nutrients (like nitrates and phosphates) into aquatic ecosystems.",
+    "explanation": "Eutrophication is a form of water pollution usually caused by runoff of fertilizer or sewage, which introduces excess nutrients (like nitrates and phosphates) into aquatic ecosystems.",
     "category": "Environmental Management",
     "difficulty": "moderate",
     "language": "english"
   },
   {
     "id": "subpro_envmgmt_031",
-    "text": "In the context of the **Circular Economy**, which of the following best represents the concept of **'Cascading'**?",
+    "text": "In the context of the Circular Economy, which of the following best represents the concept of 'Cascading'?",
     "options": [
       {
         "id": "a",
@@ -538,7 +538,7 @@
   },
   {
     "id": "subpro_envmgmt_032",
-    "text": "The **Paris Agreement (2015)** is a landmark international accord that primarily aims to:",
+    "text": "The Paris Agreement (2015) is a landmark international accord that primarily aims to:",
     "options": [
       {
         "id": "a",
@@ -565,7 +565,7 @@
   },
   {
     "id": "subpro_envmgmt_033",
-    "text": "Which type of pollution control measure is generally considered the **least effective** in the waste management hierarchy?",
+    "text": "Which type of pollution control measure is generally considered the least effective in the waste management hierarchy?",
     "options": [
       {
         "id": "a",
@@ -592,7 +592,7 @@
   },
   {
     "id": "subpro_envmgmt_034",
-    "text": "A **brownfield site** is an environmental term referring to:",
+    "text": "A brownfield site is an environmental term referring to:",
     "options": [
       {
         "id": "a",
@@ -619,7 +619,7 @@
   },
   {
     "id": "subpro_envmgmt_035",
-    "text": "In the Philippines, the **Environmental Compliance Certificate (ECC)** is a mandatory requirement under PD 1586 for which purpose?",
+    "text": "In the Philippines, the Environmental Compliance Certificate (ECC) is a mandatory requirement under PD 1586 for which purpose?",
     "options": [
       {
         "id": "a",
@@ -673,7 +673,7 @@
   },
   {
     "id": "subpro_envmgmt_037",
-    "text": "The **carbon sequestration** capacity of a terrestrial ecosystem is defined as its ability to:",
+    "text": "The carbon sequestration capacity of a terrestrial ecosystem is defined as its ability to:",
     "options": [
       {
         "id": "a",
@@ -700,7 +700,7 @@
   },
   {
     "id": "subpro_envmgmt_038",
-    "text": "Which of the following is the defining characteristic of a **Keystone Species** in an ecosystem?",
+    "text": "Which of the following is the defining characteristic of a Keystone Species in an ecosystem?",
     "options": [
       {
         "id": "a",
@@ -727,7 +727,7 @@
   },
   {
     "id": "subpro_envmgmt_039",
-    "text": "**Biomagnification** is best described as the:",
+    "text": "Biomagnification is best described as the:",
     "options": [
       {
         "id": "a",
@@ -754,7 +754,7 @@
   },
   {
     "id": "subpro_envmgmt_040",
-    "text": "What is the key difference between **Climate Change Mitigation** and **Climate Change Adaptation**?",
+    "text": "What is the key difference between Climate Change Mitigation and Climate Change Adaptation?",
     "options": [
       {
         "id": "a",
@@ -774,14 +774,14 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Mitigation aims to tackle the **causes** of climate change (e.g., reducing $CO_2$ emissions). Adaptation aims to manage the unavoidable **impacts** (e.g., building sea walls, changing crop rotation).",
+    "explanation": "Mitigation aims to tackle the causes of climate change (e.g., reducing $CO_2$ emissions). Adaptation aims to manage the unavoidable impacts (e.g., building sea walls, changing crop rotation).",
     "category": "Environmental Management",
     "difficulty": "moderate",
     "language": "english"
   },
   {
     "id": "subpro_envmgmt_041",
-    "text": "The **Basel Convention** (1989) was established in response to which major environmental problem?",
+    "text": "The Basel Convention (1989) was established in response to which major environmental problem?",
     "options": [
       {
         "id": "a",
@@ -808,7 +808,7 @@
   },
   {
     "id": "subpro_envmgmt_042",
-    "text": "A **Life Cycle Assessment (LCA)**, a tool in environmental management, evaluates a product's environmental impact from:",
+    "text": "A Life Cycle Assessment (LCA), a tool in environmental management, evaluates a product's environmental impact from:",
     "options": [
       {
         "id": "a",
@@ -835,7 +835,7 @@
   },
   {
     "id": "subpro_envmgmt_043",
-    "text": "Which of the following is the most direct consequence of the loss of **mangrove forests** along tropical coastlines?",
+    "text": "Which of the following is the most direct consequence of the loss of mangrove forests along tropical coastlines?",
     "options": [
       {
         "id": "a",
@@ -862,7 +862,7 @@
   },
   {
     "id": "subpro_envmgmt_044",
-    "text": "The **Greenhouse Effect** is a natural phenomenon, but is exacerbated by human activity. What specific natural function does the Greenhouse Effect perform that is necessary for life on Earth?",
+    "text": "The Greenhouse Effect is a natural phenomenon, but is exacerbated by human activity. What specific natural function does the Greenhouse Effect perform that is necessary for life on Earth?",
     "options": [
       {
         "id": "a",
@@ -889,7 +889,7 @@
   },
   {
     "id": "subpro_envmgmt_045",
-    "text": "In a **Water Footprint** analysis, the 'Virtual Water' embedded in a product refers to the:",
+    "text": "In a Water Footprint analysis, the 'Virtual Water' embedded in a product refers to the:",
     "options": [
       {
         "id": "a",
@@ -916,7 +916,7 @@
   },
   {
     "id": "subpro_envmgmt_046",
-    "text": "The **DDT (Dichlorodiphenyltrichloroethane)** ban in many countries was primarily due to its impact on:",
+    "text": "The DDT (Dichlorodiphenyltrichloroethane) ban in many countries was primarily due to its impact on:",
     "options": [
       {
         "id": "a",
@@ -970,7 +970,7 @@
   },
   {
     "id": "subpro_envmgmt_048",
-    "text": "The concept of **Environmental Justice** emphasizes that environmental burdens and benefits should be distributed:",
+    "text": "The concept of Environmental Justice emphasizes that environmental burdens and benefits should be distributed:",
     "options": [
       {
         "id": "a",
@@ -1024,7 +1024,7 @@
   },
   {
     "id": "subpro_envmgmt_050",
-    "text": "The **Clean Water Act (RA 9275)** in the Philippines establishes the principle of **'Polluter Pays'**. This means that:",
+    "text": "The Clean Water Act (RA 9275) in the Philippines establishes the principle of 'Polluter Pays'. This means that:",
     "options": [
       {
         "id": "a",
