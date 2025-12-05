@@ -615,7 +615,7 @@
     "language": "filipino"
   },
   {
-    "id": "verb_pro_37",
+    "id": "va_41",
     "text": "VOCABULARY: The following are examples of Palindrome, except...",
     "options": [
       { "id": "a", "text": "Level" },
@@ -630,7 +630,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_38",
+    "id": "va_42",
     "text": "IDIOMATIC EXPRESSION: 'Hey, man, you are absolutely barking up the wrong tree here because I'm innocent.'",
     "options": [
       { "id": "a", "text": "Choosing the wrong dog." },
@@ -642,6 +642,36 @@
     "explanation": "The idiom 'barking up the wrong tree' means accusing or blaming the wrong person.",
     "category": "Verbal Ability",
     "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "va_43",
+    "text": "KAWIKAAN: 'Kumukulo ang dugo ng ina ni Robin sa kaniya sapagkat hindi siya nag-aral nang mabuti.'",
+    "options": [
+      { "id": "a", "text": "Tuwang-tuwa" },
+      { "id": "b", "text": "Galit na galit" },
+      { "id": "c", "text": "Lungkot na lungkot" },
+      { "id": "d", "text": "Nakakapaso" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang 'kumukulo ang dugo' ay nagpapahiwatig ng galit. Kaya ang tamang sagot ay B.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "va_44",
+    "text": "VOCABULARY: person who loves peace is called a...",
+    "options": [
+      { "id": "a", "text": "Pessimist" },
+      { "id": "b", "text": "Pacifist" },
+      { "id": "c", "text": "Realist" },
+      { "id": "d", "text": "Chemist" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A pacifist is a person who believes in and promotes peace, and opposes violence or war.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
     "language": "english"
   }
 ]

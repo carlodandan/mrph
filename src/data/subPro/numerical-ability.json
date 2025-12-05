@@ -628,5 +628,779 @@
     "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
+  },
+  {
+    "id": "num_sub_43",
+    "text": "Simplify: 33 1/3 % of 48 + 12 1/2 % of 96 – 44 4/9 % of 27",
+    "options": [
+      { "id": "a", "text": "12" },
+      { "id": "b", "text": "16" },
+      { "id": "c", "text": "24" },
+      { "id": "d", "text": "48" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Convert percentages to fractions: 33 1/3% = 1/3, 12 1/2% = 1/8, 44 4/9% = 4/9. The calculation is (1/3 of 48) + (1/8 of 96) – (4/9 of 27) = 16 + 12 – 12 = 16.",
+    "category": "Mathematics/Fractions and Percentages",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_44",
+    "text": "12 is 125% of what number?",
+    "options": [
+      { "id": "a", "text": "9.6" },
+      { "id": "b", "text": "8" },
+      { "id": "c", "text": "9" },
+      { "id": "d", "text": "10" },
+      { "id": "e", "text": "8.6" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Let N be the number. 12 = 1.25 * N. N = 12 / 1.25 = 9.6.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_45",
+    "text": "What percent of 16 is 40?",
+    "options": [
+      { "id": "a", "text": "2.5%" },
+      { "id": "b", "text": "2500%" },
+      { "id": "c", "text": "1/4" },
+      { "id": "d", "text": "250%" },
+      { "id": "e", "text": "25%" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The percentage is (40 / 16) * 100% = 2.5 * 100% = 250%.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_46",
+    "text": "1 1/4 subtracted from its reciprocal is?",
+    "options": [
+      { "id": "a", "text": "–9/20" },
+      { "id": "b", "text": "0.45" },
+      { "id": "c", "text": "2.25" },
+      { "id": "d", "text": "9/20" },
+      { "id": "e", "text": "–1/5" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The number is 5/4. Its reciprocal is 4/5. The difference is 4/5 - 5/4 = 16/20 - 25/20 = -9/20.",
+    "category": "Mathematics/Fractions",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_47",
+    "text": "What is the ratio of 1/4 to 3/5?",
+    "options": [
+      { "id": "a", "text": "1 : 3" },
+      { "id": "b", "text": "3 : 20" },
+      { "id": "c", "text": "5 : 12" },
+      { "id": "d", "text": "3 : 4" },
+      { "id": "e", "text": "5 : 4" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The ratio is (1/4) ÷ (3/5) = 1/4 x 5/3 = 5/12. The ratio is 5 : 12.",
+    "category": "Mathematics/Ratio and Proportion",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_48",
+    "text": "What is the difference between square root of 150 and square root of 54?",
+    "options": [
+      { "id": "a", "text": "3 * sq rt(6)" },
+      { "id": "b", "text": "16 * sq rt(6)" },
+      { "id": "c", "text": "sq rt(96)" },
+      { "id": "d", "text": "6 * sq rt(2)" },
+      { "id": "e", "text": "2 * sq rt(6)" }
+    ],
+    "correctAnswer": "e",
+    "explanation": "Simplify the radicals: sqrt(150) = sqrt(25 x 6) = 5 * sqrt(6). sqrt(54) = sqrt(9 x 6) = 3 * sqrt(6). The difference is 5 * sqrt(6) - 3 * sqrt(6) = 2 * sqrt(6).",
+    "category": "Mathematics/Radicals",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_49",
+    "text": "A race car travelled for 2 1/2 hours with an average speed of 132 5/8 km per hour. Find the total distance it covered.",
+    "options": [
+      { "id": "a", "text": "264 5/16 km" },
+      { "id": "b", "text": "331 9/16 km" },
+      { "id": "c", "text": "330 5/16 km" },
+      { "id": "d", "text": "135 1/8km" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Distance = Speed x Time. Time = 5/2 hrs. Speed = 1061/8 km/h. Distance = (1061/8) x (5/2) = 5305/16 = 331 9/16 km.",
+    "category": "Mathematics/Word Problems (Distance)",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_50",
+    "text": "9^0 - (-2)^2 + (-3^2) - (-4)^2 = ?",
+    "options": [
+      { "id": "a", "text": "-28" },
+      { "id": "b", "text": "-10" },
+      { "id": "c", "text": "-9" },
+      { "id": "d", "text": "30" },
+      { "id": "e", "text": "none of the above" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The expression simplifies to 1 - 4 + (-9) - 16 = 1 - 4 - 9 - 16 = -28.",
+    "category": "Mathematics/Arithmetic",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_51",
+    "text": "(100)^0 + (-4^2) - 2^2 = ?",
+    "options": [
+      { "id": "a", "text": "19" },
+      { "id": "b", "text": "-19" },
+      { "id": "c", "text": "13" },
+      { "id": "d", "text": "21" },
+      { "id": "e", "text": "none of the above" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The expression simplifies to 1 + (-16) - 4 = 1 - 16 - 4 = -19.",
+    "category": "Mathematics/Arithmetic",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_52",
+    "text": "A one fourth percent of a number is 25. What is the number?",
+    "options": [
+      { "id": "a", "text": "100" },
+      { "id": "b", "text": "1,000" },
+      { "id": "c", "text": "10,000" },
+      { "id": "d", "text": "100,000" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "One fourth percent is 0.25% or 0.0025. Let N be the number. 0.0025 * N = 25. N = 25 / 0.0025 = 10,000.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_53",
+    "text": "A mini grocery store has a sale of Php 6435, Php 6927, Php 6855, Php 7230 and Php 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Php 6500?",
+    "options": [
+      { "id": "a", "text": "Php 4991" },
+      { "id": "b", "text": "Php 5991" },
+      { "id": "c", "text": "Php 6001" },
+      { "id": "d", "text": "Php 6991" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Target total sales (6 months): 6500 * 6 = 39,000. Current total sales (5 months): 34,009. Required 6th month sale: 39,000 - 34,009 = Php 4,991.",
+    "category": "Mathematics/Statistics (Average)",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_54",
+    "text": "The mean, median, and mode of 9 numbers are equal. The numbers are 12, 22, 10, 15, 14, 11, 19, 17. What is the 9th number?",
+    "options": [
+      { "id": "a", "text": "14" },
+      { "id": "b", "text": "12" },
+      { "id": "c", "text": "15" },
+      { "id": "d", "text": "18" },
+      { "id": "e", "text": "11" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The 9th number (X) must be the mode and is equal to the mean. Sum of 8 numbers is 120. Mean = (120 + X) / 9. Since Mean = X, X = (120 + X) / 9, which means 8X = 120, so X = 15.",
+    "category": "Mathematics/Statistics",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_55",
+    "text": "The mean, median, and mode of 5 numbers are equal. The numbers are 29, 18, 24, 25. What is the 5th number?",
+    "options": [
+      { "id": "a", "text": "24" },
+      { "id": "b", "text": "28" },
+      { "id": "c", "text": "29" },
+      { "id": "d", "text": "25" },
+      { "id": "e", "text": "18" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The 5th number (X) must be the mode and is equal to the mean. Sum of 4 numbers is 96. Mean = (96 + X) / 5. Since Mean = X, X = (96 + X) / 5, which means 4X = 96, so X = 24.",
+    "category": "Mathematics/Statistics",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_56",
+    "text": "90 increased by what percent of itself gives 180?",
+    "options": [
+      { "id": "a", "text": "50%" },
+      { "id": "b", "text": "90%" },
+      { "id": "c", "text": "150%" },
+      { "id": "d", "text": "100%" },
+      { "id": "e", "text": "200%" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The increase is 180 - 90 = 90. The percentage increase is (90 / 90) * 100% = 100%.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_57",
+    "text": "If 500 or 25% of graduating class are girls, how many are graduating?",
+    "options": [
+      { "id": "a", "text": "2,000" },
+      { "id": "b", "text": "3,000" },
+      { "id": "c", "text": "5,000" },
+      { "id": "d", "text": "10,000" },
+      { "id": "e", "text": "20,000" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "If 25% of the class is 500, the total class size is 500 / 0.25 = 2000.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_58",
+    "text": "In a group of 8,000 applicants for a civil service examination, 1600 failed to take the first part of the test. What percent of the total applicants took the first part of the test?",
+    "options": [
+      { "id": "a", "text": "20%" },
+      { "id": "b", "text": "30%" },
+      { "id": "c", "text": "40%" },
+      { "id": "d", "text": "80%" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Applicants who took the test: 8000 - 1600 = 6400. The percentage is (6400 / 8000) * 100% = 0.8 * 100% = 80%.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_59",
+    "text": "If twice the value of a certain number is increased by 8 the result is 40. What is the number?",
+    "options": [
+      { "id": "a", "text": "8" },
+      { "id": "b", "text": "16" },
+      { "id": "c", "text": "24" },
+      { "id": "d", "text": "32" },
+      { "id": "e", "text": "none of the above" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Let N be the number. 2N + 8 = 40. 2N = 32. N = 16.",
+    "category": "Mathematics/Algebra",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_60",
+    "text": "Cassy's father was 38 years of age when she was born while her mother was 36 years old when her brother four years younger to her was born. What is the difference between the ages of her parents?",
+    "options": [
+      { "id": "a", "text": "2 years" },
+      { "id": "b", "text": "4 years" },
+      { "id": "c", "text": "6 years" },
+      { "id": "d", "text": "8 years" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The brother was born 4 years after Cassy. The father was 38 when Cassy was born. The mother was 36 when the brother was born, so she was 36 - 4 = 32 when Cassy was born. The age difference is 38 - 32 = 6 years.",
+    "category": "Mathematics/Word Problems (Age)",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_61",
+    "text": "Number Series: 100%, 2, 15/5, 4, ____?",
+    "options": [
+      { "id": "a", "text": "2" },
+      { "id": "b", "text": "3" },
+      { "id": "c", "text": "4" },
+      { "id": "d", "text": "5" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The terms, when simplified, are 1, 2, 3, 4. The next term is 5.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_62",
+    "text": "Number Series: 1/6, 1/3, 1/2, 2/3, ____?",
+    "options": [
+      { "id": "a", "text": "2/6" },
+      { "id": "b", "text": "2/7" },
+      { "id": "c", "text": "3/5" },
+      { "id": "d", "text": "5/6" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Convert to the common denominator 6: 1/6, 2/6, 3/6, 4/6. The next term is 5/6.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_63",
+    "text": "Number Series: 250%, 50%, 100%, 20%, 40%, ____?",
+    "options": [
+      { "id": "a", "text": "8%" },
+      { "id": "b", "text": "10%" },
+      { "id": "c", "text": "5%" },
+      { "id": "d", "text": "15%" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The pattern alternates between division by 5 and multiplication by 2. The final step is 40% / 5 = 8%.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_64",
+    "text": "Number Series: 0.1, 30%, 1/2, 0.7, 90%, ____?",
+    "options": [
+      { "id": "a", "text": "1 1/10" },
+      { "id": "b", "text": "100%" },
+      { "id": "c", "text": "7/9" },
+      { "id": "d", "text": "1.4" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Convert all terms to decimals: 0.1, 0.3, 0.5, 0.7, 0.9. The pattern adds 0.2. The next term is 0.9 + 0.2 = 1.1, which is 1 1/10.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_65",
+    "text": "Number Series: 5, 6, 9, 15, ____, 40",
+    "options": [
+      { "id": "a", "text": "21" },
+      { "id": "b", "text": "27" },
+      { "id": "c", "text": "25" },
+      { "id": "d", "text": "33" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The differences between terms are 1, 3, 6, ... which are the Triangular numbers (the differences increase by 2, 3, 4, ...). The next difference is 6 + 4 = 10. The next term is 15 + 10 = 25.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_66",
+    "text": "Number Series: 5,16,49,104,____",
+    "options": [
+      { "id": "a", "text": "170" },
+      { "id": "b", "text": "148" },
+      { "id": "c", "text": "115" },
+      { "id": "d", "text": "181" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The differences between terms are 11, 33, 55. This difference sequence adds 22 each time. The next difference is 55 + 22 = 77. The next term is 104 + 77 = 181.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_67",
+    "text": "Number Series: 225, 336, 447, ____, 669, 7710",
+    "options": [
+      { "id": "a", "text": "114" },
+      { "id": "b", "text": "991" },
+      { "id": "c", "text": "558" },
+      { "id": "d", "text": "338" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The pattern is a constant difference of 111 (336 - 225 = 111, 447 - 336 = 111). The next term is 447 + 111 = 558.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_68",
+    "text": "Number Series: 563,647,479,815,____",
+    "options": [
+      { "id": "a", "text": "672" },
+      { "id": "b", "text": "386" },
+      { "id": "c", "text": "279" },
+      { "id": "d", "text": "143" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The differences are +84, -168, +336. The magnitude of the difference doubles each time, and the sign alternates. The next difference is -336 x 2 = -672. The next term is 815 - 672 = 143.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_69",
+    "text": "Number Series: 3, 12, 27, 48,75, 108, ____",
+    "options": [
+      { "id": "a", "text": "183" },
+      { "id": "b", "text": "192" },
+      { "id": "c", "text": "162" },
+      { "id": "d", "text": "147" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "This is the sequence of $N^2 * 3$ for N=1, 2, 3, .... The next term is $7^2 * 3 = 49 * 3 = 147$.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_70",
+    "text": "Number Series: 0.5, 0.55, 0.65, 0.8,____",
+    "options": [
+      { "id": "a", "text": "0.82" },
+      { "id": "b", "text": "0.9" },
+      { "id": "c", "text": "0.95" },
+      { "id": "d", "text": "1" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The differences are 0.05, 0.10, 0.15. The next difference is 0.20. The next term is 0.8 + 0.20 = 1.0.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_71",
+    "text": "1/2 ÷ 1/4 = ___",
+    "options": [
+      { "id": "a", "text": "Less than 1" },
+      { "id": "b", "text": "More than 1" },
+      { "id": "c", "text": "Equal to 1" },
+      { "id": "d", "text": "Undefined" },
+      { "id": "e", "text": "None of the above" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "1/2 ÷ 1/4 = 1/2 * 4/1 = 2. The result is more than 1.",
+    "category": "Mathematics/Fractions",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_72",
+    "text": "If Kardo is feeding his buddy 1/2 cup of dog food but uses 1/10 of a cup, how many scoop will he need to feed his dog?",
+    "options": [
+      { "id": "a", "text": "1/12 th scoop" },
+      { "id": "b", "text": "1/20 th scoop" },
+      { "id": "c", "text": "5 scoops" },
+      { "id": "d", "text": "3 scoops" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Number of scoops = Total Amount / Scoop Size. 1/2 ÷ 1/10 = 1/2 * 10 = 5 scoops.",
+    "category": "Mathematics/Word Problems (Fractions)",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_73",
+    "text": "If 1 x 10 = 9, 2 x 10 = 18, 3 x 10 = 27, then what is 8 x 10 = ?",
+    "options": [
+      { "id": "a", "text": "36" },
+      { "id": "b", "text": "72" },
+      { "id": "c", "text": "78" },
+      { "id": "d", "text": "52" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The pattern uses the formula N * 9. Therefore, 8 * 9 = 72.",
+    "category": "Mathematics/Logic/Pattern",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_74",
+    "text": "83 : 25 :: 92 : ___?",
+    "options": [
+      { "id": "a", "text": "44" },
+      { "id": "b", "text": "49" },
+      { "id": "c", "text": "40" },
+      { "id": "d", "text": "63" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The pattern is (First Digit - Second Digit)^2. (8 - 3)^2 = 5^2 = 25. Therefore, (9 - 2)^2 = 7^2 = 49.",
+    "category": "Mathematics/Logic/Analogy",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_75",
+    "text": "72 : 18 :: 56 : ___?",
+    "options": [
+      { "id": "a", "text": "24" },
+      { "id": "b", "text": "22" },
+      { "id": "c", "text": "20" },
+      { "id": "d", "text": "16" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The pattern is (First Digit + Second Digit) x 2. (7 + 2) x 2 = 9 x 2 = 18. Therefore, (5 + 6) x 2 = 11 x 2 = 22.",
+    "category": "Mathematics/Logic/Analogy",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_76",
+    "text": "2 : 12 :: 8 : ___?",
+    "options": [
+      { "id": "a", "text": "18" },
+      { "id": "b", "text": "128" },
+      { "id": "c", "text": "396" },
+      { "id": "d", "text": "576" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The pattern is N : N^3 + N^2. 2^3 + 2^2 = 8 + 4 = 12. Therefore, 8^3 + 8^2 = 512 + 64 = 576.",
+    "category": "Mathematics/Logic/Analogy",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_77",
+    "text": "12 : 72 : : 8 : ___?",
+    "options": [
+      { "id": "a", "text": "0" },
+      { "id": "b", "text": "32" },
+      { "id": "c", "text": "36" },
+      { "id": "d", "text": "38" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The pattern is N : N x (N/2). 12 x (12/2) = 12 x 6 = 72. Therefore, 8 x (8/2) = 8 x 4 = 32.",
+    "category": "Mathematics/Logic/Analogy",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_78",
+    "text": "PEMDAS: 10 ÷ 2 x 5 - (12 ÷ 3 x 4) + 1 = ?",
+    "options": [
+      { "id": "a", "text": "10" },
+      { "id": "b", "text": "1" },
+      { "id": "c", "text": "-1" },
+      { "id": "d", "text": "23" },
+      { "id": "e", "text": "None of the above" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Solve the parentheses first: (12 ÷ 3 x 4) = 4 x 4 = 16. Then 10 ÷ 2 x 5 - 16 + 1 = 5 x 5 - 16 + 1 = 25 - 16 + 1 = 10.",
+    "category": "Mathematics/Arithmetic (PEMDAS)",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_769",
+    "text": "Sum of all odd numbers between 60 to 120.",
+    "options": [
+      { "id": "a", "text": "3775" },
+      { "id": "b", "text": "3050" },
+      { "id": "c", "text": "4000" },
+      { "id": "d", "text": "2700" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The odd numbers are 61, 63, ..., 119. There are 30 terms. Sum = (n/2) * (first + last) = (30/2) * (61 + 119) = 15 * 180 = 2700.",
+    "category": "Mathematics/Sequences and Series",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_80",
+    "text": "John walks everyday from his house to the police station. After walking at a rate of 2 meters/second for 3 minutes, he looks at his watch and realizes that he has to run 4 meters/second for 1 minute so he won’t be late. What is the distance from his house to the police station?",
+    "options": [
+      { "id": "a", "text": "10 m" },
+      { "id": "b", "text": "60 m" },
+      { "id": "c", "text": "105 m" },
+      { "id": "d", "text": "400 m" },
+      { "id": "e", "text": "600 m" }
+    ],
+    "correctAnswer": "e",
+    "explanation": "Walk distance: 2 m/s * 180 s = 360 m. Run distance: 4 m/s * 60 s = 240 m. Total distance: 360 + 240 = 600 meters.",
+    "category": "Mathematics/Word Problems (Distance)",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_81",
+    "text": "Radicals: square root of 0.000025",
+    "options": [
+      { "id": "a", "text": "0.5" },
+      { "id": "b", "text": "0.05" },
+      { "id": "c", "text": "0.005" },
+      { "id": "d", "text": "0.00005" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The square root of 25 is 5. Since there are 6 decimal places, the root has 3 decimal places. The answer is 0.005.",
+    "category": "Mathematics/Radicals",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_82",
+    "text": "Number Series: 1/12, 1/6, 1/4, 1/3, ____",
+    "options": [
+      { "id": "a", "text": "1" },
+      { "id": "b", "text": "1/3" },
+      { "id": "c", "text": "5/12" },
+      { "id": "d", "text": "1/2" },
+      { "id": "e", "text": "None of the above" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The sequence is an arithmetic progression adding 1/12 to each term (1/12, 2/12, 3/12, 4/12). The next term is 5/12.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_83",
+    "text": "A chemist has 400 milliliters of a solution of 20% alcohol on hand, and he wants to mix it with enough pure alcohol to turn it into a 30% alcohol solution. How much pure alcohol will this require?",
+    "options": [
+      { "id": "a", "text": "30" },
+      { "id": "b", "text": "40" },
+      { "id": "c", "text": "50" },
+      { "id": "d", "text": "60" },
+      { "id": "e", "text": "57" }
+    ],
+    "correctAnswer": "e",
+    "explanation": "Let X be the added alcohol. Initial alcohol: 400 * 0.20 = 80 mL. New total alcohol = 80 + X. New total volume = 400 + X. 80 + X = 0.30(400 + X). 80 + X = 120 + 0.3X. 0.7X = 40. X = 400/7 ≈ 57.14 mL. The closest option is 57.",
+    "category": "Mathematics/Word Problems (Mixture)",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_84",
+    "text": "What is the percentage decrease from 80 to 60?",
+    "options": [
+      { "id": "a", "text": "33.33%" },
+      { "id": "b", "text": "25%" },
+      { "id": "c", "text": "20%" },
+      { "id": "d", "text": "75%" },
+      { "id": "e", "text": "None of the above" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Percentage decrease = (Decrease / Original) * 100% = ((80 - 60) / 80) * 100% = (20 / 80) * 100% = 25%.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_85",
+    "text": "What is the percentage increase from 60 to 80?",
+    "options": [
+      { "id": "a", "text": "33.33%" },
+      { "id": "b", "text": "25%" },
+      { "id": "c", "text": "20%" },
+      { "id": "d", "text": "75%" },
+      { "id": "e", "text": "None of the above" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Percentage increase = (Increase / Original) * 100% = ((80 - 60) / 60) * 100% = (20 / 60) * 100% = 33.33%.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_86",
+    "text": "A businessman sells 60% English books and still has 28 English books. Originally, he had:",
+    "options": [
+      { "id": "a", "text": "47" },
+      { "id": "b", "text": "39" },
+      { "id": "c", "text": "60" },
+      { "id": "d", "text": "70" },
+      { "id": "e", "text": "None of the above" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "If he sold 60%, he has 100% - 60% = 40% left. 40% of the total (T) is 28. T = 28 / 0.40 = 70.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_87",
+    "text": "Twelve and one half percent of 200 is what number?",
+    "options": [
+      { "id": "a", "text": "112" },
+      { "id": "b", "text": "12" },
+      { "id": "c", "text": "50" },
+      { "id": "d", "text": "25" },
+      { "id": "e", "text": "None of the above" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "12 1/2% is 1/8. 1/8 of 200 is 25.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_88",
+    "text": "If the price of a book is first decreased by 25% and then increased by 20%, then the net change in the price will be :",
+    "options": [
+      { "id": "a", "text": "10%" },
+      { "id": "b", "text": "20%" },
+      { "id": "c", "text": "30%" },
+      { "id": "d", "text": "40%" },
+      { "id": "e", "text": "None of the above" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Start with 100. Decrease by 25% gives 75. Increase 75 by 20% (75 * 1.20) gives 90. The net change from 100 to 90 is a 10% decrease.",
+    "category": "Mathematics/Percentages",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_89",
+    "text": "In a mixture 60 litres, the ratio of milk and water 2 : 1. If this ratio is to be 1 : 2, then the quantity of water to be further added is:",
+    "options": [
+      { "id": "a", "text": "20 L" },
+      { "id": "b", "text": "30 L" },
+      { "id": "c", "text": "40 L" },
+      { "id": "d", "text": "60 L" },
+      { "id": "e", "text": "none of the above" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Initial Milk: (2/3) * 60 = 40 L. Initial Water: (1/3) * 60 = 20 L. For a final 1:2 ratio with 40 L of milk, final water must be 40 * 2 = 80 L. Water added = 80 L - 20 L = 60 L.",
+    "category": "Mathematics/Ratio and Proportion (Mixture)",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_90",
+    "text": "Participants in a certain conference from Luzon, Visayas, and Mindanao are in the ratio of 4:3:2. If there are 120 participants from Luzon, how many participants are there in all?",
+    "options": [
+      { "id": "a", "text": "270" },
+      { "id": "b", "text": "150" },
+      { "id": "c", "text": "240" },
+      { "id": "d", "text": "420" },
+      { "id": "e", "text": "None of the above" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The Luzon ratio part (4) corresponds to 120 participants. One ratio unit is 120 / 4 = 30. Total ratio units: 4 + 3 + 2 = 9. Total participants = 9 * 30 = 270.",
+    "category": "Mathematics/Ratio and Proportion",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_91",
+    "text": "(2x1÷2), (4÷1x2), (6x1÷2), _____",
+    "options": [
+      { "id": "a", "text": "8" },
+      { "id": "b", "text": "16" },
+      { "id": "c", "text": "4" },
+      { "id": "d", "text": "32" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The sequence results are 1, 8, 3. This is an interwoven sequence. The odd-positioned terms (1, 3, ...) are 1, 3, 5, ... (adding 2). The even-positioned terms (2, 4, ...) are 8, 16, 32, ... (multiplying by 2). The 4th term is 16.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_sub_92",
+    "text": "(15-8+3), 8, (4÷2x3), _____",
+    "options": [
+      { "id": "a", "text": "4" },
+      { "id": "b", "text": "3" },
+      { "id": "c", "text": "8" },
+      { "id": "d", "text": "2" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The calculated sequence values are 10, 8, 6. The pattern is subtracting 2. The next term is 6 - 2 = 4.",
+    "category": "Mathematics/Number Series",
+    "difficulty": "easy",
+    "language": "english"
   }
 ]
