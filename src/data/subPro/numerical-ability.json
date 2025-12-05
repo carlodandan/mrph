@@ -583,5 +583,50 @@
     "category": "Numerical Ability",
     "difficulty": "hard",
     "language": "english"
+  },
+  {
+  "id": "num_sub_40",
+  "text": "Foreing Direct Investments (FDI) into Phillippes from all over the world: 1992 = 5.7, 1993 = 10.15, 1994 = 12.16, 1996 = 24.23 and 1997 = 31.36. What was the ratio of investment in 1997 over the investment in 1992?",
+  "options": [
+      { "id": "a", "text": "5.50" },
+      { "id": "b", "text": "5.36" },
+      { "id": "c", "text": "5.64" },
+      { "id": "d", "text": "5.75" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "To find the ratio of investment in 1997 over 1992, simply devide the 1997 value by the 1992 value. 1997/1992 > 31.36/5.7 = 5.505.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+  "id": "num_sub_41",
+  "text": "Foreing Direct Investments (FDI) into Phillippes from all over the world: 1992 = 5.7, 1993 = 10.15, 1994 = 12.16, 1996 = 24.23 and 1997 = 31.36. What was absolute difference in the FDI to Philippines in between 1996 and 1997?",
+  "options": [
+      { "id": "a", "text": "7.29" },
+      { "id": "b", "text": "7.13" },
+      { "id": "c", "text": "8.13" },
+      { "id": "d", "text": "None of the above" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "To find the absolute difference in FDI between 1996 and 1997: just do the simple substraction. 1997-1996 > 31.36-24.23 = 7.13.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+  "id": "num_sub_42",
+  "text": "Foreing Direct Investments (FDI) into Phillippes from all over the world: 1992 = 5.7, 1993 = 10.15, 1994 = 12.16, 1996 = 24.23 and 1997 = 31.36. If Philippine FDI from OPEC countries was proportionately the same in 1992 and 1997 as the total FDI  from all over the world and if the FDI in 1992 from the OPEC countries was Euro 2 million. What was the  amount of FDI from the OPEC countries in 1997?",
+  "options": [
+      { "id": "a", "text": "11" },
+      { "id": "b", "text": "10.72" },
+      { "id": "c", "text": "11.28" },
+      { "id": "d", "text": "11.5" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "To find the FDI from OPEC countries in 1997, given proportional growth: Compute growth ratio of total FDI > 31.36/5.7 = 5.505. Apply this ratio to OPEC FDI > 2x5.505=11.01",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
   }
 ]

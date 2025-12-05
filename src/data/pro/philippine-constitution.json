@@ -553,5 +553,141 @@
     "category": "Philippine Constitution",
     "difficulty": "easy",
     "language": "filipino"
+  },
+  {
+    "id": "con_pro_38",
+    "text": "What form of government does the Philippines adopt?",
+    "options": [
+      { "id": "a", "text": "Republican" },
+      { "id": "b", "text": "Democratic" },
+      { "id": "c", "text": "Neither a nor b" },
+      { "id": "d", "text": "Both a and b" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "According to Article II, Section 1 of the 1987 Constitution, 'The Philippines is a **democratic** and **republican** State.'",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_39",
+    "text": "Who among the following may issue a warrant of arrest or a search warrant?",
+    "options": [
+      { "id": "a", "text": "A senator" },
+      { "id": "b", "text": "A judge" },
+      { "id": "c", "text": "A congressman" },
+      { "id": "d", "text": "The President" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "According to the Constitution, no warrant of arrest or search warrant shall issue except upon **probable cause** to be determined personally by the **judge** after examination under oath or affirmation of the complainant and the witnesses he may produce.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_40",
+    "text": "A foreigner may acquire Filipino citizenship through",
+    "options": [
+      { "id": "a", "text": "Naturalization" },
+      { "id": "b", "text": "Extradition" },
+      { "id": "c", "text": "Rebirth" },
+      { "id": "d", "text": "Visa application" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Naturalization is the legal process by which a foreigner acquires the citizenship of another country, in this case, the Philippines.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_41",
+    "text": "What is regarded by the State as a 'primary social economic force?'",
+    "options": [
+      { "id": "a", "text": "education" },
+      { "id": "b", "text": "trade" },
+      { "id": "c", "text": "labor" },
+      { "id": "d", "text": "commerce" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Article II, Section 18 of the 1987 Constitution states: 'The State affirms **labor** as a **primary social economic force**. It shall protect the rights of workers and promote their welfare.'",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_42",
+    "text": "According to Article III, Section 15 of the Constitution, the writ of habeas corpus may be suspended in times of rebellion or what?",
+    "options": [
+      { "id": "a", "text": "martial law" },
+      { "id": "b", "text": "war" },
+      { "id": "c", "text": "terrorism" },
+      { "id": "d", "text": "invasion" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Article III, Section 15 states that the privilege of the writ of habeas corpus shall not be suspended except in cases of **invasion** or rebellion when the public safety requires it.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_43",
+    "text": "The Lower Chamber of the Congress of the Philippines is known by what name?",
+    "options": [
+      { "id": "a", "text": "Senate" },
+      { "id": "b", "text": "Congressional Lower Chamber" },
+      { "id": "c", "text": "National Assembly" },
+      { "id": "d", "text": "House of Representatives" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The Philippine Congress is bicameral, composed of the Upper House (Senate) and the Lower House, known as the **House of Representatives**.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_44",
+    "text": "A Member of either house of Congress may be expelled by their fellow Members. For a Member to be expelled, how much of the total number of Members of a house must concur with the expulsion?",
+    "options": [
+      { "id": "a", "text": "two-thirds" },
+      { "id": "b", "text": "majority" },
+      { "id": "c", "text": "three-fourths" },
+      { "id": "d", "text": "nine-tenths" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Article VI, Section 16 (3) states that each House may punish its Members for disorderly behavior, and, with the concurrence of **two-thirds** of all its Members, suspend or expel a Member.",
+    "category": "Philippine Constitution",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_45",
+    "text": "If a President wishes to veto a bill, he/she must communicate it within a certain span of time, otherwise the bill will become a law. How long is this span of time?",
+    "options": [
+      { "id": "a", "text": "3 weeks" },
+      { "id": "b", "text": "48 days" },
+      { "id": "c", "text": "60 days" },
+      { "id": "d", "text": "30 days" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The President must veto the bill and return it to the House where it originated within **30 days** after receiving it. If the President fails to act on the bill within that period, it shall become a law as if he/she had signed it (Article VI, Section 27).",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "con_pro_46",
+    "text": "Which is not a ground for Impeachment of the President, Vice-President, Ombudsman, and Senator?",
+    "options": [
+      { "id": "a", "text": "graft and corruption" },
+      { "id": "b", "text": "sexual harassment" },
+      { "id": "c", "text": "grave abuse of the authority" },
+      { "id": "d", "text": "against the Family if the child scolded by the parents" },
+      { "id": "e", "text": "Other crimes" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The constitutional grounds for impeachment are: culpable violation of the Constitution, treason, bribery, **graft and corruption**, **other high crimes**, or **grave abuse of power**. While sexual harassment (b) and other crimes (e) could potentially fall under 'other high crimes,' scolding a child (**d**) is a domestic matter and not an official crime or action serious enough to be a ground for impeachment against a high-ranking official.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
   }
 ]

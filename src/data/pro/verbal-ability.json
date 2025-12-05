@@ -597,5 +597,35 @@
     "category": "Verbal Ability",
     "difficulty": "easy",
     "language": "filipino"
+  },
+  {
+    "id": "verb_pro_37",
+    "text": "VOCABULARY: The following are examples of Palindrome, except...",
+    "options": [
+      { "id": "a", "text": "Level" },
+      { "id": "b", "text": "Same" },
+      { "id": "c", "text": "Deified" },
+      { "id": "d", "text": "Noon" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Palindrome are words that can be read the same even if spelled backwards: Noon, Deified, Level. Therefore the answer is Same, as it is the only word that Palindrome rules cannot be applied.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verb_pro_38",
+    "text": "IDIOMATIC EXPRESSION: 'Hey, man, you are absolutely barking up the wrong tree here because I'm innocent.'",
+    "options": [
+      { "id": "a", "text": "Choosing the wrong dog." },
+      { "id": "b", "text": "Giving up a fight." },
+      { "id": "c", "text": "Accusing the wrong person." },
+      { "id": "d", "text": "Setting up an event." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The idiom 'barking up the wrong tree' means accusing or blaming the wrong person.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
   }
 ]

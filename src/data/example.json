@@ -1,0 +1,17 @@
+[
+  {
+    "id": "unique_identifier",
+    "text": "question'",
+    "options": [
+      { "id": "a", "text": "..." },
+      { "id": "b", "text": "..." },
+      { "id": "c", "text": "..." },
+      { "id": "d", "text": "..." }
+    ],
+    "correctAnswer": "...",
+    "explanation": "...",
+    "category": "...",
+    "difficulty": "...",
+    "language": "..."
+  }
+]

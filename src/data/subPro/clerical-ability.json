@@ -553,5 +553,155 @@
     "category": "Clerical Ability",
     "difficulty": "hard",
     "language": "english"
+  },
+  {
+    "id": "cler_sub_38",
+    "text": "This is a type of document issued by a seller to a buyer relating to a sale transaction and indicating the products, quantities and prices sold to the buyer.",
+    "options": [
+      { "id": "a", "text": "Check voucher" },
+      { "id": "b", "text": "Purchase order" },
+      { "id": "c", "text": "Delivery receipt" },
+      { "id": "d", "text": "Sales invoice" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "A Sales Invoice is a commercial document issued by a seller to the buyer, confirming a sale and demanding payment. It details the items sold, quantity, and unit/total price.",
+    "category": "Office Administration",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_39",
+    "text": "Which of the following is not a usual document used in a sales company?",
+    "options": [
+      { "id": "a", "text": "Form 137" },
+      { "id": "b", "text": "Delivery receipt" },
+      { "id": "c", "text": "Sales invoice" },
+      { "id": "d", "text": "Purchase order" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Form 137 (or Form 137-A) is an official academic document (Permanent Record) usually associated with educational institutions and student records, not typical sales operations.",
+    "category": "Office Administration",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_40",
+    "text": "One of the responsibilities of a clerical job is answering and tending phone calls. Which is the best way to answer a phone call in a company?",
+    "options": [
+      { "id": "a", "text": "Say “Hello,” and wait for the caller to speak." },
+      { "id": "b", "text": "Run and get a pen and notebook then pick up the phone." },
+      { "id": "c", "text": "Answer the phone politely and give your department or company name." },
+      { "id": "d", "text": "Wait for fellow employees to answer the phone." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Professional phone etiquette requires a polite greeting and identification of the company or department to ensure the caller knows they have reached the correct place.",
+    "category": "Office Administration",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_41",
+    "text": "An example of a hard copy document is:",
+    "options": [
+      { "id": "a", "text": "PDF file letter" },
+      { "id": "b", "text": "Company email message" },
+      { "id": "c", "text": "A business letter saved in USB" },
+      { "id": "d", "text": "Business letter in a paper" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "A hard copy refers to a tangible document, usually printed on paper, as opposed to a soft copy, which is a digital file.",
+    "category": "Office Administration",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_42",
+    "text": "What does CC mean in an email message?",
+    "options": [
+      { "id": "a", "text": "Copy sent" },
+      { "id": "b", "text": "Copy furnished" },
+      { "id": "c", "text": "Copy cat" },
+      { "id": "d", "text": "Client copy" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "CC stands for Carbon Copy (or Copy Furnished), indicating that the recipients in this field are receiving a copy of the message for their information, but they are generally not the primary recipients.",
+    "category": "Office Administration",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_43",
+    "text": "Which computer program should you go to if you want to email a company?",
+    "options": [
+      { "id": "a", "text": "Word" },
+      { "id": "b", "text": "Excel" },
+      { "id": "c", "text": "Outlook" },
+      { "id": "d", "text": "Powerpoint" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Microsoft Outlook is a common email client and personal information manager application used for sending and receiving emails.",
+    "category": "Office Administration",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_44",
+    "text": "This is a telephonic transmission of scanned documents of texts and images to a telephone number connected to a printer.",
+    "options": [
+      { "id": "a", "text": "Photocopying Machine" },
+      { "id": "b", "text": "Fax Machine" },
+      { "id": "c", "text": "Typewriter" },
+      { "id": "d", "text": "Inkjet Printer" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A Fax (facsimile) machine uses the telephone network to transmit scanned copies of documents to a recipient's machine, which prints them out.",
+    "category": "Office Administration",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_45",
+    "text": "The chief financial officer is responsible for the financial matters and financial management of a corporation; she is also known as the ______.",
+    "options": [
+      { "id": "a", "text": "Auditor" },
+      { "id": "b", "text": "Treasurer" },
+      { "id": "c", "text": "Chief Executive Officer" },
+      { "id": "d", "text": "Manager" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "In many corporate structures, the Treasurer is the officer responsible for managing the corporation's funds, including financial planning, cash management, and sometimes fundraising, often synonymous with or reporting to the CFO.",
+    "category": "Office Administration",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_46",
+    "text": "Which department of a company is responsible for cash register operations and payment processing?",
+    "options": [
+      { "id": "a", "text": "Cashier" },
+      { "id": "b", "text": "Billing" },
+      { "id": "c", "text": "Accounting" },
+      { "id": "d", "text": "Budget" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The Cashier department or function is directly responsible for handling money, operating cash registers, and processing payments from customers at the point of sale.",
+    "category": "Office Administration",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "cler_sub_47",
+    "text": "Your boss asked you to send her a soft copy of your latest résumé. An example of a soft copy is:",
+    "options": [
+      { "id": "a", "text": "A print out copy usually in a paper" },
+      { "id": "b", "text": "Original copy written in a paper" },
+      { "id": "c", "text": "A copy saved in a computer and sent through email" },
+      { "id": "d", "text": "A copy from a Xerox machine" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A soft copy is a document in a digital, non-physical format (e.g., a file on a computer, sent via email), as opposed to a hard copy (printout).",
+    "category": "Office Administration",
+    "difficulty": "easy",
+    "language": "english"
   }
 ]
