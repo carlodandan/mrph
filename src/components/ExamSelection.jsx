@@ -28,8 +28,8 @@ function ExamSelection() {
     {
       id: 'practice',
       title: 'Quick Practice',
-      description: '20-item practice test, combination of both Levels.',
-      items: 20,
+      description: '60-item practice test with questions from both Professional and Sub-Professional levels.',
+      items: 60,
       duration: '30 mins',
       difficulty: 'All Levels',
       icon: <TrendingUp className="w-8 h-8" />,

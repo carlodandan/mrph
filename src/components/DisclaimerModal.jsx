@@ -63,7 +63,7 @@ function DisclaimerModal() {
         <div className="p-8">
           <div className="space-y-6">
             {/* Main Warning */}
-            <div className="p-5 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl border-2 border-yellow-300">
+            <div className="p-5 bg-linear-to-r from-yellow-50 to-orange-50 rounded-xl border-2 border-yellow-300">
               <div className="flex items-start space-x-3">
                 <AlertTriangle className="w-6 h-6 text-yellow-600 flex-shrink-0 mt-0.5" />
                 <div>
@@ -197,7 +197,7 @@ function DisclaimerModal() {
             </button>
             <button
               onClick={handleAccept}
-              className="flex-1 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-bold hover:from-blue-700 hover:to-purple-700 transition-all shadow-lg flex items-center justify-center space-x-2"
+              className="flex-1 py-4 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-xl font-bold hover:from-blue-700 hover:to-purple-700 transition-all shadow-lg flex items-center justify-center space-x-2"
             >
               <span>✅</span>
               <span>I Understand & Accept</span>

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Brain, Users, Clock, Shield, ArrowRight, Star } from 'lucide-react';
 import ExamSelection from '../components/ExamSelection';
 
@@ -64,9 +65,12 @@ function Home() {
             Start Free Practice Test
             <ArrowRight className="ml-2 w-5 h-5" />
           </a>
-          <button className="px-8 py-4 bg-white text-gray-800 rounded-xl font-semibold text-lg border-2 border-gray-300 hover:bg-gray-50 transition-all">
+          <Link 
+            to="/tutorial"
+            className="px-8 py-4 bg-white text-gray-800 rounded-xl font-semibold text-lg border-2 border-gray-300 hover:bg-gray-50 transition-all text-center"
+          >
             Watch Tutorial
-          </button>
+          </Link>
         </div>
       </div>
 

@@ -508,5 +508,20 @@
     "category": "General Information",
     "difficulty": "difficult",
     "language": "english"
+  },
+  {
+    "id": "subpro_gi_27",
+    "text": "Which law is focused on environmental solid waste management?",
+    "options": [
+      { "id": "a", "text": "RA 9003" },
+      { "id": "b", "text": "RA 10175" },
+      { "id": "c", "text": "RA 9165" },
+      { "id": "d", "text": "RA 9262" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RA 9003 is the Ecological Solid Waste Management Act of 2000, a Philippine law that provides a comprehensive program for proper waste management. It mandates waste segregation at the source, prohibits open dumping, and promotes recycling, composting, and other ecological practices.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
   }
 ]

@@ -484,7 +484,7 @@
     "options": [
       { "id": "a", "text": "Transient" },
       { "id": "b", "text": "Momentary" },
-      { "id": "c", "d": "Lasting" },
+      { "id": "c", "text": "Lasting" },
       { "id": "d", "text": "Fleeting" }
     ],
     "correctAnswer": "c",
@@ -582,5 +582,20 @@
     "category": "Verbal Ability",
     "difficulty": "moderate",
     "language": "english"
+  },
+  {
+    "id": "verb_pro_36",
+    "text": " Ang batang iyon ay 'masinop' sa pera.",
+    "options": [
+      { "id": "a", "text": "Magastos" },
+      { "id": "b", "text": "Maayos" },
+      { "id": "c", "text": "Magulo" },
+      { "id": "d", "text": "Matipid" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Salitang masinop ay maaaring maging kasingkahulugan ng maayos at matipid, pero pangungusap ay tumukoy sa pera kung kaya't ang pinakatamang sagot ay matipid.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "filipino"
   }
 ]

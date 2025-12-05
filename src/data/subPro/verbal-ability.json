@@ -598,5 +598,20 @@
     "category": "Verbal Ability",
     "difficulty": "hard",
     "language": "english"
+  },
+  {
+    "id": "va_41",
+    "text": " Ang batang iyon ay 'masinop' sa pera.",
+    "options": [
+      { "id": "a", "text": "Magastos" },
+      { "id": "b", "text": "Maayos" },
+      { "id": "c", "text": "Magulo" },
+      { "id": "d", "text": "Matipid" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Salitang masinop ay maaaring maging kasingkahulugan ng maayos at matipid, pero pangungusap ay tumukoy sa pera kung kaya't ang pinakatamang sagot ay matipid.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "filipino"
   }
 ]

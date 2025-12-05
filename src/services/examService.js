@@ -76,17 +76,38 @@ class ExamService {
   }
 
   getExamCategories(examType) {
-    // Categories are the same for Pro and Sub
-    return [
-      'Numerical Ability',
-      'Analytical Ability',
-      'Verbal Ability',
-      'Philippine Constitution',
-      'RA 6713',
-      'Peace and Human Rights',
-      'Environmental Management',
-      'General Information'
-    ];
+    if (examType === 'professional') {
+      return [
+        'Numerical Ability',
+        'Analytical Ability',
+        'Verbal Ability',
+        'Philippine Constitution',
+        'RA 6713',
+        'Peace and Human Rights',
+        'Environmental Management',
+        'General Information'
+      ];
+    } else if (examType === 'subprofessional') {
+      return [
+        'Numerical Ability',
+        'Clerical Ability',
+        'Verbal Ability',
+        'Philippine Constitution',
+        'RA 6713',
+        'Peace and Human Rights',
+        'Environmental Management',
+        'General Information'
+      ];
+    } else { // practice
+      return [
+        'Numerical Ability',
+        'Verbal Ability',
+        'Philippine Constitution',
+        'RA 6713',
+        'Peace and Human Rights',
+        'Environmental Management'
+      ];
+    }
   }
 
   /**
@@ -94,13 +115,19 @@ class ExamService {
    * Note: The final count is capped by the overall exam limit (170/165) in generateExam.
    */
   getQuestionsPerCategory(examType, category) {
+    // General Information always has 10 questions
     if (category === 'General Information') {
+      return 10;
+    }
+    
+    // For practice exams, each category has 10 questions
+    if (examType === 'practice') {
       return 10;
     }
     
     // Set a high base target (25) for main categories to ensure we reach the 170/165 limit,
     // as the overall limit check in generateExam will cap the final total.
-    return 25; 
+    return 25;
   }
 
   getRandomQuestions(array, count, excludeIds = new Set()) {
@@ -130,31 +157,43 @@ class ExamService {
   }
 
   getCategoryQuestions(examType, category, targetCount = null) {
-    // targetCount is passed from generateExam, reflecting the overall limit constraint.
-    const count = targetCount || this.getQuestionsPerCategory(examType, category);
+    // For practice exam, we need to handle both professional and subprofessional pools
+    let questionPool = [];
     
-    const questionPool = examType === 'professional' 
-      ? this.proQuestions?.[category]
-      : this.subQuestions?.[category];
+    if (examType === 'practice') {
+      // For practice, combine questions from both professional and subprofessional
+      const proPool = this.proQuestions?.[category] || [];
+      const subPool = this.subQuestions?.[category] || [];
+      questionPool = [...proPool, ...subPool];
+    } else {
+      questionPool = examType === 'professional' 
+        ? this.proQuestions?.[category]
+        : this.subQuestions?.[category];
+    }
 
     if (!questionPool || !Array.isArray(questionPool)) {
       console.error(`No questions found for category: ${category}`, questionPool);
       return [];
     }
 
-    // **FIX IMPLEMENTED:** Pass a new, empty Set() to ensure no questions are excluded
-    // based on prior session usage. This guarantees a random draw from the full pool.
+    // Use target count or calculate based on category
+    const count = targetCount || this.getQuestionsPerCategory(examType, category);
+
+    console.log(`Getting questions for ${category}: Pool has ${questionPool.length} questions, target: ${count}`);
+
+    // Get random questions, excluding already used ones in this session
     const selectedQuestions = this.getRandomQuestions(
       questionPool,
       count,
-      new Set() 
+      this.sessionUsedQuestions
     );
 
-    // Still mark them as used for potential save/load progress functionality, 
-    // but the exclusion logic is ignored during the draw itself.
+    // Mark as used in this session
     selectedQuestions.forEach(q => {
       if (q && q.id) this.sessionUsedQuestions.add(q.id);
     });
+    
+    console.log(`Selected ${selectedQuestions.length} questions for ${category}`);
     
     return selectedQuestions;
   }
@@ -171,14 +210,77 @@ class ExamService {
       
       counts[category] = {
         total: questions.length,
-        target: this.getQuestionsPerCategory(examType, category) // Use examType here
+        target: this.getQuestionsPerCategory(examType, category)
       };
     });
     
     return counts;
   }
 
+  getPracticeCategories() {
+    return [
+      'Numerical Ability',
+      'Verbal Ability',
+      'Philippine Constitution',
+      'RA 6713',
+      'Peace and Human Rights',
+      'Environmental Management'
+    ];
+  }
+
+  async generatePracticeExam() {
+    // Generate new session ID and reset used questions
+    this.currentSessionId = Date.now();
+    this.clearSessionQuestions();
+    
+    const categories = this.getPracticeCategories();
+    const allQuestions = [];
+
+    console.log(`Generating Practice exam (Session: ${this.currentSessionId})`);
+
+    for (const category of categories) {
+      // For practice, get 10 questions from each category
+      const targetCount = 10;
+      
+      // Try to get questions from professional level first
+      const proQuestions = this.getCategoryQuestions('professional', category, targetCount);
+      
+      // If we need more questions, get from sub-professional
+      if (proQuestions.length < targetCount) {
+        const remainingNeeded = targetCount - proQuestions.length;
+        const subQuestions = this.getCategoryQuestions('subprofessional', category, remainingNeeded);
+        allQuestions.push(...proQuestions, ...subQuestions);
+      } else {
+        allQuestions.push(...proQuestions);
+      }
+      
+      console.log(`${category}: ${proQuestions.length} questions selected (target: ${targetCount})`);
+    }
+
+    // Shuffle all questions together for the final exam
+    const shuffledQuestions = this.shuffleArray(allQuestions);
+    
+    console.log('\n=== PRACTICE EXAM GENERATION SUMMARY ===');
+    console.log(`Total questions generated: ${shuffledQuestions.length}`);
+    console.log(`Expected total: ${categories.length * 10} questions`);
+    console.log(`Session ID: ${this.currentSessionId}, Used questions: ${this.sessionUsedQuestions.size}`);
+    
+    // Log category distribution
+    const categoryDistribution = {};
+    shuffledQuestions.forEach(q => {
+      const cat = q.category || 'Unknown';
+      categoryDistribution[cat] = (categoryDistribution[cat] || 0) + 1;
+    });
+    console.log('Category distribution:', categoryDistribution);
+    console.log('========================================\n');
+    
+    return shuffledQuestions;
+  }
+
   async generateExam(examType) {
+    if (examType === 'practice') {
+      return this.generatePracticeExam();
+    }
     this.currentSessionId = Date.now();
     this.clearSessionQuestions(); // Reset tracking for this new exam session
     
@@ -231,10 +333,20 @@ class ExamService {
 
   getAdaptedTimeLimit(examType, questionCount) {
     // Calculate based on actual question count
-    const baseTime = examType === 'professional' ? 3 * 3600 + 10 * 60 : 2 * 3600 + 40 * 60;
-    const baseQuestions = examType === 'professional' ? 170 : 165;
-    const timePerQuestion = baseTime / baseQuestions;
+    let baseTime, baseQuestions;
     
+    if (examType === 'professional') {
+      baseTime = 3 * 3600 + 10 * 60; // 3.5 hours
+      baseQuestions = 170;
+    } else if (examType === 'subprofessional') {
+      baseTime = 2 * 3600 + 40 * 60; // 2.5 hours
+      baseQuestions = 165;
+    } else { // practice
+      baseTime = 30 * 60; // 30 minutes for practice
+      baseQuestions = 20; // Original practice test size
+    }
+    
+    const timePerQuestion = baseTime / baseQuestions;
     return Math.round(timePerQuestion * questionCount);
   }
 

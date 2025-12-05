@@ -41,13 +41,20 @@ function Exam() {
           setCurrentQuestion(savedProgress.currentQuestion || 0);
           setTimeRemaining(savedProgress.timeRemaining || 0);
           
-          const categories = examService.getExamCategories(type);
-          const totalQuestions = savedProgress.questions?.length || categories.length * 20;
+          let totalQuestions;
+          let categories = [];
+          
+          if (type === 'practice') {
+            totalQuestions = savedProgress.questions?.length || 60; // Practice has 60 items
+          } else {
+            categories = examService.getExamCategories(type);
+            totalQuestions = savedProgress.questions?.length || categories.length * 20;
+          }
           
           setExamConfig({
             totalQuestions,
             timeLimit: savedProgress.timeRemaining || examService.getAdaptedTimeLimit(type, totalQuestions),
-            categories: categories.length,
+            categories: type === 'practice' ? 6 : categories.length,
           });
           
           updateCategoryProgress(savedProgress.questions || [], savedProgress.answers || {});
@@ -60,16 +67,26 @@ function Exam() {
         }
       }
 
-      const categories = examService.getExamCategories(type);
-      const totalQuestions = categories.reduce((sum, category) => {
-        return sum + (category === 'General Information' ? 10 : 20);
-      }, 0);
+      let totalQuestions;
+      let categoriesCount;
+      let categories = []; // Declare categories here
+
+      if (type === 'practice') {
+        totalQuestions = 60;
+        categoriesCount = 6;
+      } else {
+        categories = examService.getExamCategories(type); // Define categories here
+        totalQuestions = categories.reduce((sum, category) => {
+          return sum + (category === 'General Information' ? 10 : 20);
+        }, 0);
+        categoriesCount = categories.length;
+      }
       
       if (isMounted) {
         setExamConfig({
           totalQuestions,
           timeLimit: examService.getAdaptedTimeLimit(type, totalQuestions),
-          categories: categories.length,
+          categories: categoriesCount, // Use categoriesCount instead of categories.length
         });
       }
 
@@ -306,7 +323,8 @@ function Exam() {
             
             <div className="px-4 py-2 bg-linear-to-r from-blue-500 to-purple-500 text-white rounded-xl">
               <span className="text-sm font-medium">
-                {type === 'professional' ? 'Professional Level' : 'Sub-Professional Level'}
+                {type === 'professional' ? 'Professional Level' : 
+                type === 'subprofessional' ? 'Sub-Professional Level' : 'Practice Level'}
               </span>
             </div>
           </div>

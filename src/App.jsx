@@ -5,6 +5,7 @@ import Exam from './pages/Exam';
 import Results from './pages/Results';
 import ErrorBoundary from './components/ErrorBoundary';
 import DisclaimerModal from './components/DisclaimerModal';
+import Tutorial from './pages/Tutorial';
 import './index.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/exam/:type" element={<Exam />} />
             <Route path="/results" element={<Results />} />
+            <Route path="/tutorial" element={<Tutorial />} />
           </Routes>
         </div>
       </Router>
