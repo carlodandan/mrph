@@ -1,6 +1,6 @@
 [
   {
-    "id": "ra6713_pro_1",
+    "id": "ra_01",
     "text": "What is the primary purpose of RA 6713?",
     "options": [
       { "id": "a", "text": "To increase government salaries" },
@@ -15,7 +15,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_2",
+    "id": "ra_02",
     "text": "Ano ang ibig sabihin ng 'public office is a public trust' sa RA 6713?",
     "options": [
       { "id": "a", "text": "Ang pampublikong opisina ay isang pribadong negosyo" },
@@ -30,7 +30,7 @@
     "language": "filipino"
   },
   {
-    "id": "ra6713_pro_3",
+    "id": "ra_03",
     "text": "Which of the following is NOT one of the eight norms of conduct for public officials and employees under RA 6713?",
     "options": [
       { "id": "a", "text": "Professionalism" },
@@ -45,7 +45,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_4",
+    "id": "ra_04",
     "text": "Under RA 6713, sino ang kinakailangang magsumite ng Statement of Assets, Liabilities and Net Worth (SALN)?",
     "options": [
       { "id": "a", "text": "Ang mga opisyal lamang na inihalal" },
@@ -60,7 +60,7 @@
     "language": "filipino"
   },
   {
-    "id": "ra6713_pro_5",
+    "id": "ra_05",
     "text": "According to RA 6713, a public official or employee may not solicit or accept a gift from a person in the course of their official duties. What is the exception to this rule?",
     "options": [
       { "id": "a", "text": "Unsolicited gifts of nominal value not exceeding P1,000" },
@@ -75,7 +75,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_6",
+    "id": "ra_06",
     "text": "Alin ang itinuturing na 'conflict of interest' sa ilalim ng RA 6713?",
     "options": [
       { "id": "a", "text": "Ang pagkakaroon ng pribadong interes na sumasalungat sa tungkulin niya sa publiko" },
@@ -90,7 +90,7 @@
     "language": "filipino"
   },
   {
-    "id": "ra6713_pro_7",
+    "id": "ra_07",
     "text": "What is the penalty for a first violation of RA 6713, if the violation is not serious and warrants a minor sanction?",
     "options": [
       { "id": "a", "text": "Dismissal from the service" },
@@ -105,7 +105,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_8",
+    "id": "ra_08",
     "text": "Under the principle of 'Commitment to Public Interest' (one of the eight norms), public officials should always uphold:",
     "options": [
       { "id": "a", "text": "The exclusive welfare of their political party" },
@@ -120,7 +120,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_9",
+    "id": "ra_09",
     "text": "Sino ang nag-iisyu ng mga alituntunin at regulasyon para sa pagpapatupad ng RA 6713 para sa mga empleyado ng pambansang pamahalaan at lokal na pamahalaan?",
     "options": [
       { "id": "a", "text": "Office of the President (OP)" },
@@ -135,7 +135,7 @@
     "language": "filipino"
   },
   {
-    "id": "ra6713_pro_10",
+    "id": "ra_10",
     "text": "The principle of 'Political Neutrality' under RA 6713 requires public officials and employees to:",
     "options": [
       { "id": "a", "text": "Vote only for independent candidates" },
@@ -150,7 +150,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_11",
+    "id": "ra_11",
     "text": "What is the maximum period within which public officials and employees must act promptly on letters and requests, upon receipt, as mandated by RA 6713?",
     "options": [
       { "id": "a", "text": "Five (5) days" },
@@ -165,7 +165,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_12",
+    "id": "ra_12",
     "text": "Ang isa sa mga obligasyon ng mga opisyal at empleyado ay ang 'Simple Living'. Ano ang pangunahing implikasyon nito?",
     "options": [
       { "id": "a", "text": "Hindi pinahihintulutan ang mga opisyal na magkaroon ng anumang ari-arian" },
@@ -180,7 +180,7 @@
     "language": "filipino"
   },
   {
-    "id": "ra6713_pro_13",
+    "id": "ra_13",
     "text": "Public officials and employees are prohibited from engaging in which of the following acts during their official working hours?",
     "options": [
       { "id": "a", "text": "Engaging in the private practice of their profession (unless authorized)" },
@@ -195,7 +195,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_14",
+    "id": "ra_14",
     "text": "The disclosure of financial and business interests in the SALN is primarily intended to prevent what kind of ethical violation?",
     "options": [
       { "id": "a", "text": "Political favoritism" },
@@ -210,7 +210,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_15",
+    "id": "ra_15",
     "text": "Ang prinsipyo ng 'Professionalism' sa ilalim ng RA 6713 ay nangangailangan sa mga kawani na:",
     "options": [
       { "id": "a", "text": "Magsuot ng mamahaling damit" },
@@ -225,7 +225,7 @@
     "language": "filipino"
   },
   {
-    "id": "ra6713_pro_16",
+    "id": "ra_16",
     "text": "What is the constitutional mandate reinforced by RA 6713 regarding the relationship between the government and the people?",
     "options": [
       { "id": "a", "text": "The creation of a unitary system" },
@@ -240,7 +240,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_17",
+    "id": "ra_17",
     "text": "Ang isang empleyado na nagpapakita ng 'Justness and Sincerity' ay dapat:",
     "options": [
       { "id": "a", "text": "Palaging sumang-ayon sa kanyang superior" },
@@ -255,7 +255,7 @@
     "language": "filipino"
   },
   {
-    "id": "ra6713_pro_18",
+    "id": "ra_18",
     "text": "The rule against accepting gifts in RA 6713 is particularly stringent when the gift is given by a person who is the subject of what kind of action by the public official's office?",
     "options": [
       { "id": "a", "text": "A friendly visit or consultation" },
@@ -270,7 +270,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_19",
+    "id": "ra_19",
     "text": "What does the norm of 'Nationalism and Patriotism' specifically require of public officials and employees under RA 6713?",
     "options": [
       { "id": "a", "text": "To serve the country's interest and uphold the loyalty of the government" },
@@ -285,7 +285,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_20",
+    "id": "ra_20",
     "text": "The mandatory review and evaluation of the SALNs of government officials is primarily conducted by the:",
     "options": [
       { "id": "a", "text": "Department of Finance (DOF)" },
@@ -300,7 +300,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_21",
+    "id": "ra_21",
     "text": "Public officials are prohibited from using their official information not yet made public for personal gain. This prohibition specifically addresses:",
     "options": [
       { "id": "a", "text": "Extortion" },
@@ -315,7 +315,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_22",
+    "id": "ra_22",
     "text": "Public officials and employees are required to submit their SALN within how many days after the assumption of office?",
     "options": [
       { "id": "a", "text": "Fifteen (15) days" },
@@ -330,7 +330,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_23",
+    "id": "ra_23",
     "text": "The principle of 'Commitment to Democracy' requires public officials to uphold and respect which constitutional principle?",
     "options": [
       { "id": "a", "text": "The separation of Church and State." },
@@ -345,7 +345,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_24",
+    "id": "ra_24",
     "text": "The prohibition on government officials from directly or indirectly having a financial or material interest in any transaction requiring the approval of their office is intended to prevent:",
     "options": [
       { "id": "a", "text": "Moonlighting" },
@@ -360,7 +360,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_25",
+    "id": "ra_25",
     "text": "If a public official is charged with a crime involving dishonesty or graft, they may be placed under preventive suspension. The primary purpose of this suspension is:",
     "options": [
       { "id": "a", "text": "To punish the official immediately" },
@@ -375,7 +375,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_26",
+    "id": "ra_26",
     "text": "Which of the following bodies is primarily tasked with the implementation and enforcement of the 'Simplicity' aspect of the 'Simple Living' norm?",
     "options": [
       { "id": "a", "text": "The House of Representatives" },
@@ -390,7 +390,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_27",
+    "id": "ra_27",
     "text": "The norm of 'Responsiveness to the Public' requires public officials to extend prompt, courteous, and adequate service. Which specific action is mandated by this norm?",
     "options": [
       { "id": "a", "text": "The establishment of a separate lounge for VIPs" },
@@ -405,7 +405,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_28",
+    "id": "ra_28",
     "text": "If a public employee is found to have a net worth that is manifestly out of proportion to his/her salary and other lawful income, they may be charged with:",
     "options": [
       { "id": "a", "text": "Mala in se" },
@@ -420,7 +420,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_29",
+    "id": "ra_29",
     "text": "The provision on 'Disclosure and Misuse of Confidential Information' prohibits public officials from prematurely disclosing information that may be prejudicial to the government. This is a direct implementation of the norm on:",
     "options": [
       { "id": "a", "text": "Professionalism" },
@@ -435,7 +435,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_30",
+    "id": "ra_30",
     "text": "In the context of the Code of Conduct, what must a public official or employee do if he/she receives a gift of significant value that cannot be accepted under the law?",
     "options": [
       { "id": "a", "text": "Sell the gift and donate the proceeds to charity." },
@@ -450,7 +450,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_31",
+    "id": "ra_31",
     "text": "The requirement for public officials to provide a list of their relatives within the fourth civil degree of consanguinity or affinity in the SALN primarily aims to identify potential cases of:",
     "options": [
       { "id": "a", "text": "Conflict of Interest" },
@@ -465,7 +465,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_32",
+    "id": "ra_32",
     "text": "What is the consequence for a public official who fails to submit his/her SALN on time, as required by law?",
     "options": [
       { "id": "a", "text": "Automatic demotion" },
@@ -480,7 +480,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_33",
+    "id": "ra_33",
     "text": "The phrase 'A declaration under oath of all their assets, liabilities, and net worth' best describes which part of the SALN requirement?",
     "options": [
       { "id": "a", "text": "The financial scope" },
@@ -495,7 +495,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_34",
+    "id": "ra_34",
     "text": "The ethical standard of 'Professionalism' also includes a requirement for public officials to:",
     "options": [
       { "id": "a", "text": "Resist all political pressures" },
@@ -510,7 +510,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_35",
+    "id": "ra_35",
     "text": "What is the required frequency for the conduct of value orientation and ethics programs for public officials and employees?",
     "options": [
       { "id": "a", "text": "Annually" },
@@ -525,7 +525,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_36",
+    "id": "ra_36",
     "text": "The provision that the State shall 'promote a high standard of ethics in public service' is found in:",
     "options": [
       { "id": "a", "text": "The Preamble of RA 6713" },
@@ -540,7 +540,7 @@
     "language": "english"
   },
   {
-    "id": "ra6713_pro_37",
+    "id": "ra_37",
     "text": "The specific prohibition against engaging in the business of a 'Pari-mutuel' or 'Cockpit' during office hours applies particularly to which group of public officials?",
     "options": [
       { "id": "a", "text": "All public officials and employees" },
@@ -552,6 +552,531 @@
     "explanation": "Section 7 (b) states that 'Public officials and employees shall not... engage directly or indirectly in any gambling activities,' which includes 'Pari-mutuel' or 'Cockpit' during office hours. This rule applies to all officials and employees.",
     "category": "RA 6713",
     "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "ra_38",
+    "text": "RA 6713 promotes a high standard of ethics among public officials. Which of the following BEST describes the principle of “public office is a public trust”?",
+    "options": [
+      { "id": "a", "text": "Public officials may use their discretion in all matters of public service." },
+      { "id": "b", "text": "Public officials must always act in the best interest of the people." },
+      { "id": "c", "text": "Public officials should avoid working overtime unless required." },
+      { "id": "d", "text": "Public officials are allowed to make decisions based on personal beliefs." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Constitution and RA 6713 emphasize that public officials must prioritize public interest over personal interest.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ra_39",
+    "text": "Which of the following is NOT one of the eight norms of conduct under RA 6713?",
+    "options": [
+      { "id": "a", "text": "Commitment to public interest" },
+      { "id": "b", "text": "Professionalism" },
+      { "id": "c", "text": "Healthy lifestyle" },
+      { "id": "d", "text": "Political neutrality" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Healthy lifestyle is not part of the eight norms of conduct under RA 6713.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ra_40",
+    "text": "Under RA 6713, public officials must submit a Statement of Assets, Liabilities, and Net Worth (SALN). How often must this be done?",
+    "options": [
+      { "id": "a", "text": "Every five years" },
+      { "id": "b", "text": "Annually" },
+      { "id": "c", "text": "Only when requested by the public" },
+      { "id": "d", "text": "Only upon assumption of office" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RA 6713 requires all public officials to file their SALN every year.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ra_41",
+    "text": "Which norm of conduct under RA 6713 refers to responding promptly and efficiently to the public's needs?",
+    "options": [
+      { "id": "a", "text": "Justness and sincerity" },
+      { "id": "b", "text": "Responsiveness to the public" },
+      { "id": "c", "text": "Professionalism" },
+      { "id": "d", "text": "Nationalism and patriotism" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Responsiveness to the public emphasizes courtesy and quick service delivery.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ra_42",
+    "text": "A government employee refuses to accept a small gift from a client as a token of gratitude. Which norm of conduct is being observed?",
+    "options": [
+      { "id": "a", "text": "Transparency" },
+      { "id": "b", "text": "Justness and sincerity" },
+      { "id": "c", "text": "Commitment to democracy" },
+      { "id": "d", "text": "Professionalism" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Justness and sincerity include not accepting gifts that may influence official duties.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ra_43",
+    "text": "Which of the following acts is PROHIBITED under RA 6713?",
+    "options": [
+      { "id": "a", "text": "Responding to public concerns" },
+      { "id": "b", "text": "Receiving gifts connected to official duties" },
+      { "id": "c", "text": "Performing duties with professionalism" },
+      { "id": "d", "text": "Submitting the required SALN" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Receiving gifts related to official duties is considered a form of unethical conduct.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_44",
+    "text": "Under RA 6713, which principle requires public officials to avoid conflicts of interest?",
+    "options": [
+      { "id": "a", "text": "Political neutrality" },
+      { "id": "b", "text": "Justness and sincerity" },
+      { "id": "c", "text": "Professionalism" },
+      { "id": "d", "text": "Commitment to public interest" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Commitment to public interest requires prioritizing public welfare over personal gain.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_45",
+    "text": "A public employee is promoting his own business while on official duty. This violates which norm under RA 6713?",
+    "options": [
+      { "id": "a", "text": "Professionalism" },
+      { "id": "b", "text": "Political neutrality" },
+      { "id": "c", "text": "Responsiveness to the public" },
+      { "id": "d", "text": "Commitment to public interest" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Professionalism requires employees to perform duties without engaging in personal business.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_46",
+    "text": "Which of the following reflects 'political neutrality' under RA 6713?",
+    "options": [
+      { "id": "a", "text": "Supporting a candidate during office hours" },
+      { "id": "b", "text": "Remaining fair regardless of political affiliation" },
+      { "id": "c", "text": "Disclosing financial interests" },
+      { "id": "d", "text": "Refusing to process government documents" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Political neutrality means avoiding bias in favor of any political group.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ra_47",
+    "text": "A citizen requests access to a public employee's SALN. What should the employee do under RA 6713?",
+    "options": [
+      { "id": "a", "text": "Deny the request unless a lawyer is present" },
+      { "id": "b", "text": "Allow access following the proper procedure" },
+      { "id": "c", "text": "Redirect the citizen to a different agency" },
+      { "id": "d", "text": "Ignore the request if it feels intrusive" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RA 6713 upholds transparency by allowing public access to SALNs when requested properly.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_48",
+    "text": "A government employee is required to separate from their private business or resign from a board membership within how many days from assumption of office to avoid conflict of interest?",
+    "options": [
+      { "id": "a", "text": "30 days" },
+      { "id": "b", "text": "60 days" },
+      { "id": "c", "text": "90 days" },
+      { "id": "d", "text": "1 year" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Section 9 of RA 6713 requires public officials and employees to divest themselves of any conflict of interest within 30 days from assumption of office.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_49",
+    "text": "Ang isang opisyal ng gobyerno ay nagpakita ng 'courtesy and utmost dedication' sa pagtupad ng kanyang tungkulin. Aling pamantayan (norm) sa ilalim ng RA 6713 ang kanyang sinusunod?",
+    "options": [
+      { "id": "a", "text": "Political Neutrality" },
+      { "id": "b", "text": "Commitment to Democracy" },
+      { "id": "c", "text": "Professionalism" },
+      { "id": "d", "text": "Simple Living" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang 'Professionalism' ay kinabibilangan ng pagiging mahusay, mabilis, magalang, at may 'utmost dedication' sa trabaho.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "ra_50",
+    "text": "Which of the following describes the norm of 'Commitment to Democracy' under RA 6713?",
+    "options": [
+      { "id": "a", "text": "Upholding the Constitution and loyalty to the Republic" },
+      { "id": "b", "text": "Avoiding political involvement in all activities" },
+      { "id": "c", "text": "Maintaining an excellent work performance record" },
+      { "id": "d", "text": "Ensuring all office transactions are published online" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Commitment to Democracy involves allegiance to the Constitution and the State, and respect for democratic institutions and processes.",
+    "category": "RA 6713",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "ra_51",
+    "text": "Ang 'Simple Living' bilang pamantayan sa ilalim ng RA 6713 ay nangangahulugang:",
+    "options": [
+      { "id": "a", "text": "Hindi pinapayagan ang mga opisyal na magkaroon ng anumang ari-arian." },
+      { "id": "b", "text": "Mamuhay nang naaayon sa kanilang suweldo at hindi gumagamit ng pampublikong pondo para sa luho." },
+      { "id": "c", "text": "Dapat sumakay sa pampublikong sasakyan ang lahat ng opisyal." },
+      { "id": "d", "text": "Limitado lamang ang paglabas sa mga pampublikong lugar." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang Simple Living ay nangangailangan ng pagkakaroon ng pamumuhay na disente ngunit hindi magarbo, naaayon sa kinikita mula sa legal na pinanggalingan, at pag-iwas sa anumang labis na luho.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "ra_52",
+    "text": "What is the specific maximum monetary value of a gift that a public official may receive from a single source on a single occasion without violating RA 6713?",
+    "options": [
+      { "id": "a", "text": "Value not exceeding $P500.00$" },
+      { "id": "b", "text": "Value not exceeding $P1,000.00$" },
+      { "id": "c", "text": "Value not exceeding $P5,000.00$" },
+      { "id": "d", "text": "Any amount is prohibited if connected to official duty." }
+    ],
+    "correctAnswer": "d",
+    "explanation": "While there is a specific rule regarding 'unsolicited gifts of nominal value', RA 6713 generally prohibits public officials from receiving any gifts, benefits, or promises in connection with their official duties, regardless of amount, to prevent improper influence. Thus, receiving a gift 'connected to official duty' is prohibited.",
+    "category": "RA 6713",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "ra_53",
+    "text": "Which action constitutes a 'conflict of interest' under RA 6713?",
+    "options": [
+      { "id": "a", "text": "A public official voting on a measure that will directly financially benefit their spouse's company." },
+      { "id": "b", "text": "A government auditor attending a training seminar hosted by a private company." },
+      { "id": "c", "text": "A school teacher applying for a loan from a government bank." },
+      { "id": "d", "text": "A state university professor engaging in private consultancy work during their free time." }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A conflict of interest arises when an official's personal interest, or that of a close relative, clashes with their duty, causing bias in decision-making.",
+    "category": "RA 6713",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "ra_54",
+    "text": "What is the primary reason for requiring public officials to file a SALN?",
+    "options": [
+      { "id": "a", "text": "To determine the official's tax liabilities." },
+      { "id": "b", "text": "To protect the official's assets from public scrutiny." },
+      { "id": "c", "text": "To monitor unexplained wealth or illicit enrichment." },
+      { "id": "d", "text": "To calculate the official's retirement benefits." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The SALN requirement is a transparency measure designed to detect whether an official's assets increase disproportionately to their lawful income, which is indicative of illicit enrichment.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_55",
+    "text": "The norm of 'Nationalism and Patriotism' primarily requires public officials to:",
+    "options": [
+      { "id": "a", "text": "Always prioritize the use of imported goods." },
+      { "id": "b", "text": "Be loyal to the Republic and uphold the Constitution." },
+      { "id": "c", "text": "Actively campaign for national political candidates." },
+      { "id": "d", "text": "Refrain from seeking employment abroad." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Nationalism and Patriotism emphasizes loyalty to the country, respect for the Constitution, and fidelity to public service.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_56",
+    "text": "A public official is prohibited from accepting any gift in the course of official duties EXCEPT for:",
+    "options": [
+      { "id": "a", "text": "Gifts received from a foreign official on account of courtesy." },
+      { "id": "b", "text": "Gifts given anonymously by private citizens." },
+      { "id": "c", "text": "Any gift given by a relative, regardless of connection to official duty." },
+      { "id": "d", "text": "Gifts from a company seeking a government contract." }
+    ],
+    "correctAnswer": "a",
+    "explanation": "RA 6713 makes an exception for gifts of nominal value not given in anticipation of favor, or gifts from a foreign government/official given as a gesture of courtesy or protocol.",
+    "category": "RA 6713",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "ra_57",
+    "text": "Which agency is primarily responsible for investigating and prosecuting public officials for acts defined by RA 6713, especially those concerning illicit wealth?",
+    "options": [
+      { "id": "a", "text": "Civil Service Commission (CSC)" },
+      { "id": "b", "text": "Office of the Ombudsman" },
+      { "id": "c", "text": "Department of Justice (DOJ)" },
+      { "id": "d", "text": "Commission on Audit (COA)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Office of the Ombudsman has the constitutional and statutory mandate to investigate and prosecute erring public officials, including violations of RA 6713 and related anti-graft laws.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_58",
+    "text": "If a government official accepts an expensive gift from a contractor, which criminal law is most likely violated, in addition to RA 6713?",
+    "options": [
+      { "id": "a", "text": "The Revised Penal Code (RPC) on Theft" },
+      { "id": "b", "text": "The Anti-Graft and Corrupt Practices Act (RA 3019)" },
+      { "id": "c", "text": "The Code of Commerce" },
+      { "id": "d", "text": "The Local Government Code (RA 7160)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RA 3019 specifically prohibits receiving gifts or promises in connection with any official transaction, which overlaps significantly with the ethical prohibitions of RA 6713 and constitutes graft.",
+    "category": "RA 6713",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "ra_59",
+    "text": "The norm of 'Justness and Sincerity' requires public officials to at all times:",
+    "options": [
+      { "id": "a", "text": "Be punctual and efficient in the workplace." },
+      { "id": "b", "text": "Be true to the people and not compromise their public trust." },
+      { "id": "c", "text": "Immediately disclose their private bank accounts." },
+      { "id": "d", "text": "Conduct an annual ethics review." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Justness and sincerity require officials to be honest, consistent, and avoid deceit or making false statements, thereby upholding public trust.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_60",
+    "text": "What is the requirement for public disclosure of the SALN under RA 6713?",
+    "options": [
+      { "id": "a", "text": "It can be accessed only by immediate family members." },
+      { "id": "b", "text": "It is confidential and cannot be viewed by the public." },
+      { "id": "c", "text": "It must be made available for public inspection, subject to reasonable regulations." },
+      { "id": "d", "text": "It is disclosed only upon order of the President." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "RA 6713 mandates the public disclosure of the SALN as part of the law's commitment to transparency, subject to rules to prevent harassment.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_61",
+    "text": "Which specific provision of RA 6713 requires officials to process documents and applications within a reasonable time?",
+    "options": [
+      { "id": "a", "text": "Commitment to public interest" },
+      { "id": "b", "text": "Responsiveness to the public" },
+      { "id": "c", "d": "Simple Living" },
+      { "id": "d", "text": "Professionalism" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Responsiveness to the public includes the duty to attend to anyone who comes to the office, act promptly on letters and requests, and submit annual performance reports.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_62",
+    "text": "A government employee who fails to file their SALN, or files a false SALN, shall be administratively penalized. What is the MINIMUM penalty for the first offense?",
+    "options": [
+      { "id": "a", "text": "Dismissal from the service" },
+      { "id": "b", "text": "Suspension for six (6) months" },
+      { "id": "c", "text": "Reprimand" },
+      { "id": "d", "text": "Payment of a fine of P100,000" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "RA 6713 specifies that the penalty for the first violation shall be a reprimand. The second violation leads to suspension, and the third to dismissal.",
+    "category": "RA 6713",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "ra_63",
+    "text": "A public official is expected to lead a modest life commensurate with their position and income. This is directly related to the norm of:",
+    "options": [
+      { "id": "a", "text": "Professionalism" },
+      { "id": "b", "text": "Simple Living" },
+      { "id": "c", "d": "Justness and Sincerity" },
+      { "id": "d", "text": "Commitment to Democracy" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Simple Living requires public officials to live a modest life and refrain from extravagant or ostentatious display of wealth that is inconsistent with their known income.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_64",
+    "text": "The provision that public officials should not solicit or accept, directly or indirectly, any gift or favor in connection with any transaction is a principle under:",
+    "options": [
+      { "id": "a", "text": "Ethical behavior only for high-ranking officials" },
+      { "id": "b", "text": "Commitment to public interest" },
+      { "id": "c", "d": "Justness and sincerity" },
+      { "id": "d", "text": "The Anti-Graft and Corrupt Practices Act (RA 3019)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The prohibition on receiving gifts is directly mentioned in the provisions of RA 6713, specifically related to the norm of Justness and Sincerity.",
+    "category": "RA 6713",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "ra_65",
+    "text": "How is the net worth of a public official calculated for the purpose of the SALN?",
+    "options": [
+      { "id": "a", "text": "Total Income minus Total Expenses" },
+      { "id": "b", "text": "Total Assets plus Total Liabilities" },
+      { "id": "c", "d": "Total Assets minus Total Liabilities" },
+      { "id": "d", "text": "Total Income minus Taxes Paid" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Net worth is the difference between a person's total assets (what they own) and their total liabilities (what they owe).",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_66",
+    "text": "Which norm is violated when a public official uses their government position to influence decisions for their private gain or that of their family?",
+    "options": [
+      { "id": "a", "text": "Political neutrality" },
+      { "id": "b", "text": "Commitment to public interest" },
+      { "id": "c", "d": "Simple Living" },
+      { "id": "d", "text": "Nationalism and patriotism" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Commitment to public interest requires public officials to act for the public good, which is directly contradicted by using power for personal or family gain (conflict of interest).",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_67",
+    "text": "What is the primary objective of the provision on 'Prohibited Acts and Transactions' in RA 6713?",
+    "options": [
+      { "id": "a", "text": "To increase government revenue through fines and penalties." },
+      { "id": "b", "text": "To clearly define boundaries between public duty and private interest." },
+      { "id": "c", "d": "To regulate the political activities of public employees." },
+      { "id": "d", "text": "To encourage officials to be more competitive in their private business." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The prohibited acts section explicitly stops officials from engaging in actions that compromise their public role, such as obtaining loans, having financial interests, or engaging in transactions that conflict with their public duty.",
+    "category": "RA 6713",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "ra_68",
+    "text": "If a government official has a conflict of interest, they must divest themselves of their shareholdings or resign from the private board within thirty (30) days. 'Divestment' means:",
+    "options": [
+      { "id": "a", "text": "Transferring the assets to another government official." },
+      { "id": "b", "text": "Selling the assets to a third party to eliminate the conflict." },
+      { "id": "c", "d": "Putting the assets in a blind trust controlled by the government." },
+      { "id": "d", "text": "Declaring the assets in the next annual SALN." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Divestment means the act of alienating (selling or transferring) title or control of property by voluntarily, completely, and unqualifiedly being deprived of its private benefit to eliminate the conflict.",
+    "category": "RA 6713",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "ra_69",
+    "text": "Which of the following is a key element of the norm of 'Transparency' under RA 6713?",
+    "options": [
+      { "id": "a", "text": "All public records must be destroyed after one year." },
+      { "id": "b", "text": "Public officials must keep their financial affairs strictly private." },
+      { "id": "c", "d": "The public has a right to information on matters of public concern." },
+      { "id": "d", "text": "Government transactions must be done in secret to protect state security." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Transparency requires officials to conduct government business openly and ensure the public has access to official records and documents.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "ra_70",
+    "text": "What are the three mandatory occasions for filing the SALN?",
+    "options": [
+      { "id": "a", "text": "Upon assumption of office, every July 31st thereafter, and upon separation from service." },
+      { "id": "b", "text": "Upon assumption of office, every end of the fiscal year, and every three years thereafter." },
+      { "id": "c", "d": "Upon assumption of office, every April 15th, and upon transfer to another agency." },
+      { "id": "d", "text": "Upon assumption of office, every April 30th, and upon separation from service." }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The three mandatory filing dates are: within 30 days after assumption of office; on or before April 30 of every year thereafter; and within 30 days after separation from the service.",
+    "category": "RA 6713",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "ra_71",
+    "text": "The obligation of a public official to be fair, truthful, and avoid unnecessary lavishness falls under which combination of norms?",
+    "options": [
+      { "id": "a", "text": "Professionalism and Political Neutrality" },
+      { "id": "b", "text": "Simple Living and Justness and Sincerity" },
+      { "id": "c", "d": "Responsiveness to the Public and Transparency" },
+      { "id": "d", "text": "Nationalism and Patriotism and Commitment to Democracy" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Simple Living covers avoiding lavishness, while Justness and Sincerity covers being fair and truthful.",
+    "category": "RA 6713",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "ra_72",
+    "text": "If a government agency fails to act on a request or letter from the public within the required fifteen (15) working days, which norm under RA 6713 is being violated?",
+    "options": [
+      { "id": "a", "text": "Professionalism" },
+      { "id": "b", "text": "Political neutrality" },
+      { "id": "c", "d": "Responsiveness to the public" },
+      { "id": "d", "text": "Commitment to public interest" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Responsiveness to the public explicitly requires officials to act immediately and promptly on letters, requests, or public concerns within fifteen (15) working days from receipt.",
+    "category": "RA 6713",
+    "difficulty": "moderate",
     "language": "english"
   }
 ]

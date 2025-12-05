@@ -1,6 +1,6 @@
 [
   {
-    "id": "con_pro_1",
+    "id": "pcon_01",
     "text": "Which article of the Philippine Constitution declares that the Philippines is a democratic and republican state?",
     "options": [
       { "id": "a", "text": "Article I" },
@@ -15,7 +15,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_2",
+    "id": "pcon_02",
     "text": "Ano ang sinasabi ng Saligang Batas tungkol sa pagiging sakop ng batas?",
     "options": [
       { "id": "a", "text": "Ang Pangulo lamang ang sakop ng batas" },
@@ -30,7 +30,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_3",
+    "id": "pcon_03",
     "text": "The constitutional guarantee that 'No person shall be deprived of life, liberty, or property without due process of law' is found in which section of the Bill of Rights?",
     "options": [
       { "id": "a", "text": "Section 1" },
@@ -45,7 +45,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_4",
+    "id": "pcon_04",
     "text": "Ayon sa Saligang Batas, ilang taon ang termino ng isang regular na miyembro ng Kapulungan ng mga Kinatawan (House of Representatives)?",
     "options": [
       { "id": "a", "text": "Tatlong (3) taon at maaaring mahalal muli" },
@@ -60,7 +60,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_5",
+    "id": "pcon_05",
     "text": "What is the term of office for the President of the Philippines, as stipulated by the 1987 Constitution?",
     "options": [
       { "id": "a", "text": "Four years, with one re-election allowed" },
@@ -75,7 +75,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_6",
+    "id": "pcon_06",
     "text": "Ang ___________ ay ang doktrina na nagsasaad na ang mga probinsya, lungsod, at munisipalidad ay nagtatamasa ng kapangyarihan na pamahalaan ang kanilang sarili.",
     "options": [
       { "id": "a", "text": "Archipelagic Principle" },
@@ -90,7 +90,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_7",
+    "id": "pcon_07",
     "text": "Which Article of the Constitution establishes the Commission on Audit (COA), Civil Service Commission (CSC), and Commission on Elections (COMELEC) as independent constitutional commissions?",
     "options": [
       { "id": "a", "text": "Article VIII (Judicial Department)" },
@@ -105,7 +105,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_8",
+    "id": "pcon_08",
     "text": "The legislative power of the Philippine Government is vested in the:",
     "options": [
       { "id": "a", "text": "President" },
@@ -120,7 +120,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_9",
+    "id": "pcon_09",
     "text": "Aling ahensya ng gobyerno ang may eksklusibong kapangyarihan na magpasiya ng lahat ng 'contests' o hindi pagkakasundo ukol sa halalan, returns, at qualifications ng Pangulo at Pangalawang Pangulo?",
     "options": [
       { "id": "a", "text": "Commission on Elections (COMELEC)" },
@@ -135,7 +135,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_10",
+    "id": "pcon_10",
     "text": "The primary role of the Supreme Court, as defined in Article VIII of the Constitution, is the exercise of:",
     "options": [
       { "id": "a", "text": "Executive Power" },
@@ -150,7 +150,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_11",
+    "id": "pcon_11",
     "text": "What is the constitutional provision that allows the Congress, by a vote of two-thirds of both Houses voting separately, to propose amendments to the Constitution?",
     "options": [
       { "id": "a", "text": "Judicial Review" },
@@ -165,7 +165,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_12",
+    "id": "pcon_12",
     "text": "Ang Social Justice o Katarungang Panlipunan ay ipinapahayag ng Saligang Batas bilang:",
     "options": [
       { "id": "a", "text": "Ang pagsasagawa ng karapatan sa pribadong ari-arian" },
@@ -180,7 +180,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_13",
+    "id": "pcon_13",
     "text": "The power of the State to take private property for public use upon payment of just compensation is called:",
     "options": [
       { "id": "a", "text": "Police Power" },
@@ -195,7 +195,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_14",
+    "id": "pcon_14",
     "text": "Ilang taon ang itinalagang termino para sa mga Senador ng Pilipinas ayon sa 1987 Constitution?",
     "options": [
       { "id": "a", "text": "Tatlong (3) taon" },
@@ -210,7 +210,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_15",
+    "id": "pcon_15",
     "text": "What is the primary check of the Judicial Department (Supreme Court) on the powers of the Legislative and Executive Departments?",
     "options": [
       { "id": "a", "text": "Impeachment Power" },
@@ -225,7 +225,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_16",
+    "id": "pcon_16",
     "text": "The State policy recognizing the vital role of the youth in nation-building and promoting their physical, moral, intellectual, and social well-being is found in which article?",
     "options": [
       { "id": "a", "text": "Article III (Bill of Rights)" },
@@ -240,7 +240,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_17",
+    "id": "pcon_17",
     "text": "Ang kapangyarihan ng Pangulo na tanggihan ang isang panukalang batas na ipinasa ng Kongreso ay tinatawag na:",
     "options": [
       { "id": "a", "text": "Quorum" },
@@ -255,12 +255,12 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_18",
+    "id": "pcon_18",
     "text": "The power of the State to enact laws that promote the general welfare, health, safety, and morals of the people is known as:",
     "options": [
       { "id": "a", "text": "Eminent Domain" },
       { "id": "b", "text": "Police Power" },
-      { "id": "c", "d": "Taxation Power" },
+      { "id": "c", "text": "Taxation Power" },
       { "id": "d", "text": "Fiscal Power" }
     ],
     "correctAnswer": "b",
@@ -270,7 +270,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_19",
+    "id": "pcon_19",
     "text": "Under Article V (Suffrage), the Congress is mandated to provide a system for absentee voting for qualified Filipinos. This type of voting covers:",
     "options": [
       { "id": "a", "text": "Only government employees stationed abroad." },
@@ -285,7 +285,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_20",
+    "id": "pcon_20",
     "text": "The 1987 Constitution was ratified by the Filipino people on:",
     "options": [
       { "id": "a", "text": "February 2, 1987" },
@@ -300,7 +300,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_21",
+    "id": "pcon_21",
     "text": "Ang kapangyarihang maglunsad ng 'Impeachment' laban sa Pangulo, Bise-Presidente, at iba pang opisyal ay eksklusibong nasa:",
     "options": [
       { "id": "a", "text": "Senate" },
@@ -315,7 +315,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_22",
+    "id": "pcon_22",
     "text": "What is the minimum age requirement for a person to be elected as a Senator in the Philippines?",
     "options": [
       { "id": "a", "text": "25 years old" },
@@ -330,7 +330,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_23",
+    "id": "pcon_23",
     "text": "The principle of 'Sovereignty of the People' is expressed in the Constitution through the exercise of:",
     "options": [
       { "id": "a", "text": "The power of the President to declare martial law." },
@@ -345,7 +345,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_24",
+    "id": "pcon_24",
     "text": "What does the Archipelagic Principle in the Philippine Constitution assert?",
     "options": [
       { "id": "a", "text": "That the government must promote local autonomy." },
@@ -360,7 +360,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_25",
+    "id": "pcon_25",
     "text": "Ang Official Language ng Pilipinas at ang wikang pantulong sa komunikasyon at pagtuturo ayon sa Saligang Batas ay:",
     "options": [
       { "id": "a", "text": "English at Filipino" },
@@ -375,7 +375,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_26",
+    "id": "pcon_26",
     "text": "The Constitutional provision regarding the Non-Establishment Clause ensures the separation of:",
     "options": [
       { "id": "a", "text": "Church and State" },
@@ -390,7 +390,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_27",
+    "id": "pcon_27",
     "text": "What is the specific requirement under the Bill of Rights (Article III) for the issuance of a Search Warrant or Warrant of Arrest?",
     "options": [
       { "id": "a", "text": "It must be issued by a member of the Philippine National Police." },
@@ -405,7 +405,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_28",
+    "id": "pcon_28",
     "text": "Ilang beses maaaring mahalal muli ang isang miyembro ng Senado sa magkakasunod na termino?",
     "options": [
       { "id": "a", "text": "Wala" },
@@ -420,7 +420,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_29",
+    "id": "pcon_29",
     "text": "The mandate of the Office of the Ombudsman is primarily found under which Article?",
     "options": [
       { "id": "a", "text": "Article VI (Legislative Department)" },
@@ -435,7 +435,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_30",
+    "id": "pcon_30",
     "text": "The constitutional provision guaranteeing the right of the people to information on matters of public concern is a cornerstone of:",
     "options": [
       { "id": "a", "text": "Judicial Independence" },
@@ -450,7 +450,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_31",
+    "id": "pcon_31",
     "text": "Aling Principle of State Policies ang nagsasabing ang Estado ay nagpapahalaga sa dignidad ng bawat tao at ginagarantiyahan ang lubos na paggalang sa mga karapatang pantao?",
     "options": [
       { "id": "a", "text": "Rule of Law" },
@@ -465,7 +465,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_32",
+    "id": "pcon_32",
     "text": "Which condition is NOT a required qualification for a member of the House of Representatives?",
     "options": [
       { "id": "a", "text": "At least twenty-five years of age" },
@@ -480,7 +480,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_33",
+    "id": "pcon_33",
     "text": "The provision that the military shall be the protector of the people and the State is found in which article?",
     "options": [
       { "id": "a", "text": "Article III (Bill of Rights)" },
@@ -495,7 +495,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_34",
+    "id": "pcon_34",
     "text": "Ang kapangyarihan ng Pangulo na 'Suspend the privilege of the writ of habeas corpus' ay maaari lamang gamitin sa kaso ng:",
     "options": [
       { "id": "a", "text": "Malawakang korapsyon sa gobyerno" },
@@ -510,7 +510,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_35",
+    "id": "pcon_35",
     "text": "The constitutional body responsible for enforcing and administering all laws and regulations relative to the conduct of elections is the:",
     "options": [
       { "id": "a", "text": "Commission on Audit (COA)" },
@@ -525,7 +525,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_36",
+    "id": "pcon_36",
     "text": "Which check does the Senate exercise over the Executive Department, specifically concerning the President's appointments?",
     "options": [
       { "id": "a", "text": "Power of the Purse" },
@@ -540,7 +540,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_37",
+    "id": "pcon_37",
     "text": "Ang principle of checks and balances ay nilalayon na:",
     "options": [
       { "id": "a", "text": "Pagsamahin ang kapangyarihan sa Pangulo" },
@@ -555,7 +555,7 @@
     "language": "filipino"
   },
   {
-    "id": "con_pro_38",
+    "id": "pcon_38",
     "text": "What form of government does the Philippines adopt?",
     "options": [
       { "id": "a", "text": "Republican" },
@@ -570,7 +570,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_39",
+    "id": "pcon_39",
     "text": "Who among the following may issue a warrant of arrest or a search warrant?",
     "options": [
       { "id": "a", "text": "A senator" },
@@ -585,7 +585,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_40",
+    "id": "pcon_40",
     "text": "A foreigner may acquire Filipino citizenship through",
     "options": [
       { "id": "a", "text": "Naturalization" },
@@ -600,7 +600,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_41",
+    "id": "pcon_41",
     "text": "What is regarded by the State as a 'primary social economic force?'",
     "options": [
       { "id": "a", "text": "education" },
@@ -615,7 +615,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_42",
+    "id": "pcon_42",
     "text": "According to Article III, Section 15 of the Constitution, the writ of habeas corpus may be suspended in times of rebellion or what?",
     "options": [
       { "id": "a", "text": "martial law" },
@@ -630,7 +630,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_43",
+    "id": "pcon_43",
     "text": "The Lower Chamber of the Congress of the Philippines is known by what name?",
     "options": [
       { "id": "a", "text": "Senate" },
@@ -645,7 +645,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_44",
+    "id": "pcon_44",
     "text": "A Member of either house of Congress may be expelled by their fellow Members. For a Member to be expelled, how much of the total number of Members of a house must concur with the expulsion?",
     "options": [
       { "id": "a", "text": "two-thirds" },
@@ -660,7 +660,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_45",
+    "id": "pcon_45",
     "text": "If a President wishes to veto a bill, he/she must communicate it within a certain span of time, otherwise the bill will become a law. How long is this span of time?",
     "options": [
       { "id": "a", "text": "3 weeks" },
@@ -675,7 +675,7 @@
     "language": "english"
   },
   {
-    "id": "con_pro_46",
+    "id": "pcon_46",
     "text": "Which is not a ground for Impeachment of the President, Vice-President, Ombudsman, and Senator?",
     "options": [
       { "id": "a", "text": "graft and corruption" },
@@ -688,6 +688,531 @@
     "explanation": "The constitutional grounds for impeachment are: culpable violation of the Constitution, treason, bribery, **graft and corruption**, **other high crimes**, or **grave abuse of power**. While sexual harassment (b) and other crimes (e) could potentially fall under 'other high crimes,' scolding a child (**d**) is a domestic matter and not an official crime or action serious enough to be a ground for impeachment against a high-ranking official.",
     "category": "Philippine Constitution",
     "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pcon_47",
+    "text": "What is the supreme law of the Philippines?",
+    "options": [
+      { "id": "a", "text": "The Civil Code" },
+      { "id": "b", "text": "The Revised Penal Code" },
+      { "id": "c", "text": "The 1987 Philippine Constitution" },
+      { "id": "d", "text": "The Local Government Code" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The 1987 Philippine Constitution is the highest law of the land; all laws must conform to it.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pcon_48",
+    "text": "Which branch of government is tasked to execute and implement laws?",
+    "options": [
+      { "id": "a", "text": "Legislative Branch" },
+      { "id": "b", "text": "Judicial Branch" },
+      { "id": "c", "text": "Executive Branch" },
+      { "id": "d", "text": "Civil Service Commission" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Executive Branch, headed by the President, enforces and implements the laws.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pcon_49",
+    "text": "The power of judicial review belongs to which government body?",
+    "options": [
+      { "id": "a", "text": "Office of the Ombudsman" },
+      { "id": "b", "text": "Supreme Court" },
+      { "id": "c", "text": "Senate" },
+      { "id": "d", "text": "Department of Justice" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Supreme Court interprets laws and determines whether acts of the government are constitutional.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_50",
+    "text": "How many years is the term of office of the President of the Philippines?",
+    "options": [
+      { "id": "a", "text": "4 years" },
+      { "id": "b", "text": "5 years" },
+      { "id": "c", "text": "6 years" },
+      { "id": "d", "text": "7 years" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The President serves a single 6-year term without re-election.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pcon_51",
+    "text": "The Bill of Rights is found in which Article of the 1987 Constitution?",
+    "options": [
+      { "id": "a", "text": "Article II" },
+      { "id": "b", "text": "Article III" },
+      { "id": "c", "text": "Article VI" },
+      { "id": "d", "text": "Article VII" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Article III contains the Bill of Rights, which protects the fundamental liberties of individuals.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pcon_52",
+    "text": "Who has the power to declare martial law?",
+    "options": [
+      { "id": "a", "text": "Congress" },
+      { "id": "b", "text": "Supreme Court" },
+      { "id": "c", "text": "President" },
+      { "id": "d", "text": "Chief Justice" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The President may declare martial law but is subject to review by Congress and the Supreme Court.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_53",
+    "text": "The right to due process and equal protection of the law is guaranteed under which section of the Bill of Rights?",
+    "options": [
+      { "id": "a", "text": "Section 1" },
+      { "id": "b", "text": "Section 2" },
+      { "id": "c", "text": "Section 3" },
+      { "id": "d", "text": "Section 7" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Section 1 of Article III guarantees due process and equal protection.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_54",
+    "text": "Who presides over the Senate?",
+    "options": [
+      { "id": "a", "text": "Chief Justice" },
+      { "id": "b", "text": "Senate President" },
+      { "id": "c", "text": "House Speaker" },
+      { "id": "d", "text": "Vice President" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Senate President leads and presides over sessions in the Senate.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pcon_55",
+    "text": "Who has the exclusive power to initiate impeachment cases?",
+    "options": [
+      { "id": "a", "text": "Senate" },
+      { "id": "b", "text": "House of Representatives" },
+      { "id": "c", "text": "Supreme Court" },
+      { "id": "d", "text": "Office of the Ombudsman" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The House of Representatives initiates all impeachment cases, while the Senate conducts the trial.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_56",
+    "text": "Which of the following is NOT a qualification to become a Senator?",
+    "options": [
+      { "id": "a", "text": "Natural-born citizen" },
+      { "id": "b", "text": "Able to read and write" },
+      { "id": "c", "text": "At least 25 years old" },
+      { "id": "d", "text": "Registered voter" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A Senator must be at least 35 years old. The age 25 requirement applies to members of the House of Representatives.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_57",
+    "text": "How many Senators compose the Senate of the Philippines?",
+    "options": [
+      { "id": "a", "text": "12" },
+      { "id": "b", "text": "18" },
+      { "id": "c", "text": "24" },
+      { "id": "d", "text": "30" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Senate is composed of twenty-four (24) Senators elected at large by the qualified voters of the Philippines.",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "pcon_58",
+    "text": "Sa ilalim ng Bill of Rights, ang karapatan ng isang tao na manahimik (right to remain silent) at magkaroon ng abogado ay kinikilala sa anong yugto?",
+    "options": [
+      { "id": "a", "text": "Sa pagpapatupad ng hatol" },
+      { "id": "b", "text": "Sa paglilitis lamang" },
+      { "id": "c", "text": "Sa ilalim ng kustodiya o 'custodial investigation'" },
+      { "id": "d", "text": "Sa pagdinig ng testigo" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang karapatang ito (Miranda Rights) ay dapat ibigay sa sinumang taong sinisiyasat para sa paggawa ng krimen habang nasa kustodiya ng pulisya o 'custodial investigation'.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "pcon_59",
+    "text": "The appointments made by the President, such as the heads of executive departments and ambassadors, must be confirmed by which body?",
+    "options": [
+      { "id": "a", "text": "Supreme Court" },
+      { "id": "b", "text": "Commission on Elections (COMELEC)" },
+      { "id": "c", "text": "Commission on Appointments (CA)" },
+      { "id": "d", "text": "Sandiganbayan" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Commission on Appointments (CA), composed of members from both the Senate and the House of Representatives, is mandated to approve or reject key appointments made by the President.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_60",
+    "text": "What is the maximum number of consecutive terms a Member of the House of Representatives is allowed to serve?",
+    "options": [
+      { "id": "a", "text": "Three consecutive terms of three years each" },
+      { "id": "b", "text": "Two consecutive terms of four years each" },
+      { "c": "c", "text": "A single six-year term" },
+      { "id": "d", "text": "Three consecutive terms of four years each" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A Representative can serve a maximum of three consecutive three-year terms. After a break, they may run again.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_61",
+    "text": "Ayon sa Artikulo II, Seksyon 1 ng Konstitusyon, saan nakasalalay ang kapangyarihan (sovereignty) ng isang estado?",
+    "options": [
+      { "id": "a", "text": "Sa Kongreso" },
+      { "id": "b", "text": "Sa militar" },
+      { "id": "c", "text": "Sa sambayanan (the people)" },
+      { "id": "d", "text": "Sa Pangulo" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang probisyong ito ay nagsasaad na 'Ang Pilipinas ay isang estadong republikano at demokratiko. Ang ganap na kapangyarihan ay nakasalalay sa sambayanan at nagmumula sa kanila ang lahat ng awtoridad ng pamahalaan.'",
+    "category": "Philippine Constitution",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "pcon_62",
+    "text": "What is the primary function of the Legislative Branch (Congress) in the Philippine government?",
+    "options": [
+      { "id": "a", "text": "Interpreting laws" },
+      { "id": "b", "text": "Executing and enforcing laws" },
+      { "id": "c", "text": "Proposing, crafting, and enacting laws" },
+      { "id": "d", "text": "Administering justice" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Legislative Branch, composed of the Senate and the House of Representatives, is primarily responsible for lawmaking.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_63",
+    "text": "The power of the State to take private property for public use upon payment of just compensation is known as:",
+    "options": [
+      { "id": "a", "text": "Police Power" },
+      { "id": "b", "text": "Taxation" },
+      { "id": "c", "text": "Eminent Domain" },
+      { "id": "d", "text": "Supremacy of Civilian Authority" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Eminent Domain is the government’s inherent power to take or authorize the taking of private property for public use, provided that just compensation is paid.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_64",
+    "text": "The term of office for Senators of the Philippines is:",
+    "options": [
+      { "id": "a", "text": "Three years with no re-election" },
+      { "id": "b", "text": "Six years, eligible for one immediate re-election" },
+      { "id": "c", "text": "Six years, eligible for a maximum of two consecutive terms" },
+      { "id": "d", "text": "Four years, eligible for one immediate re-election" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Senators serve for six years and can be re-elected for only one consecutive term, totaling a maximum of 12 consecutive years.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_65",
+    "text": "Which principle limits the powers of the government by dividing them among the legislative, executive, and judicial branches?",
+    "options": [
+      { "id": "a", "text": "Checks and Balances" },
+      { "id": "b", "text": "Separation of Powers" },
+      { "id": "c", "text": "Doctrine of Stare Decisis" },
+      { "id": "d", "text": "Rule of the Majority" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Separation of Powers divides the government's functions into three distinct branches. The principle of Checks and Balances allows each branch to curb the power of the others.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_66",
+    "text": "The rule against double jeopardy protects an accused person from being:",
+    "options": [
+      { "id": "a", "text": "Tried and convicted in two different countries for the same offense" },
+      { "id": "b", "text": "Punished twice for the same act, regardless of acquittal or conviction" },
+      { "id": "c", "text": "Charged and acquitted or convicted twice for the same offense" },
+      { "id": "d", "text": "Arrested without a warrant" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Double jeopardy means a person cannot be subjected to prosecution for the same offense after being validly acquitted or convicted.",
+    "category": "Philippine Constitution",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "pcon_67",
+    "text": "Under the 1987 Constitution, how can a law enacted by Congress be overturned or declared void?",
+    "options": [
+      { "id": "a", "text": "By a majority vote of the Senate" },
+      { "id": "b", "text": "By an Executive Order from the President" },
+      { "id": "c", "text": "By the Supreme Court exercising its power of judicial review" },
+      { "id": "d", "text": "By a nationwide referendum" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Supreme Court, through judicial review, has the final authority to determine the constitutionality of any law, treaty, or executive agreement.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_68",
+    "text": "The constitutional right to 'form unions, associations, or societies for purposes not contrary to law' is a component of which general right?",
+    "options": [
+      { "id": "a", "text": "Right to travel" },
+      { "id": "b", "text": "Right to property" },
+      { "id": "c", "text": "Right of assembly and petition" },
+      { "id": "d", "text": "Freedom of religion" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The freedom of association is usually coupled with the right to peaceably assemble and petition the government for redress of grievances.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_69",
+    "text": "The power of the purse, which refers to the authority to approve the national budget, belongs exclusively to which branch of government?",
+    "options": [
+      { "id": "a", "text": "Judicial Branch" },
+      { "id": "b", "text": "Executive Branch" },
+      { "id": "c", "text": "Legislative Branch" },
+      { "id": "d", "text": "Commission on Audit" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Congress (Legislative Branch) has the sole authority to appropriate funds for the operation of the government.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_70",
+    "text": "Which of the following is NOT an impeachable officer under the 1987 Constitution?",
+    "options": [
+      { "id": "a", "text": "The President" },
+      { "id": "b", "text": "Members of the Constitutional Commissions" },
+      { "id": "c", "text": "The Vice President" },
+      { "id": "d", "text": "The Secretary of the Department of Finance" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Only the President, Vice-President, Members of the Supreme Court, Members of the Constitutional Commissions, and the Ombudsman are impeachable officers.",
+    "category": "Philippine Constitution",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "pcon_71",
+    "text": "The writ that protects the right to life, liberty, and security of persons whose freedom is under threat due to illegal means is the:",
+    "options": [
+      { "id": "a", "text": "Writ of Amparo" },
+      { "id": "b", "text": "Writ of Habeas Corpus" },
+      { "id": "c", "text": "Writ of Kalikasan" },
+      { "id": "d", "text": "Writ of Mandamus" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The Writ of Amparo is a judicial remedy protecting a person's rights to life, liberty, and security, specifically against extrajudicial killings and enforced disappearances.",
+    "category": "Philippine Constitution",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "pcon_72",
+    "text": "Which Constitutional Commission is tasked with enforcing and administering all laws and regulations relative to the conduct of elections?",
+    "options": [
+      { "id": "a", "text": "Civil Service Commission (CSC)" },
+      { "id": "b", "text": "Commission on Audit (COA)" },
+      { "id": "c", "text": "Commission on Appointments (CA)" },
+      { "id": "d", "text": "Commission on Elections (COMELEC)" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The Commission on Elections (COMELEC) is one of the three Constitutional Commissions and is responsible for elections.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_73",
+    "text": "The State's policy to 'afford full protection to labor, local and overseas, organized and unorganized' is enshrined in which article of the Constitution?",
+    "options": [
+      { "id": "a", "text": "Article II (Declaration of Principles and State Policies)" },
+      { "id": "b", "text": "Article XIII (Social Justice and Human Rights)" },
+      { "id": "c", "d": "Article XIV (Education, Science and Technology, Arts, Culture, and Sports)" },
+      { "id": "d", "text": "Article VII (Executive Department)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Labor protection and social justice are primarily detailed under Article XIII.",
+    "category": "Philippine Constitution",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "pcon_74",
+    "text": "In the absence of a search warrant or warrant of arrest, which of the following instances allows a police officer to legally search or arrest a person?",
+    "options": [
+      { "id": "a", "text": "The person is a known political activist" },
+      { "id": "b", "text": "The person is acting suspiciously in a private residence" },
+      { "id": "c", "text": "The person has just committed, is committing, or is about to commit an offense in the officer's presence (in flagrante delicto)" },
+      { "id": "d", "text": "The officer suspects the person is carrying illegal drugs" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Warrantless arrests and searches are generally valid if the person is caught in the act of committing a crime (in flagrante delicto).",
+    "category": "Philippine Constitution",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "pcon_75",
+    "text": "The phrase 'No person shall be held to answer for a criminal offense without due process of law' primarily protects the right to:",
+    "options": [
+      { "id": "a", "text": "Freedom of speech" },
+      { "id": "b", "text": "Trial by an impartial judge and jury" },
+      { "id": "c", "text": "Procedural fairness in judicial and administrative proceedings" },
+      { "id": "d", "text": "Freedom of movement" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Due process ensures that every legal action against a person follows established rules and principles, guaranteeing procedural fairness.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_76",
+    "text": "What is the maximum period the President can initially declare martial law?",
+    "options": [
+      { "id": "a", "text": "Thirty (30) days" },
+      { "id": "b", "text": "Sixty (60) days" },
+      { "id": "c", "text": "Ninety (90) days" },
+      { "id": "d", "text": "One (1) year" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The initial proclamation of martial law cannot exceed sixty (60) days, unless extended by Congress.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_77",
+    "text": "The principle of separation of Church and State is specifically mentioned in which Article of the Constitution?",
+    "options": [
+      { "id": "a", "text": "Article II, Section 6" },
+      { "id": "b", "text": "Article III, Section 5" },
+      { "id": "c", "text": "Article VI, Section 28(3)" },
+      { "id": "d", "text": "Article XV, Section 3" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Article II, Section 6 states: 'The separation of Church and State shall be inviolable.'",
+    "category": "Philippine Constitution",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "pcon_78",
+    "text": "The 'Non-impairment of contracts' clause means that the State cannot pass a law that:",
+    "options": [
+      { "id": "a", "text": "Prevents any business from operating in the Philippines" },
+      { "id": "b", "text": "Changes the existing obligations of a contract between private parties" },
+      { "id": "c", "text": "Imposes higher taxes on businesses" },
+      { "id": "d", "text": "Prevents citizens from entering into any contract" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The non-impairment clause generally prohibits the government from changing the terms of valid private contracts already in existence.",
+    "category": "Philippine Constitution",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "pcon_79",
+    "text": "Ang kapangyarihan ng 'Gubernatorial Veto' ay nagpapahintulot sa Gobernador na tanggihan ang isang ordinansa na ipinasa ng Sangguniang Panlalawigan. Aling prinsipyo ito ng Konstitusyon ang nagpapahintulot nito?",
+    "options": [
+      { "id": "a", "text": "Principle of Local Autonomy" },
+      { "id": "b", "text": "Principle of Subsidiarity" },
+      { "id": "c", "text": "Principle of Checks and Balances" },
+      { "id": "d", "text": "Principle of Command Responsibility" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang kapangyarihan ng Veto ay isang anyo ng Checks and Balances, kung saan ang Ehekutibo (Gobernador/Pangulo) ay maaaring tutulan ang desisyon ng Lehislatura (Sangguniang Panlalawigan/Kongreso).",
+    "category": "Philippine Constitution",
+    "difficulty": "hard",
+    "language": "filipino"
+  },
+  {
+    "id": "pcon_80",
+    "text": "Which Article of the 1987 Constitution contains the provisions related to the Accountability of Public Officers, including the creation of the Ombudsman?",
+    "options": [
+      { "id": "a", "text": "Article VIII (Judicial Department)" },
+      { "id": "b", "text": "Article XI (Accountability of Public Officers)" },
+      { "id": "c", "d": "Article XIII (Social Justice and Human Rights)" },
+      { "id": "d", "text": "Article IX (Constitutional Commissions)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Article XI is dedicated to ensuring accountability, covering impeachment and the Office of the Ombudsman.",
+    "category": "Philippine Constitution",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "pcon_81",
+    "text": "The power of the President to suspend the privilege of the writ of habeas corpus may be done only in cases of:",
+    "options": [
+      { "id": "a", "text": "Massive poverty or economic collapse" },
+      { "id": "b", "text": "Imminent threats of war or trade disputes" },
+      { "id": "c", "text": "Invasion or rebellion, when public safety requires it" },
+      { "id": "d", "text": "Natural disasters or major public health crises" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Constitution strictly limits the power to suspend the writ or declare martial law to the conditions of invasion or rebellion.",
+    "category": "Philippine Constitution",
+    "difficulty": "hard",
     "language": "english"
   }
 ]

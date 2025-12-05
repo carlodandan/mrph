@@ -1,6 +1,6 @@
 [
   {
-    "id": "num_pro_1",
+    "id": "num_01",
     "text": "If a government employee's monthly salary is ₱25,000 and it's increased by 15%, what is the new monthly salary?",
     "options": [
       { "id": "a", "text": "₱28,750" },
@@ -15,7 +15,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_2",
+    "id": "num_02",
     "text": "A government project was completed in 45 days by 12 workers. How many days would it take 15 workers to complete the same project?",
     "options": [
       { "id": "a", "text": "36 days" },
@@ -30,7 +30,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_3",
+    "id": "num_03",
     "text": "Kung ang badyet ng isang proyekto ay ₱500,000 at 65% nito ay nagastos na, magkano ang natitira?",
     "options": [
       { "id": "a", "text": "₱175,000" },
@@ -45,7 +45,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_4",
+    "id": "num_04",
     "text": "The ratio of male to female employees in a government office is 3:5. If there are 24 male employees, how many employees are there in total?",
     "options": [
       { "id": "a", "text": "40" },
@@ -60,7 +60,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_5",
+    "id": "num_05",
     "text": "A government vehicle travels 180 km in 3 hours. What is its average speed in km per hour?",
     "options": [
       { "id": "a", "text": "50 km/h" },
@@ -75,7 +75,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_6",
+    "id": "num_06",
     "text": "Ilang porsyento ang 75 sa 300?",
     "options": [
       { "id": "a", "text": "20%" },
@@ -90,7 +90,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_7",
+    "id": "num_07",
     "text": "If ₱8,000 is invested at 5% simple interest per year, how much interest will it earn in 3 years?",
     "options": [
       { "id": "a", "text": "₱1,000" },
@@ -105,7 +105,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_8",
+    "id": "num_08",
     "text": "Ang isang rektanggulo ay may haba na 12 metro at lapad na 8 metro. Ano ang area nito?",
     "options": [
       { "id": "a", "text": "80 sq m" },
@@ -120,7 +120,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_9",
+    "id": "num_09",
     "text": "A government office ordered 15 boxes of office supplies. Each box contains 24 packs of paper. If each pack has 500 sheets, how many sheets of paper were ordered in total?",
     "options": [
       { "id": "a", "text": "150,000" },
@@ -135,7 +135,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_10",
+    "id": "num_10",
     "text": "Ano ang pinakamalaking numero na naghahati sa parehong 36 at 48 nang walang natitira?",
     "options": [
       { "id": "a", "text": "6" },
@@ -150,7 +150,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_11",
+    "id": "num_11",
     "text": "PEMDAS: 10 ÷ 2 x 5 - (12 ÷ 3 x 4)  +1 =__?",
     "options": [
       { "id": "a", "text": "10" },
@@ -165,9 +165,9 @@
     "language": "english"
   },
   {
-  "id": "num_pro_12",
-  "text": "In a survey of 3,200 people, 1,024 said local-level corruption is “very high.” What percentage is this?",
-  "options": [
+    "id": "num_12",
+    "text": "In a survey of 3,200 people, 1,024 said local-level corruption is “very high.” What percentage is this?",
+    "options": [
       { "id": "a", "text": "28%" },
       { "id": "b", "text": "30%" },
       { "id": "c", "text": "32%" },
@@ -180,9 +180,9 @@
     "language": "english"
   },
   {
-  "id": "num_pro_13",
-  "text": "The ratio of boys to girls in a class is 3 : 4. If there are 21 boys, how many girls are there?",
-  "options": [
+    "id": "num_13",
+    "text": "The ratio of boys to girls in a class is 3 : 4. If there are 21 boys, how many girls are there?",
+    "options": [
       { "id": "a", "text": "24" },
       { "id": "b", "text": "26" },
       { "id": "c", "text": "28" },
@@ -195,9 +195,9 @@
     "language": "english"
   },
   {
-  "id": "num_pro_14",
-  "text": "Ham costs ₱220 for 1.5 kg. What is the price per 100 grams? (Round to three decimal places if needed.)",
-  "options": [
+    "id": "num_14",
+    "text": "Ham costs ₱220 for 1.5 kg. What is the price per 100 grams? (Round to three decimal places if needed.)",
+    "options": [
       { "id": "a", "text": "₱12.000" },
       { "id": "b", "text": "₱14.667" },
       { "id": "c", "text": "₱16.000" },
@@ -210,9 +210,9 @@
     "language": "english"
   },
   {
-  "id": "num_pro_15",
-  "text": "SEQUENCE: 2,6,12,20,30,__",
-  "options": [
+    "id": "num_15",
+    "text": "SEQUENCE: 2,6,12,20,30,__",
+    "options": [
       { "id": "a", "text": "36" },
       { "id": "b", "text": "40" },
       { "id": "c", "text": "42" },
@@ -225,9 +225,9 @@
     "language": "english"
   },
   {
-  "id": "num_pro_16",
-  "text": "Foreing Direct Investments (FDI) into Phillippes from all over the world: 1992 = 5.7, 1993 = 10.15, 1994 = 12.16, 1996 = 24.23 and 1997 = 31.36. What was the ratio of investment in 1997 over the investment in 1992?",
-  "options": [
+    "id": "num_16",
+    "text": "Foreing Direct Investments (FDI) into Phillippes from all over the world: 1992 = 5.7, 1993 = 10.15, 1994 = 12.16, 1996 = 24.23 and 1997 = 31.36. What was the ratio of investment in 1997 over the investment in 1992?",
+    "options": [
       { "id": "a", "text": "5.50" },
       { "id": "b", "text": "5.36" },
       { "id": "c", "text": "5.64" },
@@ -240,9 +240,9 @@
     "language": "english"
   },
   {
-  "id": "num_pro_17",
-  "text": "Foreing Direct Investments (FDI) into Phillippes from all over the world: 1992 = 5.7, 1993 = 10.15, 1994 = 12.16, 1996 = 24.23 and 1997 = 31.36. What was absolute difference in the FDI to Philippines in between 1996 and 1997?",
-  "options": [
+    "id": "num_17",
+    "text": "Foreing Direct Investments (FDI) into Phillippes from all over the world: 1992 = 5.7, 1993 = 10.15, 1994 = 12.16, 1996 = 24.23 and 1997 = 31.36. What was absolute difference in the FDI to Philippines in between 1996 and 1997?",
+    "options": [
       { "id": "a", "text": "7.29" },
       { "id": "b", "text": "7.13" },
       { "id": "c", "text": "8.13" },
@@ -255,9 +255,9 @@
     "language": "english"
   },
   {
-  "id": "num_pro_18",
-  "text": "Foreing Direct Investments (FDI) into Phillippes from all over the world: 1992 = 5.7, 1993 = 10.15, 1994 = 12.16, 1996 = 24.23 and 1997 = 31.36. If Philippine FDI from OPEC countries was proportionately the same in 1992 and 1997 as the total FDI  from all over the world and if the FDI in 1992 from the OPEC countries was Euro 2 million. What was the  amount of FDI from the OPEC countries in 1997?",
-  "options": [
+    "id": "num_18",
+    "text": "Foreing Direct Investments (FDI) into Phillippes from all over the world: 1992 = 5.7, 1993 = 10.15, 1994 = 12.16, 1996 = 24.23 and 1997 = 31.36. If Philippine FDI from OPEC countries was proportionately the same in 1992 and 1997 as the total FDI  from all over the world and if the FDI in 1992 from the OPEC countries was Euro 2 million. What was the  amount of FDI from the OPEC countries in 1997?",
+    "options": [
       { "id": "a", "text": "11" },
       { "id": "b", "text": "10.72" },
       { "id": "c", "text": "11.28" },
@@ -270,7 +270,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_19",
+    "id": "num_19",
     "text": "A government agency's budget increased by 20% in the first year and then decreased by 10% in the second year. If the initial budget was ₱5,000,000, what is the final budget after two years?",
     "options": [
       { "id": "a", "text": "₱5,400,000" },
@@ -285,7 +285,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_20",
+    "id": "num_20",
     "text": "Three government employees, A, B, and C, can process 180 applications in 4 hours. A and B together can process 105 applications in 3 hours. If employee A's rate is 20 applications/hour, how many applications can employee C process in 1 hour?",
     "options": [
       { "id": "a", "text": "10" },
@@ -300,7 +300,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_21",
+    "id": "num_21",
     "text": "Isang tanggapan ng pamahalaan ang bumili ng 300 silya. Kung ang presyo ng bawat silya ay ₱1,250 at binigyan sila ng 12% diskwento, magkano ang kabuuang halaga ng binili?",
     "options": [
       { "id": "a", "text": "₱330,000" },
@@ -315,7 +315,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_22",
+    "id": "num_22",
     "text": "The average age of 5 senior officials is 58 years. If the ages of four of them are 52, 60, 65, and 57, what is the age of the fifth official?",
     "options": [
       { "id": "a", "text": "55" },
@@ -330,7 +330,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_23",
+    "id": "num_23",
     "text": "A rectangular government lot measures 300 meters by 150 meters. If a 3-meter wide road is built around the outside perimeter, what is the area of the road?",
     "options": [
       { "id": "a", "text": "2,718 sq m" },
@@ -345,7 +345,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_24",
+    "id": "num_24",
     "text": "Kung ang isang tangke ng tubig na may kapasidad na 1,200 litro ay puno, at ginagamit ito sa rate na 15 litro bawat oras, gaano katagal bago maubos ang laman nito?",
     "options": [
       { "id": "a", "text": "75 oras" },
@@ -360,7 +360,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_25",
+    "id": "num_25",
     "text": "A sum of money doubles in 8 years at a certain rate of simple interest. In how many years will it triple at the same rate?",
     "options": [
       { "id": "a", "text": "12 years" },
@@ -375,7 +375,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_26",
+    "id": "num_26",
     "text": "The ratio of the volume of two spheres is 8:27. What is the ratio of their surface areas?",
     "options": [
       { "id": "a", "text": "2:3" },
@@ -390,7 +390,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_27",
+    "id": "num_27",
     "text": "Kung ang ₱15,000 ay hinati sa tatlong empleyado sa ratio na 2:3:5, magkano ang matatanggap ng empleyadong may pinakamalaking parte?",
     "options": [
       { "id": "a", "text": "₱3,000" },
@@ -405,7 +405,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_28",
+    "id": "num_28",
     "text": "The length of a rectangular office is 5 meters more than its width. If the perimeter is 70 meters, what is the area of the office in square meters?",
     "options": [
       { "id": "a", "text": "250 sq m" },
@@ -420,7 +420,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_29",
+    "id": "num_29",
     "text": "A government vehicle travels from City A to City B at an average speed of 60 km/h and returns from City B to City A at an average speed of 40 km/h. What is the average speed for the entire round trip?",
     "options": [
       { "id": "a", "text": "45 km/h" },
@@ -435,7 +435,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_30",
+    "id": "num_30",
     "text": "If (x/3) + (x/4) = 7, what is the value of 2x?",
     "options": [
       { "id": "a", "text": "12" },
@@ -450,7 +450,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_31",
+    "id": "num_31",
     "text": "Ang presyo ng isang lupa ay tumaas ng 25% sa nakaraang taon. Kung ang kasalukuyang presyo ay ₱3,125,000, magkano ang orihinal na presyo?",
     "options": [
       { "id": "a", "text": "₱2,500,000" },
@@ -465,7 +465,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_32",
+    "id": "num_32",
     "text": "If the sum of three consecutive odd integers is 111, what is the largest of these integers?",
     "options": [
       { "id": "a", "text": "35" },
@@ -480,7 +480,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_33",
+    "id": "num_33",
     "text": "A clock gains 16 minutes per day. If it is set correctly at 10 AM on Monday, what will be the time shown on the clock when the actual time is 4 PM on Wednesday?",
     "options": [
       { "id": "a", "text": "4:32 PM" },
@@ -495,7 +495,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_34",
+    "id": "num_34",
     "text": "A man rows a boat at 10 km/h in still water. If the river flows at 2 km/h, how long will it take him to row 36 km upstream and then return to the starting point?",
     "options": [
       { "id": "a", "text": "8 hours" },
@@ -510,7 +510,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_35",
+    "id": "num_35",
     "text": "Ano ang susunod na numero sa sequence na ito: 1, 4, 9, 16, 25, __?",
     "options": [
       { "id": "a", "text": "30" },
@@ -525,7 +525,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_36",
+    "id": "num_36",
     "text": "If 12 people can complete a task in 15 days, how many *extra* people are needed to complete the same task in 10 days?",
     "options": [
       { "id": "a", "text": "4" },
@@ -540,7 +540,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_37",
+    "id": "num_37",
     "text": "The length of a cubical water tank is 5 meters. If the tank is currently 60% full, how many cubic meters of water does it contain?",
     "options": [
       { "id": "a", "text": "125 cu m" },
@@ -555,7 +555,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_38",
+    "id": "num_38",
     "text": "Kung ang ₱10,000 ay ininvest sa 4% compound interest, compounded annually, magkano ang magiging total na halaga nito pagkatapos ng 2 taon? (Round to the nearest whole number)",
     "options": [
       { "id": "a", "text": "₱10,800" },
@@ -570,7 +570,7 @@
     "language": "filipino"
   },
   {
-    "id": "num_pro_39",
+    "id": "num_39",
     "text": "What is the result of the expression: 40 - [5 * (12 ÷ 4) + 2²]?",
     "options": [
       { "id": "a", "text": "15" },
@@ -585,7 +585,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_40",
+    "id": "num_40",
     "text": "Three pipes A, B, and C can fill a water reservoir in 10, 15, and 30 hours respectively. If all three pipes are opened together, how long will it take to fill the reservoir?",
     "options": [
       { "id": "a", "text": "4 hours" },
@@ -600,7 +600,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_41",
+    "id": "num_41",
     "text": "(2x1÷2), (4÷1x2), (6x1÷2), _____",
     "options": [
       { "id": "a", "text": "8" },
@@ -610,12 +610,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "The sequence results are 1, 8, 3. This is an interwoven sequence. The odd-positioned terms (1, 3, ...) are 1, 3, 5, ... (adding 2). The even-positioned terms (2, 4, ...) are 8, 16, 32, ... (multiplying by 2). The 4th term is 16.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_42",
+    "id": "num_42",
     "text": "(15-8+3), 8, (4÷2x3), _____",
     "options": [
       { "id": "a", "text": "4" },
@@ -625,12 +625,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "The calculated sequence values are 10, 8, 6. The pattern is subtracting 2. The next term is 6 - 2 = 4.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_43",
+    "id": "num_43",
     "text": "Simplify: 33 1/3 % of 48 + 12 1/2 % of 96 – 44 4/9 % of 27",
     "options": [
       { "id": "a", "text": "12" },
@@ -640,12 +640,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "Convert percentages to fractions: 33 1/3% = 1/3, 12 1/2% = 1/8, 44 4/9% = 4/9. The calculation is (1/3 of 48) + (1/8 of 96) – (4/9 of 27) = 16 + 12 – 12 = 16.",
-    "category": "Mathematics/Fractions and Percentages",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_44",
+    "id": "num_44",
     "text": "12 is 125% of what number?",
     "options": [
       { "id": "a", "text": "9.6" },
@@ -656,12 +656,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "Let N be the number. 12 = 1.25 * N. N = 12 / 1.25 = 9.6.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_45",
+    "id": "num_45",
     "text": "What percent of 16 is 40?",
     "options": [
       { "id": "a", "text": "2.5%" },
@@ -672,12 +672,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "The percentage is (40 / 16) * 100% = 2.5 * 100% = 250%.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_46",
+    "id": "num_46",
     "text": "1 1/4 subtracted from its reciprocal is?",
     "options": [
       { "id": "a", "text": "–9/20" },
@@ -688,12 +688,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "The number is 5/4. Its reciprocal is 4/5. The difference is 4/5 - 5/4 = 16/20 - 25/20 = -9/20.",
-    "category": "Mathematics/Fractions",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_47",
+    "id": "num_47",
     "text": "What is the ratio of 1/4 to 3/5?",
     "options": [
       { "id": "a", "text": "1 : 3" },
@@ -704,12 +704,12 @@
     ],
     "correctAnswer": "c",
     "explanation": "The ratio is (1/4) ÷ (3/5) = 1/4 x 5/3 = 5/12. The ratio is 5 : 12.",
-    "category": "Mathematics/Ratio and Proportion",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_48",
+    "id": "num_48",
     "text": "What is the difference between square root of 150 and square root of 54?",
     "options": [
       { "id": "a", "text": "3 * sq rt(6)" },
@@ -720,12 +720,12 @@
     ],
     "correctAnswer": "e",
     "explanation": "Simplify the radicals: sqrt(150) = sqrt(25 x 6) = 5 * sqrt(6). sqrt(54) = sqrt(9 x 6) = 3 * sqrt(6). The difference is 5 * sqrt(6) - 3 * sqrt(6) = 2 * sqrt(6).",
-    "category": "Mathematics/Radicals",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_49",
+    "id": "num_49",
     "text": "A race car travelled for 2 1/2 hours with an average speed of 132 5/8 km per hour. Find the total distance it covered.",
     "options": [
       { "id": "a", "text": "264 5/16 km" },
@@ -735,12 +735,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "Distance = Speed x Time. Time = 5/2 hrs. Speed = 1061/8 km/h. Distance = (1061/8) x (5/2) = 5305/16 = 331 9/16 km.",
-    "category": "Mathematics/Word Problems (Distance)",
+    "category": "Numerical Ability",
     "difficulty": "difficult",
     "language": "english"
   },
   {
-    "id": "num_pro_50",
+    "id": "num_50",
     "text": "9^0 - (-2)^2 + (-3^2) - (-4)^2 = ?",
     "options": [
       { "id": "a", "text": "-28" },
@@ -751,12 +751,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "The expression simplifies to 1 - 4 + (-9) - 16 = 1 - 4 - 9 - 16 = -28.",
-    "category": "Mathematics/Arithmetic",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_51",
+    "id": "num_51",
     "text": "(100)^0 + (-4^2) - 2^2 = ?",
     "options": [
       { "id": "a", "text": "19" },
@@ -767,12 +767,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "The expression simplifies to 1 + (-16) - 4 = 1 - 16 - 4 = -19.",
-    "category": "Mathematics/Arithmetic",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_52",
+    "id": "num_52",
     "text": "A one fourth percent of a number is 25. What is the number?",
     "options": [
       { "id": "a", "text": "100" },
@@ -782,12 +782,12 @@
     ],
     "correctAnswer": "c",
     "explanation": "One fourth percent is 0.25% or 0.0025. Let N be the number. 0.0025 * N = 25. N = 25 / 0.0025 = 10,000.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_53",
+    "id": "num_53",
     "text": "A mini grocery store has a sale of Php 6435, Php 6927, Php 6855, Php 7230 and Php 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Php 6500?",
     "options": [
       { "id": "a", "text": "Php 4991" },
@@ -797,12 +797,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "Target total sales (6 months): 6500 * 6 = 39,000. Current total sales (5 months): 34,009. Required 6th month sale: 39,000 - 34,009 = Php 4,991.",
-    "category": "Mathematics/Statistics (Average)",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_54",
+    "id": "num_54",
     "text": "The mean, median, and mode of 9 numbers are equal. The numbers are 12, 22, 10, 15, 14, 11, 19, 17. What is the 9th number?",
     "options": [
       { "id": "a", "text": "14" },
@@ -813,12 +813,12 @@
     ],
     "correctAnswer": "c",
     "explanation": "The 9th number (X) must be the mode and is equal to the mean. Sum of 8 numbers is 120. Mean = (120 + X) / 9. Since Mean = X, X = (120 + X) / 9, which means 8X = 120, so X = 15.",
-    "category": "Mathematics/Statistics",
+    "category": "Numerical Ability",
     "difficulty": "difficult",
     "language": "english"
   },
   {
-    "id": "num_pro_55",
+    "id": "num_55",
     "text": "The mean, median, and mode of 5 numbers are equal. The numbers are 29, 18, 24, 25. What is the 5th number?",
     "options": [
       { "id": "a", "text": "24" },
@@ -829,12 +829,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "The 5th number (X) must be the mode and is equal to the mean. Sum of 4 numbers is 96. Mean = (96 + X) / 5. Since Mean = X, X = (96 + X) / 5, which means 4X = 96, so X = 24.",
-    "category": "Mathematics/Statistics",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_56",
+    "id": "num_56",
     "text": "90 increased by what percent of itself gives 180?",
     "options": [
       { "id": "a", "text": "50%" },
@@ -845,12 +845,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "The increase is 180 - 90 = 90. The percentage increase is (90 / 90) * 100% = 100%.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_57",
+    "id": "num_57",
     "text": "If 500 or 25% of graduating class are girls, how many are graduating?",
     "options": [
       { "id": "a", "text": "2,000" },
@@ -861,12 +861,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "If 25% of the class is 500, the total class size is 500 / 0.25 = 2000.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_58",
+    "id": "num_58",
     "text": "In a group of 8,000 applicants for a civil service examination, 1600 failed to take the first part of the test. What percent of the total applicants took the first part of the test?",
     "options": [
       { "id": "a", "text": "20%" },
@@ -876,12 +876,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "Applicants who took the test: 8000 - 1600 = 6400. The percentage is (6400 / 8000) * 100% = 0.8 * 100% = 80%.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_59",
+    "id": "num_59",
     "text": "If twice the value of a certain number is increased by 8 the result is 40. What is the number?",
     "options": [
       { "id": "a", "text": "8" },
@@ -892,12 +892,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "Let N be the number. 2N + 8 = 40. 2N = 32. N = 16.",
-    "category": "Mathematics/Algebra",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_60",
+    "id": "num_60",
     "text": "Cassy's father was 38 years of age when she was born while her mother was 36 years old when her brother four years younger to her was born. What is the difference between the ages of her parents?",
     "options": [
       { "id": "a", "text": "2 years" },
@@ -907,12 +907,12 @@
     ],
     "correctAnswer": "c",
     "explanation": "The brother was born 4 years after Cassy. The father was 38 when Cassy was born. The mother was 36 when the brother was born, so she was 36 - 4 = 32 when Cassy was born. The age difference is 38 - 32 = 6 years.",
-    "category": "Mathematics/Word Problems (Age)",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_61",
+    "id": "num_61",
     "text": "Number Series: 100%, 2, 15/5, 4, ____?",
     "options": [
       { "id": "a", "text": "2" },
@@ -922,12 +922,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "The terms, when simplified, are 1, 2, 3, 4. The next term is 5.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_62",
+    "id": "num_62",
     "text": "Number Series: 1/6, 1/3, 1/2, 2/3, ____?",
     "options": [
       { "id": "a", "text": "2/6" },
@@ -937,12 +937,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "Convert to the common denominator 6: 1/6, 2/6, 3/6, 4/6. The next term is 5/6.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_63",
+    "id": "num_63",
     "text": "Number Series: 250%, 50%, 100%, 20%, 40%, ____?",
     "options": [
       { "id": "a", "text": "8%" },
@@ -952,12 +952,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "The pattern alternates between division by 5 and multiplication by 2. The final step is 40% / 5 = 8%.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_64",
+    "id": "num_64",
     "text": "Number Series: 0.1, 30%, 1/2, 0.7, 90%, ____?",
     "options": [
       { "id": "a", "text": "1 1/10" },
@@ -967,12 +967,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "Convert all terms to decimals: 0.1, 0.3, 0.5, 0.7, 0.9. The pattern adds 0.2. The next term is 0.9 + 0.2 = 1.1, which is 1 1/10.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_65",
+    "id": "num_65",
     "text": "Number Series: 5, 6, 9, 15, ____, 40",
     "options": [
       { "id": "a", "text": "21" },
@@ -982,12 +982,12 @@
     ],
     "correctAnswer": "c",
     "explanation": "The differences between terms are 1, 3, 6, ... which are the Triangular numbers (the differences increase by 2, 3, 4, ...). The next difference is 6 + 4 = 10. The next term is 15 + 10 = 25.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_66",
+    "id": "num_66",
     "text": "Number Series: 5,16,49,104,____",
     "options": [
       { "id": "a", "text": "170" },
@@ -997,12 +997,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "The differences between terms are 11, 33, 55. This difference sequence adds 22 each time. The next difference is 55 + 22 = 77. The next term is 104 + 77 = 181.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_67",
+    "id": "num_67",
     "text": "Number Series: 225, 336, 447, ____, 669, 7710",
     "options": [
       { "id": "a", "text": "114" },
@@ -1012,12 +1012,12 @@
     ],
     "correctAnswer": "c",
     "explanation": "The pattern is a constant difference of 111 (336 - 225 = 111, 447 - 336 = 111). The next term is 447 + 111 = 558.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_68",
+    "id": "num_68",
     "text": "Number Series: 563,647,479,815,____",
     "options": [
       { "id": "a", "text": "672" },
@@ -1027,12 +1027,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "The differences are +84, -168, +336. The magnitude of the difference doubles each time, and the sign alternates. The next difference is -336 x 2 = -672. The next term is 815 - 672 = 143.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "difficult",
     "language": "english"
   },
   {
-    "id": "num_pro_69",
+    "id": "num_69",
     "text": "Number Series: 3, 12, 27, 48,75, 108, ____",
     "options": [
       { "id": "a", "text": "183" },
@@ -1042,12 +1042,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "This is the sequence of $N^2 * 3$ for N=1, 2, 3, .... The next term is $7^2 * 3 = 49 * 3 = 147$.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_70",
+    "id": "num_70",
     "text": "Number Series: 0.5, 0.55, 0.65, 0.8,____",
     "options": [
       { "id": "a", "text": "0.82" },
@@ -1057,12 +1057,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "The differences are 0.05, 0.10, 0.15. The next difference is 0.20. The next term is 0.8 + 0.20 = 1.0.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_71",
+    "id": "num_71",
     "text": "1/2 ÷ 1/4 = ___",
     "options": [
       { "id": "a", "text": "Less than 1" },
@@ -1073,12 +1073,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "1/2 ÷ 1/4 = 1/2 * 4/1 = 2. The result is more than 1.",
-    "category": "Mathematics/Fractions",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_72",
+    "id": "num_72",
     "text": "If Kardo is feeding his buddy 1/2 cup of dog food but uses 1/10 of a cup, how many scoop will he need to feed his dog?",
     "options": [
       { "id": "a", "text": "1/12 th scoop" },
@@ -1088,12 +1088,12 @@
     ],
     "correctAnswer": "c",
     "explanation": "Number of scoops = Total Amount / Scoop Size. 1/2 ÷ 1/10 = 1/2 * 10 = 5 scoops.",
-    "category": "Mathematics/Word Problems (Fractions)",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_73",
+    "id": "num_73",
     "text": "If 1 x 10 = 9, 2 x 10 = 18, 3 x 10 = 27, then what is 8 x 10 = ?",
     "options": [
       { "id": "a", "text": "36" },
@@ -1103,12 +1103,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "The pattern uses the formula N * 9. Therefore, 8 * 9 = 72.",
-    "category": "Mathematics/Logic/Pattern",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_74",
+    "id": "num_74",
     "text": "83 : 25 :: 92 : ___?",
     "options": [
       { "id": "a", "text": "44" },
@@ -1118,12 +1118,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "The pattern is (First Digit - Second Digit)^2. (8 - 3)^2 = 5^2 = 25. Therefore, (9 - 2)^2 = 7^2 = 49.",
-    "category": "Mathematics/Logic/Analogy",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_75",
+    "id": "num_75",
     "text": "72 : 18 :: 56 : ___?",
     "options": [
       { "id": "a", "text": "24" },
@@ -1133,12 +1133,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "The pattern is (First Digit + Second Digit) x 2. (7 + 2) x 2 = 9 x 2 = 18. Therefore, (5 + 6) x 2 = 11 x 2 = 22.",
-    "category": "Mathematics/Logic/Analogy",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_76",
+    "id": "num_76",
     "text": "2 : 12 :: 8 : ___?",
     "options": [
       { "id": "a", "text": "18" },
@@ -1148,12 +1148,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "The pattern is N : N^3 + N^2. 2^3 + 2^2 = 8 + 4 = 12. Therefore, 8^3 + 8^2 = 512 + 64 = 576.",
-    "category": "Mathematics/Logic/Analogy",
+    "category": "Numerical Ability",
     "difficulty": "difficult",
     "language": "english"
   },
   {
-    "id": "num_pro_77",
+    "id": "num_77",
     "text": "12 : 72 : : 8 : ___?",
     "options": [
       { "id": "a", "text": "0" },
@@ -1163,12 +1163,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "The pattern is N : N x (N/2). 12 x (12/2) = 12 x 6 = 72. Therefore, 8 x (8/2) = 8 x 4 = 32.",
-    "category": "Mathematics/Logic/Analogy",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_78",
+    "id": "num_78",
     "text": "PEMDAS: 10 ÷ 2 x 5 - (12 ÷ 3 x 4) + 1 = ?",
     "options": [
       { "id": "a", "text": "10" },
@@ -1179,12 +1179,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "Solve the parentheses first: (12 ÷ 3 x 4) = 4 x 4 = 16. Then 10 ÷ 2 x 5 - 16 + 1 = 5 x 5 - 16 + 1 = 25 - 16 + 1 = 10.",
-    "category": "Mathematics/Arithmetic (PEMDAS)",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_769",
+    "id": "num_79",
     "text": "Sum of all odd numbers between 60 to 120.",
     "options": [
       { "id": "a", "text": "3775" },
@@ -1199,7 +1199,7 @@
     "language": "english"
   },
   {
-    "id": "num_pro_80",
+    "id": "num_80",
     "text": "John walks everyday from his house to the police station. After walking at a rate of 2 meters/second for 3 minutes, he looks at his watch and realizes that he has to run 4 meters/second for 1 minute so he won’t be late. What is the distance from his house to the police station?",
     "options": [
       { "id": "a", "text": "10 m" },
@@ -1210,12 +1210,12 @@
     ],
     "correctAnswer": "e",
     "explanation": "Walk distance: 2 m/s * 180 s = 360 m. Run distance: 4 m/s * 60 s = 240 m. Total distance: 360 + 240 = 600 meters.",
-    "category": "Mathematics/Word Problems (Distance)",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_81",
+    "id": "num_81",
     "text": "Radicals: square root of 0.000025",
     "options": [
       { "id": "a", "text": "0.5" },
@@ -1225,12 +1225,12 @@
     ],
     "correctAnswer": "c",
     "explanation": "The square root of 25 is 5. Since there are 6 decimal places, the root has 3 decimal places. The answer is 0.005.",
-    "category": "Mathematics/Radicals",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_82",
+    "id": "num_82",
     "text": "Number Series: 1/12, 1/6, 1/4, 1/3, ____",
     "options": [
       { "id": "a", "text": "1" },
@@ -1241,12 +1241,12 @@
     ],
     "correctAnswer": "c",
     "explanation": "The sequence is an arithmetic progression adding 1/12 to each term (1/12, 2/12, 3/12, 4/12). The next term is 5/12.",
-    "category": "Mathematics/Number Series",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_83",
+    "id": "num_83",
     "text": "A chemist has 400 milliliters of a solution of 20% alcohol on hand, and he wants to mix it with enough pure alcohol to turn it into a 30% alcohol solution. How much pure alcohol will this require?",
     "options": [
       { "id": "a", "text": "30" },
@@ -1257,12 +1257,12 @@
     ],
     "correctAnswer": "e",
     "explanation": "Let X be the added alcohol. Initial alcohol: 400 * 0.20 = 80 mL. New total alcohol = 80 + X. New total volume = 400 + X. 80 + X = 0.30(400 + X). 80 + X = 120 + 0.3X. 0.7X = 40. X = 400/7 ≈ 57.14 mL. The closest option is 57.",
-    "category": "Mathematics/Word Problems (Mixture)",
+    "category": "Numerical Ability",
     "difficulty": "difficult",
     "language": "english"
   },
   {
-    "id": "num_pro_84",
+    "id": "num_84",
     "text": "What is the percentage decrease from 80 to 60?",
     "options": [
       { "id": "a", "text": "33.33%" },
@@ -1273,12 +1273,12 @@
     ],
     "correctAnswer": "b",
     "explanation": "Percentage decrease = (Decrease / Original) * 100% = ((80 - 60) / 80) * 100% = (20 / 80) * 100% = 25%.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_85",
+    "id": "num_85",
     "text": "What is the percentage increase from 60 to 80?",
     "options": [
       { "id": "a", "text": "33.33%" },
@@ -1289,12 +1289,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "Percentage increase = (Increase / Original) * 100% = ((80 - 60) / 60) * 100% = (20 / 60) * 100% = 33.33%.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_86",
+    "id": "num_86",
     "text": "A businessman sells 60% English books and still has 28 English books. Originally, he had:",
     "options": [
       { "id": "a", "text": "47" },
@@ -1305,12 +1305,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "If he sold 60%, he has 100% - 60% = 40% left. 40% of the total (T) is 28. T = 28 / 0.40 = 70.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_87",
+    "id": "num_87",
     "text": "Twelve and one half percent of 200 is what number?",
     "options": [
       { "id": "a", "text": "112" },
@@ -1321,12 +1321,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "12 1/2% is 1/8. 1/8 of 200 is 25.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
   },
   {
-    "id": "num_pro_88",
+    "id": "num_88",
     "text": "If the price of a book is first decreased by 25% and then increased by 20%, then the net change in the price will be :",
     "options": [
       { "id": "a", "text": "10%" },
@@ -1337,12 +1337,12 @@
     ],
     "correctAnswer": "a",
     "explanation": "Start with 100. Decrease by 25% gives 75. Increase 75 by 20% (75 * 1.20) gives 90. The net change from 100 to 90 is a 10% decrease.",
-    "category": "Mathematics/Percentages",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
     "language": "english"
   },
   {
-    "id": "num_pro_89",
+    "id": "num_89",
     "text": "In a mixture 60 litres, the ratio of milk and water 2 : 1. If this ratio is to be 1 : 2, then the quantity of water to be further added is:",
     "options": [
       { "id": "a", "text": "20 L" },
@@ -1353,12 +1353,12 @@
     ],
     "correctAnswer": "d",
     "explanation": "Initial Milk: (2/3) * 60 = 40 L. Initial Water: (1/3) * 60 = 20 L. For a final 1:2 ratio with 40 L of milk, final water must be 40 * 2 = 80 L. Water added = 80 L - 20 L = 60 L.",
-    "category": "Mathematics/Ratio and Proportion (Mixture)",
+    "category": "Numerical Ability",
     "difficulty": "difficult",
     "language": "english"
   },
   {
-    "id": "num_pro_90",
+    "id": "num_90",
     "text": "Participants in a certain conference from Luzon, Visayas, and Mindanao are in the ratio of 4:3:2. If there are 120 participants from Luzon, how many participants are there in all?",
     "options": [
       { "id": "a", "text": "270" },
@@ -1369,8 +1369,518 @@
     ],
     "correctAnswer": "a",
     "explanation": "The Luzon ratio part (4) corresponds to 120 participants. One ratio unit is 120 / 4 = 30. Total ratio units: 4 + 3 + 2 = 9. Total participants = 9 * 30 = 270.",
-    "category": "Mathematics/Ratio and Proportion",
+    "category": "Numerical Ability",
     "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_91",
+    "text": "What is 25% of 200?",
+    "options": [
+      { "id": "a", "text": "25" },
+      { "id": "b", "text": "50" },
+      { "id": "c", "text": "75" },
+      { "id": "d", "text": "100" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "25% of 200 = 200 x 0.25 = 50",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_92",
+    "text": "If 5 workers can complete a task in 8 days, how many days will it take 10 workers?",
+    "options": [
+      { "id": "a", "text": "2 days" },
+      { "id": "b", "text": "4 days" },
+      { "id": "c", "text": "6 days" },
+      { "id": "d", "text": "8 days" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "More workers means less time. 5 workers x 8 days = 40 worker-days. 40 worker-days ÷ 10 workers = 4 days",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_93",
+    "text": "What is the average (mean) of the following numbers: 15, 20, 25, 30?",
+    "options": [
+      { "id": "a", "text": "20" },
+      { "id": "b", "text": "22.5" },
+      { "id": "c", "text": "25" },
+      { "id": "d", "text": "30" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "To find the average, sum the numbers and divide by the count: $(15 + 20 + 25 + 30) / 4 = 90 / 4 = 22.5$.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_94",
+    "text": "Find the missing number in the sequence: 5, 10, 20, 40, ___",
+    "options": [
+      { "id": "a", "text": "50" },
+      { "id": "b", "text": "60" },
+      { "id": "c", "text": "80" },
+      { "id": "d", "text": "100" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "This is a geometric sequence where each term is multiplied by 2 to get the next term. $40 \times 2 = 80$.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_95",
+    "text": "A clerk is paid $500 per day. If they worked for 4 and 1/2 days, how much did they earn?",
+    "options": [
+      { "id": "a", "text": "$2,000" },
+      { "id": "b", "text": "$2,250" },
+      { "id": "c", "text": "$2,500" },
+      { "id": "d", "text": "$2,750" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Total earnings = daily rate x number of days worked: $500 x 4.5 = $2,250.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_96",
+    "text": "If a rectangle has a length of $10$ cm and a width of $5$ cm, what is its perimeter?",
+    "options": [
+      { "id": "a", "text": "15cm" },
+      { "id": "b", "text": "25cm" },
+      { "id": "c", "text": "30cm" },
+      { "id": "d", "text": "50cm" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The perimeter of a rectangle is calculated as 2 x (length + width), so 2 x (10cm + 5cm) = 2 x 15cm = 30cm.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_97",
+    "text": "Subtract the fraction 1/4 from 3/4.",
+    "options": [
+      { "id": "a", "text": "1/2" },
+      { "id": "b", "text": "2/3" },
+      { "id": "c", "text": "1/4" },
+      { "id": "d", "text": "1/8" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Since the denominators are the same, subtract the numerators: 1/4 - 3/4 = 2/4. This simplifies to 1/2.",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "num_98",
+    "text": "According to DTI, ₱500 for Noche Buena is enough. If ham = 35% of the budget, spaghetti = 26%, macaroni salad = 22% but no drinks yet. How much are left for drinks?",
+    "options": [
+      { "id": "a", "text": "₱65" },
+      { "id": "b", "text": "₱75" },
+      { "id": "c", "text": "₱85" },
+      { "id": "d", "text": "₱90" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "For ham: convert it to decimal > 35%/100 = 0.35, then multiply it with the budget > 0.35*500 = ₱175. Do the same with spaghetti and macaroni, ₱130 and ₱110 respectively. Sum it: ₱175 + ₱130 + ₱110 = ₱415. Subtract it from budget: ₱500 - ₱415 = ₱85. Budget for drinks will be ₱85",
+    "category": "Numerical Ability",
+    "difficulty": "medium",
+    "language": "english"
+  },
+  {
+    "id": "num_99",
+    "text": "A car travels at an average speed of 60 km/h for the first 2 hours and 75 km/h for the next 3 hours. What is the car's average speed for the entire trip?",
+    "options": [
+      { "id": "a", "text": "65 km/h" },
+      { "id": "b", "text": "67.5 km/h" },
+      { "id": "c", "text": "69 km/h" },
+      { "id": "d", "text": "70 km/h" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Total distance = (60 km/h * 2 h) + (75 km/h * 3 h) = 120 km + 225 km = 345 km. Total time = 2 h + 3 h = 5 h. Average speed = 345 km / 5 h = 69 km/h.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_100",
+    "text": "The length of a rectangular garden is three times its width. If the perimeter is 64 meters, what is the area of the garden?",
+    "options": [
+      { "id": "a", "text": "192 sq m" },
+      { "id": "b", "text": "160 sq m" },
+      { "id": "c", "text": "144 sq m" },
+      { "id": "d", "text": "128 sq m" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Let w be the width. Length l = 3w. Perimeter P = 2(l + w) = 2(3w + w) = 8w. 8w = 64, so w = 8 m. l = 24 m. Area A = 24 * 8 = 192 sq m.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_101",
+    "text": "If x is 20% of y, and y is 40% of z, what percentage is x of z?",
+    "options": [
+      { "id": "a", "text": "8%" },
+      { "id": "b", "text": "12%" },
+      { "id": "c", "text": "16%" },
+      { "id": "d", "text": "20%" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "x = 0.20y and y = 0.40z. Substitute y: x = 0.20(0.40z) = 0.08z, which is 8%.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_102",
+    "text": "A shop offers a 20% discount on a shirt. The discounted price is ₱480. What was the original price of the shirt?",
+    "options": [
+      { "id": "a", "text": "₱576" },
+      { "id": "b", "text": "₱600" },
+      { "id": "c", "text": "₱640" },
+      { "id": "d", "text": "₱700" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The discounted price represents 100% - 20% = 80% of the original price P. 0.80 * P = 480. P = 480 / 0.80 = 600.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_103",
+    "text": "Simplify: (3/5 + 1/3) / 7/15",
+    "options": [
+      { "id": "a", "text": "1" },
+      { "id": "b", "text": "2" },
+      { "id": "c", "text": "3" },
+      { "id": "d", "text": "4" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Add fractions: 3/5 + 1/3 = 9/15 + 5/15 = 14/15. Divide: (14/15) * (15/7) = 14/7 = 2.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_104",
+    "text": "A cistern can be filled by two pipes, A and B, in 10 hours and 15 hours, respectively. If both pipes are opened simultaneously, how long will it take to fill the cistern?",
+    "options": [
+      { "id": "a", "text": "5 hours" },
+      { "id": "b", "text": "6 hours" },
+      { "id": "c", "text": "7.5 hours" },
+      { "id": "d", "text": "12.5 hours" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Combined rate R: 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. Time T = 1 / R = 6 hours.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_105",
+    "text": "SEQUENCE: 3, 5, 9, 17, 33, ___",
+    "options": [
+      { "id": "a", "text": "49" },
+      { "id": "b", "text": "55" },
+      { "id": "c", "text": "65" },
+      { "id": "d", "text": "67" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The differences are 2, 4, 8, 16. The next difference is 16 * 2 = 32. Next term: 33 + 32 = 65.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_106",
+    "text": "If 12 machines can produce 480 toys in 5 hours, how many toys can 15 machines produce in 8 hours?",
+    "options": [
+      { "id": "a", "text": "600" },
+      { "id": "b", "text": "768" },
+      { "id": "c", "text": "960" },
+      { "id": "d", "text": "1152" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Rate per machine-hour: 480 / (12 * 5) = 8 toys/machine-hour. Production: 15 * 8 * 8 = 960 toys.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_107",
+    "text": "In a town, the ratio of adults to children is 5:2. If the total population is 4,900, how many adults are there?",
+    "options": [
+      { "id": "a", "text": "1,400" },
+      { "id": "b", "text": "2,450" },
+      { "id": "c", "text": "3,500" },
+      { "id": "d", "text": "4,200" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Total parts: 5 + 2 = 7. Value per part: 4,900 / 7 = 700. Adults (5 parts): 5 * 700 = 3,500.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_108",
+    "text": "What is the simple interest on a principal of ₱10,000 at an annual rate of 4% for 3 years?",
+    "options": [
+      { "id": "a", "text": "₱800" },
+      { "id": "b", "text": "₱1,000" },
+      { "id": "c", "text": "₱1,200" },
+      { "id": "d", "text": "₱1,500" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Simple Interest I = P * r * t. I = ₱10,000 * 0.04 * 3 = ₱1,200.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_109",
+    "text": "If 3x - 5 = 10, what is the value of 2x + 1?",
+    "options": [
+      { "id": "a", "text": "6" },
+      { "id": "b", "text": "11" },
+      { "id": "c", "text": "12" },
+      { "id": "d", "text": "15" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Solve for x: 3x = 15, so x = 5. 2x + 1 = 2(5) + 1 = 11.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_110",
+    "text": "A sum of money is divided among A, B, and C in the ratio 2:3:5. If A receives ₱2,400, what is the total amount of money?",
+    "options": [
+      { "id": "a", "text": "₱9,600" },
+      { "id": "b", "text": "₱12,000" },
+      { "id": "c", "text": "₱14,400" },
+      { "id": "d", "text": "₱16,800" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A's 2 parts = ₱2,400, so 1 part = ₱1,200. Total parts: 2 + 3 + 5 = 10. Total amount = 10 * ₱1,200 = ₱12,000.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_111",
+    "text": "The price of a product increased by 10% and then decreased by 10%. If the final price is ₱990, what was the original price?",
+    "options": [
+      { "id": "a", "text": "₱990" },
+      { "id": "b", "text": "₱1,000" },
+      { "id": "c", "text": "₱1,010" },
+      { "id": "d", "text": "₱1,100" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Final price = P * (1.10) * (0.90) = 0.99P. 0.99P = 990, so P = 990 / 0.99 = 1,000.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_112",
+    "text": "If a number is multiplied by 5 and 7 is subtracted from the product, the result is 33. What is the number?",
+    "options": [
+      { "id": "a", "text": "4" },
+      { "id": "b", "text": "6" },
+      { "id": "c", "text": "8" },
+      { "id": "d", "text": "10" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Equation: 5n - 7 = 33. 5n = 40. n = 8.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_113",
+    "text": "A circle has a diameter of 14 meters. What is its circumference? (Use pi approximately 22/7)",
+    "options": [
+      { "id": "a", "text": "22 m" },
+      { "id": "b", "text": "44 m" },
+      { "id": "c", "text": "88 m" },
+      { "id": "d", "text": "154 m" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Circumference C = pi * d. C = (22/7) * 14 = 44 m.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_114",
+    "text": "What is the median of the following set of numbers: 8, 15, 12, 5, 20, 10, 18?",
+    "options": [
+      { "id": "a", "text": "12" },
+      { "id": "b", "text": "13" },
+      { "id": "c", "text": "14" },
+      { "id": "d", "text": "15" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Order: 5, 8, 10, 12, 15, 18, 20. The middle (4th) number is 12.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_115",
+    "text": "If the sum of three consecutive even integers is 78, what is the largest of these integers?",
+    "options": [
+      { "id": "a", "text": "24" },
+      { "id": "b", "text": "26" },
+      { "id": "c", "text": "28" },
+      { "id": "d", "text": "30" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The middle integer is the average: 78 / 3 = 26. The integers are 24, 26, 28. The largest is 28.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_116",
+    "text": "A train passes a station platform 100 meters long in 10 seconds and a signal post in 4 seconds. What is the speed of the train in m/s? (Round to 2 decimal places)",
+    "options": [
+      { "id": "a", "text": "15 m/s" },
+      { "id": "b", "text": "16.67 m/s" },
+      { "id": "c", "text": "18 m/s" },
+      { "id": "d", "text": "25 m/s" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Let L be length and S be speed. S = L/4, so L = 4S. S = (L + 100) / 10. 10S = 4S + 100, so 6S = 100. S = 100/6 approx 16.67 m/s.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_117",
+    "text": "If x^2 - 4x + 4 = 0, what is the value of x?",
+    "options": [
+      { "id": "a", "text": "-2" },
+      { "id": "b", "text": "2" },
+      { "id": "c", "text": "4" },
+      { "id": "d", "text": "-4" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The equation is (x-2)^2 = 0. Therefore, x = 2.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_118",
+    "text": "A clock gains 10 minutes every 24 hours. If it is set correctly at 8:00 AM on Monday, what will be the correct time when the clock shows 8:00 PM on Tuesday?",
+    "options": [
+      { "id": "a", "text": "7:55 PM" },
+      { "id": "b", "text": "7:50 PM" },
+      { "id": "c", "text": "7:45 PM" },
+      { "id": "d", "text": "7:40 PM" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Total time elapsed: 36 hours. Total gain: 36 hours * (10 min / 24 hours) = 15 minutes. Correct time is 15 minutes before 8:00 PM Tuesday, which is 7:45 PM.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_119",
+    "text": "The ratio of the ages of two people is 4:5. Ten years from now, the ratio of their ages will be 5:6. What is the current age of the older person?",
+    "options": [
+      { "id": "a", "text": "40 years" },
+      { "id": "b", "text": "50 years" },
+      { "id": "c", "text": "60 years" },
+      { "id": "d", "text": "70 years" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ages: 4x, 5x. (4x + 10) / (5x + 10) = 5/6. 6(4x + 10) = 5(5x + 10). 24x + 60 = 25x + 50. x = 10. Older age: 5x = 50 years.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_120",
+    "text": "The volume of a cube is 125 cm^3. What is the total surface area of the cube?",
+    "options": [
+      { "id": "a", "text": "25 cm^2" },
+      { "id": "b", "text": "100 cm^2" },
+      { "id": "c", "text": "150 cm^2" },
+      { "id": "d", "text": "200 cm^2" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Side length a = cube root of 125 = 5 cm. Area A = 6a^2 = 6 * 5^2 = 150 cm^2.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_121",
+    "text": "What is the result of 1 - 1/2 + 1/3 - 1/4 + 1/5 - 1/6? (Express as a simplified fraction)",
+    "options": [
+      { "id": "a", "text": "2/5" },
+      { "id": "b", "text": "37/60" },
+      { "id": "c", "text": "13/20" },
+      { "id": "d", "text": "1/2" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "LCD is 60. (60 - 30 + 20 - 15 + 12 - 10) / 60 = 37/60.",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "num_122",
+    "text": "The price of diesel was ₱40 per liter. It increased by 15%. What is the new price per liter?",
+    "options": [
+      { "id": "a", "text": "₱44.00" },
+      { "id": "b", "text": "₱45.00" },
+      { "id": "c", "text": "₱46.00" },
+      { "id": "d", "text": "₱47.50" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "New price = ₱40 * (1 + 0.15) = ₱40 * 1.15 = ₱46.00.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_123",
+    "text": "If square root of x = 9, then what is the value of x^2?",
+    "options": [
+      { "id": "a", "text": "81" },
+      { "id": "b", "text": "729" },
+      { "id": "c", "text": "6,561" },
+      { "id": "d", "text": "8,100" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "If square root of x = 9, then x = 81. x^2 = 81^2 = 6,561.",
+    "category": "Numerical Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "num_124",
+    "text": "A number leaves a remainder of 3 when divided by 5 and a remainder of 5 when divided by 7. What is the smallest such number?",
+    "options": [
+      { "id": "a", "text": "13" },
+      { "id": "b", "text": "23" },
+      { "id": "c", "text": "33" },
+      { "id": "d", "text": "43" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The number N satisfies N equals 5k + 3 and N equals 7m + 5. The smallest number is 33. (33 divided by 5 equals 6 R 3; 33 divided by 7 equals 4 R 5).",
+    "category": "Numerical Ability",
+    "difficulty": "hard",
     "language": "english"
   }
 ]

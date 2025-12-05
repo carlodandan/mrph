@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "phr_01",
+    "text": "Which of the following best describes the purpose of the Universal Declaration of Human Rights (UDHR)?",
+    "options": [
+      { "id": "a", "text": "To impose identical laws on all member states of the United Nations" },
+      { "id": "b", "text": "To outline fundamental human rights that should be universally protected" },
+      { "id": "c", "text": "To replace national constitutions with a global bill of rights" },
+      { "id": "d", "text": "To allow countries to withdraw from human rights obligations" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The UDHR serves as a universal standard for fundamental human rights that all nations should uphold.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_02",
+    "text": "Which government body in the Philippines is primarily responsible for the promotion and protection of human rights?",
+    "options": [
+      { "id": "a", "text": "Department of Justice (DOJ)" },
+      { "id": "b", "text": "Supreme Court (SC)" },
+      { "id": "c", "text": "Commission on Human Rights (CHR)" },
+      { "id": "d", "text": "Civil Service Commission (CSC)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Commission on Human Rights (CHR) is mandated to investigate human rights violations and promote human rights awareness.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_03",
+    "text": "A peace-building approach that addresses the root causes of conflict by promoting social justice, equality, and economic opportunity is known as:",
+    "options": [
+      { "id": "a", "text": "Conflict escalation" },
+      { "id": "b", "text": "Structural peacebuilding" },
+      { "id": "c", "text": "Ceasefire negotiation" },
+      { "id": "d", "text": "Peacekeeping operations" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Structural peacebuilding focuses on resolving underlying social, political, and economic issues that fuel conflict.",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_04",
+    "text": "Which of the following actions BEST reflects respect for cultural rights?",
+    "options": [
+      { "id": "a", "text": "Discouraging indigenous traditions to promote modernization" },
+      { "id": "b", "text": "Allowing communities to freely practice their languages and customs" },
+      { "id": "c", "text": "Mandating one national culture for unity" },
+      { "id": "d", "text": "Restricting cultural festivals to avoid public gatherings" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Cultural rights include the freedom of individuals and communities to practice and preserve their cultural traditions.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_05",
+    "text": "Which principle states that no person shall be subjected to torture or to cruel, inhuman, or degrading treatment or punishment?",
+    "options": [
+      { "id": "a", "text": "Right to Due Process" },
+      { "id": "b", "text": "Right to Self-Determination" },
+      { "id": "c", "text": "Prohibition Against Torture" },
+      { "id": "d", "text": "Right to Privacy" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The prohibition against torture is a non-derogable human right under both international and Philippine laws.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_06",
+    "text": "Ang Batas Republika 9262 (Anti-Violence Against Women and Their Children Act of 2004) ay pangunahing nagpoprotekta laban sa anong uri ng karahasan?",
+    "options": [
+      { "id": "a", "text": "Karahasan sa lugar ng trabaho (workplace violence)" },
+      { "id": "b", "text": "Karahasan sa loob ng pamilya (domestic violence)" },
+      { "id": "c", "text": "Karahasan na may kaugnayan sa eleksyon (election-related violence)" },
+      { "id": "d", "text": "Karahasan na dulot ng terorismo (terrorism-related violence)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang RA 9262, o mas kilala bilang Anti-VAWC, ay naglalayong protektahan ang kababaihan at ang kanilang mga anak laban sa karahasang pisikal, emosyonal, seksuwal, at ekonomiko sa konteksto ng relasyon sa pamilya o dating kasama.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "phr_07",
+    "text": "What is the constitutional basis in the Philippines for the protection of indigenous cultural communities and their ancestral domains?",
+    "options": [
+      { "id": "a", "text": "Article II (Declaration of Principles and State Policies)" },
+      { "id": "b", "text": "Article III (Bill of Rights)" },
+      { "id": "c", "text": "Article XII (National Economy and Patrimony)" },
+      { "id": "d", "text": "Article XIV (Education, Science and Technology, Arts, Culture, and Sports)" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Article XIV, Section 17, of the 1987 Philippine Constitution specifically mandates the State to recognize, respect, and protect the rights of indigenous cultural communities to preserve and develop their cultures, traditions, and institutions.",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_08",
+    "text": "The mandate of the Commission on Human Rights (CHR) includes all of the following, EXCEPT:",
+    "options": [
+      { "id": "a", "text": "Investigate all forms of human rights violations involving civil and political rights" },
+      { "id": "b", "text": "Provide legal aid services to victims of human rights violations" },
+      { "id": "c", "text": "Declare martial law during times of rebellion or invasion" },
+      { "id": "d", "text": "Recommend measures to Congress to promote human rights" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The power to declare martial law belongs solely to the President, subject to Congressional review and Supreme Court oversight, not the CHR. The CHR's role is investigative and recommendatory.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_09",
+    "text": "The Comprehensive Agreement on the Bangsamoro (CAB) is an agreement signed between the Philippine Government and which organization?",
+    "options": [
+      { "id": "a", "text": "New People's Army (NPA)" },
+      { "id": "b", "text": "Moro Islamic Liberation Front (MILF)" },
+      { "id": "c", "text": "Moro National Liberation Front (MNLF)" },
+      { "id": "d", "text": "Abu Sayyaf Group (ASG)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The CAB, signed in 2014, is the peace agreement between the Philippine Government and the Moro Islamic Liberation Front (MILF), leading to the establishment of the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM).",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_10",
+    "text": "Under the Bill of Rights (Article III) of the 1987 Philippine Constitution, the right of the people to be secure in their persons, houses, papers, and effects against unreasonable searches and seizures is guaranteed by the issuance of a:",
+    "options": [
+      { "id": "a", "text": "Writ of Amparo" },
+      { "id": "b", "text": "Writ of Habeas Corpus" },
+      { "id": "c", "text": "Search Warrant or Warrant of Arrest" },
+      { "id": "d", "text": "Writ of Kalikasan" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A Search Warrant or Warrant of Arrest, issued by a judge upon probable cause, is required for a lawful search or seizure, protecting citizens from unreasonable intrusions by the state.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_11",
+    "text": "Alin sa mga sumusunod ang isang karapatang sibil (civil right) na nakapaloob sa Bill of Rights?",
+    "options": [
+      { "id": "a", "text": "Karapatang bumoto (Right to suffrage)" },
+      { "id": "b", "text": "Karapatang magkaroon ng trabaho (Right to employment)" },
+      { "id": "c", "text": "Karapatang maging malaya sa relihiyon (Freedom of religion)" },
+      { "id": "d", "text": "Karapatan sa edukasyon (Right to education)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang Freedom of Religion, kasama ng freedom of speech at right to due process, ay inuuri bilang civil at political rights na nasa Article III (Bill of Rights). Ang iba ay economic, social, at cultural rights.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "phr_12",
+    "text": "The concept of 'substantive equality' in human rights, particularly regarding women, primarily means:",
+    "options": [
+      { "id": "a", "text": "Treating men and women exactly the same under the law (formal equality)" },
+      { "id": "b", "text": "Recognizing that different treatments may be necessary to achieve equal outcomes" },
+      { "id": "c", "text": "Granting all rights only to women" },
+      { "id": "d", "text": "Equality applies only in the political sphere" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Substantive equality recognizes that because of historical discrimination, unequal treatment may sometimes be required (e.g., affirmative action or special protections) to ensure that women can enjoy the same rights and opportunities as men in reality.",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_13",
+    "text": "What is the primary goal of the Philippine GAD (Gender and Development) Budget Policy?",
+    "options": [
+      { "id": "a", "text": "To allocate all government funds to programs exclusively for women" },
+      { "id": "b", "text": "To ensure that all government programs and projects address gender issues and promote gender equality" },
+      { "id": "c", "text": "To fund military operations involving female soldiers" },
+      { "id": "d", "text": "To mandate equal salaries for all public servants" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The GAD Budget Policy requires all government agencies to allocate a portion (at least 5%) of their budgets to implement gender-responsive programs and projects.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_14",
+    "text": "Ang batas na nagbibigay-proteksyon sa mga bata laban sa pang-aabuso, pagsasamantala, at diskriminasyon sa Pilipinas ay ang:",
+    "options": [
+      { "id": "a", "text": "Republic Act 7160 (Local Government Code)" },
+      { "id": "b", "text": "Republic Act 7610 (Special Protection of Children Against Abuse, Exploitation and Discrimination Act)" },
+      { "id": "c", "text": "Republic Act 9165 (Comprehensive Dangerous Drugs Act)" },
+      { "id": "d", "text": "Republic Act 9262 (Anti-VAWC Act)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang RA 7610 ang pangunahing batas na nagbibigay-proteksyon sa mga bata sa Pilipinas mula sa lahat ng uri ng pang-aabuso at pagsasamantala.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "phr_15",
+    "text": "What does the Philippine concept of 'Karapatan sa Kapayapaan' (Right to Peace) fundamentally advocate for?",
+    "options": [
+      { "id": "a", "text": "The right of the military to maintain public order" },
+      { "id": "b", "text": "The right to live in a secure, non-violent environment where all human rights are respected" },
+      { "id": "c", "text": "The right to travel freely abroad" },
+      { "id": "d", "text": "The right to bear arms for self-defense" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Right to Peace is a collective human right that goes beyond the absence of conflict; it includes the realization of full human security, sustainable development, and respect for all human rights.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_16",
+    "text": "The principle of non-derogability in human rights law primarily applies to which group of rights?",
+    "options": [
+      { "id": "a", "text": "Economic, Social, and Cultural Rights (e.g., right to education)" },
+      { "id": "b", "text": "Civil and Political Rights (e.g., right to assembly)" },
+      { "id": "c", "text": "Rights that cannot be suspended even during times of public emergency" },
+      { "id": "d", "text": "Rights that apply only in peacetime" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Non-derogable rights are fundamental rights (like the prohibition against torture, slavery, and the right to life) that must be respected at all times and cannot be suspended or limited by the state, even in extreme situations like war or national emergency.",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_17",
+    "text": "Which term describes the process where former enemies are assisted in negotiating a solution to their conflict without external imposition?",
+    "options": [
+      { "id": "a", "text": "Adjudication" },
+      { "id": "b", "text": "Mediation" },
+      { "id": "c", "d": "Facilitation" },
+      { "id": "d", "text": "Arbitration" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Mediation involves a neutral third party assisting the parties to reach their own agreement. Arbitration involves a third party making a binding decision, and Adjudication involves a judicial decision.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_18",
+    "text": "Which legal remedy is used in the Philippines to challenge the legality of the detention of a person and compel the detaining authority to produce the body in court?",
+    "options": [
+      { "id": "a", "text": "Writ of Amparo" },
+      { "id": "b", "text": "Writ of Habeas Corpus" },
+      { "id": "c", "text": "Writ of Kalikasan" },
+      { "id": "d", "text": "Writ of Certiorari" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Writ of Habeas Corpus is a procedural remedy to test the legality of a person's detention, ensuring that no one is imprisoned without legal justification.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_19",
+    "text": "The term 'Negative Peace' is best characterized by:",
+    "options": [
+      { "id": "a", "text": "The total absence of violence and conflict." },
+      { "id": "b", "text": "The presence of social justice and equality." },
+      { "id": "c", "text": "The absence of direct, organized violence (e.g., a ceasefire)." },
+      { "id": "d", "text": "The existence of strong political institutions." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Negative Peace refers to the absence of direct violence or war. Positive Peace refers to the presence of social justice, equality, and structures that prevent violence (absence of structural violence).",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_20",
+    "text": "Which international convention prohibits all forms of discrimination against women?",
+    "options": [
+      { "id": "a", "text": "The Geneva Conventions" },
+      { "id": "b", "text": "International Covenant on Civil and Political Rights (ICCPR)" },
+      { "id": "c", "text": "Convention on the Rights of the Child (CRC)" },
+      { "id": "d", "text": "Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW)" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "CEDAW is the primary international treaty dedicated entirely to women's rights, establishing a comprehensive standard for equality and protection.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_21",
+    "text": "Which of the following Philippine laws is crucial for protecting the rights of Indigenous Peoples by recognizing their rights to their ancestral domains and self-governance?",
+    "options": [
+      { "id": "a", "text": "The Comprehensive Agrarian Reform Law (CARL)" },
+      { "id": "b", "text": "The Indigenous Peoples' Rights Act (IPRA or RA 8371)" },
+      { "id": "c", "text": "The Local Government Code (LGC)" },
+      { "id": "d", "text": "The Clean Air Act" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The IPRA (RA 8371) is the landmark law that implements the constitutional mandate to recognize and protect the rights of Indigenous Cultural Communities/Indigenous Peoples (ICCs/IPs).",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_22",
+    "text": "The concept of 'transitional justice' in post-conflict settings primarily focuses on:",
+    "options": [
+      { "id": "a", "text": "Establishing a permanent military presence to deter future conflicts." },
+      { "id": "b", "text": "Providing mechanisms for accountability, redress, and truth-seeking for past abuses." },
+      { "id": "c", "d": "Implementing immediate economic reforms to create jobs." },
+      { "id": "d", "text": "Fully integrating the former rebel group into the military." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Transitional justice is the set of judicial and non-judicial measures (like truth commissions, reparations, prosecutions, and institutional reform) implemented to address the legacies of mass human rights abuses.",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_23",
+    "text": "The Writ of Amparo is a special legal remedy available in the Philippines to protect which specific rights?",
+    "options": [
+      { "id": "a", "text": "The right to a clean and healthy environment." },
+      { "id": "b", "text": "The right to speedy trial and fair compensation." },
+      { "id": "c", "text": "The right to life, liberty, and security of persons." },
+      { "id": "d", "text": "The right to form associations and unions." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Writ of Amparo (Spanish for 'protection') is a remedy for extra-judicial killings and enforced disappearances, designed to protect the constitutional rights to life, liberty, and security of the person.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_24",
+    "text": "In the context of the peace process in Mindanao, what is the significance of the Bangsamoro Organic Law (BOL)?",
+    "options": [
+      { "id": "a", "text": "It declared a permanent cessation of hostilities in the region." },
+      { "id": "b", "text": "It established the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM), replacing the ARMM." },
+      { "id": "c", "text": "It is the constitution of the new independent Bangsamoro state." },
+      { "id": "d", "text": "It is the peace agreement signed with the MNLF." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The BOL (RA 11054) is the law that codified the Comprehensive Agreement on the Bangsamoro (CAB) into law, establishing the BARMM with greater fiscal and political autonomy.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_25",
+    "text": "The Optional Protocol to the Convention Against Torture (OPCAT), ratified by the Philippines, requires the establishment of a National Preventive Mechanism (NPM). What is the NPM's function?",
+    "options": [
+      { "id": "a", "text": "To prosecute state agents who commit torture." },
+      { "id": "b", "text": "To conduct regular, unannounced visits to detention facilities to prevent torture." },
+      { "id": "c", "text": "To provide financial compensation to torture victims." },
+      { "id": "d", "text": "To draft new anti-torture legislation." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The NPM's key function under the OPCAT is proactive prevention—conducting regular visits to all places of detention (jails, police stations, hospitals, etc.) to assess and improve conditions and prevent torture.",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_26",
+    "text": "Which right under the Philippine Bill of Rights is specifically designed to protect an accused person from forced, self-incrimination?",
+    "options": [
+      { "id": "a", "text": "Right against ex post facto law" },
+      { "id": "b", "text": "Right to counsel" },
+      { "id": "c", "text": "Right to silence" },
+      { "id": "d", "text": "Right against double jeopardy" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The right to silence and the related right against compulsory self-incrimination ensures that a person cannot be forced to testify against themselves in any criminal proceeding.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_27",
+    "text": "In the context of international human rights law, what are the three distinct yet interdependent generations of human rights?",
+    "options": [
+      { "id": "a", "text": "National, Regional, and Global rights" },
+      { "id": "b", "text": "Civil-Political, Economic-Social-Cultural, and Solidarity rights" },
+      { "id": "c", "text": "Individual, Community, and State rights" },
+      { "id": "d", "text": "Formal, Substantive, and Remedial rights" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The three generations are: First Generation (Civil and Political), Second Generation (Economic, Social, and Cultural), and Third Generation (Solidarity or Collective rights, like the right to a healthy environment).",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_28",
+    "text": "What is the primary objective of a Truth Commission in a post-conflict or post-authoritarian society?",
+    "options": [
+      { "id": "a", "text": "To sentence and imprison perpetrators of human rights abuses." },
+      { "id": "b", "text": "To create an accurate and comprehensive record of past human rights violations." },
+      { "id": "c", "text": "To provide a complete amnesty for all political crimes." },
+      { "id": "d", "text": "To manage the immediate disarmament of all combatants." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Truth Commissions are non-judicial bodies established to investigate and report on past human rights abuses, focusing on truth-telling and victim recognition rather than prosecution.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_29",
+    "text": "The principle of 'progressive realization' is most relevant to the implementation of which category of rights?",
+    "options": [
+      { "id": "a", "text": "Civil Rights" },
+      { "id": "b", "text": "Political Rights" },
+      { "id": "c", "text": "Economic, Social, and Cultural (ESC) Rights" },
+      { "id": "d", "text": "Non-derogable Rights" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Progressive realization recognizes that ESC rights (like the right to health, education, and housing) require resources and time, and must be implemented incrementally, to the maximum of available resources.",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_30",
+    "text": "Which of the following is considered a violation of the right to due process?",
+    "options": [
+      { "id": "a", "text": "A suspect is immediately arrested after a warrant is issued." },
+      { "id": "b", "text": "A person is convicted based on evidence obtained through unlawful search." },
+      { "id": "c", "text": "A government employee is suspended pending investigation." },
+      { "id": "d", "text": "A case takes three years to resolve in the Supreme Court." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The principle of 'fruit of the poisonous tree' dictates that evidence obtained illegally (unlawful search) is inadmissible in court, which is a key component of due process (the exclusionary rule).",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_31",
+    "text": "The primary objective of the GPH-NDF Peace Process is to achieve a negotiated settlement between the Philippine Government and which group?",
+    "options": [
+      { "id": "a", "text": "Moro Islamic Liberation Front (MILF)" },
+      { "id": "b", "text": "Moro National Liberation Front (MNLF)" },
+      { "id": "c", "d": "Communist Party of the Philippines - New People's Army - National Democratic Front (CPP-NPA-NDF)" },
+      { "id": "d", "text": "Abu Sayyaf Group (ASG)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The GPH-NDF (Government of the Philippines - National Democratic Front) peace process deals with the long-running insurgency by the communist movement.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_32",
+    "text": "The Universal Declaration of Human Rights (UDHR) was proclaimed in which year?",
+    "options": [
+      { "id": "a", "text": "1945 (End of WWII)" },
+      { "id": "b", "text": "1948 (Post-WWII establishment of UN Commission on Human Rights)" },
+      { "id": "c", "text": "1951 (Start of Korean War)" },
+      { "id": "d", "text": "1966 (Adoption of ICCPR and ICESCR)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The UDHR was adopted and proclaimed by the United Nations General Assembly on December 10, 1948, marking a key moment in the international human rights movement.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_33",
+    "text": "What does the Philippine concept of 'Karapatang Pantao' (Human Rights) fundamentally imply about the role of the State?",
+    "options": [
+      { "id": "a", "text": "That the State is the source of all rights." },
+      { "id": "b", "text": "That the State has the duty to respect, protect, and fulfill these inherent rights." },
+      { "id": "c", "text": "That the State can suspend all rights during emergencies." },
+      { "id": "d", "text": "That the State only needs to enforce civil and political rights." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The tripartite duties of the State regarding human rights are to Respect (refrain from violating), Protect (prevent violations by third parties), and Fulfill (take positive measures to realize) the rights.",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_34",
+    "text": "In the Philippines, the law mandating the observance of the rights of all persons with disabilities and providing for their rehabilitation, self-development, and self-reliance is known as:",
+    "options": [
+      { "id": "a", "text": "RA 8435 (Agriculture and Fisheries Modernization Act)" },
+      { "id": "b", "text": "RA 7277 (Magna Carta for Disabled Persons, as amended)" },
+      { "id": "c", "text": "RA 9710 (Magna Carta of Women)" },
+      { "id": "d", "text": "RA 10066 (National Cultural Heritage Act)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RA 7277, the Magna Carta for Disabled Persons (as amended by RA 9442 and RA 10754), is the specific legislation that grants rights and privileges to Persons with Disabilities (PWDs).",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_35",
+    "text": "The principle of Indivisibility and Interdependence in human rights means that:",
+    "options": [
+      { "id": "a", "text": "Civil rights must be prioritized over economic rights." },
+      { "id": "b", "text": "The fulfillment of one right often depends on the fulfillment of others." },
+      { "id": "c", "text": "Human rights are only applicable to certain countries." },
+      { "id": "d", "text": "Rights can be traded off against each other in times of crisis." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Indivisibility means all rights are equally important, and Interdependence means they are interconnected. For example, the right to education (ESC) is essential for exercising the right to vote (Civil/Political).",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_36",
+    "text": "Which of the following BEST describes the concept of human rights?",
+    "options": [
+      { "id": "a", "text": "Privileges given by the government to selected individuals" },
+      { "id": "b", "text": "Fundamental rights inherent to all people regardless of status" },
+      { "id": "c", "text": "Rules that apply only to citizens of a country" },
+      { "id": "d", "text": "Benefits granted to workers in public service" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Human rights are inherent, universal, and not dependent on nationality, status, or conditions.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_37",
+    "text": "What is the primary purpose of the Universal Declaration of Human Rights (UDHR)?",
+    "options": [
+      { "id": "a", "text": "To punish countries that violate human rights" },
+      { "id": "b", "text": "To set a global standard for the protection of human rights" },
+      { "id": "c", "text": "To create international courts" },
+      { "id": "d", "text": "To regulate national elections" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The UDHR establishes universal standards for human rights protection and guidelines for nations.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_38",
+    "text": "Which of the following acts violates a person’s right to equality?",
+    "options": [
+      { "id": "a", "text": "Allowing everyone equal chance to apply for a job" },
+      { "id": "b", "text": "Giving a benefit only to those who pay a fee" },
+      { "id": "c", "text": "Rejecting an applicant solely due to religion" },
+      { "id": "d", "text": "Requiring IDs for security purposes" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Discrimination based on religion violates the right to equality and freedom from discrimination.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_39",
+    "text": "A community resolves conflict through dialogue and cooperation. This illustrates:",
+    "options": [
+      { "id": "a", "text": "Peacebuilding" },
+      { "id": "b", "text": "Punitive action" },
+      { "id": "c", "text": "Martial law" },
+      { "id": "d", "text": "Economic development" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Peacebuilding involves fostering cooperation, dialogue, and long-term conflict resolution.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_40",
+    "text": "Which agency in the Philippines is primarily responsible for investigating human rights violations?",
+    "options": [
+      { "id": "a", "text": "DOJ" },
+      { "id": "b", "text": "CHR" },
+      { "id": "c", "text": "DILG" },
+      { "id": "d", "text": "NBI" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Commission on Human Rights (CHR) investigates alleged human rights violations.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_41",
+    "text": "Freedom from torture is considered what type of human right?",
+    "options": [
+      { "id": "a", "text": "Economic right" },
+      { "id": "b", "text": "Cultural right" },
+      { "id": "c", "text": "Civil and political right" },
+      { "id": "d", "text": "Environmental right" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Freedom from torture is a civil and political right protected under international law.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_42",
+    "text": "A public official treats all citizens fairly regardless of belief or background. This is an example of:",
+    "options": [
+      { "id": "a", "text": "Discrimination" },
+      { "id": "b", "text": "Equality" },
+      { "id": "c", "text": "Censorship" },
+      { "id": "d", "text": "Restrictive practice" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Equality means treating people fairly and without prejudice.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_43",
+    "text": "Which of the following promotes a culture of peace?",
+    "options": [
+      { "id": "a", "text": "Encouraging dialogue and understanding" },
+      { "id": "b", "text": "Promoting revenge when wronged" },
+      { "id": "c", "text": "Withholding information" },
+      { "id": "d", "text": "Supporting violent solutions" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A culture of peace is achieved through dialogue, understanding, and cooperation.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_44",
+    "text": "A worker is denied fair wages and forced to work long hours. Which human right is being violated?",
+    "options": [
+      { "id": "a", "text": "Right to education" },
+      { "id": "b", "text": "Right to just and favorable work conditions" },
+      { "id": "c", "text": "Right to freedom of movement" },
+      { "id": "d", "text": "Right to leisure and culture" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Fair labor conditions are part of economic, social, and cultural rights.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_45",
+    "text": "Promoting non-violence in schools and communities supports:",
+    "options": [
+      { "id": "a", "text": "Self-governance" },
+      { "id": "b", "text": "Social harmony and peace" },
+      { "id": "c", "text": "Economic growth" },
+      { "id": "d", "text": "Private sector development" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Non-violence supports peaceful coexistence and social stability.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "phr_46",
+    "text": "The principle of Social Justice is enshrined in the Philippine Constitution. It mandates the State to promote which of the following?",
+    "options": [
+      { "id": "a", "text": "Absolute equality of all citizens" },
+      { "id": "b", "text": "Equitable distribution of wealth and opportunities" },
+      { "id": "c", "text": "Unlimited political power for the poor" },
+      { "id": "d", "text": "Suppression of labor unions" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Social Justice aims to reduce inequalities and provide opportunities for everyone, especially the disadvantaged, by balancing the interests of the rich and the poor.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_47",
+    "text": "Sa konteksto ng kapayapaan at karapatang pantao, ang 'negative peace' ay tumutukoy sa kawalan ng alin?",
+    "options": [
+      { "id": "a", "text": "Structural violence" },
+      { "id": "b", "text": "Cultural conflict" },
+      { "id": "c", "text": "Direct (physical) violence" },
+      { "id": "d", "text": "Economic inequality" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang 'negative peace' ay ang simpleng kawalan ng giyera, armadong labanan, o direktang pisikal na karahasan.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "phr_48",
+    "text": "Republic Act 8371, or the Indigenous Peoples’ Rights Act (IPRA), primarily recognizes the rights of Indigenous Cultural Communities/Indigenous Peoples (ICCs/IPs) to their ancestral lands, which includes the right to:",
+    "options": [
+      { "id": "a", "text": "Self-governance and ancestral domains" },
+      { "id": "b", "text": "Exemption from all national taxes" },
+      { "id": "c", "text": "Separate citizenship" },
+      { "id": "d", "text": "Unlimited resource extraction" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "IPRA legally recognizes the inherent right of ICCs/IPs to their ancestral domains and the right to self-governance and empowerment.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_49",
+    "text": "Ang karapatang bumoto sa eleksyon, na nakasaad sa Saligang Batas, ay isang uri ng:",
+    "options": [
+      { "id": "a", "text": "Karapatang Sibil" },
+      { "id": "b", "text": "Karapatang Pampulitika" },
+      { "id": "c", "text": "Karapatang Pangkabuhayan" },
+      { "id": "d", "text": "Karapatang Kultural" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Ang karapatan sa pagboto (suffrage) ay isang pangunahing karapatang pampulitika na nagbibigay-daan sa mamamayan na makilahok sa pamamahala.",
+    "category": "Peace and Human Rights",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "phr_50",
+    "text": "The core obligation of the State in relation to socio-economic rights (like the right to health or education) is generally categorized into three levels: Respect, Protect, and:",
+    "options": [
+      { "id": "a", "text": "Promote" },
+      { "id": "b", "text": "Fulfill" },
+      { "id": "c", "text": "Enforce" },
+      { "id": "d", "text": "Monitor" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The three-fold obligation of the State is to Respect (refrain from interfering), Protect (prevent third parties from violating), and Fulfill (take positive measures to ensure the realization of the right).",
+    "category": "Peace and Human Rights",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "phr_51",
+    "text": "The concept of 'Positive Peace' goes beyond the absence of direct violence and actively seeks to eliminate:",
+    "options": [
+      { "id": "a", "text": "Structural violence and cultural norms that perpetuate inequality" },
+      { "id": "b", "text": "Diplomatic ties between conflicting nations" },
+      { "id": "c", "text": "All forms of political opposition" },
+      { "id": "d", "text": "The presence of international peacekeeping forces" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Positive Peace aims to address the root causes of conflict, which are often embedded in unfair social structures (structural violence) and cultural norms (cultural violence).",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_52",
+    "text": "Which of the following is considered a Second Generation human right?",
+    "options": [
+      { "id": "a", "text": "Freedom of assembly" },
+      { "id": "b", "text": "Right to fair trial" },
+      { "id": "c", "text": "Right to vote" },
+      { "id": "d", "text": "Right to an adequate standard of living" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The right to an adequate standard of living (including food, clothing, housing) falls under economic, social, and cultural rights (Second Generation).",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_53",
+    "text": "The legal principle that no one shall be subjected to arbitrary arrest, detention, or exile is central to which human right?",
+    "options": [
+      { "id": "a", "text": "Freedom of thought" },
+      { "id": "b", "text": "Right to education" },
+      { "id": "c", "text": "Right to due process and liberty" },
+      { "id": "d", "text": "Right to participate in government" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Due process ensures that all government proceedings are fair and that a person's life, liberty, or property is not taken away without legal procedure.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_54",
+    "text": "Which international treaty specifically addresses the rights of women and is often described as the 'International Bill of Rights for Women'?",
+    "options": [
+      { "id": "a", "text": "International Covenant on Civil and Political Rights (ICCPR)" },
+      { "id": "b", "text": "Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW)" },
+      { "id": "c", "text": "Convention on the Rights of the Child (CRC)" },
+      { "id": "d", "text": "International Covenant on Economic, Social and Cultural Rights (ICESCR)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW) is the key international instrument on women's rights.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_55",
+    "text": "The principle that all human rights are of equal importance and cannot be separated from one another is known as:",
+    "options": [
+      { "id": "a", "text": "Universality" },
+      { "id": "b", "text": "Inalienability" },
+      { "id": "c", "text": "Interdependence" },
+      { "id": "d", "text": "Indivisibility" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Indivisibility states that all rights (civil, political, economic, social, cultural) are interconnected and equally essential.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_56",
+    "text": "The term 'Structural Violence', coined by Johan Galtung, primarily refers to:",
+    "options": [
+      { "id": "a", "text": "Harm caused by institutions, laws, or social structures that lead to inequality" },
+      { "id": "b", "text": "Physical violence committed by state military forces" },
+      { "id": "c", "text": "Violence that only occurs during civil wars or armed conflict" },
+      { "id": "d", "text": "Aggressive behavior between heads of state" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Structural violence describes harm caused by institutions and social structures that prevent people from meeting their basic needs, regardless of physical aggression.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_57",
+    "text": "Which of the following is a primary objective of the International Criminal Court (ICC)?",
+    "options": [
+      { "id": "a", "text": "To prosecute individuals for genocide, war crimes, and crimes against humanity" },
+      { "id": "b", "text": "To settle legal disputes between countries" },
+      { "id": "c", "text": "To conduct peacekeeping operations in conflict zones" },
+      { "id": "d", "text": "To create international trade agreements" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The ICC tries individuals charged with the gravest crimes of concern to the international community: genocide, war crimes, crimes against humanity, and the crime of aggression.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_58",
+    "text": "The Philippine law that mandates the State to protect citizens from torture and other cruel, inhuman, and degrading treatment is the:",
+    "options": [
+      { "id": "a", "text": "Magna Carta of Women (RA 9710)" },
+      { "id": "b", "text": "Comprehensive Dangerous Drugs Act (RA 9165)" },
+      { "id": "c", "text": "Anti-Torture Act of 2009 (RA 9745)" },
+      { "id": "d", "text": "Indigenous Peoples' Rights Act (RA 8371)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Anti-Torture Act (RA 9745) specifically criminalizes and defines torture and other related cruel, inhuman, and degrading treatment.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_59",
+    "text": "If a government is preventing a non-governmental organization (NGO) from reporting human rights abuses, which category of State human rights obligation is being violated?",
+    "options": [
+      { "id": "a", "text": "The obligation to Fulfill" },
+      { "id": "b", "text": "The obligation to Monitor" },
+      { "id": "c", "text": "The obligation to Protect" },
+      { "id": "d", "text": "The obligation to Respect" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The obligation to Respect requires the state to refrain from interfering with the enjoyment of rights, which includes the freedom of expression and association necessary for NGOs to operate.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_60",
+    "text": "Which of the following situations is the clearest example of a violation of the Right to Self-Determination?",
+    "options": [
+      { "id": "a", "text": "A citizen is denied a permit to build a house in a restricted zone" },
+      { "id": "b", "text": "A distinct ethnic group is prevented by the national government from freely deciding its political status" },
+      { "id": "c", "text": "A company is denied a contract by a competitor" },
+      { "id": "d", "text": "A person is denied a driver's license for failing the examination" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Preventing a distinct group from freely deciding its political status or pursuing its economic/social development directly violates the right to self-determination.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_61",
+    "text": "The 'Magna Carta of Women' (RA 9710) in the Philippines is an example of a law designed to fulfill which core principle of human rights?",
+    "options": [
+      { "id": "a", "text": "Non-Discrimination and Equality" },
+      { "id": "b", "text": "Inalienability" },
+      { "id": "c", "text": "Universality" },
+      { "id": "d", "text": "Non-Derogation" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Special protection for marginalized groups, like women, upholds the principle of Non-Discrimination and Equality by addressing historical disparities.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_62",
+    "text": "Which right is generally considered a 'First Generation' human right?",
+    "options": [
+      { "id": "a", "text": "Right to social security" },
+      { "id": "b", "text": "Right to work" },
+      { "id": "c", "text": "Right to culture" },
+      { "id": "d", "text": "Freedom of expression" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Freedom of expression is a classic example of a civil and political right, or First Generation right, which largely protects the individual from the state.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_63",
+    "text": "The concept of 'Responsibility to Protect' (R2P), adopted by the UN, holds that state sovereignty is contingent on the state's ability to protect its population from four specific crimes. Which of the following is NOT one of those crimes?",
+    "options": [
+      { "id": "a", "text": "Genocide" },
+      { "id": "b", "text": "Crimes Against Humanity" },
+      { "id": "c", "text": "International Terrorism" },
+      { "id": "d", "text": "Ethnic Cleansing" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "R2P covers Genocide, War Crimes, Crimes Against Humanity, and Ethnic Cleansing. International Terrorism is not one of the four specified crimes under the R2P framework.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_64",
+    "text": "The UN body responsible for promoting and protecting human rights around the world and addressing situations of human rights violations is the:",
+    "options": [
+      { "id": "a", "text": "UN Human Rights Council (UNHRC)" },
+      { "id": "b", "text": "UN Security Council (UNSC)" },
+      { "id": "c", "text": "World Health Organization (WHO)" },
+      { "id": "d", "text": "International Monetary Fund (IMF)" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The UN Human Rights Council (UNHRC) is the main UN intergovernmental body mandated with promoting and protecting human rights globally.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_65",
+    "text": "What is the main difference between the International Court of Justice (ICJ) and the International Criminal Court (ICC)?",
+    "options": [
+      { "id": "a", "text": "The ICJ is an American court, while the ICC is a European court." },
+      { "id": "b", "text": "The ICJ settles disputes between States, while the ICC prosecutes individuals." },
+      { "id": "c", "text": "The ICJ deals with war crimes, while the ICC deals with maritime law." },
+      { "id": "d", "text": "The ICJ is part of the UN, while the ICC is completely independent of the UN." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The ICJ settles legal disputes between States, whereas the ICC prosecutes individuals for specific international crimes like genocide.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_66",
+    "text": "A key component of the Right to Development (a Third Generation right) is the requirement that development must be:",
+    "options": [
+      { "id": "a", "text": "Driven solely by foreign investment" },
+      { "id": "b", "text": "Focused only on infrastructure projects" },
+      { "id": "c", "text": "Equitable and participatory, benefiting all segments of the population" },
+      { "id": "d", "text": "Implemented without the need for national consent" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Right to Development emphasizes that development must be equitable and participatory, ensuring all segments of society benefit from the process.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_67",
+    "text": "In the Philippines, the privilege of the Writ of Habeas Corpus is suspended. What fundamental right is directly affected by this suspension?",
+    "options": [
+      { "id": "a", "text": "Freedom of the press" },
+      { "id": "b", "text": "Right to property" },
+      { "id": "c", "text": "Right against unlawful or arbitrary detention" },
+      { "id": "d", "text": "Right to form associations" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The writ of habeas corpus protects against unlawful or arbitrary detention, ensuring a person is brought before a court to determine the legality of their imprisonment.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_68",
+    "text": "Which of the following is the BEST example of a State fulfilling its obligation to Protect a human right?",
+    "options": [
+      { "id": "a", "text": "The State refrains from arresting peaceful protestors" },
+      { "id": "b", "text": "The State establishes a national healthcare system" },
+      { "id": "c", "text": "The State writes an official declaration supporting human rights" },
+      { "id": "d", "text": "The State enacts a law criminalizing private employers who discriminate based on gender" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The obligation to Protect requires the state to prevent third parties (like private employers) from violating an individual's rights, such as the right to non-discrimination.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_69",
+    "text": "The International Covenant on Economic, Social and Cultural Rights (ICESCR) primarily deals with which generation of rights?",
+    "options": [
+      { "id": "a", "text": "First Generation" },
+      { "id": "b", "text": "Second Generation" },
+      { "id": "c", "text": "Third Generation" },
+      { "id": "d", "text": "Fourth Generation" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "ICESCR covers the Second Generation rights, which focus on people's material and social welfare, including the right to work, education, and health.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_70",
+    "text": "Why is the principle of Universality essential to the concept of human rights?",
+    "options": [
+      { "id": "a", "text": "It means human rights are the birthright of every person, applicable everywhere without exception." },
+      { "id": "b", "text": "It means rights can be temporarily taken away by the State in an emergency." },
+      { "id": "c", "text": "It means only countries that signed the UDHR are obligated to respect human rights." },
+      { "id": "d", "text": "It means all countries must have the same political system." }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Universality means human rights are inherent and belong to every human being equally, regardless of their nationality, race, sex, or any other status.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_71",
+    "text": "Which Philippine law is specifically designed to protect children from all forms of abuse, neglect, cruelty, exploitation, and discrimination?",
+    "options": [
+      { "id": "a", "text": "The Family Code of the Philippines" },
+      { "id": "b", "text": "The Child and Youth Welfare Code (PD 603)" },
+      { "id": "c", "text": "Anti-Violence Against Women and Their Children Act (RA 9262)" },
+      { "id": "d", "text": "Philippine Passport Act of 1996 (RA 8239)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Presidential Decree No. 603, the Child and Youth Welfare Code, is the foundational law for the protection and welfare of Filipino children and youth.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_72",
+    "text": "A situation where deeply ingrained cultural norms justify discrimination against a specific gender or group is an example of what type of violence, according to Galtung's framework?",
+    "options": [
+      { "id": "a", "text": "Direct violence" },
+      { "id": "b", "text": "Structural violence" },
+      { "id": "c", "text": "Cultural violence" },
+      { "id": "d", "text": "Negative violence" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Cultural violence refers to aspects of culture (like religion, ideology, or language) that can be used to legitimize or justify direct and structural violence.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_73",
+    "text": "Which of the following describes the key difference between civil rights and political rights (both First Generation)?",
+    "options": [
+      { "id": "a", "text": "Civil rights are for citizens only, political rights are for everyone." },
+      { "id": "b", "text": "Political rights are the right to participate in governance, while civil rights are personal freedoms and protections." },
+      { "id": "c", "text": "Civil rights require state action, while political rights require non-interference." },
+      { "id": "d", "text": "There is no functional difference; the terms are synonyms." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Political rights (like voting) allow participation in governance, whereas civil rights (like freedom of religion) are personal liberties and legal protections.",
+    "category": "Peace and Human Rights",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "phr_74",
+    "text": "The UN General Assembly's adoption of the Universal Declaration of Human Rights (UDHR) in 1948 established what kind of international instrument?",
+    "options": [
+      { "id": "a", "text": "A legally binding treaty that states must immediately enforce" },
+      { "id": "b", "text": "A non-binding resolution that serves as a common standard of achievement" },
+      { "id": "c", "text": "An executive order requiring immediate military action against violators" },
+      { "id": "d", "text": "A framework for the UN's annual budget" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The UDHR is a declaration, meaning it is a non-binding resolution, but it is highly authoritative and has become a standard reference for human rights law.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "phr_75",
+    "text": "The principle of Interdependence in human rights refers to the idea that:",
+    "options": [
+      { "id": "a", "text": "A country's sovereignty depends on its compliance with international law." },
+      { "id": "b", "text": "The realization of one right often depends on the realization of others." },
+      { "id": "c", "text": "Human rights are only applicable when nations are at peace." },
+      { "id": "d", "text": "Economic rights are always prioritized over civil rights." }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Interdependence means that the various rights (civil, political, economic, social, cultural) are linked, and the enjoyment of one right may affect the enjoyment of another.",
+    "category": "Peace and Human Rights",
+    "difficulty": "moderate",
+    "language": "english"
+  }
+]

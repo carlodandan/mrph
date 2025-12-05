@@ -1,45 +1,39 @@
-// Import all JSON files statically
-import proNumericalAbility from '../data/pro/numerical-ability.json';
-import proAnalyticalAbility from '../data/pro/analytical-ability.json';
-import proVerbalAbility from '../data/pro/verbal-ability.json';
-import proPhilippineConstitution from '../data/pro/philippine-constitution.json';
-import proRA6713 from '../data/pro/ra-6713.json';
-import proPeaceHumanRights from '../data/pro/peace-human-rights.json';
-import proEnvironmentalManagement from '../data/pro/environmental-management.json';
-import proGeneralInformation from '../data/pro/general-information.json';
+// Import common JSON files from all folder
+import allNumericalAbility from '../data/all/numerical-ability.json';
+import allVerbalAbility from '../data/all/verbal-ability.json';
+import allGeneralInformation from '../data/all/general-information.json';
+import allEnvironmentalManagement from '../data/all/environmental-management.json';
+import allPhilippineConstitution from '../data/all/philippine-constitution.json';
+import allRA6713 from '../data/all/ra-6713.json';
+import allPeaceHumanRights from '../data/all/peace-human-rights.json';
 
-import subNumericalAbility from '../data/subPro/numerical-ability.json';
+// Import exam-specific JSON files
+import proAnalyticalAbility from '../data/pro/analytical-ability.json';
 import subClericalAbility from '../data/subPro/clerical-ability.json';
-import subVerbalAbility from '../data/subPro/verbal-ability.json';
-import subPhilippineConstitution from '../data/subPro/philippine-constitution.json';
-import subRA6713 from '../data/subPro/ra-6713.json';
-import subPeaceHumanRights from '../data/subPro/peace-human-rights.json';
-import subEnvironmentalManagement from '../data/subPro/environmental-management.json';
-import subGeneralInformation from '../data/subPro/general-information.json';
 
 class ExamService {
   constructor() {
-    // Initialize question pools with static imports
+    // Initialize question pools with new structure
     this.proQuestions = {
-      'Numerical Ability': proNumericalAbility || [],
+      'Numerical Ability': allNumericalAbility || [],
       'Analytical Ability': proAnalyticalAbility || [],
-      'Verbal Ability': proVerbalAbility || [],
-      'Philippine Constitution': proPhilippineConstitution || [],
-      'RA 6713': proRA6713 || [],
-      'Peace and Human Rights': proPeaceHumanRights || [],
-      'Environmental Management': proEnvironmentalManagement || [],
-      'General Information': proGeneralInformation || []
+      'Verbal Ability': allVerbalAbility || [],
+      'Philippine Constitution': allPhilippineConstitution || [],
+      'RA 6713': allRA6713 || [],
+      'Peace and Human Rights': allPeaceHumanRights || [],
+      'Environmental Management': allEnvironmentalManagement || [],
+      'General Information': allGeneralInformation || []
     };
 
     this.subQuestions = {
-      'Numerical Ability': subNumericalAbility || [],
+      'Numerical Ability': allNumericalAbility || [],
       'Clerical Ability': subClericalAbility || [],
-      'Verbal Ability': subVerbalAbility || [],
-      'Philippine Constitution': subPhilippineConstitution || [],
-      'RA 6713': subRA6713 || [],
-      'Peace and Human Rights': subPeaceHumanRights || [],
-      'Environmental Management': subEnvironmentalManagement || [],
-      'General Information': subGeneralInformation || []
+      'Verbal Ability': allVerbalAbility || [],
+      'Philippine Constitution': allPhilippineConstitution || [],
+      'RA 6713': allRA6713 || [],
+      'Peace and Human Rights': allPeaceHumanRights || [],
+      'Environmental Management': allEnvironmentalManagement || [],
+      'General Information': allGeneralInformation || []
     };
 
     this.sessionUsedQuestions = new Set();
@@ -92,14 +86,16 @@ class ExamService {
         'Numerical Ability',
         'Clerical Ability',
         'Verbal Ability',
+        'General Information',
         'Philippine Constitution',
         'RA 6713',
         'Peace and Human Rights',
-        'Environmental Management',
-        'General Information'
+        'Environmental Management'
       ];
-    } else { // practice
+    } else { //combination of both
       return [
+        'Clerical Ability',
+        'Analytical Ability',
         'Numerical Ability',
         'Verbal Ability',
         'Philippine Constitution',

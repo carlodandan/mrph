@@ -1,0 +1,726 @@
+[
+  {
+    "id": "gen_01",
+    "text": "What is the primary function of the legislative branch of government?",
+    "options": [
+      { "id": "a", "text": "To enforce laws" },
+      { "id": "b", "text": "To interpret laws" },
+      { "id": "c", "text": "To create laws" },
+      { "id": "d", "text": "To implement development programs" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The legislative branch, composed of the Senate and House of Representatives, is responsible for making laws.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_02",
+    "text": "Which of the following is considered the supreme law of the Philippines?",
+    "options": [
+      { "id": "a", "text": "The Revised Penal Code" },
+      { "id": "b", "text": "The Philippine Constitution" },
+      { "id": "c", "text": "The Civil Code" },
+      { "id": "d", "text": "The Local Government Code" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Constitution is the highest legal authority in the country and all laws must conform to it.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_03",
+    "text": "The term 'GDP' refers to the total value of goods and services produced within a country. What does GDP stand for?",
+    "options": [
+      { "id": "a", "text": "Global Development Product" },
+      { "id": "b", "text": "General Domestic Price" },
+      { "id": "c", "text": "Gross Domestic Product" },
+      { "id": "d", "text": "Gross Development Proceeds" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "GDP measures the economic performance of a country by calculating the value of goods and services produced.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_04",
+    "text": "Which Philippine agency is primarily responsible for disaster preparedness and response coordination?",
+    "options": [
+      { "id": "a", "text": "DENR" },
+      { "id": "b", "text": "DOH" },
+      { "id": "c", "text": "Pag-asa" },
+      { "id": "d", "text": "NDRRMC" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The National Disaster Risk Reduction and Management Council (NDRRMC) coordinates disaster risk reduction and emergency response efforts.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_05",
+    "text": "Which of the following is a renewable source of energy?",
+    "options": [
+      { "id": "a", "text": "Coal" },
+      { "id": "b", "text": "Natural Gas" },
+      { "id": "c", "text": "Solar Power" },
+      { "id": "d", "text": "Oil" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Solar power is renewable because it is derived from the sun, a naturally replenished source.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_06",
+    "text": "Which ASEAN member state is geographically the largest?",
+    "options": [
+      { "id": "a", "text": "Philippines" },
+      { "id": "b", "text": "Malaysia" },
+      { "id": "c", "text": "Indonesia" },
+      { "id": "d", "text": "Vietnam" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Indonesia is the largest country in ASEAN in terms of land area and population.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_07",
+    "text": "Which of the following is considered a basic human right according to the Universal Declaration of Human Rights?",
+    "options": [
+      { "id": "a", "text": "Right to own a business" },
+      { "id": "b", "text": "Right to freedom of opinion and expression" },
+      { "id": "c", "text": "Right to receive government employment" },
+      { "id": "d", "text": "Right to vote at any age" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The UDHR includes freedom of speech as a fundamental human right.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_08",
+    "text": "The agency responsible for collecting taxes in the Philippines is:",
+    "options": [
+      { "id": "a", "text": "DBM" },
+      { "id": "b", "text": "BSP" },
+      { "id": "c", "text": "BIR" },
+      { "id": "d", "text": "DTI" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Bureau of Internal Revenue (BIR) collects internal revenue taxes, fees, and charges.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_09",
+    "text": "In the Philippines, the Sandiganbayan primarily handles cases involving:",
+    "options": [
+      { "id": "a", "text": "Tax disputes" },
+      { "id": "b", "text": "Criminal cases involving public officials" },
+      { "id": "c", "text": "Civil cases between private citizens" },
+      { "id": "d", "text": "Immigration violations" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Sandiganbayan investigates and tries graft and corruption cases involving public officers and employees.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_10",
+    "text": "Which of the following is an example of a government-owned and controlled corporation (GOCC)?",
+    "options": [
+      { "id": "a", "text": "SM Investments Corporation" },
+      { "id": "b", "text": "Philippine National Bank (PNB)" },
+      { "id": "c", "text": "Jollibee Foods Corporation" },
+      { "id": "d", "text": "ABS-CBN Corporation" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "PNB is one of the recognized GOCCs in the Philippines, although partly privatized.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_11",
+    "text": "Aling nobela ni Jose Rizal ang tumatalakay sa pang-aabuso ng mga prayle at pamahalaan sa Pilipinas, na nagsisilbing kritikal na paglalarawan ng lipunan sa kanyang panahon?",
+    "options": [
+      { "id": "a", "text": "El Filibusterismo" },
+      { "id": "b", "text": "Mi Ultimo Adios" },
+      { "id": "c", "text": "Noli Me Tangere" },
+      { "id": "d", "text": "La Solidaridad" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang 'Noli Me Tangere' ang unang nobela ni Rizal na direktang tumalakay sa mga sakit ng lipunan at pang-aabuso ng mga nasa kapangyarihan noong panahon ng Kastila.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "gen_12",
+    "text": "What is the longest river system in the Philippines, located in the northeastern part of Luzon?",
+    "options": [
+      { "id": "a", "text": "Rio Grande de Mindanao" },
+      { "id": "b", "text": "Agusan River" },
+      { "id": "c", "text": "Cagayan River" },
+      { "id": "d", "text": "Pampanga River" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Cagayan River (Rio Grande de Cagayan) is the longest and largest river system in the Philippines.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_13",
+    "text": "What process do green plants use to convert light energy, carbon dioxide, and water into chemical energy (sugars) and oxygen?",
+    "options": [
+      { "id": "a", "text": "Respiration" },
+      { "id": "b", "text": "Transpiration" },
+      { "id": "c", "text": "Metabolism" },
+      { "id": "d", "text": "Photosynthesis" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Photosynthesis is the fundamental biological process by which plants produce their own food using light.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_14",
+    "text": "Ano ang tawag sa patuloy at pangkalahatang pagtaas ng presyo ng mga bilihin at serbisyo sa isang ekonomiya, na nagpapababa sa halaga ng pera?",
+    "options": [
+      { "id": "a", "text": "Deflation" },
+      { "id": "b", "text": "Recession" },
+      { "id": "c", "text": "Implasyon (Inflation)" },
+      { "id": "d", "text": "Stagnation" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang implasyon (inflation) ay tumutukoy sa pagtaas ng presyo ng mga produkto at serbisyo, na nagreresulta sa pagbaba ng purchasing power ng pera.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "filipino"
+  },
+  {
+    "id": "gen_15",
+    "text": "Which specialized agency of the United Nations is primarily concerned with directing and coordinating international health within the UN system?",
+    "options": [
+      { "id": "a", "text": "UNICEF" },
+      { "id": "b", "text": "UNESCO" },
+      { "id": "c", "text": "WHO" },
+      { "id": "d", "text": "IMF" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The World Health Organization (WHO) is the UN agency dedicated to global public health.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_16",
+    "text": "Which body hears impeachment cases?",
+    "options": [
+      { "id": "a", "text": "House of Representatives" },
+      { "id": "b", "text": "Senate" },
+      { "id": "c", "text": "Supreme Court" },
+      { "id": "d", "text": "COA" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Though, Supreme Court is the highest court in country's judicial system, the Senate shall have the sole power to try and decide all cases of impeachment according to 1987 Philippine Constitution.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_17",
+    "text": "Which law is focused on environmental solid waste management?",
+    "options": [
+      { "id": "a", "text": "RA 9003" },
+      { "id": "b", "text": "RA 10175" },
+      { "id": "c", "text": "RA 9165" },
+      { "id": "d", "text": "RA 9262" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "RA 9003 is the Ecological Solid Waste Management Act of 2000, a Philippine law that provides a comprehensive program for proper waste management. It mandates waste segregation at the source, prohibits open dumping, and promotes recycling, composting, and other ecological practices.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_18",
+    "text": "The official motto used in the 30th Southeast Asian Games is what?",
+    "options": [
+      { "id": "a", "text": "We Care As One" },
+      { "id": "b", "text": "We Play As One" },
+      { "id": "c", "text": "We Win As One" },
+      { "id": "d", "text": "We Will As One" },
+      { "id": "e", "text": "We Work As One" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The official motto of the 30th Southeast Asian Games, hosted by the Philippines in 2019, was **'We Win As One'** (Note: option 'c' is the correct answer, not 'b' as the list appears to have options a, b, c, d, e where b is We Play As One). The actual motto was **'We Win As One'**.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_19",
+    "text": "On August 16, 2018, the government announced at least ___ Philippine holidays for 2019 as declared by virtue of Proclamation No. 555, series of 2018.",
+    "options": [
+      { "id": "a", "text": "16" },
+      { "id": "b", "text": "18" },
+      { "id": "c", "text": "19" },
+      { "id": "d", "text": "15" },
+      { "id": "e", "text": "14" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Proclamation No. 555, s. 2018, initially declared a total of **18** regular and special non-working days for 2019.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_20",
+    "text": "Which of the following statements best describes the relationship between global warming and ozone depletion?",
+    "options": [
+      { "id": "a", "text": "Ozone depletion contributes to global warming." },
+      { "id": "b", "text": "Global warming causes ozone depletion." },
+      { "id": "c", "text": "Ozone depletion and global warming have nothing to do with each other." },
+      { "id": "d", "text": "Excessive build-up of carbon dioxide causes both global warming and ozone depletion." }
+    ],
+    "correctAnswer": "a",
+    "explanation": "While ozone-depleting substances like CFCs are potent greenhouse gases and thus contribute to global warming, the overall phenomenon of stratospheric ozone depletion itself does not significantly cause global warming. They are two separate, though interconnected, environmental issues. However, option (a) is the closest correct statement among the choices because the chemicals that caused ozone depletion (CFCs) are powerful greenhouse gases.",
+    "category": "Science/Environment",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "gen_21",
+    "text": "It is the only Philippine province with an English name.",
+    "options": [
+      { "id": "a", "text": "Cebu" },
+      { "id": "b", "text": "Mountain Province" },
+      { "id": "c", "text": "General Santos" },
+      { "id": "d", "text": "Zambales" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "**Mountain Province** is the only province whose official name is in English. General Santos is a city, not a province.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_22",
+    "text": "What project of the DENR that includes the protection of Industrial pollution of our Environment?",
+    "options": [
+      { "id": "a", "text": "Bantay Kalikasan" },
+      { "id": "b", "text": "Bantay Ilog" },
+      { "id": "c", "text": "Bantay Dagat" },
+      { "id": "d", "text": "Ecological Watch" },
+      { "id": "e", "text": "Solid Waste Management" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "**Bantay Kalikasan** (Environment Watch) is a broad term or project encompassing the overall monitoring and protection of the environment, including industrial pollution, which is more comprehensive than the specific Bantay Ilog (River Watch) or Bantay Dagat (Sea Watch).",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_23",
+    "text": "What government agency does the status of government employee in the free voluntary services belong?",
+    "options": [
+      { "id": "a", "text": "Secretary" },
+      { "id": "b", "text": "Regional" },
+      { "id": "c", "text": "Municipal" },
+      { "id": "d", "text": "National" },
+      { "id": "e", "text": "Barangay" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "In the context of the Philippine civil service, the legal status and regulations governing government employees, including those in voluntary or non-permanent service, are defined at the **National** level, primarily by the Civil Service Commission (CSC).",
+    "category": "General Information",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "gen_24",
+    "text": "Which of the following is considered the largest body of water on Earth?",
+    "options": [
+      { "id": "a", "text": "Atlantic Ocean" },
+      { "id": "b", "text": "Indian Ocean" },
+      { "id": "c", "text": "Pacific Ocean" },
+      { "id": "d", "text": "Arctic Ocean" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Pacific Ocean is the world's largest and deepest ocean basin.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_25",
+    "text": "What is the capital city of the Philippines?",
+    "options": [
+      { "id": "a", "text": "Quezon City" },
+      { "id": "b", "text": "Manila" },
+      { "id": "c", "text": "Cebu City" },
+      { "id": "d", "text": "Davao City" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Manila is the official capital of the Philippines.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_26",
+    "text": "Which of the following is the smallest unit of life?",
+    "options": [
+      { "id": "a", "text": "Organ" },
+      { "id": "b", "text": "Cell" },
+      { "id": "c", "text": "Tissue" },
+      { "id": "d", "text": "Organ system" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A cell is the basic structural and functional unit of life.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_27",
+    "text": "Which of the following Philippine heroes is known as the 'Great Plebeian'?",
+    "options": [
+      { "id": "a", "text": "Jose Rizal" },
+      { "id": "b", "text": "Andres Bonifacio" },
+      { "id": "c", "text": "Emilio Aguinaldo" },
+      { "id": "d", "text": "Apolinario Mabini" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Andres Bonifacio earned the title due to his humble origins and leadership in the revolution.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_28",
+    "text": "Which planet is known as the 'Red Planet'?",
+    "options": [
+      { "id": "a", "text": "Venus" },
+      { "id": "b", "text": "Jupiter" },
+      { "id": "c", "text": "Mars" },
+      { "id": "d", "text": "Mercury" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Mars appears reddish due to iron oxide on its surface.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_29",
+    "text": "What do we call the line that divides the Earth into the Northern and Southern Hemispheres?",
+    "options": [
+      { "id": "a", "text": "Tropic of Cancer" },
+      { "id": "b", "text": "Equator" },
+      { "id": "c", "text": "Prime Meridian" },
+      { "id": "d", "text": "International Date Line" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Equator is the zero-degree latitude line dividing the Earth into two hemispheres.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_30",
+    "text": "Which of the following is a primary color of light?",
+    "options": [
+      { "id": "a", "text": "Yellow" },
+      { "id": "b", "text": "Green" },
+      { "id": "c", "text": "Orange" },
+      { "id": "d", "text": "Violet" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The primary colors of light are red, green, and blue.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_31",
+    "text": "In Philippine geography, which region is known as the 'Rice Granary of the Philippines'?",
+    "options": [
+      { "id": "a", "text": "Region II (Cagayan Valley)" },
+      { "id": "b", "text": "Region III (Central Luzon)" },
+      { "id": "c", "text": "Region VI (Western Visayas)" },
+      { "id": "d", "text": "Region X (Northern Mindanao)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Central Luzon is known for its vast rice-producing lands.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_32",
+    "text": "Which of the following is an example of a simple machine?",
+    "options": [
+      { "id": "a", "text": "Refrigerator" },
+      { "id": "b", "text": "Pulley" },
+      { "id": "c", "text": "Television" },
+      { "id": "d", "text": "Computer" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A pulley is a basic mechanical device used to lift or move loads.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_33",
+    "text": "What is the primary function of the Legislative branch of government?",
+    "options": [
+      { "id": "a", "text": "To enforce laws" },
+      { "id": "b", "text": "To interpret laws" },
+      { "id": "c", "text": "To create laws" },
+      { "id": "d", "text": "To implement programs" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Legislative branch is responsible for making laws.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_34",
+    "text": "Ano ang pambansang isda ng Pilipinas?",
+    "options": [
+      { "id": "a", "text": "Tuna" },
+      { "id": "b", "text": "Tilapia" },
+      { "id": "c", "text": "Bangus" },
+      { "id": "d", "text": "Lapu-Lapu" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Ang Bangus (Milkfish) ay opisyal na idineklarang pambansang isda ng Pilipinas.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "gen_35",
+    "text": "Which Philippine institution is responsible for printing money, regulating the country's money supply, and setting official interest rates?",
+    "options": [
+      { "id": "a", "text": "Bureau of Internal Revenue (BIR)" },
+      { "id": "b", "text": "Bangko Sentral ng Pilipinas (BSP)" },
+      { "id": "c", "text": "Department of Trade and Industry (DTI)" },
+      { "id": "d", "text": "Securities and Exchange Commission (SEC)" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Bangko Sentral ng Pilipinas (BSP) serves as the country's central monetary authority.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_36",
+    "text": "What instrument is used by meteorologists to measure air temperature?",
+    "options": [
+      { "id": "a", "text": "Barometer" },
+      { "id": "b", "text": "Anemometer" },
+      { "id": "c", "text": "Thermometer" },
+      { "id": "d", "text": "Hygrometer" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A thermometer measures temperature. A barometer measures pressure, an anemometer measures wind speed, and a hygrometer measures humidity.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_37",
+    "text": "Alin ang pinakamataas na bundok sa Pilipinas?",
+    "options": [
+      { "id": "a", "text": "Bundok Apo (Mt. Apo)" },
+      { "id": "b", "text": "Bundok Pulag (Mt. Pulag)" },
+      { "id": "c", "text": "Bundok Kanlaon (Mt. Kanlaon)" },
+      { "id": "d", "text": "Bundok Mayon (Mt. Mayon)" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Ang Bundok Apo sa Mindanao ang pinakamataas na bundok sa Pilipinas.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "filipino"
+  },
+  {
+    "id": "gen_38",
+    "text": "The first official unfurling of the Philippine Flag, sewn in Hong Kong by Marcela Agoncillo and others, happened in which specific historical event?",
+    "options": [
+      { "id": "a", "text": "Declaration of Philippine Independence" },
+      { "id": "b", "text": "Battle of Mactan" },
+      { "id": "c", "text": "Cry of Pugad Lawin" },
+      { "id": "d", "text": "Battle of Alapan" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "The Philippine Flag was first unfurled after the revolutionary forces, led by Emilio Aguinaldo, defeated the Spanish troops in the Battle of Alapan in Imus, Cavite, on May 28, 1898, preceding the formal declaration of Independence on June 12.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_39",
+    "text": "What is the primary product of photosynthesis in plants that is essential for the plant's energy and growth?",
+    "options": [
+      { "id": "a", "text": "Carbon Dioxide (CO2)" },
+      { "id": "b", "text": "Water (H2O)" },
+      { "id": "c", "text": "Glucose (Sugar)" },
+      { "id": "d", "text": "Oxygen (O2)" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Photosynthesis converts light energy into chemical energy, storing it in the form of glucose (a type of sugar), which the plant uses for fuel and as a building block for cellulose. Oxygen is a crucial byproduct.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_40",
+    "text": "Which Renaissance artist is credited with painting the ceiling of the Sistine Chapel?",
+    "options": [
+      { "id": "a", "text": "Leonardo da Vinci" },
+      { "id": "b", "text": "Raphael" },
+      { "id": "c", "text": "Michelangelo" },
+      { "id": "d", "text": "Donatello" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Michelangelo Buonarroti painted the famous ceiling frescoes, including 'The Creation of Adam,' between 1508 and 1512.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_41",
+    "text": "According to the 1987 Philippine Constitution, who or what body has the exclusive power to initiate all cases of impeachment?",
+    "options": [
+      { "id": "a", "text": "The Senate" },
+      { "id": "b", "text": "The Supreme Court" },
+      { "id": "c", "text": "The House of Representatives" },
+      { "id": "d", "text": "The Office of the Ombudsman" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Article XI, Section 3(1) of the 1987 Constitution states that the House of Representatives shall have the exclusive power to initiate all cases of impeachment.",
+    "category": "General Information",
+    "difficulty": "difficult",
+    "language": "english"
+  },
+  {
+    "id": "gen_42",
+    "text": "What is the chemical element with the symbol 'Au'?",
+    "options": [
+      { "id": "a", "text": "Silver" },
+      { "id": "b", "text": "Aluminum" },
+      { "id": "c", "text": "Gold" },
+      { "id": "d", "text": "Copper" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The symbol 'Au' comes from the Latin word 'aurum,' meaning gold.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_43",
+    "text": "Which Asian country is known for pioneering the concept of Gross National Happiness (GNH) as a measure of progress instead of Gross Domestic Product (GDP)?",
+    "options": [
+      { "id": "a", "text": "Japan" },
+      { "id": "b", "text": "Bhutan" },
+      { "id": "c", "text": "South Korea" },
+      { "id": "d", "text": "Nepal" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Bhutan famously adopted GNH, which balances economic development with cultural preservation, environmental conservation, and good governance.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_44",
+    "text": "The Theory of Relativity is fundamentally associated with which renowned physicist?",
+    "options": [
+      { "id": "a", "text": "Isaac Newton" },
+      { "id": "b", "text": "Galileo Galilei" },
+      { "id": "c", "text": "Albert Einstein" },
+      { "id": "d", "text": "Stephen Hawking" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Albert Einstein developed the Special Theory of Relativity (1905) and the General Theory of Relativity (1915), which revolutionized physics with the equation $E=mc^2$.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_45",
+    "text": "In literature, who wrote the epic poem 'The Iliad'?",
+    "options": [
+      { "id": "a", "text": "Virgil" },
+      { "id": "b", "text": "Homer" },
+      { "id": "c", "text": "Sophocles" },
+      { "id": "d", "text": "Plato" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Homer, the legendary Greek poet, is traditionally credited as the author of 'The Iliad' and 'The Odyssey'.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_46",
+    "text": "Which Philippine island province is often called the 'Last Frontier' of the country, known for its rich biodiversity and environmental conservation efforts?",
+    "options": [
+      { "id": "a", "text": "Cebu" },
+      { "id": "b", "text": "Bohol" },
+      { "id": "c", "text": "Palawan" },
+      { "id": "d", "text": "Batanes" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Palawan is internationally recognized for its unique flora and fauna, pristine landscapes, and has strict environmental protection laws, earning it the nickname 'The Last Frontier'.",
+    "category": "General Information",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "gen_47",
+    "text": "The Great Wall of China was primarily built for which purpose?",
+    "options": [
+      { "id": "a", "text": "To serve as a road network for trade caravans" },
+      { "id": "b", "text": "To define the exact boundary between China and India" },
+      { "id": "c", "text": "To protect the northern borders of the Chinese Empire against invasions" },
+      { "id": "d", "text": "To control flooding from major rivers" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The Great Wall was constructed and rebuilt over centuries primarily to protect the Chinese states and empires against the raids and invasions of nomadic groups from the Eurasian Steppe, particularly the Mongols.",
+    "category": "General Information",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "gen_48",
+    "text": "What is the main property of a material that determines whether it is an electrical conductor or an insulator?",
+    "options": [
+      { "id": "a", "text": "Its density" },
+      { "id": "b", "text": "Its ability to resist heat" },
+      { "id": "c", "text": "The mobility of its outer electrons" },
+      { "id": "d", "text": "Its magnetic field strength" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A material's electrical conductivity is determined by the number of free electrons (mobile outer shell electrons) it possesses. Conductors have many free electrons, while insulators have few.",
+    "category": "General Information",
+    "difficulty": "difficult",
+    "language": "english"
+  }
+]

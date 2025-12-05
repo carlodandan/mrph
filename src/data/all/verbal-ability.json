@@ -1,6 +1,6 @@
 [
   {
-    "id": "verb_pro_1",
+    "id": "verbal_01",
     "text": "Choose the sentence with correct grammar:",
     "options": [
       { "id": "a", "text": "Neither the employees nor the manager are present" },
@@ -15,7 +15,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_2",
+    "id": "verbal_02",
     "text": "What is the synonym of 'meticulous'?",
     "options": [
       { "id": "a", "text": "Careless" },
@@ -30,7 +30,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_3",
+    "id": "verbal_03",
     "text": "Pumili ng tamang pagbaybay:",
     "options": [
       { "id": "a", "text": "Akomodasyon" },
@@ -45,7 +45,7 @@
     "language": "filipino"
   },
   {
-    "id": "verb_pro_4",
+    "id": "verbal_04",
     "text": "Rearrange the following sentences to form a coherent paragraph:\n1. The Civil Service Commission issued new guidelines.\n2. These guidelines will take effect next month.\n3. All government agencies must comply with them.\n4. The guidelines aim to improve public service.",
     "options": [
       { "id": "a", "text": "1-4-3-2" },
@@ -58,8 +58,9 @@
     "category": "Verbal Ability",
     "difficulty": "moderate",
     "language": "english"
-  },{
-    "id": "verb_pro_5",
+  },
+  {
+    "id": "verbal_05",
     "text": "What is the antonym of 'obfuscate'?",
     "options": [
       { "id": "a", "text": "Confuse" },
@@ -74,7 +75,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_6",
+    "id": "verbal_06",
     "text": "Choose the most appropriate word to complete the sentence: The team's productivity was severely ___________ by the lack of proper training.",
     "options": [
       { "id": "a", "text": "enhanced" },
@@ -89,7 +90,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_7",
+    "id": "verbal_07",
     "text": "Piliin ang pangungusap na may tamang gamit ng 'ng' at 'nang':",
     "options": [
       { "id": "a", "text": "Bumili ng isda si Aling Nena nang palengke" },
@@ -104,7 +105,7 @@
     "language": "filipino"
   },
   {
-    "id": "verb_pro_8",
+    "id": "verbal_08",
     "text": "Complete the analogy: HAND is to GLOVE as FOOT is to:",
     "options": [
       { "id": "a", "text": "LEG" },
@@ -119,7 +120,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_9",
+    "id": "verbal_09",
     "text": "Ang ___________ ng pagbabago sa sistema ay agad na ipinatupad ng bagong pinuno.",
     "options": [
       { "id": "a", "text": "pagpapatupad" },
@@ -134,7 +135,7 @@
     "language": "filipino"
   },
   {
-    "id": "verb_pro_10",
+    "id": "verbal_10",
     "text": "What is the meaning of the idiom 'to throw in the towel'?",
     "options": [
       { "id": "a", "text": "To clean up a mess" },
@@ -149,7 +150,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_11",
+    "id": "verbal_11",
     "text": "Piliin ang pangungusap na may tamang gamit ng 'raw' at 'daw':",
     "options": [
       { "id": "a", "text": "Umuulan daw sa labas." },
@@ -164,7 +165,7 @@
     "language": "filipino"
   },
   {
-    "id": "verb_pro_12",
+    "id": "verbal_12",
     "text": "In the sentence, 'The government implemented austerity measures to curb unnecessary expenditure,' what does 'austerity' mean?",
     "options": [
       { "id": "a", "text": "Luxury and abundance" },
@@ -179,7 +180,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_13",
+    "id": "verbal_13",
     "text": "Choose the correct preposition to complete the sentence: The office will be closed ___________ Christmas Day.",
     "options": [
       { "id": "a", "text": "at" },
@@ -194,7 +195,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_14",
+    "id": "verbal_14",
     "text": "Aling salita ang may pinakamalapit na kahulugan sa 'mapanuri'?",
     "options": [
       { "id": "a", "text": "Madaldal" },
@@ -209,37 +210,37 @@
     "language": "filipino"
   },
   {
-    "id": "va_pro_015",
-  "text": "Sarah ______ an interesting point about the country's yearly budget.",
-  "options": [
-    { "id": "a", "text": "brought down" },
-    { "id": "b", "text": "brought in" },
-    { "id": "c", "text": "brought up" },
-    { "id": "d", "text": "brought on" }
-  ],
-  "correctAnswer": "c",
-  "explanation": "The phrasal verb 'brought up' means to introduce a topic or subject into a discussion. Therefore, Sarah introduced an interesting point.",
-  "category": "Verbal Ability",
-  "difficulty": "easy",
-  "language": "english"
+    "id": "verbal_15",
+    "text": "Sarah ______ an interesting point about the country's yearly budget.",
+    "options": [
+      { "id": "a", "text": "brought down" },
+      { "id": "b", "text": "brought in" },
+      { "id": "c", "text": "brought up" },
+      { "id": "d", "text": "brought on" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The phrasal verb 'brought up' means to introduce a topic or subject into a discussion. Therefore, Sarah introduced an interesting point.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
   },
   {
-    "id": "va_pro_016",
-  "text": "She has a RUGGED appearance.",
-  "options": [
-    { "id": "a", "text": "Smooth" },
-    { "id": "b", "text": "Polished" },
-    { "id": "c", "text": "Rough" },
-    { "id": "d", "text": "Soft" }
-  ],
-  "correctAnswer": "c",
-  "explanation": "“Rugged” describes someone or something with a rough or sturdy look, so “rough” is the closest synonym.",
-  "category": "Verbal Ability",
-  "difficulty": "easy",
-  "language": "english"
+    "id": "verbal_16",
+    "text": "She has a RUGGED appearance.",
+    "options": [
+      { "id": "a", "text": "Smooth" },
+      { "id": "b", "text": "Polished" },
+      { "id": "c", "text": "Rough" },
+      { "id": "d", "text": "Soft" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "“Rugged” describes someone or something with a rough or sturdy look, so “rough” is the closest synonym.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
   },
   {
-    "id": "va_pro_017",
+    "id": "verbal_17",
     "text": "Tragic stories had so much PATHOS that it left me feeling down. Which word is a SYNONYM of 'pathos'?",
     "options": [
       { "id": "a", "text": "anguish" },
@@ -254,7 +255,7 @@
     "language": "english"
   },
   {
-    "id": "va_pro_018",
+    "id": "verbal_18",
     "text": "Tragic stories had so much pathos that it left me feeling down. Which word is an ANTONYM of 'pathos'?",
     "options": [
       { "id": "a", "text": "anguish" },
@@ -269,7 +270,7 @@
     "language": "english"
   },
   {
-    "id": "va_pro_019",
+    "id": "verbal_19",
     "text": "VOCABULARY: Sherlock Holmes is a famous sleuth.",
     "options": [
       { "id": "a", "text": "adventurer" },
@@ -284,7 +285,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_16",
+    "id": "verbal_20",
     "text": "Choose the correct sentence structure and subject-verb agreement: A series of unfortunate events ___________ the mayor's plans for reelection.",
     "options": [
       { "id": "a", "text": "have sabotaged" },
@@ -299,7 +300,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_17",
+    "id": "verbal_21",
     "text": "What is the antonym of 'perfunctory'?",
     "options": [
       { "id": "a", "text": "Careless" },
@@ -314,7 +315,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_18",
+    "id": "verbal_22",
     "text": "Identify the word that is misspelled:",
     "options": [
       { "id": "a", "text": "Consensus" },
@@ -329,7 +330,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_19",
+    "id": "verbal_23",
     "text": "Which sentence uses the subjunctive mood correctly?",
     "options": [
       { "id": "a", "text": "If I was the manager, I would change the policy." },
@@ -344,7 +345,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_20",
+    "id": "verbal_24",
     "text": "Choose the most appropriate word to complete the sentence: The department's official statement was often seen as ___________ rather than transparent.",
     "options": [
       { "id": "a", "text": "edifying" },
@@ -359,7 +360,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_21",
+    "id": "verbal_25",
     "text": "Complete the analogy: JUROR is to JURY as MINISTER is to:",
     "options": [
       { "id": "a", "text": "CABINET" },
@@ -374,7 +375,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_22",
+    "id": "verbal_26",
     "text": "Which option provides the most precise and formal phrasing for the following: 'The budget cuts made things really bad for everyone.'",
     "options": [
       { "id": "a", "text": "The budget cuts caused a huge mess." },
@@ -389,7 +390,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_23",
+    "id": "verbal_27",
     "text": "The idiom 'to steal someone's thunder' means:",
     "options": [
       { "id": "a", "text": "To take credit for someone else's idea." },
@@ -404,7 +405,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_24",
+    "id": "verbal_28",
     "text": "The principle that one should be given a fair hearing before any adverse decision is made is known as 'audi alteram partem'. This principle advocates for:",
     "options": [
       { "id": "a", "text": "Judicial review" },
@@ -419,7 +420,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_25",
+    "id": "verbal_29",
     "text": "Find the word with the same meaning as 'deleterious':",
     "options": [
       { "id": "a", "text": "Beneficial" },
@@ -434,7 +435,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_26",
+    "id": "verbal_30",
     "text": "Which word is the most suitable for the sentence: The witness's account of the event was too ___________ to be credible.",
     "options": [
       { "id": "a", "text": "coherent" },
@@ -449,7 +450,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_27",
+    "id": "verbal_31",
     "text": "Identify the logical flaw in the following statement: 'Since the new policy was implemented, corruption has decreased. Therefore, the new policy caused the decrease in corruption.'",
     "options": [
       { "id": "a", "text": "Ad hominem" },
@@ -464,7 +465,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_28",
+    "id": "verbal_32",
     "text": "Choose the correctly punctuated sentence:",
     "options": [
       { "id": "a", "text": "She submitted the report; however, it was incomplete." },
@@ -479,7 +480,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_29",
+    "id": "verbal_33",
     "text": "Which word is the antonym of 'ephemeral'?",
     "options": [
       { "id": "a", "text": "Transient" },
@@ -494,7 +495,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_30",
+    "id": "verbal_34",
     "text": "Rearrange the following sentences to form a coherent paragraph:\n1. The agency is currently drafting a new manual.\n2. This initiative is a response to public demands for greater clarity.\n3. It will serve as the primary guide for all operational procedures.\n4. The expected completion date is the end of the second quarter.",
     "options": [
       { "id": "a", "text": "1-3-2-4" },
@@ -509,7 +510,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_31",
+    "id": "verbal_35",
     "text": "The word 'disingenuous' is best defined as:",
     "options": [
       { "id": "a", "text": "Completely honest and sincere" },
@@ -524,7 +525,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_32",
+    "id": "verbal_36",
     "text": "Which preposition most accurately completes the sentence: The new regulation is aimed ___________ improving citizen engagement.",
     "options": [
       { "id": "a", "text": "on" },
@@ -539,7 +540,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_33",
+    "id": "verbal_37",
     "text": "Identify the error in the following sentence: 'Everyone, including the supervisors, were surprised by the sudden resignation.'",
     "options": [
       { "id": "a", "text": "The use of 'Everyone'" },
@@ -554,7 +555,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_34",
+    "id": "verbal_38",
     "text": "Complete the sentence with the correct pair of homophones: The new ___________ must follow the ___________ for filing documents.",
     "options": [
       { "id": "a", "text": "principle, principal" },
@@ -569,7 +570,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_35",
+    "id": "verbal_39",
     "text": "The word 'inadvertent' most closely means:",
     "options": [
       { "id": "a", "text": "Intentional" },
@@ -584,7 +585,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_36",
+    "id": "verbal_40",
     "text": " Ang batang iyon ay 'masinop' sa pera.",
     "options": [
       { "id": "a", "text": "Magastos" },
@@ -599,7 +600,7 @@
     "language": "filipino"
   },
   {
-    "id": "verb_pro_37",
+    "id": "verbal_41",
     "text": "VOCABULARY: The following are examples of Palindrome, except...",
     "options": [
       { "id": "a", "text": "Level" },
@@ -614,7 +615,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_38",
+    "id": "verbal_42",
     "text": "IDIOMATIC EXPRESSION: 'Hey, man, you are absolutely barking up the wrong tree here because I'm innocent.'",
     "options": [
       { "id": "a", "text": "Choosing the wrong dog." },
@@ -629,7 +630,7 @@
     "language": "english"
   },
   {
-    "id": "verb_pro_39",
+    "id": "verbal_43",
     "text": "KAWIKAAN: 'Kumukulo ang dugo ng ina ni Robin sa kaniya sapagkat hindi siya nag-aral nang mabuti.'",
     "options": [
       { "id": "a", "text": "Tuwang-tuwa" },
@@ -644,7 +645,7 @@
     "language": "filipino"
   },
   {
-    "id": "verb_pro_40",
+    "id": "verbal_44",
     "text": "VOCABULARY: person who loves peace is called a...",
     "options": [
       { "id": "a", "text": "Pessimist" },
@@ -656,6 +657,531 @@
     "explanation": "A pacifist is a person who believes in and promotes peace, and opposes violence or war.",
     "category": "Verbal Ability",
     "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_45",
+    "text": "Which word is the SYNONYM of the word 'abundant'?",
+    "options": [
+      { "id": "a", "text": "scarce" },
+      { "id": "b", "text": "plentiful" },
+      { "id": "c", "text": "limited" },
+      { "id": "d", "text": "few" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "‘Plentiful’ has a similar meaning to ‘abundant,’ which refers to something in large quantity.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_46",
+    "text": "Choose the correctly spelled word.",
+    "options": [
+      { "id": "a", "text": "accomodate" },
+      { "id": "b", "text": "accommodate" },
+      { "id": "c", "text": "acommodate" },
+      { "id": "d", "text": "accomadate" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "‘Accommodate’ is spelled with two C’s and two M’s.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_47",
+    "text": "Which of the following is the ANTONYM of 'generous'?",
+    "options": [
+      { "id": "a", "text": "kind" },
+      { "id": "b", "text": "selfless" },
+      { "id": "c", "text": "stingy" },
+      { "id": "d", "text": "giving" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Stingy’ is the opposite of ‘generous,’ which means not willing to give.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_48",
+    "text": "Choose the sentence with the correct subject-verb agreement.",
+    "options": [
+      { "id": "a", "text": "The list of items are on the table." },
+      { "id": "b", "text": "The books on the shelf belongs to my sister." },
+      { "id": "c", "text": "Each of the students is required to submit the form." },
+      { "id": "d", "text": "The group of dancers were excited for the show." }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Each’ is always singular, so the verb should be ‘is.’",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_49",
+    "text": "Complete the analogy: BOOK is to READ as PIANO is to ______.",
+    "options": [
+      { "id": "a", "text": "sound" },
+      { "id": "b", "text": "music" },
+      { "id": "c", "text": "play" },
+      { "id": "d", "text": "instrument" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "You READ a book, and you PLAY a piano.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_50",
+    "text": "Which word BEST completes the sentence: ‘Maria is known for her ______ in handling customer complaints.’",
+    "options": [
+      { "id": "a", "text": "patience" },
+      { "id": "b", "text": "patient" },
+      { "id": "c", "text": "patients" },
+      { "id": "d", "text": "patently" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The noun ‘patience’ correctly fits the sentence.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_51",
+    "text": "Choose the correct preposition: ‘They arrived ____ the airport early.’",
+    "options": [
+      { "id": "a", "text": "in" },
+      { "id": "b", "text": "to" },
+      { "id": "c", "text": "at" },
+      { "id": "d", "text": "on" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The correct phrase is ‘arrived at the airport.’",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_52",
+    "text": "Which sentence is punctuated correctly?",
+    "options": [
+      { "id": "a", "text": "Let's eat, Grandpa!" },
+      { "id": "b", "text": "Lets eat Grandpa!" },
+      { "id": "c", "text": "Let’s eat Grandpa" },
+      { "id": "d", "text": "Lets eat, Grandpa" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The comma changes the meaning and makes the sentence grammatically correct.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_53",
+    "text": "Which word correctly completes the sentence: ‘The employees were praised for their ______.’",
+    "options": [
+      { "id": "a", "text": "dedicate" },
+      { "id": "b", "text": "dedicated" },
+      { "id": "c", "text": "dedication" },
+      { "id": "d", "text": "dedicating" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The noun ‘dedication’ properly completes the sentence.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_54",
+    "text": "Choose the pair of words that form a meaningful analogy: ‘Teacher : Classroom’",
+    "options": [
+      { "id": "a", "text": "Doctor : Hospital" },
+      { "id": "b", "text": "Driver : Table" },
+      { "id": "c", "text": "Painter : Books" },
+      { "id": "d", "text": "Chef : Laptop" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A doctor works in a hospital, just as a teacher works in a classroom.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_55",
+    "text": "Choose the word that is the ANTONYM of 'transient'.",
+    "options": [
+      { "id": "a", "text": "temporary" },
+      { "id": "b", "text": "fleeting" },
+      { "id": "c", "text": "permanent" },
+      { "id": "d", "text": "quick" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Transient’ means lasting for only a short time; therefore, its opposite is ‘permanent,’ meaning lasting indefinitely.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_56",
+    "text": "Identify the section that contains a grammatical error: The city council (A) / has approve (B) / the new budget (C) / for next year (D).",
+    "options": [
+      { "id": "a", "text": "(A) The city council" },
+      { "id": "b", "text": "(B) has approve" },
+      { "id": "c", "text": "(C) the new budget" },
+      { "id": "d", "text": "(D) for next year" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The auxiliary verb ‘has’ must be followed by the past participle form of the main verb, which is 'approved,' not 'approve.'",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_57",
+    "text": "Complete the analogy: SCALPEL is to SURGEON as KEYBOARD is to ______.",
+    "options": [
+      { "id": "a", "text": "printer" },
+      { "id": "b", "text": "computer" },
+      { "id": "c", "text": "writer" },
+      { "id": "d", "text": "monitor" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "A scalpel is the primary tool used by a surgeon, and a keyboard is the primary tool used by a writer (or typist) to perform their work.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_58",
+    "text": "Choose the word that BEST completes the sentence: ‘The documents were classified as ______ because they contained sensitive national security details.’",
+    "options": [
+      { "id": "a", "text": "confidential" },
+      { "id": "b", "text": "obvious" },
+      { "id": "c", "text": "transparent" },
+      { "id": "d", "text": "public" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "‘Confidential’ is the best fit as it means private or secret, often pertaining to state security.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_59",
+    "text": "Choose the correctly spelled word.",
+    "options": [
+      { "id": "a", "text": "necessarry" },
+      { "id": "b", "text": "neccesary" },
+      { "id": "c", "text": "necessary" },
+      { "id": "d", "text": "necesarry" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Necessary’ is spelled with one 'c' and two 's's.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_60",
+    "text": "Which word is the SYNONYM of the word 'perfunctory'?",
+    "options": [
+      { "id": "a", "text": "thorough" },
+      { "id": "b", "text": "careful" },
+      { "id": "c", "text": "cursory" },
+      { "id": "d", "text": "conscientious" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Perfunctory’ means carried out with minimum effort or reflection, hence, 'cursory' (hasty and superficial) is the closest synonym.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_61",
+    "text": "Choose the correctly spelled word.",
+    "options": [
+      { "id": "a", "text": "concensus" },
+      { "id": "b", "text": "concensuss" },
+      { "id": "c", "text": "consensus" },
+      { "id": "d", "text": "concenssus" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Consensus’ is spelled with one 's' and then another 's'.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_62",
+    "text": "Which of the following is the ANTONYM of 'ubiquitous'?",
+    "options": [
+      { "id": "a", "text": "omnipresent" },
+      { "id": "b", "text": "rare" },
+      { "id": "c", "text": "pervasive" },
+      { "id": "d", "text": "common" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "‘Ubiquitous’ means present, appearing, or found everywhere; therefore, its opposite is ‘rare’ (not occurring often).",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_63",
+    "text": "Choose the sentence with the correct subject-verb agreement.",
+    "options": [
+      { "id": "a", "text": "Neither the manager nor the employees agrees with the decision." },
+      { "id": "b", "text": "The committee have differing opinions on the proposal." },
+      { "id": "c", "text": "Politics are a complicated subject." },
+      { "id": "d", "text": "Ten miles is a long distance to walk." }
+    ],
+    "correctAnswer": "d",
+    "explanation": "When a measurement of distance or time is treated as a single unit, a singular verb is used. In this case, 'Ten miles' is treated as a single unit of distance, thus 'is' is correct.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_64",
+    "text": "Complete the analogy: SHEEP is to FLOCK as FISH is to ______.",
+    "options": [
+      { "id": "a", "text": "herd" },
+      { "id": "b", "text": "school" },
+      { "id": "c", "text": "colony" },
+      { "id": "d", "text": "pack" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "A group of sheep is called a 'flock,' and a group of fish is called a 'school.'",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_65",
+    "text": "Which word BEST completes the sentence: ‘The lawyer offered a compelling ______ to the jury, highlighting the lack of evidence.’",
+    "options": [
+      { "id": "a", "text": "refute" },
+      { "id": "b", "text": "refutation" },
+      { "id": "c", "text": "refuted" },
+      { "id": "d", "text": "refuting" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The noun ‘refutation’ (the action of proving a statement or theory to be wrong) is required to follow the adjective ‘compelling.’",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_66",
+    "text": "Choose the correct pronoun: ‘Everyone should bring ______ own lunch to the seminar.’",
+    "options": [
+      { "id": "a", "text": "their" },
+      { "id": "b", "text": "his" },
+      { "id": "c", "text": "her" },
+      { "id": "d", "text": "it's" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "While 'Everyone' is grammatically singular, in modern standard English, the plural pronoun 'their' is commonly used as a gender-neutral singular pronoun to refer to indefinite pronouns like 'everyone' or 'everybody,' making it the most appropriate and accepted choice.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_67",
+    "text": "Identify the punctuation error: After the rain stopped, the sun came out but we didn't go outside.",
+    "options": [
+      { "id": "a", "text": "Missing comma after 'out'" },
+      { "id": "b", "text": "Missing comma after 'stopped'" },
+      { "id": "c", "text": "Missing semicolon after 'sun'" },
+      { "id": "d", "text": "Missing apostrophe in 'didn't'" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "A comma is needed before the coordinating conjunction 'but' when it joins two independent clauses (the sun came out, and we didn't go outside).",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_68",
+    "text": "Identify the word that is a SYNONYM of 'clandestine'.",
+    "options": [
+      { "id": "a", "text": "open" },
+      { "id": "b", "text": "secret" },
+      { "id": "c", "text": "public" },
+      { "id": "d", "text": "known" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "‘Clandestine’ means kept secret or done secretively, often because of illicit intent.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_69",
+    "text": "Choose the pair of words that form a meaningful analogy: 'Ignite : Fire'",
+    "options": [
+      { "id": "a", "text": "Write : Pen" },
+      { "id": "b", "text": "Sing : Music" },
+      { "id": "c", "text": "Pull : Magnet" },
+      { "id": "d", "text": "Trigger : War" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "'Ignite' is the verb that starts 'Fire,' and 'Trigger' is the verb that starts 'War.' The relationship is 'Cause-Effect' or 'Start-Result.'",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_70",
+    "text": "Choose the word that is the ANTONYM of 'exonerate'.",
+    "options": [
+      { "id": "a", "text": "acquit" },
+      { "id": "b", "text": "vindicate" },
+      { "id": "c", "text": "indict" },
+      { "id": "d", "text": "absolve" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Exonerate’ means to clear from blame; ‘indict’ means to formally charge with a serious crime, making it the opposite.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_71",
+    "text": "Identify the section that contains a grammatical error: They was informed (A) / about the meeting (B) / immediately after (C) / the announcement (D).",
+    "options": [
+      { "id": "a", "text": "(A) They was informed" },
+      { "id": "b", "text": "(B) about the meeting" },
+      { "id": "c", "text": "(C) immediately after" },
+      { "id": "d", "text": "(D) the announcement" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The subject 'They' is plural and requires the plural form of the verb 'to be' in the past tense, which is 'were,' not 'was.' The correct phrase is 'They were informed.'",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_72",
+    "text": "Complete the analogy: LEAVES is to TREE as PAGES is to ______.",
+    "options": [
+      { "id": "a", "text": "ink" },
+      { "id": "b", "text": "library" },
+      { "id": "c", "text": "novel" },
+      { "id": "d", "text": "chapter" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Leaves are the individual components that collectively make up a tree (a whole), and pages are the individual components that collectively make up a novel (a whole).",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_73",
+    "text": "Choose the word that BEST completes the sentence: ‘The sudden change in policy created great ______ among the staff.’",
+    "options": [
+      { "id": "a", "text": "confuse" },
+      { "id": "b", "text": "confusing" },
+      { "id": "c", "text": "confusion" },
+      { "id": "d", "text": "confused" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The noun ‘confusion’ (a state of bewilderment or disorder) is needed to function as the object of the verb 'created.'",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_74",
+    "text": "Which is the correctly spelled word for the act of writing down what is said?",
+    "options": [
+      { "id": "a", "text": "dictation" },
+      { "id": "b", "text": "dictashun" },
+      { "id": "c", "text": "dictasion" },
+      { "id": "d", "text": "dictatioun" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "‘Dictation’ is spelled d-i-c-t-a-t-i-o-n.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_75",
+    "text": "The phrase 'cut corners' is an idiom meaning:",
+    "options": [
+      { "id": "a", "text": "To take the shortest route" },
+      { "id": "b", "text": "To perform a task quickly and carelessly to save time or money" },
+      { "id": "c", "text": "To work very hard and efficiently" },
+      { "id": "d", "text": "To be extremely precise and detailed" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "To 'cut corners' means to do something in the easiest, quickest, or cheapest way, often by sacrificing quality or standards.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_76",
+    "text": "Identify the word that is a SYNONYM of 'esoteric'.",
+    "options": [
+      { "id": "a", "text": "well-known" },
+      { "id": "b", "text": "obvious" },
+      { "id": "c", "text": "obscure" },
+      { "id": "d", "text": "commonplace" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "‘Esoteric’ means intended for or likely to be understood by only a small number of people with a specialized knowledge or interest, making ‘obscure’ (not discovered or known about) the closest synonym.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_77",
+    "text": "The phrase 'throw in the towel' is an idiom meaning:",
+    "options": [
+      { "id": "a", "text": "To give up or admit defeat" },
+      { "id": "b", "text": "To clean up a mess" },
+      { "id": "c", "text": "To offer an additional item for free" },
+      { "id": "d", "text": "To start a new project" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Originating from boxing, where a fighter's corner throws a towel into the ring to signal surrender, the idiom means to give up.",
+    "category": "Verbal Ability",
+    "difficulty": "moderate",
+    "language": "english"
+  },
+  {
+    "id": "verbal_78",
+    "text": "Which phrase BEST replaces the underlined words: The professor pulled a fast one on the students by giving a surprise quiz.",
+    "options": [
+      { "id": "a", "text": "was very quick" },
+      { "id": "b", "text": "played a trick or deceived" },
+      { "id": "c", "d": "was overly generous" },
+      { "id": "d", "text": "gave a warning to" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "To 'pull a fast one' is an idiom meaning to achieve something by deception or trickery.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_79",
+    "text": "The word 'capricious' is defined as:",
+    "options": [
+      { "id": "a", "text": "Being serious and determined" },
+      { "id": "b", "text": "Given to sudden and unaccountable changes of mood or behavior" },
+      { "id": "c", "d": "Extremely cautious and predictable" },
+      { "id": "d", "text": "Highly competent and efficient" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "‘Capricious’ describes someone or something subject to sudden, unpredictable changes, often referring to mood or action.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
     "language": "english"
   }
 ]
