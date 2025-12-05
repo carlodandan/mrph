@@ -18,22 +18,22 @@ class ExamService {
       'Numerical Ability': allNumericalAbility || [],
       'Analytical Ability': proAnalyticalAbility || [],
       'Verbal Ability': allVerbalAbility || [],
+      'General Information': allGeneralInformation || [],
       'Philippine Constitution': allPhilippineConstitution || [],
       'RA 6713': allRA6713 || [],
       'Peace and Human Rights': allPeaceHumanRights || [],
-      'Environmental Management': allEnvironmentalManagement || [],
-      'General Information': allGeneralInformation || []
+      'Environmental Management': allEnvironmentalManagement || []
     };
 
     this.subQuestions = {
       'Numerical Ability': allNumericalAbility || [],
       'Clerical Ability': subClericalAbility || [],
       'Verbal Ability': allVerbalAbility || [],
+      'General Information': allGeneralInformation || [],
       'Philippine Constitution': allPhilippineConstitution || [],
       'RA 6713': allRA6713 || [],
       'Peace and Human Rights': allPeaceHumanRights || [],
-      'Environmental Management': allEnvironmentalManagement || [],
-      'General Information': allGeneralInformation || []
+      'Environmental Management': allEnvironmentalManagement || []
     };
 
     this.sessionUsedQuestions = new Set();
@@ -75,11 +75,11 @@ class ExamService {
         'Numerical Ability',
         'Analytical Ability',
         'Verbal Ability',
+        'General Information',
         'Philippine Constitution',
         'RA 6713',
         'Peace and Human Rights',
-        'Environmental Management',
-        'General Information'
+        'Environmental Management'
       ];
     } else if (examType === 'subprofessional') {
       return [

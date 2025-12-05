@@ -21,4 +21,20 @@ export default defineConfig({
     Sitemap({ hostname: 'https://mrph.pages.dev/' }),
     tailwindcss(),
   ],
+  build: {
+    target: "es2022",
+    outDir: "dist",
+    assetsDir: "assets",
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom'],
+          ui: ['lucide-react'],
+          player: ['artplayer']
+        },
+      },
+    },
+    chunkSizeWarningLimit: 1000,
+  },
 })
