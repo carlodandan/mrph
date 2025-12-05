@@ -38,9 +38,9 @@ function Home() {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-4">
       {/* Hero Section */}
-      <div className="text-center mb-12 pt-4">
+      <div className="text-center mb-6 pt-4">
         <div className="inline-flex items-center px-4 py-2 bg-linear-to-r from-blue-100 to-purple-100 rounded-full mb-4">
           <Star className="w-4 h-4 text-yellow-500 mr-2" />
           <span className="text-sm font-medium text-gray-700">Philippine Civil Service Examination</span>
@@ -57,12 +57,12 @@ function Home() {
           Prepare smarter with personalized mock tests and detailed explanations for both Professional and Sub-Professional levels.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
           <a 
             href="#exams" 
             className="px-8 py-4 bg-linear-to-r from-blue-500 to-purple-500 text-white rounded-xl font-semibold text-lg hover:from-blue-600 hover:to-purple-600 transition-all shadow-lg hover:shadow-xl flex items-center justify-center"
           >
-            Start Free Practice Test
+            Start Free Mock Examination
             <ArrowRight className="ml-2 w-5 h-5" />
           </a>
           <Link 
@@ -75,7 +75,7 @@ function Home() {
       </div>
 
       {/* Features */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         {features.map((feature, index) => (
           <div 
             key={index}
@@ -94,7 +94,7 @@ function Home() {
 
       {/* Tabs Section */}
       <div className="mb-16">
-        <div className="flex border-b border-gray-200 mb-8">
+        <div className="flex border-b border-gray-200 mb-4">
           <button
             className={`px-6 py-3 font-medium text-lg ${activeTab === 'about' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500'}`}
             onClick={() => setActiveTab('about')}

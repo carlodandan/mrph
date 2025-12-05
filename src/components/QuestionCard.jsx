@@ -28,7 +28,7 @@ function QuestionCard({
   return (
     <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 fade-in">
       {/* Progress Bar */}
-      <div className="mb-8">
+      <div className="mb-4">
         <div className="flex items-center justify-between mb-2">
           <span className="text-sm font-medium text-gray-600">
             Question {questionNumber} of {totalQuestions}
@@ -93,7 +93,7 @@ function QuestionCard({
             <button
               key={option.id}
               onClick={() => handleAnswerSelect(option.id)}
-              className={`w-full p-4 rounded-xl border-2 text-left transition-all duration-200 ${
+              className={`w-full p-2 rounded-xl border-2 text-left transition-all duration-200 ${
                 isSelected
                   ? 'border-blue-500 bg-blue-50 shadow-md transform scale-[1.02]'
                   : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50'
@@ -117,7 +117,7 @@ function QuestionCard({
       </div>
 
       {/* Navigation */}
-      <div className="flex justify-between items-center pt-6 border-t border-gray-100">
+      <div className="flex justify-between items-center pt-3 border-t border-gray-100">
         <div className="text-sm text-gray-500">
           {isLastQuestion ? 'Last question' : `${totalQuestions - questionNumber} questions remaining`}
         </div>

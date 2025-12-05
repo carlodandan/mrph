@@ -31,7 +31,7 @@ function Tutorial() {
       id: 'subprofessional',
       title: 'Sub-Professional Level Exam - Snippet',
       description: 'Get a quick look at how the Mock Reviewer PH CSC Sub-Professional Level mock exam works—featuring its interface, categories, and key functionalities. This snippet highlights how the system helps you practice across all 8 major subjects, including Numerical Ability, Clerical Ability, Verbal Ability, and more.',
-      duration: '22:30',
+      duration: '01:12',
       thumbnail: '/tutorials/subpro-thumbnail.png',
       date: '2025-12-04',
       url: '/tutorials/subpro.mp4',
@@ -49,7 +49,7 @@ function Tutorial() {
       id: 'practice',
       title: 'Quick Practice Test - Strategy',
       description: 'Learn how to effectively use the 20-question practice test. Master test-taking strategies, question analysis, and time management in this quick tutorial.',
-      duration: '15:20',
+      duration: '01:45',
       thumbnail: '/tutorials/practice-thumbnail.png',
       date: '2025-12-04',
       url: '/tutorials/practice.mp4',
@@ -81,10 +81,10 @@ function Tutorial() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-4">
       {/* Header */}
-      <div className="mb-8">
-        <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
+      <div className="mb-4">
+        <div className="flex flex-col md:flex-row md:items-center justify-between mb-3 gap-4">
           <div className="flex items-center space-x-4">
             <Link
               to="/"
@@ -100,7 +100,7 @@ function Tutorial() {
           </h1>
         </div>
 
-        <p className="text-gray-600 text-center md:text-left mb-8">
+        <p className="text-gray-600 text-center md:text-left mb-4">
           Watch detailed guides for each exam type to maximize your preparation
         </p>
       </div>

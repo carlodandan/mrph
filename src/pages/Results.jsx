@@ -152,7 +152,7 @@ function Results() {
 
   if (!result) {
     return (
-      <div className="container mx-auto px-4 py-8 text-center">
+      <div className="container mx-auto px-4 py-4 text-center">
         <div className="max-w-md mx-auto bg-white rounded-2xl shadow-lg p-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">No Results Found</h2>
           <p className="text-gray-600 mb-6">
@@ -170,7 +170,7 @@ function Results() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-6xl">
+    <div className="container mx-auto px-4 py-4 max-w-6xl">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
         <div className="flex items-center space-x-4">

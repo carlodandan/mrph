@@ -19,12 +19,28 @@ function Exam() {
   const timerRef = useRef(null);
   const hasShownContinuePrompt = useRef(false);
 
+  // Reset Screen position
+  useEffect(() => {
+    if (!isLoading && questions.length > 0) {
+      // Scroll to top smoothly
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      
+      // Also focus on the first question card for accessibility
+      const questionCard = document.querySelector('[data-question-card]');
+      if (questionCard) {
+        questionCard.focus({ preventScroll: true });
+      }
+    }
+  }, [isLoading, questions]);
+
   // Initialize exam
   useEffect(() => {
     let isMounted = true;
     
     const initializeExam = async () => {
       if (hasShownContinuePrompt.current) return;
+
+      window.scrollTo(0, 0);
       
       const savedProgress = examService.loadProgress(type);
       
@@ -281,7 +297,7 @@ function Exam() {
 
   if (questions.length === 0) {
     return (
-      <div className="container mx-auto px-4 py-8 text-center">
+      <div className="container mx-auto px-4 py-4 text-center">
         <div className="max-w-md mx-auto bg-white rounded-2xl shadow-lg p-8">
           <AlertCircle className="w-16 h-16 text-red-500 mx-auto mb-4" />
           <h2 className="text-2xl font-bold text-gray-800 mb-2">No Questions Available</h2>
@@ -308,10 +324,10 @@ function Exam() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-6xl">
+    <div className="container mx-auto px-4 py-4 max-w-6xl">
       {/* Header */}
       <div className="mb-8">
-        <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
+        <div className="flex flex-col md:flex-row md:items-center justify-between mb-3 gap-4">
           <div className="flex items-center space-x-4">
             <button
               onClick={() => navigate('/')}
@@ -342,7 +358,7 @@ function Exam() {
       </div>
 
       {/* Main Content - Questions on left, Progress on right */}
-      <div className="flex flex-col lg:flex-row gap-6 mb-8">
+      <div className="flex flex-col lg:flex-row gap-6 mb-6">
         {/* Left Column - Questions */}
         <div className="lg:w-2/3">
           <QuestionCard
@@ -352,12 +368,13 @@ function Exam() {
             onAnswer={(answerId) => handleAnswer(currentQ.id, answerId)}
             selectedAnswer={answers[currentQ.id]}
             isLastQuestion={isLastQuestion}
+            data-question-card
           />
         </div>
 
         {/* Right Column - Exam Progress */}
         <div className="lg:w-1/3">
-          <div className="bg-white rounded-xl shadow-lg p-6 sticky top-6">
+          <div className="bg-white rounded-xl shadow-lg p-6">
             <h3 className="font-bold text-gray-800 mb-4 flex items-center">
               <BookOpen className="w-5 h-5 mr-2 text-blue-600" />
               Exam Progress
@@ -414,50 +431,50 @@ function Exam() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      {/* Navigation and Actions */}
-      <div className="flex flex-col md:flex-row justify-between gap-6 mb-8">
-        {/* Navigation Buttons */}
-        <div className="flex space-x-4">
-          <button
-            onClick={handlePrevQuestion}
-            disabled={currentQuestion === 0}
-            className={`px-6 py-3 rounded-xl font-medium ${
-              currentQuestion === 0
-                ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-            }`}
-          >
-            Previous
-          </button>
+          {/* Navigation and Submit Buttons - MOVED HERE */}
+          <div className="mt-6 bg-white rounded-xl shadow-lg p-6">
+            <div className="flex flex-col space-y-4">
+              {/* Navigation Buttons */}
+              <div className="flex space-x-4">
+                <button
+                  onClick={handlePrevQuestion}
+                  disabled={currentQuestion === 0}
+                  className={`flex-1 px-4 py-3 rounded-xl font-medium ${
+                    currentQuestion === 0
+                      ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  Previous Question
+                </button>
 
-          <button
-            onClick={handleNextQuestion}
-            disabled={currentQuestion === questions.length - 1}
-            className={`px-6 py-3 rounded-xl font-medium ${
-              currentQuestion === questions.length - 1
-                ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                : 'bg-linear-to-r from-blue-500 to-purple-500 text-white hover:from-blue-600 hover:to-purple-600'
-            }`}
-          >
-            Next Question
-          </button>
-        </div>
+                <button
+                  onClick={handleNextQuestion}
+                  disabled={currentQuestion === questions.length - 1}
+                  className={`flex-1 px-4 py-3 rounded-xl font-medium ${
+                    currentQuestion === questions.length - 1
+                      ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                      : 'bg-linear-to-r from-blue-500 to-purple-500 text-white hover:from-blue-600 hover:to-purple-600'
+                  }`}
+                >
+                  Next Question
+                </button>
+              </div>
 
-        {/* Submit Button */}
-        <div className="flex flex-col sm:flex-row gap-4">
-          <button
-            onClick={() => {
-              if (window.confirm('Are you sure you want to submit the exam?')) {
-                handleSubmitExam();
-              }
-            }}
-            className="px-8 py-3 bg-linear-to-r from-green-500 to-emerald-500 text-white rounded-xl font-semibold hover:from-green-600 hover:to-emerald-600 transition-all shadow-lg"
-          >
-            Submit Exam
-          </button>
+              {/* Submit Button */}
+              <button
+                onClick={() => {
+                  if (window.confirm('Are you sure you want to submit the exam?')) {
+                    handleSubmitExam();
+                  }
+                }}
+                className="w-full px-6 py-3 bg-linear-to-r from-green-500 to-emerald-500 text-white rounded-xl font-semibold hover:from-green-600 hover:to-emerald-600 transition-all shadow-lg"
+              >
+                Submit Exam
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 

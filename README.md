@@ -32,6 +32,9 @@
 - Practice Level (Combination of Professional and Sub-Professional)
 - Able to go back to previous questions that you skip.
 - Exam results has explanation of answer.
+- Examination scope:
+  - Professional Level: Analytical, Numerical, Verbal and General Information (such as Philippine Constitution, RA-6713, Peace and Human Rights and Environmental Management)
+  - Sub-Professional Level: Clerical, Numerical, Verbal and General Information (such as Philippine Constitution, RA-6713, Peace and Human Rights and Environmental Management)
 
 </details>
 
