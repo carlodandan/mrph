@@ -378,22 +378,10 @@
     "id": "subpro_envmgmt_026",
     "text": "What is the primary mechanism by which acid rain causes damage to historical stone buildings and monuments?",
     "options": [
-      {
-        "id": "a",
-        "text": "Abrasive erosion from wind-driven acidic droplets"
-      },
-      {
-        "id": "b",
-        "text": "Chemical reaction between sulfuric/nitric acids and calcium carbonate (limestone/marble), forming water-soluble gypsum"
-      },
-      {
-        "id": "c",
-        "text": "Physical expansion of water molecules trapped in stone pores"
-      },
-      {
-        "id": "d",
-        "text": "Introduction of microbial growth that decomposes the stone"
-      }
+      { "id": "a", "text": "Abrasive erosion from wind-driven acidic droplets" },
+      { "id": "b", "text": "Chemical reaction between sulfuric/nitric acids and calcium carbonate (limestone/marble), forming water-soluble gypsum" },
+      { "id": "c", "text": "Physical expansion of water molecules trapped in stone pores" },
+      { "id": "d", "text": "Introduction of microbial growth that decomposes the stone" }
     ],
     "correctAnswer": "b",
     "explanation": "Acid rain, primarily containing sulfuric and nitric acids, reacts with the calcium carbonate in stone materials like limestone and marble. This reaction forms gypsum (calcium sulfate), which is water-soluble and easily washes away, leading to the chemical erosion and decay of the structures.",
@@ -405,22 +393,10 @@
     "id": "subpro_envmgmt_027",
     "text": "The concept of 'Tragedy of the Commons' is most closely associated with which environmental issue?",
     "options": [
-      {
-        "id": "a",
-        "text": "The failure of non-renewable resource markets"
-      },
-      {
-        "id": "b",
-        "text": "The overuse and degradation of shared, unregulated resources"
-      },
-      {
-        "id": "c",
-        "text": "The inability of a single species to adapt to climate change"
-      },
-      {
-        "id": "d",
-        "text": "The economic cost of implementing environmental regulations"
-      }
+      { "id": "a", "text": "The failure of non-renewable resource markets" },
+      { "id": "b", "text": "The overuse and degradation of shared, unregulated resources" },
+      { "id": "c", "text": "The inability of a single species to adapt to climate change" },
+      { "id": "d", "text": "The economic cost of implementing environmental regulations" }
     ],
     "correctAnswer": "b",
     "explanation": "The 'Tragedy of the Commons' describes a situation where individuals, acting independently and rationally according to their own self-interest, ultimately deplete a shared resource, even when it is clear that doing so is contrary to the group's long-term best interest. Examples include overfishing or air pollution.",
@@ -432,22 +408,10 @@
     "id": "subpro_envmgmt_028",
     "text": "Which of the following pollutants is a major contributor to the formation of photochemical smog?",
     "options": [
-      {
-        "id": "a",
-        "text": "Sulfur Dioxide ($SO_2$)"
-      },
-      {
-        "id": "b",
-        "text": "Carbon Monoxide ($CO$)"
-      },
-      {
-        "id": "c",
-        "text": "Nitrogen Oxides ($NO_x$)"
-      },
-      {
-        "id": "d",
-        "text": "Chlorofluorocarbons ($CFCs$)"
-      }
+      { "id": "a", "text": "Sulfur Dioxide ($SO_2$)" },
+      { "id": "b", "text": "Carbon Monoxide ($CO$)" },
+      { "id": "c", "text": "Nitrogen Oxides ($NO_x$)" },
+      { "id": "d", "text": "Chlorofluorocarbons ($CFCs$)" }
     ],
     "correctAnswer": "c",
     "explanation": "Photochemical smog forms when $NO_x$ and Volatile Organic Compounds (VOCs) react in the presence of sunlight, creating secondary pollutants like ozone ($O_3$) and Peroxyacyl Nitrates (PAN). $NO_x$ is primarily emitted from vehicle exhaust and power plants.",
@@ -459,22 +423,10 @@
     "id": "subpro_envmgmt_029",
     "text": "The Kyoto Protocol is an international agreement that specifically aimed to:",
     "options": [
-      {
-        "id": "a",
-        "text": "Ban the international trade of endangered species"
-      },
-      {
-        "id": "b",
-        "text": "Set legally binding targets for industrialized countries to reduce greenhouse gas emissions"
-      },
-      {
-        "id": "c",
-        "text": "Regulate the transboundary movement of hazardous wastes"
-      },
-      {
-        "id": "d",
-        "text": "Protect the ozone layer by phasing out ODS production"
-      }
+      { "id": "a", "text": "Ban the international trade of endangered species" },
+      { "id": "b", "text": "Set legally binding targets for industrialized countries to reduce greenhouse gas emissions" },
+      { "id": "c", "text": "Regulate the transboundary movement of hazardous wastes" },
+      { "id": "d", "text": "Protect the ozone layer by phasing out ODS production" }
     ],
     "correctAnswer": "b",
     "explanation": "The Kyoto Protocol, adopted in 1997, was the first international treaty to set legally binding emissions reduction targets for developed countries (Annex I Parties) to address climate change.",
@@ -486,22 +438,10 @@
     "id": "subpro_envmgmt_030",
     "text": "What is the term for the process where a body of water becomes overly enriched with nutrients, leading to excessive growth of algae, and ultimately causing oxygen depletion?",
     "options": [
-      {
-        "id": "a",
-        "text": "Biomagnification"
-      },
-      {
-        "id": "b",
-        "text": "Eutrophication"
-      },
-      {
-        "id": "c",
-        "text": "Thermal Inversion"
-      },
-      {
-        "id": "d",
-        "text": "Acidification"
-      }
+      { "id": "a", "text": "Biomagnification" },
+      { "id": "b", "text": "Eutrophication" },
+      { "id": "c", "text": "Thermal Inversion" },
+      { "id": "d", "text": "Acidification" }
     ],
     "correctAnswer": "b",
     "explanation": "Eutrophication is a form of water pollution usually caused by runoff of fertilizer or sewage, which introduces excess nutrients (like nitrates and phosphates) into aquatic ecosystems.",
@@ -513,22 +453,10 @@
     "id": "subpro_envmgmt_031",
     "text": "In the context of the Circular Economy, which of the following best represents the concept of 'Cascading'?",
     "options": [
-      {
-        "id": "a",
-        "text": "Designing products that are easier to disassemble and recycle"
-      },
-      {
-        "id": "b",
-        "text": "Using a product for its highest-value purpose first, then progressively for lower-value purposes"
-      },
-      {
-        "id": "c",
-        "text": "Eliminating all non-renewable resources from the supply chain"
-      },
-      {
-        "id": "d",
-        "text": "Shifting production overseas to reduce domestic waste generation"
-      }
+      { "id": "a", "text": "Designing products that are easier to disassemble and recycle" },
+      { "id": "b", "text": "Using a product for its highest-value purpose first, then progressively for lower-value purposes" },
+      { "id": "c", "text": "Eliminating all non-renewable resources from the supply chain" },
+      { "id": "d", "text": "Shifting production overseas to reduce domestic waste generation" }
     ],
     "correctAnswer": "b",
     "explanation": "Cascading refers to the sequential reuse of a material, where it is used for its initial high-value purpose, and then further repurposed in a series of steps for progressively less demanding applications before final recycling or disposal.",
@@ -540,22 +468,10 @@
     "id": "subpro_envmgmt_032",
     "text": "The Paris Agreement (2015) is a landmark international accord that primarily aims to:",
     "options": [
-      {
-        "id": "a",
-        "text": "Reduce the trade of persistent organic pollutants"
-      },
-      {
-        "id": "b",
-        "text": "Keep a global temperature rise this century well below 2 degrees Celsius above pre-industrial levels"
-      },
-      {
-        "id": "c",
-        "text": "Establish a framework for nuclear waste disposal"
-      },
-      {
-        "id": "d",
-        "text": "Stop the use of all forms of fossil fuels globally by 2030"
-      }
+      { "id": "a", "text": "Reduce the trade of persistent organic pollutants" },
+      { "id": "b", "text": "Keep a global temperature rise this century well below 2 degrees Celsius above pre-industrial levels" },
+      { "id": "c", "text": "Establish a framework for nuclear waste disposal" },
+      { "id": "d", "text": "Stop the use of all forms of fossil fuels globally by 2030" }
     ],
     "correctAnswer": "b",
     "explanation": "The central aim of the Paris Agreement is to strengthen the global response to the threat of climate change by keeping a global temperature rise well below 2 degrees Celsius and pursuing efforts to limit it to 1.5°C.",
@@ -567,22 +483,10 @@
     "id": "subpro_envmgmt_033",
     "text": "Which type of pollution control measure is generally considered the least effective in the waste management hierarchy?",
     "options": [
-      {
-        "id": "a",
-        "text": "Source Reduction"
-      },
-      {
-        "id": "b",
-        "text": "Recycling"
-      },
-      {
-        "id": "c",
-        "text": "Treatment and Disposal (e.g., Landfilling)"
-      },
-      {
-        "id": "d",
-        "text": "Reuse"
-      }
+      { "id": "a", "text": "Source Reduction" },
+      { "id": "b", "text": "Recycling" },
+      { "id": "c", "text": "Treatment and Disposal (e.g., Landfilling)" },
+      { "id": "d", "text": "Reuse" }
     ],
     "correctAnswer": "c",
     "explanation": "The waste management hierarchy prioritizes options from most to least favorable in terms of environmental outcomes: Reduce (Source Reduction), Reuse, Recycle, Recovery, and finally, Disposal (Landfilling/Incineration). Disposal is considered the least effective.",
@@ -594,22 +498,10 @@
     "id": "subpro_envmgmt_034",
     "text": "A brownfield site is an environmental term referring to:",
     "options": [
-      {
-        "id": "a",
-        "text": "A newly designated protected area for conservation"
-      },
-      {
-        "id": "b",
-        "text": "A piece of industrial or commercial property that is vacant or underused due to real or perceived environmental contamination"
-      },
-      {
-        "id": "c",
-        "text": "An agricultural area that has been converted to residential use"
-      },
-      {
-        "id": "d",
-        "text": "A pristine ecological area that is highly vulnerable to development"
-      }
+      { "id": "a", "text": "A newly designated protected area for conservation" },
+      { "id": "b", "text": "A piece of industrial or commercial property that is vacant or underused due to real or perceived environmental contamination" },
+      { "id": "c", "text": "An agricultural area that has been converted to residential use" },
+      { "id": "d", "text": "A pristine ecological area that is highly vulnerable to development" }
     ],
     "correctAnswer": "b",
     "explanation": "Brownfield sites are typically former industrial properties that require cleanup before being redeveloped for new commercial or residential use. Addressing them is crucial for sustainable urban planning.",
@@ -621,22 +513,10 @@
     "id": "subpro_envmgmt_035",
     "text": "In the Philippines, the Environmental Compliance Certificate (ECC) is a mandatory requirement under PD 1586 for which purpose?",
     "options": [
-      {
-        "id": "a",
-        "text": "To certify that a company only uses renewable energy"
-      },
-      {
-        "id": "b",
-        "text": "To approve a project based on its predicted compliance with environmental laws and regulations"
-      },
-      {
-        "id": "c",
-        "text": "To document the total greenhouse gas emissions of an enterprise"
-      },
-      {
-        "id": "d",
-        "text": "To ensure proper labor practices in an environmentally critical project"
-      }
+      { "id": "a", "text": "To certify that a company only uses renewable energy" },
+      { "id": "b", "text": "To approve a project based on its predicted compliance with environmental laws and regulations" },
+      { "id": "c", "text": "To document the total greenhouse gas emissions of an enterprise" },
+      { "id": "d", "text": "To ensure proper labor practices in an environmentally critical project" }
     ],
     "correctAnswer": "b",
     "explanation": "The ECC is issued by the DENR-EMB to a project proponent after a successful Environmental Impact Assessment (EIA), certifying that the project will not cause a significant negative environmental impact and that the proponent is committed to implementing the approved environmental management plan.",
@@ -648,22 +528,10 @@
     "id": "subpro_envmgmt_036",
     "text": "Which phenomenon is directly responsible for the increase in skin cancer and cataracts due to human activity?",
     "options": [
-      {
-        "id": "a",
-        "text": "Ocean Acidification"
-      },
-      {
-        "id": "b",
-        "text": "Stratospheric Ozone Depletion"
-      },
-      {
-        "id": "c",
-        "text": "Coastal Eutrophication"
-      },
-      {
-        "id": "d",
-        "text": "The Greenhouse Effect"
-      }
+      { "id": "a", "text": "Ocean Acidification" },
+      { "id": "b", "text": "Stratospheric Ozone Depletion" },
+      { "id": "c", "text": "Coastal Eutrophication" },
+      { "id": "d", "text": "The Greenhouse Effect" }
     ],
     "correctAnswer": "b",
     "explanation": "The depletion of the stratospheric ozone layer (Ozone Hole) by CFCs and other substances allows more harmful ultraviolet-B (UV-B) radiation from the sun to reach the Earth's surface, which is a major cause of skin cancer and cataracts in humans.",
@@ -675,22 +543,10 @@
     "id": "subpro_envmgmt_037",
     "text": "The carbon sequestration capacity of a terrestrial ecosystem is defined as its ability to:",
     "options": [
-      {
-        "id": "a",
-        "text": "Release carbon dioxide into the atmosphere through decomposition"
-      },
-      {
-        "id": "b",
-        "text": "Absorb and store carbon dioxide from the atmosphere, often in biomass or soil"
-      },
-      {
-        "id": "c",
-        "text": "Convert carbon dioxide into methane under anaerobic conditions"
-      },
-      {
-        "id": "d",
-        "text": "Use carbon monoxide as a primary energy source"
-      }
+      { "id": "a", "text": "Release carbon dioxide into the atmosphere through decomposition" },
+      { "id": "b", "text": "Absorb and store carbon dioxide from the atmosphere, often in biomass or soil" },
+      { "id": "c", "text": "Convert carbon dioxide into methane under anaerobic conditions" },
+      { "id": "d", "text": "Use carbon monoxide as a primary energy source" }
     ],
     "correctAnswer": "b",
     "explanation": "Carbon sequestration is the long-term storage of carbon in plants, soils, geologic formations, and the ocean, which is a key strategy for climate change mitigation.",
@@ -702,22 +558,10 @@
     "id": "subpro_envmgmt_038",
     "text": "Which of the following is the defining characteristic of a Keystone Species in an ecosystem?",
     "options": [
-      {
-        "id": "a",
-        "text": "It is the most numerous species in the ecosystem"
-      },
-      {
-        "id": "b",
-        "text": "Its removal has a disproportionately large effect on the entire ecosystem structure and function"
-      },
-      {
-        "id": "c",
-        "text": "It is an invasive species that outcompetes native flora and fauna"
-      },
-      {
-        "id": "d",
-        "text": "It is the species that occupies the highest trophic level (apex predator)"
-      }
+      { "id": "a", "text": "It is the most numerous species in the ecosystem" },
+      { "id": "b", "text": "Its removal has a disproportionately large effect on the entire ecosystem structure and function" },
+      { "id": "c", "text": "It is an invasive species that outcompetes native flora and fauna" },
+      { "id": "d", "text": "It is the species that occupies the highest trophic level (apex predator)" }
     ],
     "correctAnswer": "b",
     "explanation": "A keystone species is one whose presence and roles in an ecosystem are essential to maintaining the integrity and structure of that ecosystem. Without it, the entire system can change dramatically or collapse.",
@@ -729,22 +573,10 @@
     "id": "subpro_envmgmt_039",
     "text": "Biomagnification is best described as the:",
     "options": [
-      {
-        "id": "a",
-        "text": "Increase in a pollutant's concentration as it moves up through the successive trophic levels of a food chain"
-      },
-      {
-        "id": "b",
-        "text": "Process of bacteria breaking down a pollutant in the environment"
-      },
-      {
-        "id": "c",
-        "text": "Increase in the size of an organism due to chemical exposure"
-      },
-      {
-        "id": "d",
-        "text": "Rapid increase in the number of species in a degraded ecosystem"
-      }
+      { "id": "a", "text": "Increase in a pollutant's concentration as it moves up through the successive trophic levels of a food chain" },
+      { "id": "b", "text": "Process of bacteria breaking down a pollutant in the environment" },
+      { "id": "c", "text": "Increase in the size of an organism due to chemical exposure" },
+      { "id": "d", "text": "Rapid increase in the number of species in a degraded ecosystem" }
     ],
     "correctAnswer": "a",
     "explanation": "Biomagnification (or bioamplification) is the increasing concentration of a substance, such as a toxic chemical like DDT or heavy metals, in organisms at consecutively higher levels in a food chain.",
@@ -756,22 +588,10 @@
     "id": "subpro_envmgmt_040",
     "text": "What is the key difference between Climate Change Mitigation and Climate Change Adaptation?",
     "options": [
-      {
-        "id": "a",
-        "text": "Mitigation is global; adaptation is local"
-      },
-      {
-        "id": "b",
-        "text": "Mitigation focuses on reducing greenhouse gas emissions; adaptation focuses on adjusting to the current or expected effects of climate change"
-      },
-      {
-        "id": "c",
-        "text": "Mitigation involves technological solutions; adaptation involves policy solutions"
-      },
-      {
-        "id": "d",
-        "text": "Mitigation is expensive; adaptation is inexpensive"
-      }
+      { "id": "a", "text": "Mitigation is global; adaptation is local" },
+      { "id": "b", "text": "Mitigation focuses on reducing greenhouse gas emissions; adaptation focuses on adjusting to the current or expected effects of climate change" },
+      { "id": "c", "text": "Mitigation involves technological solutions; adaptation involves policy solutions" },
+      { "id": "d", "text": "Mitigation is expensive; adaptation is inexpensive" }
     ],
     "correctAnswer": "b",
     "explanation": "Mitigation aims to tackle the causes of climate change (e.g., reducing $CO_2$ emissions). Adaptation aims to manage the unavoidable impacts (e.g., building sea walls, changing crop rotation).",
@@ -783,22 +603,10 @@
     "id": "subpro_envmgmt_041",
     "text": "The Basel Convention (1989) was established in response to which major environmental problem?",
     "options": [
-      {
-        "id": "a",
-        "text": "Acid rain in Europe and North America"
-      },
-      {
-        "id": "b",
-        "text": "The movement of illegal ozone-depleting substances"
-      },
-      {
-        "id": "c",
-        "text": "The unchecked transboundary movement of hazardous wastes and their disposal in developing countries"
-      },
-      {
-        "id": "d",
-        "text": "Overfishing in international waters"
-      }
+      { "id": "a", "text": "Acid rain in Europe and North America" },
+      { "id": "b", "text": "The movement of illegal ozone-depleting substances" },
+      { "id": "c", "text": "The unchecked transboundary movement of hazardous wastes and their disposal in developing countries" },
+      { "id": "d", "text": "Overfishing in international waters" }
     ],
     "correctAnswer": "c",
     "explanation": "The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal was created to prevent industrialized countries from dumping toxic waste in poorer nations.",
@@ -810,22 +618,10 @@
     "id": "subpro_envmgmt_042",
     "text": "A Life Cycle Assessment (LCA), a tool in environmental management, evaluates a product's environmental impact from:",
     "options": [
-      {
-        "id": "a",
-        "text": "Only the manufacturing stage"
-      },
-      {
-        "id": "b",
-        "text": "Raw material extraction ('Cradle') to disposal ('Grave')"
-      },
-      {
-        "id": "c",
-        "text": "Consumer use to final disposal"
-      },
-      {
-        "id": "d",
-        "text": "Product design to market launch"
-      }
+      { "id": "a", "text": "Only the manufacturing stage" },
+      { "id": "b", "text": "Raw material extraction ('Cradle') to disposal ('Grave')" },
+      { "id": "c", "text": "Consumer use to final disposal" },
+      { "id": "d", "text": "Product design to market launch" }
     ],
     "correctAnswer": "b",
     "explanation": "LCA, often called 'Cradle-to-Grave' analysis, is a technique to assess environmental impacts associated with all the stages of a product's life from raw material extraction through processing, manufacture, distribution, use, repair and maintenance, and final disposal or recycling.",
@@ -837,22 +633,10 @@
     "id": "subpro_envmgmt_043",
     "text": "Which of the following is the most direct consequence of the loss of mangrove forests along tropical coastlines?",
     "options": [
-      {
-        "id": "a",
-        "text": "Increased soil fertility in inland farming areas"
-      },
-      {
-        "id": "b",
-        "text": "Greater vulnerability of coastal areas to storm surges and tsunamis"
-      },
-      {
-        "id": "c",
-        "text": "A decline in the world's population of freshwater fish"
-      },
-      {
-        "id": "d",
-        "text": "An increase in the Earth's average temperature"
-      }
+      { "id": "a", "text": "Increased soil fertility in inland farming areas" },
+      { "id": "b", "text": "Greater vulnerability of coastal areas to storm surges and tsunamis" },
+      { "id": "c", "text": "A decline in the world's population of freshwater fish" },
+      { "id": "d", "text": "An increase in the Earth's average temperature" }
     ],
     "correctAnswer": "b",
     "explanation": "Mangroves act as natural coastal defenses by dissipating wave energy and stabilizing shorelines, making their loss a critical factor in increased vulnerability to extreme weather events and coastal erosion.",
@@ -864,22 +648,10 @@
     "id": "subpro_envmgmt_044",
     "text": "The Greenhouse Effect is a natural phenomenon, but is exacerbated by human activity. What specific natural function does the Greenhouse Effect perform that is necessary for life on Earth?",
     "options": [
-      {
-        "id": "a",
-        "text": "Filtering out harmful solar ultraviolet radiation"
-      },
-      {
-        "id": "b",
-        "text": "Generating atmospheric winds and weather patterns"
-      },
-      {
-        "id": "c",
-        "text": "Absorbing and re-radiating heat back to Earth, keeping the planet warm enough to support life"
-      },
-      {
-        "id": "d",
-        "text": "Producing oxygen through the process of photosynthesis"
-      }
+      { "id": "a", "text": "Filtering out harmful solar ultraviolet radiation" },
+      { "id": "b", "text": "Generating atmospheric winds and weather patterns" },
+      { "id": "c", "text": "Absorbing and re-radiating heat back to Earth, keeping the planet warm enough to support life" },
+      { "id": "d", "text": "Producing oxygen through the process of photosynthesis" }
     ],
     "correctAnswer": "c",
     "explanation": "Greenhouse gases (like water vapor and $CO_2$) naturally trap some of the Sun's energy, warming the planet and maintaining an average temperature that allows liquid water and life to exist. Without it, Earth would be a frozen planet.",
@@ -891,22 +663,10 @@
     "id": "subpro_envmgmt_045",
     "text": "In a Water Footprint analysis, the 'Virtual Water' embedded in a product refers to the:",
     "options": [
-      {
-        "id": "a",
-        "text": "Water contained in the final product itself"
-      },
-      {
-        "id": "b",
-        "text": "Total amount of water used to produce that product, from raw materials to final consumption"
-      },
-      {
-        "id": "c",
-        "text": "Water that is polluted and made unusable during production"
-      },
-      {
-        "id": "d",
-        "text": "Amount of water saved by recycling the product"
-      }
+      { "id": "a", "text": "Water contained in the final product itself" },
+      { "id": "b", "text": "Total amount of water used to produce that product, from raw materials to final consumption" },
+      { "id": "c", "text": "Water that is polluted and made unusable during production" },
+      { "id": "d", "text": "Amount of water saved by recycling the product" }
     ],
     "correctAnswer": "b",
     "explanation": "Virtual water is the hidden flow of water in food or other commodities. For example, the virtual water content of beef includes the water needed to grow the feed, the drinking water for the animal, and the water used in processing.",
@@ -918,22 +678,10 @@
     "id": "subpro_envmgmt_046",
     "text": "The DDT (Dichlorodiphenyltrichloroethane) ban in many countries was primarily due to its impact on:",
     "options": [
-      {
-        "id": "a",
-        "text": "Direct, immediate toxicity to adult humans"
-      },
-      {
-        "id": "b",
-        "text": "Its role in ozone depletion"
-      },
-      {
-        "id": "c",
-        "text": "Thinning of bird eggshells and biomagnification in the food chain"
-      },
-      {
-        "id": "d",
-        "text": "Contribution to photochemical smog"
-      }
+      { "id": "a", "text": "Direct, immediate toxicity to adult humans" },
+      { "id": "b", "text": "Its role in ozone depletion" },
+      { "id": "c", "text": "Thinning of bird eggshells and biomagnification in the food chain" },
+      { "id": "d", "text": "Contribution to photochemical smog" }
     ],
     "correctAnswer": "c",
     "explanation": "DDT is an organochlorine insecticide that persists in the environment, bioaccumulates in organisms, and biomagnifies up the food chain, causing reproductive issues in birds of prey, notably eggshell thinning.",
@@ -945,22 +693,10 @@
     "id": "subpro_envmgmt_047",
     "text": "Which greenhouse gas has the highest Global Warming Potential (GWP), meaning it traps the most heat over a specific time period (e.g., 100 years)?",
     "options": [
-      {
-        "id": "a",
-        "text": "Carbon Dioxide ($CO_2$)"
-      },
-      {
-        "id": "b",
-        "text": "Methane ($CH_4$)"
-      },
-      {
-        "id": "c",
-        "text": "Nitrous Oxide ($N_2O$)"
-      },
-      {
-        "id": "d",
-        "text": "Sulfur Hexafluoride ($SF_6$)"
-      }
+      { "id": "a", "text": "Carbon Dioxide ($CO_2$)" },
+      { "id": "b", "text": "Methane ($CH_4$)" },
+      { "id": "c", "text": "Nitrous Oxide ($N_2O$)" },
+      { "id": "d", "text": "Sulfur Hexafluoride ($SF_6$)" }
     ],
     "correctAnswer": "d",
     "explanation": "Sulfur Hexafluoride ($SF_6$) has an extremely high GWP (over 23,500 times that of $CO_2$) and a very long atmospheric lifetime, making it the most potent greenhouse gas despite its low concentration.",
@@ -972,22 +708,10 @@
     "id": "subpro_envmgmt_048",
     "text": "The concept of Environmental Justice emphasizes that environmental burdens and benefits should be distributed:",
     "options": [
-      {
-        "id": "a",
-        "text": "Based on economic productivity of communities"
-      },
-      {
-        "id": "b",
-        "text": "Equitably, regardless of race, income, or national origin"
-      },
-      {
-        "id": "c",
-        "text": "Only in accordance with international environmental treaties"
-      },
-      {
-        "id": "d",
-        "text": "Primarily toward industrial and commercial zones"
-      }
+      { "id": "a", "text": "Based on economic productivity of communities" },
+      { "id": "b", "text": "Equitably, regardless of race, income, or national origin" },
+      { "id": "c", "text": "Only in accordance with international environmental treaties" },
+      { "id": "d", "text": "Primarily toward industrial and commercial zones" }
     ],
     "correctAnswer": "b",
     "explanation": "Environmental Justice is the fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income, with respect to the development, implementation, and enforcement of environmental laws, regulations, and policies.",
@@ -999,22 +723,10 @@
     "id": "subpro_envmgmt_049",
     "text": "What is the term for the deliberate introduction of organisms to a degraded ecosystem to speed up its recovery, often specifically targeting contaminants?",
     "options": [
-      {
-        "id": "a",
-        "text": "Bioaccumulation"
-      },
-      {
-        "id": "b",
-        "text": "Bioremediation"
-      },
-      {
-        "id": "c",
-        "text": "Bioaugmentation"
-      },
-      {
-        "id": "d",
-        "text": "Biofertilization"
-      }
+      { "id": "a", "text": "Bioaccumulation" },
+      { "id": "b", "text": "Bioremediation" },
+      { "id": "c", "text": "Bioaugmentation" },
+      { "id": "d", "text": "Biofertilization" }
     ],
     "correctAnswer": "b",
     "explanation": "Bioremediation is a waste management technique that involves the use of organisms to neutralize pollutants, often targeting contaminated soil or water. Bioaugmentation is a subset, involving adding cultured microorganisms to the environment.",
@@ -1026,22 +738,10 @@
     "id": "subpro_envmgmt_050",
     "text": "The Clean Water Act (RA 9275) in the Philippines establishes the principle of 'Polluter Pays'. This means that:",
     "options": [
-      {
-        "id": "a",
-        "text": "The government is responsible for all cleanup costs using public funds"
-      },
-      {
-        "id": "b",
-        "text": "The polluter is responsible for the costs of preventing, controlling, and remedying pollution they cause"
-      },
-      {
-        "id": "c",
-        "text": "Consumers must pay an environmental fee on all water consumed"
-      },
-      {
-        "id": "d",
-        "text": "The polluter is automatically given a monetary fine and no other action is required"
-      }
+      { "id": "a", "text": "The government is responsible for all cleanup costs using public funds" },
+      { "id": "b", "text": "The polluter is responsible for the costs of preventing, controlling, and remedying pollution they cause" },
+      { "id": "c", "text": "Consumers must pay an environmental fee on all water consumed" },
+      { "id": "d", "text": "The polluter is automatically given a monetary fine and no other action is required" }
     ],
     "correctAnswer": "b",
     "explanation": "The 'Polluter Pays Principle' is an environmental policy tenet that dictates that the party responsible for producing pollution should bear the costs of managing it to prevent damage to human health or the environment.",
