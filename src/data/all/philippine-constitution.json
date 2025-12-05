@@ -290,7 +290,7 @@
     "options": [
       { "id": "a", "text": "February 2, 1987" },
       { "id": "b", "text": "May 1, 1987" },
-      { "id": "c", "d": "February 25, 1986" },
+      { "id": "c", "text": "February 25, 1986" },
       { "id": "d", "text": "July 3, 1986" }
     ],
     "correctAnswer": "a",
@@ -320,7 +320,7 @@
     "options": [
       { "id": "a", "text": "25 years old" },
       { "id": "b", "text": "30 years old" },
-      { "id": "c", "d": "35 years old" },
+      { "id": "c", "text": "35 years old" },
       { "id": "d", "text": "40 years old" }
     ],
     "correctAnswer": "c",
@@ -335,7 +335,7 @@
     "options": [
       { "id": "a", "text": "The power of the President to declare martial law." },
       { "id": "b", "text": "The right to suffrage (voting) and the power of initiative and referendum." },
-      { "id": "c", "d": "The separation of powers among the three branches." },
+      { "id": "c", "text": "The separation of powers among the three branches." },
       { "id": "d", "text": "The power of the Supreme Court to interpret laws." }
     ],
     "correctAnswer": "b",
@@ -395,7 +395,7 @@
     "options": [
       { "id": "a", "text": "It must be issued by a member of the Philippine National Police." },
       { "id": "b", "text": "It must be issued upon probable cause to be determined personally by the judge." },
-      { "id": "c", "d": "It must be issued by a prosecutor after preliminary investigation." },
+      { "id": "c", "text": "It must be issued by a prosecutor after preliminary investigation." },
       { "id": "d", "text": "It must be approved by the Department of Justice Secretary." }
     ],
     "correctAnswer": "b",
@@ -410,7 +410,7 @@
     "options": [
       { "id": "a", "text": "Wala" },
       { "id": "b", "text": "Isang (1) beses lamang" },
-      { "id": "c", "d": "Dalawang (2) beses lamang" },
+      { "id": "c", "text": "Dalawang (2) beses lamang" },
       { "id": "d", "text": "Hanggang tatlong (3) beses" }
     ],
     "correctAnswer": "b",
@@ -425,7 +425,7 @@
     "options": [
       { "id": "a", "text": "Article VI (Legislative Department)" },
       { "id": "b", "text": "Article VII (Executive Department)" },
-      { "id": "c", "d": "Article XI (Accountability of Public Officers)" },
+      { "id": "c", "text": "Article XI (Accountability of Public Officers)" },
       { "id": "d", "text": "Article XII (National Economy and Patrimony)" }
     ],
     "correctAnswer": "c",
@@ -440,7 +440,7 @@
     "options": [
       { "id": "a", "text": "Judicial Independence" },
       { "id": "b", "text": "Government Transparency and Accountability" },
-      { "id": "c", "d": "National Security" },
+      { "id": "c", "text": "National Security" },
       { "id": "d", "text": "Executive Privilege" }
     ],
     "correctAnswer": "b",
@@ -470,7 +470,7 @@
     "options": [
       { "id": "a", "text": "At least twenty-five years of age" },
       { "id": "b", "text": "A registered voter in the district in which he shall be elected" },
-      { "id": "c", "d": "A resident thereof for a period of not less than two years immediately preceding the election" },
+      { "id": "c", "text": "A resident thereof for a period of not less than two years immediately preceding the election" },
       { "id": "d", "text": "A natural-born citizen of the Philippines" }
     ],
     "correctAnswer": "c",
@@ -485,7 +485,7 @@
     "options": [
       { "id": "a", "text": "Article III (Bill of Rights)" },
       { "id": "b", "text": "Article VI (Legislative Department)" },
-      { "c": "Article II (Declaration of Principles and State Policies)", "id": "c" },
+      { "id": "c", "text": "Article II (Declaration of Principles and State Policies)" },
       { "id": "d", "text": "Article VII (Executive Department)" }
     ],
     "correctAnswer": "c",
@@ -891,7 +891,7 @@
     "options": [
       { "id": "a", "text": "Three consecutive terms of three years each" },
       { "id": "b", "text": "Two consecutive terms of four years each" },
-      { "c": "c", "text": "A single six-year term" },
+      { "id": "c", "text": "A single six-year term" },
       { "id": "d", "text": "Three consecutive terms of four years each" }
     ],
     "correctAnswer": "a",
@@ -1086,7 +1086,7 @@
     "options": [
       { "id": "a", "text": "Article II (Declaration of Principles and State Policies)" },
       { "id": "b", "text": "Article XIII (Social Justice and Human Rights)" },
-      { "id": "c", "d": "Article XIV (Education, Science and Technology, Arts, Culture, and Sports)" },
+      { "id": "c", "text": "Article XIV (Education, Science and Technology, Arts, Culture, and Sports)" },
       { "id": "d", "text": "Article VII (Executive Department)" }
     ],
     "correctAnswer": "b",
@@ -1191,7 +1191,7 @@
     "options": [
       { "id": "a", "text": "Article VIII (Judicial Department)" },
       { "id": "b", "text": "Article XI (Accountability of Public Officers)" },
-      { "id": "c", "d": "Article XIII (Social Justice and Human Rights)" },
+      { "id": "c", "text": "Article XIII (Social Justice and Human Rights)" },
       { "id": "d", "text": "Article IX (Constitutional Commissions)" }
     ],
     "correctAnswer": "b",

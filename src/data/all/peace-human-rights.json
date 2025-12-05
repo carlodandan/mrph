@@ -245,7 +245,7 @@
     "options": [
       { "id": "a", "text": "Adjudication" },
       { "id": "b", "text": "Mediation" },
-      { "id": "c", "d": "Facilitation" },
+      { "id": "c", "text": "Facilitation" },
       { "id": "d", "text": "Arbitration" }
     ],
     "correctAnswer": "b",
@@ -320,7 +320,7 @@
     "options": [
       { "id": "a", "text": "Establishing a permanent military presence to deter future conflicts." },
       { "id": "b", "text": "Providing mechanisms for accountability, redress, and truth-seeking for past abuses." },
-      { "id": "c", "d": "Implementing immediate economic reforms to create jobs." },
+      { "id": "c", "text": "Implementing immediate economic reforms to create jobs." },
       { "id": "d", "text": "Fully integrating the former rebel group into the military." }
     ],
     "correctAnswer": "b",
@@ -455,7 +455,7 @@
     "options": [
       { "id": "a", "text": "Moro Islamic Liberation Front (MILF)" },
       { "id": "b", "text": "Moro National Liberation Front (MNLF)" },
-      { "id": "c", "d": "Communist Party of the Philippines - New People's Army - National Democratic Front (CPP-NPA-NDF)" },
+      { "id": "c", "text": "Communist Party of the Philippines - New People's Army - National Democratic Front (CPP-NPA-NDF)" },
       { "id": "d", "text": "Abu Sayyaf Group (ASG)" }
     ],
     "correctAnswer": "c",

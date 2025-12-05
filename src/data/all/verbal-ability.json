@@ -410,7 +410,7 @@
     "options": [
       { "id": "a", "text": "Judicial review" },
       { "id": "b", "text": "Due process" },
-      { "id": "c", "d": "Habeas corpus" },
+      { "id": "c", "text": "Habeas corpus" },
       { "id": "d", "text": "Stare decisis" }
     ],
     "correctAnswer": "b",
@@ -530,7 +530,7 @@
     "options": [
       { "id": "a", "text": "on" },
       { "id": "b", "text": "at" },
-      { "id": "c", "d": "to" },
+      { "id": "c", "text": "to" },
       { "id": "d", "text": "for" }
     ],
     "correctAnswer": "b",
@@ -560,7 +560,7 @@
     "options": [
       { "id": "a", "text": "principle, principal" },
       { "id": "b", "text": "principal, principle" },
-      { "id": "c", "d": "complement, compliment" },
+      { "id": "c", "text": "complement, compliment" },
       { "id": "d", "text": "compliment, complement" }
     ],
     "correctAnswer": "b",
@@ -1160,7 +1160,7 @@
     "options": [
       { "id": "a", "text": "was very quick" },
       { "id": "b", "text": "played a trick or deceived" },
-      { "id": "c", "d": "was overly generous" },
+      { "id": "c", "text": "was overly generous" },
       { "id": "d", "text": "gave a warning to" }
     ],
     "correctAnswer": "b",
@@ -1175,7 +1175,7 @@
     "options": [
       { "id": "a", "text": "Being serious and determined" },
       { "id": "b", "text": "Given to sudden and unaccountable changes of mood or behavior" },
-      { "id": "c", "d": "Extremely cautious and predictable" },
+      { "id": "c", "text": "Extremely cautious and predictable" },
       { "id": "d", "text": "Highly competent and efficient" }
     ],
     "correctAnswer": "b",

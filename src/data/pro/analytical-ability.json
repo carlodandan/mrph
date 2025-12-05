@@ -54,7 +54,7 @@
       { "id": "d", "text": "324" }
     ],
     "correctAnswer": "b",
-    "explanation": "Each number is multiplied by 3 to get the next number: 2×3=6, 6×3=18, 18×3=54, 54×3=162",
+    "explanation": "Each number is multiplied by 3 to get the next number: 2x3=6, 6x3=18, 18x3=54, 54x3=162",
     "category": "Analytical Ability",
     "difficulty": "moderate",
     "language": "english"
@@ -455,7 +455,7 @@
     "options": [
       { "id": "a", "text": "FIGHT" },
       { "id": "b", "text": "FLASH" },
-      { "id": "c", "d": "GREEN" },
+      { "id": "c", "text": "GREEN" },
       { "id": "d", "text": "GROUP" }
     ],
     "correctAnswer": "a",
@@ -470,7 +470,7 @@
     "options": [
       { "id": "a", "text": "40" },
       { "id": "b", "text": "50" },
-      { "id": "c", "d": "60" },
+      { "id": "c", "text": "60" },
       { "id": "d", "text": "75" }
     ],
     "correctAnswer": "b",
@@ -703,5 +703,39 @@
     "category": "Analytical Ability",
     "difficulty": "easy",
     "language": "english"
+  },
+  {
+    "id": "ana_pro_48",
+    "text": "In which country does the estimated income earned the highest?",
+    "options": [
+      { "id": "a", "text": "China" },
+      { "id": "b", "text": "Australia" },
+      { "id": "c", "text": "Japan" },
+      { "id": "d", "text": "Iceland" }
+    ],
+    "correctAnswer": "d",
+    "explanation": "According to the image, just the value alone, Iceland has the highest value.",
+    "category": "Analytical Ability",
+    "difficulty": "easy",
+    "language": "english",
+    "src": "/graphs/women_earners.png",
+    "imageAlt": "Snapshot of Women Earners in Asia in US Dollar"
+  },
+  {
+    "id": "ana_pro_49",
+    "text": "In which country does the estimated combined income earned of India, Philippines, Indonesia and Vietnam exceeded by almost 92%?",
+    "options": [
+      { "id": "a", "text": "Japan" },
+      { "id": "b", "text": "South Korea" },
+      { "id": "c", "text": "Singapore" },
+      { "id": "d", "text": "Hongkong" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "According to the image, just the value alone, Iceland has the highest value.",
+    "category": "Analytical Ability",
+    "difficulty": "easy",
+    "language": "english",
+    "src": "/graphs/women_earners.png",
+    "imageAlt": "Snapshot of Women Earners in Asia in US Dollar"
   }
 ]

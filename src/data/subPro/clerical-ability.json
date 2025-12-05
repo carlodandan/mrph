@@ -94,7 +94,7 @@
     "text": "Alin sa mga sumusunod ang tamang baybay sa Filipino ng salitang Ingles na 'Schedule'?",
     "options": [
       { "id": "a", "text": "Iskedyul" },
-      { "id": "b", "c": "Eskeyul" },
+      { "id": "b", "text": "Eskeyul" },
       { "id": "c", "text": "Sikedul" },
       { "id": "d", "text": "Iskedyole" }
     ],
@@ -484,7 +484,7 @@
     "text": "A clerk handles 25 documents on Monday, 35 on Tuesday, 10 on Wednesday, and 30 on Thursday. What is the average number of documents handled per day?",
     "options": [
       { "id": "a", "text": "25" },
-      { "id": "b", "c": "30" },
+      { "id": "b", "text": "30" },
       { "id": "c", "text": "35" },
       { "id": "d", "text": "100" }
     ],

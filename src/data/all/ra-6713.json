@@ -50,7 +50,7 @@
     "options": [
       { "id": "a", "text": "Ang mga opisyal lamang na inihalal" },
       { "id": "b", "text": "Ang lahat ng pampublikong opisyal at empleyado" },
-      { "id": "c", "d": "Tanging ang mga opisyal na may Salary Grade 25 pataas" },
+      { "id": "c", "text": "Tanging ang mga opisyal na may Salary Grade 25 pataas" },
       { "id": "d", "text": "Tanging ang mga pinuno ng ahensya" }
     ],
     "correctAnswer": "b",
@@ -905,7 +905,7 @@
     "options": [
       { "id": "a", "text": "Commitment to public interest" },
       { "id": "b", "text": "Responsiveness to the public" },
-      { "id": "c", "d": "Simple Living" },
+      { "id": "c", "text": "Simple Living" },
       { "id": "d", "text": "Professionalism" }
     ],
     "correctAnswer": "b",
@@ -935,7 +935,7 @@
     "options": [
       { "id": "a", "text": "Professionalism" },
       { "id": "b", "text": "Simple Living" },
-      { "id": "c", "d": "Justness and Sincerity" },
+      { "id": "c", "text": "Justness and Sincerity" },
       { "id": "d", "text": "Commitment to Democracy" }
     ],
     "correctAnswer": "b",
@@ -950,7 +950,7 @@
     "options": [
       { "id": "a", "text": "Ethical behavior only for high-ranking officials" },
       { "id": "b", "text": "Commitment to public interest" },
-      { "id": "c", "d": "Justness and sincerity" },
+      { "id": "c", "text": "Justness and sincerity" },
       { "id": "d", "text": "The Anti-Graft and Corrupt Practices Act (RA 3019)" }
     ],
     "correctAnswer": "c",
@@ -965,7 +965,7 @@
     "options": [
       { "id": "a", "text": "Total Income minus Total Expenses" },
       { "id": "b", "text": "Total Assets plus Total Liabilities" },
-      { "id": "c", "d": "Total Assets minus Total Liabilities" },
+      { "id": "c", "text": "Total Assets minus Total Liabilities" },
       { "id": "d", "text": "Total Income minus Taxes Paid" }
     ],
     "correctAnswer": "c",
@@ -980,7 +980,7 @@
     "options": [
       { "id": "a", "text": "Political neutrality" },
       { "id": "b", "text": "Commitment to public interest" },
-      { "id": "c", "d": "Simple Living" },
+      { "id": "c", "text": "Simple Living" },
       { "id": "d", "text": "Nationalism and patriotism" }
     ],
     "correctAnswer": "b",
@@ -995,7 +995,7 @@
     "options": [
       { "id": "a", "text": "To increase government revenue through fines and penalties." },
       { "id": "b", "text": "To clearly define boundaries between public duty and private interest." },
-      { "id": "c", "d": "To regulate the political activities of public employees." },
+      { "id": "c", "text": "To regulate the political activities of public employees." },
       { "id": "d", "text": "To encourage officials to be more competitive in their private business." }
     ],
     "correctAnswer": "b",
@@ -1010,7 +1010,7 @@
     "options": [
       { "id": "a", "text": "Transferring the assets to another government official." },
       { "id": "b", "text": "Selling the assets to a third party to eliminate the conflict." },
-      { "id": "c", "d": "Putting the assets in a blind trust controlled by the government." },
+      { "id": "c", "text": "Putting the assets in a blind trust controlled by the government." },
       { "id": "d", "text": "Declaring the assets in the next annual SALN." }
     ],
     "correctAnswer": "b",
@@ -1025,7 +1025,7 @@
     "options": [
       { "id": "a", "text": "All public records must be destroyed after one year." },
       { "id": "b", "text": "Public officials must keep their financial affairs strictly private." },
-      { "id": "c", "d": "The public has a right to information on matters of public concern." },
+      { "id": "c", "text": "The public has a right to information on matters of public concern." },
       { "id": "d", "text": "Government transactions must be done in secret to protect state security." }
     ],
     "correctAnswer": "c",
@@ -1040,7 +1040,7 @@
     "options": [
       { "id": "a", "text": "Upon assumption of office, every July 31st thereafter, and upon separation from service." },
       { "id": "b", "text": "Upon assumption of office, every end of the fiscal year, and every three years thereafter." },
-      { "id": "c", "d": "Upon assumption of office, every April 15th, and upon transfer to another agency." },
+      { "id": "c", "text": "Upon assumption of office, every April 15th, and upon transfer to another agency." },
       { "id": "d", "text": "Upon assumption of office, every April 30th, and upon separation from service." }
     ],
     "correctAnswer": "d",
@@ -1055,7 +1055,7 @@
     "options": [
       { "id": "a", "text": "Professionalism and Political Neutrality" },
       { "id": "b", "text": "Simple Living and Justness and Sincerity" },
-      { "id": "c", "d": "Responsiveness to the Public and Transparency" },
+      { "id": "c", "text": "Responsiveness to the Public and Transparency" },
       { "id": "d", "text": "Nationalism and Patriotism and Commitment to Democracy" }
     ],
     "correctAnswer": "b",
@@ -1070,7 +1070,7 @@
     "options": [
       { "id": "a", "text": "Professionalism" },
       { "id": "b", "text": "Political neutrality" },
-      { "id": "c", "d": "Responsiveness to the public" },
+      { "id": "c", "text": "Responsiveness to the public" },
       { "id": "d", "text": "Commitment to public interest" }
     ],
     "correctAnswer": "c",

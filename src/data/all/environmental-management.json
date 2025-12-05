@@ -335,7 +335,7 @@
     "options": [
       { "id": "a", "text": "Ecological Footprint" },
       { "id": "b", "text": "Biodiversity" },
-      { "id": "c", "d": "Carrying Capacity" },
+      { "id": "c", "text": "Carrying Capacity" },
       { "id": "d", "text": "Succession" }
     ],
     "correctAnswer": "b",

@@ -15,25 +15,25 @@ class ExamService {
   constructor() {
     // Initialize question pools with new structure
     this.proQuestions = {
-      'Numerical Ability': allNumericalAbility || [],
-      'Analytical Ability': proAnalyticalAbility || [],
-      'Verbal Ability': allVerbalAbility || [],
-      'General Information': allGeneralInformation || [],
-      'Philippine Constitution': allPhilippineConstitution || [],
-      'RA 6713': allRA6713 || [],
-      'Peace and Human Rights': allPeaceHumanRights || [],
-      'Environmental Management': allEnvironmentalManagement || []
+      'Numerical Ability': this.normalizeQuestions(allNumericalAbility) || [],
+      'Analytical Ability': this.normalizeQuestions(proAnalyticalAbility) || [],
+      'Verbal Ability': this.normalizeQuestions(allVerbalAbility) || [],
+      'General Information': this.normalizeQuestions(allGeneralInformation) || [],
+      'Philippine Constitution': this.normalizeQuestions(allPhilippineConstitution) || [],
+      'RA 6713': this.normalizeQuestions(allRA6713) || [],
+      'Peace and Human Rights': this.normalizeQuestions(allPeaceHumanRights) || [],
+      'Environmental Management': this.normalizeQuestions(allEnvironmentalManagement) || []
     };
 
     this.subQuestions = {
-      'Numerical Ability': allNumericalAbility || [],
-      'Clerical Ability': subClericalAbility || [],
-      'Verbal Ability': allVerbalAbility || [],
-      'General Information': allGeneralInformation || [],
-      'Philippine Constitution': allPhilippineConstitution || [],
-      'RA 6713': allRA6713 || [],
-      'Peace and Human Rights': allPeaceHumanRights || [],
-      'Environmental Management': allEnvironmentalManagement || []
+      'Numerical Ability': this.normalizeQuestions(allNumericalAbility) || [],
+      'Clerical Ability': this.normalizeQuestions(subClericalAbility) || [],
+      'Verbal Ability': this.normalizeQuestions(allVerbalAbility) || [],
+      'General Information': this.normalizeQuestions(allGeneralInformation) || [],
+      'Philippine Constitution': this.normalizeQuestions(allPhilippineConstitution) || [],
+      'RA 6713': this.normalizeQuestions(allRA6713) || [],
+      'Peace and Human Rights': this.normalizeQuestions(allPeaceHumanRights) || [],
+      'Environmental Management': this.normalizeQuestions(allEnvironmentalManagement) || []
     };
 
     this.sessionUsedQuestions = new Set();
@@ -43,6 +43,46 @@ class ExamService {
 
     // Log statistics
     this.logQuestionStats();
+  }
+
+  /**
+   * Normalize questions to ensure they have proper structure including image src support
+   */
+  normalizeQuestions(questions) {
+    if (!Array.isArray(questions)) return [];
+    
+    return questions.map(question => {
+      if (!question) return null;
+      
+      // Ensure question has required structure
+      const normalized = {
+        id: question.id || `question_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+        text: question.text || '',
+        options: Array.isArray(question.options) 
+          ? question.options.map(opt => ({
+              id: opt.id || '',
+              text: opt.text || ''
+            }))
+          : [],
+        correctAnswer: question.correctAnswer || '',
+        explanation: question.explanation || '',
+        category: question.category || '',
+        difficulty: question.difficulty || 'medium',
+        language: question.language || 'en'
+      };
+      
+      // Add image src if present
+      if (question.src) {
+        normalized.src = question.src;
+      }
+      
+      // Add imageAlt text if present
+      if (question.imageAlt) {
+        normalized.imageAlt = question.imageAlt;
+      }
+      
+      return normalized;
+    }).filter(q => q !== null);
   }
 
   logQuestionStats() {
