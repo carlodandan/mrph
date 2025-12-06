@@ -7,6 +7,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import DisclaimerModal from './components/DisclaimerModal';
 import Tutorial from './pages/Tutorial';
 import './index.css';
+import 'katex/dist/katex.min.css';
 
 function App() {
 

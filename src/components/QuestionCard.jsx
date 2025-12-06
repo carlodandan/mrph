@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { CheckCircle, Circle, HelpCircle, Maximize2, X } from 'lucide-react';
+import { CheckCircle, HelpCircle, Maximize2, X } from 'lucide-react';
+import { InlineMath, BlockMath } from 'react-katex';
 
 function QuestionCard({ 
   question, 
@@ -24,6 +25,35 @@ function QuestionCard({
 
   const getLetter = (index) => {
     return String.fromCharCode(65 + index);
+  };
+
+  // Function to render text with LaTeX support
+  const renderTextWithLatex = (text) => {
+    if (!text) return null;
+    
+    // Split by LaTeX delimiters
+    const parts = text.split(/(\$\$.*?\$\$|\$.*?\$)/g);
+    
+    return parts.map((part, index) => {
+      // Check if part is LaTeX (starts and ends with $ or $$)
+      if (part.startsWith('$$') && part.endsWith('$$')) {
+        // Block math (display mode)
+        const latex = part.slice(2, -2);
+        return <BlockMath key={index} math={latex} />;
+      } else if (part.startsWith('$') && part.endsWith('$')) {
+        // Inline math
+        const latex = part.slice(1, -1);
+        return <InlineMath key={index} math={latex} />;
+      } else {
+        // Regular text
+        return <span key={index}>{part}</span>;
+      }
+    });
+  };
+
+  // Function to check if text contains LaTeX
+  const containsLatex = (text) => {
+    return text && (text.includes('$') || text.includes('$$'));
   };
 
   return (
@@ -109,9 +139,13 @@ function QuestionCard({
             </div>
             <div className="flex-1">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Question:</h3>
-              <p className="text-gray-700 text-lg leading-relaxed whitespace-pre-line">
-                {question.text}
-              </p>
+              <div className="text-gray-700 text-lg leading-relaxed whitespace-pre-line">
+                {containsLatex(question.text) ? (
+                  renderTextWithLatex(question.text)
+                ) : (
+                  question.text
+                )}
+              </div>
             </div>
           </div>
         </div>
@@ -143,7 +177,13 @@ function QuestionCard({
                       <span className="font-bold">{getLetter(index)}</span>
                     )}
                   </div>
-                  <span className="flex-1 text-gray-800">{option.text}</span>
+                  <div className="flex-1 text-gray-800">
+                    {containsLatex(option.text) ? (
+                      renderTextWithLatex(option.text)
+                    ) : (
+                      option.text
+                    )}
+                  </div>
                 </div>
               </button>
             );
