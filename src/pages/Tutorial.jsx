@@ -250,11 +250,11 @@ function Tutorial() {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Total Duration</span>
-                  <span className="font-semibold text-gray-800">63 min</span>
+                  <span className="font-semibold text-gray-800">4mins. and 36secs.</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Last Updated</span>
-                  <span className="font-semibold text-gray-800">March 2024</span>
+                  <span className="font-semibold text-gray-800">December 2025</span>
                 </div>
               </div>
             </div>
