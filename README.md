@@ -54,5 +54,7 @@ If you discover any issues or have suggestions for improvement, please open an i
 
  If you like the project feel free to drop a star ✨. Your appreciation means a lot.
 
-<p align="center" style="text-decoration: none;">Made by <a href="https://github.com/carlodandan" tarGET="_blank">Carlo Dandan 
-</a>🫰</p>
+<p align="center" style="text-decoration: none;">Made by <a href="https://github.com/carlodandan" tarGET="_blank">Carlo Dandan
+</a></p>
+
+<p align="center" style="text-decoration: none;"><a href='https://ko-fi.com/L4L23X7F6' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a></p>
