@@ -5,6 +5,7 @@ import Exam from './pages/Exam';
 import Results from './pages/Results';
 import ErrorBoundary from './components/ErrorBoundary';
 import DisclaimerModal from './components/DisclaimerModal';
+import Footer from './components/Footer'; 
 import Tutorial from './pages/Tutorial';
 import './index.css';
 import 'katex/dist/katex.min.css';
@@ -24,6 +25,7 @@ function App() {
             <Route path="/results" element={<Results />} />
             <Route path="/tutorial" element={<Tutorial />} />
           </Routes>
+          <Footer />
         </div>
       </Router>
     </ErrorBoundary>

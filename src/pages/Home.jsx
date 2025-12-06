@@ -195,13 +195,6 @@ function Home() {
       <div id="exams" className="scroll-mt-16">
         <ExamSelection />
       </div>
-
-      {/* Footer Note */}
-      <div className="mt-16 text-center text-gray-600">
-        <p className="mb-2">
-          This is an unofficial mock exam / reviewer tool. Always refer to the official Civil Service Commission website for the most accurate information.
-        </p>
-      </div>
     </div>
   );
 }

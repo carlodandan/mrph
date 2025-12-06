@@ -92,17 +92,6 @@ class ExamService {
     console.log('Questions loaded successfully');
     console.log(`Professional: ${proCount} total questions`);
     console.log(`Sub-professional: ${subCount} total questions`);
-    
-    // Log per category counts
-    console.log('Professional categories:');
-    Object.entries(this.proQuestions).forEach(([category, questions]) => {
-      console.log(`  ${category}: ${questions?.length || 0} questions`);
-    });
-    
-    console.log('Sub-professional categories:');
-    Object.entries(this.subQuestions).forEach(([category, questions]) => {
-      console.log(`  ${category}: ${questions?.length || 0} questions`);
-    });
   }
 
   async initialize() {
@@ -171,9 +160,7 @@ class ExamService {
   
     // Filter out excluded questions
     const availableQuestions = array.filter(q => q && q.id && !excludeIds.has(q.id));
-  
-    console.log(`Available questions after filtering: ${availableQuestions.length} out of ${array.length}`);
-  
+    
     if (availableQuestions.length === 0) return [];
   
     // If we need more questions than available, return all available
@@ -215,8 +202,6 @@ class ExamService {
     // Use target count or calculate based on category
     const count = targetCount || this.getQuestionsPerCategory(examType, category);
 
-    console.log(`Getting questions for ${category}: Pool has ${questionPool.length} questions, target: ${count}`);
-
     // Get random questions, excluding already used ones in this session
     const selectedQuestions = this.getRandomQuestions(
       questionPool,
@@ -228,8 +213,6 @@ class ExamService {
     selectedQuestions.forEach(q => {
       if (q && q.id) this.sessionUsedQuestions.add(q.id);
     });
-    
-    console.log(`Selected ${selectedQuestions.length} questions for ${category}`);
     
     return selectedQuestions;
   }
@@ -272,8 +255,6 @@ class ExamService {
     const categories = this.getPracticeCategories();
     const allQuestions = [];
 
-    console.log(`Generating Practice exam (Session: ${this.currentSessionId})`);
-
     for (const category of categories) {
       // For practice, get 10 questions from each category
       const targetCount = 10;
@@ -289,17 +270,10 @@ class ExamService {
       } else {
         allQuestions.push(...proQuestions);
       }
-      
-      console.log(`${category}: ${proQuestions.length} questions selected (target: ${targetCount})`);
     }
 
     // Shuffle all questions together for the final exam
     const shuffledQuestions = this.shuffleArray(allQuestions);
-    
-    console.log('\n=== PRACTICE EXAM GENERATION SUMMARY ===');
-    console.log(`Total questions generated: ${shuffledQuestions.length}`);
-    console.log(`Expected total: ${categories.length * 10} questions`);
-    console.log(`Session ID: ${this.currentSessionId}, Used questions: ${this.sessionUsedQuestions.size}`);
     
     // Log category distribution
     const categoryDistribution = {};
@@ -307,8 +281,6 @@ class ExamService {
       const cat = q.category || 'Unknown';
       categoryDistribution[cat] = (categoryDistribution[cat] || 0) + 1;
     });
-    console.log('Category distribution:', categoryDistribution);
-    console.log('========================================\n');
     
     return shuffledQuestions;
   }
@@ -326,8 +298,6 @@ class ExamService {
     // Define the overall total limit based on exam type
     const overallLimit = examType === 'professional' ? 170 : 165;
     let runningTotal = 0;
-
-    console.log(`Generating ${examType} exam (Session: ${this.currentSessionId}, Overall Limit: ${overallLimit})`);
 
     for (const category of categories) {
         // 1. Calculate the base target for the current category (e.g., 25 or 10)
@@ -347,22 +317,16 @@ class ExamService {
         
         runningTotal += categoryQuestions.length;
         allQuestions.push(...categoryQuestions);
-        
-        console.log(`${category}: ${categoryQuestions.length} questions selected (target cap: ${targetCount}, accumulated: ${runningTotal})`);
-        
+                
         // 5. Exit loop immediately if limit is hit
         if (runningTotal >= overallLimit) break; 
     }
 
     // Shuffle all questions together for the final exam
     const shuffledQuestions = this.shuffleArray(allQuestions);
-    console.log(`Total questions generated: ${shuffledQuestions.length} (Capped at: ${overallLimit})`);
     
     // Calculate expected total
     const expectedTotal = overallLimit;
-    
-    console.log(`Expected total questions: ${expectedTotal}`);
-    console.log(`Session ID: ${this.currentSessionId}, Used questions: ${this.sessionUsedQuestions.size}`);
     
     return shuffledQuestions;
   }
