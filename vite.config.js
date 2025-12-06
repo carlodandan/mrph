@@ -18,7 +18,24 @@ export default defineConfig({
           '**/*.{js,jsx,css,html,ico,png,jpg,jpeg,webp,svg,woff,woff2,ttf,eot,xml,txt}']
       }
     }),
-    Sitemap({ hostname: 'https://mrph.pages.dev/' }),
+    Sitemap({ 
+      hostname: 'https://mrph.pages.dev/',
+      dynamicRoutes: [
+        '/#exams',
+        '/exam/professional',
+        '/exam/subprofessional',
+        '/exam/practice',
+        '/results'
+      ],
+      readable: true,
+      robots: [
+        {
+          userAgent: '*',
+          allow: '/',
+          crawlDelay: 2,
+        },
+      ]
+    }),
     tailwindcss(),
   ],
   build: {
