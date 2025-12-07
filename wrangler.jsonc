@@ -2,5 +2,8 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "mrph",
 	"compatibility_date": "2025-10-11",
-	"pages_build_output_dir": "./dist"
+	"pages_build_output_dir": "./dist",
+	"observability": {
+		"enabled": true
+	}
 }
