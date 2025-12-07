@@ -58,11 +58,11 @@ function QuestionCard({
 
   return (
     <>
-      <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 fade-in">
+      <div className="bg-white dark:bg-black rounded-2xl shadow-xl p-6 md:p-8 fade-in">
         {/* Progress Bar */}
         <div className="mb-4">
           <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-medium text-gray-600">
+            <span className="text-sm font-medium text-gray-600 dark:text-amber-100">
               Question {questionNumber} of {totalQuestions}
             </span>
             <span className="text-sm font-semibold text-blue-600">
@@ -97,8 +97,8 @@ function QuestionCard({
             )}
 
             {question.category && (
-              <div className="inline-flex items-center px-3 py-1 bg-gray-100 rounded-full">
-                <span className="text-xs font-medium text-gray-600">{question.category}</span>
+              <div className="inline-flex items-center px-3 py-1 bg-gray-100 dark:bg-gray-950 rounded-full">
+                <span className="text-xs font-medium text-gray-600 dark:text-amber-100">{question.category}</span>
               </div>
             )}
           </div>
@@ -126,7 +126,7 @@ function QuestionCard({
                     <Maximize2 className="w-4 h-4" />
                   </button>
                 </div>
-                <div className="text-xs text-gray-500 mt-2 text-center">
+                <div className="text-xs text-gray-500 dark:text-gray-100 mt-2 text-center">
                   Click image to enlarge
                 </div>
               </div>
@@ -138,8 +138,8 @@ function QuestionCard({
               <HelpCircle className="w-6 h-6 text-blue-600" />
             </div>
             <div className="flex-1">
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">Question:</h3>
-              <div className="text-gray-700 text-lg leading-relaxed whitespace-pre-line">
+              <h3 className="text-lg font-semibold text-gray-80 dark:text-white mb-2">Question:</h3>
+              <div className="text-gray-700 dark:text-gray-200 text-lg leading-relaxed whitespace-pre-line">
                 {containsLatex(question.text) ? (
                   renderTextWithLatex(question.text)
                 ) : (
@@ -152,7 +152,7 @@ function QuestionCard({
 
         {/* Options */}
         <div className="space-y-4 mb-8">
-          <h4 className="text-sm font-semibold text-gray-600 uppercase tracking-wide mb-2">
+          <h4 className="text-sm font-semibold text-gray-600 dark:text-amber-100 uppercase tracking-wide mb-2">
             Select your answer:
           </h4>
           {question.options && question.options.map((option, index) => {
@@ -163,13 +163,13 @@ function QuestionCard({
                 onClick={() => handleAnswerSelect(option.id)}
                 className={`w-full p-2 rounded-xl border-2 text-left transition-all duration-200 ${
                   isSelected
-                    ? 'border-blue-500 bg-blue-50 shadow-md transform scale-[1.02]'
+                    ? 'border-blue-500 bg-blue-50 dark:bg-gray-900 shadow-md transform scale-[1.02]'
                     : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50'
                 }`}
               >
                 <div className="flex items-center space-x-4">
                   <div className={`w-8 h-8 flex items-center justify-center rounded-lg ${
-                    isSelected ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-600'
+                    isSelected ? 'bg-blue-50 dark:bg-gray-9000 text-white' : 'bg-gray-100 dark:bg-gray-950 text-gray-600 dark:text-amber-100'
                   }`}>
                     {isSelected ? (
                       <CheckCircle className="w-5 h-5" />
@@ -177,7 +177,7 @@ function QuestionCard({
                       <span className="font-bold">{getLetter(index)}</span>
                     )}
                   </div>
-                  <div className="flex-1 text-gray-800">
+                  <div className="flex-1 text-gray-80 dark:text-white">
                     {containsLatex(option.text) ? (
                       renderTextWithLatex(option.text)
                     ) : (
@@ -192,7 +192,7 @@ function QuestionCard({
 
         {/* Navigation */}
         <div className="flex justify-between items-center pt-3 border-t border-gray-100">
-          <div className="text-sm text-gray-500">
+          <div className="text-sm text-gray-500 dark:text-gray-100">
             {isLastQuestion ? 'Last question' : `${totalQuestions - questionNumber} questions remaining`}
           </div>
           
@@ -202,7 +202,7 @@ function QuestionCard({
               className={`px-4 py-2 font-medium ${
                 !localSelected 
                   ? 'text-gray-400 cursor-not-allowed' 
-                  : 'text-gray-600 hover:text-gray-800'
+                  : 'text-gray-600 dark:text-amber-100 hover:text-gray-80 dark:text-white'
               }`}
               disabled={!localSelected}
             >

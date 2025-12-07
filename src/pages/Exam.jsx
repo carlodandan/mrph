@@ -298,10 +298,10 @@ function Exam() {
   if (questions.length === 0) {
     return (
       <div className="container mx-auto px-4 py-4 text-center">
-        <div className="max-w-md mx-auto bg-white rounded-2xl shadow-lg p-8">
+        <div className="max-w-md mx-auto bg-white dark:bg-black rounded-2xl shadow-lg p-8">
           <AlertCircle className="w-16 h-16 text-red-500 mx-auto mb-4" />
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">No Questions Available</h2>
-          <p className="text-gray-600 mb-6">
+          <h2 className="text-2xl font-bold text-gray-80 dark:text-white mb-2">No Questions Available</h2>
+          <p className="text-gray-600 dark:text-amber-100 mb-6">
             Failed to load exam questions. Please try again.
           </p>
           <button
@@ -331,7 +331,7 @@ function Exam() {
           <div className="flex items-center space-x-4">
             <button
               onClick={() => navigate('/')}
-              className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 font-medium"
+              className="flex items-center space-x-2 text-gray-600 dark:text-amber-100 hover:text-gray-80 dark:text-white font-medium"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Back to Home</span>
@@ -374,28 +374,28 @@ function Exam() {
 
         {/* Right Column - Exam Progress */}
         <div className="lg:w-1/3">
-          <div className="bg-white rounded-xl shadow-lg p-6">
-            <h3 className="font-bold text-gray-800 mb-4 flex items-center">
+          <div className="bg-white dark:bg-black rounded-xl shadow-lg p-6">
+            <h3 className="font-bold text-gray-80 dark:text-white mb-4 flex items-center">
               <BookOpen className="w-5 h-5 mr-2 text-blue-600" />
               Exam Progress
             </h3>
             
             <div className="space-y-6">
               <div>
-                <div className="flex justify-between text-sm text-gray-600 mb-1">
+                <div className="flex justify-between text-sm text-gray-600 dark:text-amber-100 mb-1">
                   <span>Questions Answered</span>
                   <span>{answeredCount}/{questions.length}</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div 
-                    className="bg-green-500 h-2 rounded-full transition-all"
+                    className="bg-green-50 dark:bg-gray-9000 h-2 rounded-full transition-all"
                     style={{ width: `${(answeredCount / questions.length) * 100}%` }}
                   ></div>
                 </div>
               </div>
 
               <div>
-                <div className="flex justify-between text-sm text-gray-600 mb-1">
+                <div className="flex justify-between text-sm text-gray-600 dark:text-amber-100 mb-1">
                   <span>Time Used</span>
                   <span>{formatTime(examConfig.timeLimit - timeRemaining)}</span>
                 </div>
@@ -409,23 +409,23 @@ function Exam() {
 
               {/* Current Category */}
               <div className="pt-4 border-t border-gray-100">
-                <p className="text-sm text-gray-600 mb-1">Current Category</p>
-                <div className="px-3 py-2 bg-blue-50 rounded-lg">
+                <p className="text-sm text-gray-600 dark:text-amber-100 mb-1">Current Category</p>
+                <div className="px-3 py-2 bg-blue-50 dark:bg-gray-900 rounded-lg">
                   <span className="font-medium text-blue-700">{getCurrentCategory()}</span>
                 </div>
               </div>
 
               {/* Quick Stats */}
               <div className="pt-4 border-t border-gray-100">
-                <p className="text-sm text-gray-600 mb-2">Quick Stats</p>
+                <p className="text-sm text-gray-600 dark:text-amber-100 mb-2">Quick Stats</p>
                 <div className="grid grid-cols-2 gap-3">
                   <div className="bg-gray-50 p-3 rounded-lg">
                     <div className="text-2xl font-bold text-blue-600">{answeredCount}</div>
-                    <div className="text-xs text-gray-500">Answered</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-100">Answered</div>
                   </div>
                   <div className="bg-gray-50 p-3 rounded-lg">
-                    <div className="text-2xl font-bold text-gray-600">{questions.length - answeredCount}</div>
-                    <div className="text-xs text-gray-500">Remaining</div>
+                    <div className="text-2xl font-bold text-gray-600 dark:text-amber-100">{questions.length - answeredCount}</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-100">Remaining</div>
                   </div>
                 </div>
               </div>
@@ -433,7 +433,7 @@ function Exam() {
           </div>
 
           {/* Navigation and Submit Buttons - MOVED HERE */}
-          <div className="mt-6 bg-white rounded-xl shadow-lg p-6">
+          <div className="mt-6 bg-white dark:bg-black rounded-xl shadow-lg p-6">
             <div className="flex flex-col space-y-4">
               {/* Navigation Buttons */}
               <div className="flex space-x-4">
@@ -442,8 +442,8 @@ function Exam() {
                   disabled={currentQuestion === 0}
                   className={`flex-1 px-4 py-3 rounded-xl font-medium ${
                     currentQuestion === 0
-                      ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      ? 'bg-gray-100 dark:bg-gray-950 text-gray-400 cursor-not-allowed'
+                      : 'bg-gray-100 dark:bg-gray-950 text-gray-700 dark:text-gray-200 hover:bg-gray-200'
                   }`}
                 >
                   Previous Question
@@ -454,7 +454,7 @@ function Exam() {
                   disabled={currentQuestion === questions.length - 1}
                   className={`flex-1 px-4 py-3 rounded-xl font-medium ${
                     currentQuestion === questions.length - 1
-                      ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                      ? 'bg-gray-100 dark:bg-gray-950 text-gray-400 cursor-not-allowed'
                       : 'bg-linear-to-r from-blue-500 to-purple-500 text-white hover:from-blue-600 hover:to-purple-600'
                   }`}
                 >
@@ -479,8 +479,8 @@ function Exam() {
       </div>
 
       {/* Question Navigator */}
-      <div className="mb-8 bg-white rounded-xl shadow-lg p-6">
-        <h4 className="font-bold text-gray-800 mb-4">Question Navigator</h4>
+      <div className="mb-8 bg-white dark:bg-black rounded-xl shadow-lg p-6">
+        <h4 className="font-bold text-gray-80 dark:text-white mb-4">Question Navigator</h4>
         <div className="grid grid-cols-10 gap-2">
           {questions.map((q, index) => {
             const isAnswered = answers[q.id];
@@ -494,10 +494,10 @@ function Exam() {
                 }}
                 className={`w-10 h-10 rounded-lg flex items-center justify-center text-sm font-medium transition-all relative ${
                   index === currentQuestion
-                    ? 'bg-blue-500 text-white ring-2 ring-blue-300'
+                    ? 'bg-blue-50 dark:bg-gray-9000 text-white ring-2 ring-blue-300'
                     : isAnswered
                     ? 'bg-green-100 text-green-700 border border-green-300'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    : 'bg-gray-100 dark:bg-gray-950 text-gray-700 dark:text-gray-200 hover:bg-gray-200'
                 }`}
                 title={`Q${index + 1}: ${q.category}${isAnswered ? ' (Answered)' : ''}`}
               >
@@ -514,23 +514,23 @@ function Exam() {
         
         <div className="flex flex-wrap gap-4 mt-4 text-sm">
           <div className="flex items-center">
-            <div className="w-3 h-3 bg-blue-500 rounded mr-2"></div>
-            <span className="text-gray-600">Current</span>
+            <div className="w-3 h-3 bg-blue-50 dark:bg-gray-9000 rounded mr-2"></div>
+            <span className="text-gray-600 dark:text-amber-100">Current</span>
           </div>
           <div className="flex items-center">
             <div className="w-3 h-3 bg-green-100 border border-green-500 rounded mr-2"></div>
-            <span className="text-gray-600">Answered</span>
+            <span className="text-gray-600 dark:text-amber-100">Answered</span>
           </div>
           <div className="flex items-center">
-            <div className="w-3 h-3 bg-gray-100 border border-gray-400 rounded mr-2"></div>
-            <span className="text-gray-600">Not Answered</span>
+            <div className="w-3 h-3 bg-gray-100 dark:bg-gray-950 border border-gray-400 rounded mr-2"></div>
+            <span className="text-gray-600 dark:text-amber-100">Not Answered</span>
           </div>
         </div>
       </div>
 
       {/* Category Progress */}
-      <div className="mb-8 bg-white rounded-xl shadow-lg p-6">
-        <h4 className="font-bold text-gray-800 mb-4">Category Progress</h4>
+      <div className="mb-8 bg-white dark:bg-black rounded-xl shadow-lg p-6">
+        <h4 className="font-bold text-gray-80 dark:text-white mb-4">Category Progress</h4>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {Object.entries(categoryProgress).map(([category, stats]) => {
             const percentage = Math.round((stats.answered / stats.total) * 100);
@@ -538,18 +538,18 @@ function Exam() {
             return (
               <div key={category} className="p-4 bg-gray-50 rounded-lg">
                 <div className="flex justify-between items-center mb-2">
-                  <span className="font-medium text-gray-700 text-sm">{category}</span>
-                  <span className="text-xs text-gray-500">
+                  <span className="font-medium text-gray-700 dark:text-gray-200 text-sm">{category}</span>
+                  <span className="text-xs text-gray-500 dark:text-gray-100">
                     {stats.answered}/{stats.total}
                   </span>
                 </div>
                 
                 <div className="space-y-2">
                   <div>
-                    <div className="text-xs text-gray-500 mb-1">Answered</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-100 mb-1">Answered</div>
                     <div className="w-full bg-gray-200 rounded-full h-2">
                       <div 
-                        className="bg-blue-500 h-2 rounded-full"
+                        className="bg-blue-50 dark:bg-gray-9000 h-2 rounded-full"
                         style={{ width: `${percentage}%` }}
                       ></div>
                     </div>
@@ -562,7 +562,7 @@ function Exam() {
       </div>
 
       {/* Instructions */}
-      <div className="p-4 bg-blue-50 rounded-xl border border-blue-100">
+      <div className="p-4 bg-blue-50 dark:bg-gray-900 rounded-xl border border-blue-100">
         <div className="flex items-center space-x-2 text-blue-800 mb-2">
           <AlertCircle className="w-5 h-5" />
           <span className="font-medium">CSC Exam Guidelines:</span>

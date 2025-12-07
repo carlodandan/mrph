@@ -37,24 +37,24 @@ function DisclaimerModal() {
 
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 p-4">
-      <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+      <div className="bg-white dark:bg-black rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
         {/* Header */}
-        <div className="sticky top-0 bg-white p-6 border-b border-gray-200 z-10">
+        <div className="sticky top-0 bg-white dark:bg-black p-6 border-b border-gray-200 z-10">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="p-2 bg-yellow-100 rounded-lg">
                 <AlertTriangle className="w-8 h-8 text-yellow-600" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-800">Important Disclaimer</h2>
-                <p className="text-gray-600 mt-1">Please read carefully before proceeding</p>
+                <h2 className="text-2xl font-bold text-gray-80 dark:text-white">Important Disclaimer</h2>
+                <p className="text-gray-600 dark:text-amber-100 mt-1">Please read carefully before proceeding</p>
               </div>
             </div>
             <button
               onClick={handleClose}
-              className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+              className="p-2 hover:bg-gray-100 dark:bg-gray-950 rounded-lg transition-colors"
             >
-              <X className="w-6 h-6 text-gray-500" />
+              <X className="w-6 h-6 text-gray-500 dark:text-gray-100" />
             </button>
           </div>
         </div>
@@ -79,17 +79,17 @@ function DisclaimerModal() {
 
             {/* Sources Section */}
             <div>
-              <h3 className="text-xl font-bold text-gray-800 mb-4">Question Sources</h3>
+              <h3 className="text-xl font-bold text-gray-80 dark:text-white mb-4">Question Sources</h3>
               
               <div className="grid md:grid-cols-2 gap-4 mb-6">
-                <div className="p-4 bg-blue-50 rounded-xl border border-blue-200">
+                <div className="p-4 bg-blue-50 dark:bg-gray-900 dark:bg-gray-900 rounded-xl border border-blue-200">
                   <div className="flex items-center space-x-3 mb-3">
                     <div className="p-2 bg-blue-100 rounded-lg">
                       <span className="font-bold text-blue-700">🤖</span>
                     </div>
-                    <h4 className="font-bold text-gray-800">AI-Generated Questions</h4>
+                    <h4 className="font-bold text-gray-80 dark:text-white">AI-Generated Questions</h4>
                   </div>
-                  <p className="text-gray-700 text-sm">
+                  <p className="text-gray-700 dark:text-gray-200 text-sm">
                     Some questions are generated via AI models including Gemini, DeepSeek, and ChatGPT. These may require additional verification.
                   </p>
                 </div>
@@ -99,21 +99,21 @@ function DisclaimerModal() {
                     <div className="p-2 bg-purple-100 rounded-lg">
                       <span className="font-bold text-purple-700">👥</span>
                     </div>
-                    <h4 className="font-bold text-gray-800">Community & Social Media</h4>
+                    <h4 className="font-bold text-gray-80 dark:text-white">Community & Social Media</h4>
                   </div>
-                  <p className="text-gray-700 text-sm">
+                  <p className="text-gray-700 dark:text-gray-200 text-sm">
                     Questions collected from social media groups, online forums, and user submissions from various sources.
                   </p>
                 </div>
 
-                <div className="p-4 bg-green-50 rounded-xl border border-green-200">
+                <div className="p-4 bg-green-50 dark:bg-gray-900 rounded-xl border border-green-200">
                   <div className="flex items-center space-x-3 mb-3">
                     <div className="p-2 bg-green-100 rounded-lg">
                       <span className="font-bold text-green-700">📚</span>
                     </div>
-                    <h4 className="font-bold text-gray-800">Review Center Materials</h4>
+                    <h4 className="font-bold text-gray-80 dark:text-white">Review Center Materials</h4>
                   </div>
-                  <p className="text-gray-700 text-sm">
+                  <p className="text-gray-700 dark:text-gray-200 text-sm">
                     Based on old review materials from various review centers and practice books.
                   </p>
                 </div>
@@ -123,9 +123,9 @@ function DisclaimerModal() {
                     <div className="p-2 bg-red-100 rounded-lg">
                       <span className="font-bold text-red-700">⚖️</span>
                     </div>
-                    <h4 className="font-bold text-gray-800">Legal References</h4>
+                    <h4 className="font-bold text-gray-80 dark:text-white">Legal References</h4>
                   </div>
-                  <p className="text-gray-700 text-sm">
+                  <p className="text-gray-700 dark:text-gray-200 text-sm">
                     Questions based on RA 6713, Philippine Constitution, and other relevant laws and regulations.
                   </p>
                 </div>
@@ -155,7 +155,7 @@ function DisclaimerModal() {
                 </ul>
               </div>
 
-              <div className="p-4 bg-blue-50 rounded-xl border border-blue-300">
+              <div className="p-4 bg-blue-50 dark:bg-gray-900 rounded-xl border border-blue-300">
                 <h4 className="font-bold text-blue-800 mb-3">Report Inconsistencies</h4>
                 <p className="text-blue-700">
                   If you notice any inconsistencies, errors, or outdated information in the questions, please submit a report. Your feedback helps improve the quality of this tool.
@@ -173,10 +173,10 @@ function DisclaimerModal() {
                   className="w-5 h-5 text-blue-600 rounded border-gray-300 focus:ring-blue-500 mt-1"
                 />
                 <div>
-                  <span className="text-gray-800 font-medium">
+                  <span className="text-gray-80 dark:text-white font-medium">
                     Don't show this message again
                   </span>
-                  <p className="text-gray-600 text-sm mt-1">
+                  <p className="text-gray-600 dark:text-amber-100 text-sm mt-1">
                     You can always view this disclaimer from the settings or footer
                   </p>
                 </div>
@@ -186,11 +186,11 @@ function DisclaimerModal() {
         </div>
 
         {/* Footer */}
-        <div className="sticky bottom-0 bg-white p-6 border-t border-gray-200">
+        <div className="sticky bottom-0 bg-white dark:bg-black p-6 border-t border-gray-200">
           <div className="flex flex-col sm:flex-row gap-4">
             <button
               onClick={() => window.open('https://csc.gov.ph', '_blank', 'noopener,noreferrer')}
-              className="flex-1 py-4 bg-white border-2 border-blue-600 text-blue-700 rounded-xl font-bold hover:bg-blue-50 transition-colors flex items-center justify-center space-x-2"
+              className="flex-1 py-4 bg-white dark:bg-black border-2 border-blue-600 text-blue-700 rounded-xl font-bold hover:bg-blue-50 dark:bg-gray-900 transition-colors flex items-center justify-center space-x-2"
             >
               <span>🌐</span>
               <span>Visit Official CSC Website</span>
@@ -204,7 +204,7 @@ function DisclaimerModal() {
             </button>
           </div>
           
-          <p className="text-center text-gray-500 text-sm mt-4">
+          <p className="text-center text-gray-500 dark:text-gray-100 text-sm mt-4">
             By clicking "I Understand & Accept", you acknowledge that you have read and understood this disclaimer.
           </p>
         </div>

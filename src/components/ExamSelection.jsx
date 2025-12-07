@@ -12,7 +12,7 @@ function ExamSelection() {
       difficulty: 'Advanced',
       icon: <ClipboardCheck className="w-8 h-8" />,
       color: 'from-blue-500 to-cyan-500',
-      bgColor: 'bg-blue-50'
+      bgColor: 'bg-blue-50 dark:bg-gray-900 dark:bg-gray-950'
     },
     {
       id: 'subprofessional',
@@ -23,7 +23,7 @@ function ExamSelection() {
       difficulty: 'Intermediate',
       icon: <Users className="w-8 h-8" />,
       color: 'from-green-500 to-emerald-500',
-      bgColor: 'bg-green-50'
+      bgColor: 'bg-green-50 dark:bg-gray-900 dark:bg-gray-950'
     },
     {
       id: 'practice',
@@ -34,15 +34,15 @@ function ExamSelection() {
       difficulty: 'All Levels',
       icon: <TrendingUp className="w-8 h-8" />,
       color: 'from-purple-500 to-pink-500',
-      bgColor: 'bg-purple-50'
+      bgColor: 'bg-purple-50 dark:bg-gray-950'
     }
   ];
 
   return (
     <div className="py-8">
       <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold text-gray-800 mb-3">Choose Your Exam Type</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
+        <h2 className="text-3xl font-bold text-gray-80 dark:text-white mb-3">Choose Your Exam Type</h2>
+        <p className="text-gray-600 dark:text-amber-100 max-w-2xl mx-auto">
           Select the Civil Service Exam level that matches your qualifications and goals
         </p>
       </div>
@@ -61,15 +61,15 @@ function ExamSelection() {
                 <div className={`p-3 rounded-xl bg-linear-to-br ${exam.color} text-white`}>
                   {exam.icon}
                 </div>
-                <span className="px-3 py-1 bg-white rounded-full text-xs font-semibold text-gray-700 shadow-sm">
+                <span className="px-3 py-1 bg-white dark:bg-black rounded-full text-xs font-semibold text-gray-700 dark:text-gray-200 shadow-sm">
                   {exam.difficulty}
                 </span>
               </div>
 
-              <h3 className="text-xl font-bold text-gray-800 mb-2">{exam.title}</h3>
-              <p className="text-gray-600 mb-6">{exam.description}</p>
+              <h3 className="text-xl font-bold text-gray-80 dark:text-white mb-2">{exam.title}</h3>
+              <p className="text-gray-600 dark:text-amber-100 mb-6">{exam.description}</p>
 
-              <div className="flex items-center justify-between text-sm text-gray-700">
+              <div className="flex items-center justify-between text-sm text-gray-700 dark:text-gray-200">
                 <div className="flex items-center space-x-2">
                   <ClipboardCheck className="w-4 h-4 text-gray-400" />
                   <span>{exam.items} items</span>
@@ -81,7 +81,7 @@ function ExamSelection() {
               </div>
 
               <div className="mt-6">
-                <button className="w-full py-3 bg-white text-gray-800 font-semibold rounded-xl border-2 border-gray-200 group-hover:border-gray-300 group-hover:bg-gray-50 transition-all">
+                <button className="w-full py-3 bg-white dark:bg-black text-gray-80 dark:text-white font-semibold rounded-xl border-2 border-gray-200 group-hover:border-gray-300 group-hover:bg-gray-50 transition-all">
                   Start Exam
                 </button>
               </div>
@@ -91,9 +91,9 @@ function ExamSelection() {
       </div>
 
       <div className="mt-10 text-center">
-        <div className="inline-flex items-center space-x-2 px-4 py-2 bg-white rounded-full shadow-md">
-          <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-          <span className="text-sm text-gray-600">Some questions here are generated via AI (Gemini, Deepseek and ChatGPT), some are from social media groups and old reviewer from a review center. If you see inconsistency, please submit a report.</span>
+        <div className="inline-flex items-center space-x-2 px-4 py-2 bg-white dark:bg-black rounded-full shadow-md">
+          <div className="w-2 h-2 bg-green-50 dark:bg-gray-9000 rounded-full animate-pulse"></div>
+          <span className="text-sm text-gray-600 dark:text-amber-100">Some questions here are generated via AI (Gemini, Deepseek and ChatGPT), some are from social media groups and old reviewer from a review center. If you see inconsistency, please submit a report.</span>
         </div>
       </div>
     </div>

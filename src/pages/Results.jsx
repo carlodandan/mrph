@@ -153,9 +153,9 @@ function Results() {
   if (!result) {
     return (
       <div className="container mx-auto px-4 py-4 text-center">
-        <div className="max-w-md mx-auto bg-white rounded-2xl shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">No Results Found</h2>
-          <p className="text-gray-600 mb-6">
+        <div className="max-w-md mx-auto bg-white dark:bg-black rounded-2xl shadow-lg p-8">
+          <h2 className="text-2xl font-bold text-gray-80 dark:text-white mb-4">No Results Found</h2>
+          <p className="text-gray-600 dark:text-amber-100 mb-6">
             You haven't taken any exams yet. Start your preparation now!
           </p>
           <button
@@ -176,7 +176,7 @@ function Results() {
         <div className="flex items-center space-x-4">
           <button
             onClick={() => navigate('/')}
-            className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 font-medium"
+            className="flex items-center space-x-2 text-gray-600 dark:text-amber-100 hover:text-gray-80 dark:text-white font-medium"
           >
             <ArrowLeft className="w-5 h-5" />
             <span>Back to Home</span>
@@ -205,7 +205,7 @@ function Results() {
           </div>
           <button
             onClick={handleDownloadJSON}
-            className="flex items-center space-x-2 px-4 py-2 bg-white border border-gray-300 text-gray-700 rounded-xl hover:bg-gray-50 transition-colors"
+            className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-black border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 transition-colors"
           >
             <Download className="w-4 h-4" />
             <span>Download JSON</span>
@@ -224,7 +224,7 @@ function Results() {
                 alert('Results copied to clipboard!');
               }
             }}
-            className="flex items-center space-x-2 px-4 py-2 bg-white border border-gray-300 text-gray-700 rounded-xl hover:bg-gray-50 transition-colors"
+            className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-black border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 transition-colors"
           >
             <Share2 className="w-4 h-4" />
             <span>Share</span>
@@ -245,22 +245,22 @@ function Results() {
       </div>
 
       {/* Study Recommendations */}
-      <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
-        <h3 className="text-xl font-bold text-gray-800 mb-6">Study Recommendations</h3>
+      <div className="bg-white dark:bg-black rounded-2xl shadow-lg p-6 mb-8">
+        <h3 className="text-xl font-bold text-gray-80 dark:text-white mb-6">Study Recommendations</h3>
         
         <div className="grid md:grid-cols-3 gap-6 mb-8">
-          <div className="p-4 bg-blue-50 rounded-xl">
+          <div className="p-4 bg-blue-50 dark:bg-gray-900 rounded-xl">
             <div className="text-blue-600 font-bold text-lg mb-2">Strengths</div>
             {result.categoryScores && Object.entries(result.categoryScores)
               .filter(([category, scores]) => scores.percentage >= 80)
               .map(([category, scores]) => (
                 <div key={category} className="flex items-center justify-between mb-1">
-                  <span className="text-sm text-gray-700">{category}</span>
+                  <span className="text-sm text-gray-700 dark:text-gray-200">{category}</span>
                   <span className="text-sm font-bold text-green-600">{scores.percentage}%</span>
                 </div>
               ))}
             {!Object.entries(result.categoryScores || {}).some(([, scores]) => scores.percentage >= 80) && (
-              <p className="text-sm text-gray-600">Keep practicing to identify your strengths!</p>
+              <p className="text-sm text-gray-600 dark:text-amber-100">Keep practicing to identify your strengths!</p>
             )}
           </div>
           
@@ -270,18 +270,18 @@ function Results() {
               .filter(([category, scores]) => scores.percentage < 60)
               .map(([category, scores]) => (
                 <div key={category} className="flex items-center justify-between mb-1">
-                  <span className="text-sm text-gray-700">{category}</span>
+                  <span className="text-sm text-gray-700 dark:text-gray-200">{category}</span>
                   <span className="text-sm font-bold text-red-600">{scores.percentage}%</span>
                 </div>
               ))}
             {!Object.entries(result.categoryScores || {}).some(([, scores]) => scores.percentage < 60) && (
-              <p className="text-sm text-gray-600">Great job! Focus on maintaining your performance.</p>
+              <p className="text-sm text-gray-600 dark:text-amber-100">Great job! Focus on maintaining your performance.</p>
             )}
           </div>
           
-          <div className="p-4 bg-green-50 rounded-xl">
+          <div className="p-4 bg-green-50 dark:bg-gray-900 rounded-xl">
             <div className="text-green-600 font-bold text-lg mb-2">Next Steps</div>
-            <ul className="text-sm text-gray-700 space-y-1">
+            <ul className="text-sm text-gray-700 dark:text-gray-200 space-y-1">
               <li>• Review explanations for incorrect answers</li>
               <li>• Focus on weaker categories</li>
               <li>• Practice time management</li>
@@ -292,11 +292,11 @@ function Results() {
 
         {/* Study Plan */}
         <div>
-          <h4 className="font-semibold text-gray-700 mb-4">Recommended Study Plan</h4>
+          <h4 className="font-semibold text-gray-700 dark:text-gray-200 mb-4">Recommended Study Plan</h4>
           <div className="grid md:grid-cols-3 gap-4">
-            <div className="p-4 bg-blue-50 rounded-xl">
+            <div className="p-4 bg-blue-50 dark:bg-gray-900 rounded-xl">
               <div className="text-blue-600 font-bold text-lg mb-2">Week 1-2</div>
-              <ul className="text-gray-700 space-y-1 text-sm">
+              <ul className="text-gray-700 dark:text-gray-200 space-y-1 text-sm">
                 <li>• Review basic concepts</li>
                 <li>• Focus on weaker areas</li>
                 <li>• Daily practice questions</li>
@@ -304,15 +304,15 @@ function Results() {
             </div>
             <div className="p-4 bg-purple-50 rounded-xl">
               <div className="text-purple-600 font-bold text-lg mb-2">Week 3-4</div>
-              <ul className="text-gray-700 space-y-1 text-sm">
+              <ul className="text-gray-700 dark:text-gray-200 space-y-1 text-sm">
                 <li>• Practice timed tests</li>
                 <li>• Review question patterns</li>
                 <li>• Focus on accuracy</li>
               </ul>
             </div>
-            <div className="p-4 bg-green-50 rounded-xl">
+            <div className="p-4 bg-green-50 dark:bg-gray-900 rounded-xl">
               <div className="text-green-600 font-bold text-lg mb-2">Week 5-6</div>
-              <ul className="text-gray-700 space-y-1 text-sm">
+              <ul className="text-gray-700 dark:text-gray-200 space-y-1 text-sm">
                 <li>• Full-length mock exams</li>
                 <li>• Review all explanations</li>
                 <li>• Final preparation</li>
@@ -332,7 +332,7 @@ function Results() {
         </button>
         <button
           onClick={() => navigate('/')}
-          className="px-8 py-3 bg-white border-2 border-gray-300 text-gray-700 rounded-xl font-semibold hover:bg-gray-50 transition-colors"
+          className="px-8 py-3 bg-white dark:bg-black border-2 border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl font-semibold hover:bg-gray-50 transition-colors"
         >
           Back to Dashboard
         </button>

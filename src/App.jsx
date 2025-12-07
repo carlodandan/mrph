@@ -15,7 +15,7 @@ function App() {
   return (
     <ErrorBoundary>
       <Router>
-        <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50">
+        <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50 dark:from-gray-500 dark:to-gray-950">
           <DisclaimerModal />
           <Header />
           
