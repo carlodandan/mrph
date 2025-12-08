@@ -1194,7 +1194,7 @@
     ],
     "correctAnswer": "d",
     "explanation": "The odd numbers are 61, 63, ..., 119. There are 30 terms. Sum = (n/2) * (first + last) = (30/2) * (61 + 119) = 15 * 180 = 2700.",
-    "category": "Mathematics/Sequences and Series",
+    "category": "Numerical Ability",
     "difficulty": "difficult",
     "language": "english"
   },
