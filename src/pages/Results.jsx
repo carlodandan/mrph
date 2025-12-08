@@ -38,113 +38,203 @@ function Results() {
 
   const handleDownloadPDF = async () => {
     if (!result) return;
-    
+
     setIsGeneratingPDF(true);
-    
+
     try {
-      // Dynamic import for jsPDF
-      const { jsPDF } = await import('jspdf');
-      
-      // Create PDF document
-      const doc = new jsPDF({
-        orientation: 'portrait',
-        unit: 'mm',
-        format: 'a4'
-      });
+        // Dynamic import for jsPDF
+        const { jsPDF } = await import('jspdf');
 
-      // Set font
-      doc.setFont('helvetica');
+        // Create PDF document
+        const doc = new jsPDF({
+            orientation: 'portrait',
+            unit: 'mm',
+            format: 'a4'
+        });
 
-      // Title
-      doc.setFontSize(20);
-      doc.setTextColor(59, 130, 246); // Blue color
-      doc.text('Civil Service Mock Exam Results', 105, 20, { align: 'center' });
-      
-      // Exam info
-      doc.setFontSize(12);
-      doc.setTextColor(0, 0, 0); // Black
-      doc.text(`Exam Type: ${result.examType === 'professional' ? 'Professional Level' : 'Sub-Professional Level'}`, 20, 35);
-      doc.text(`Date: ${new Date(result.date).toLocaleDateString()}`, 20, 42);
-      doc.text(`Language: ${result.language === 'english' ? 'English' : 'Filipino'}`, 20, 49);
-      
-      // Score summary
-      doc.setFontSize(16);
-      doc.setTextColor(59, 130, 246);
-      doc.text('Score Summary', 20, 65);
-      
-      doc.setFontSize(12);
-      doc.setTextColor(0, 0, 0);
-      doc.text(`Score: ${result.score}/${result.totalQuestions}`, 20, 75);
-      doc.text(`Percentage: ${Math.round((result.score / result.totalQuestions) * 100)}%`, 20, 82);
-      doc.text(`Time Taken: ${result.timeTaken}`, 20, 89);
-      doc.text(`Questions Answered: ${result.answersCount || 0}/${result.totalQuestions}`, 20, 96);
-      
-      // Category Scores
-      doc.setFontSize(16);
-      doc.setTextColor(59, 130, 246);
-      doc.text('Category Performance', 20, 110);
-      
-      doc.setFontSize(10);
-      doc.setTextColor(0, 0, 0);
-      
-      let yPos = 120;
-      if (result.categoryScores) {
-        Object.entries(result.categoryScores).forEach(([category, scores]) => {
-          if (yPos > 270) {
+        // --- STYLING CONSTANTS ---
+        const PRIMARY_COLOR = [59, 130, 246]; // Blue
+        const LIGHT_BG_COLOR = [240, 245, 255]; // Very light blue
+        const TEXT_COLOR = [30, 41, 59]; // Dark Slate
+        const MUTED_COLOR = [100, 116, 139]; // Gray
+
+        // Helper to reset text styles
+        const resetText = () => {
+            doc.setTextColor(...TEXT_COLOR);
+            doc.setFont('helvetica', 'normal');
+        };
+
+        // --- HEADER SECTION ---
+        doc.setFillColor(...PRIMARY_COLOR);
+        doc.rect(0, 0, 210, 40, 'F'); // Blue header background
+
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(22);
+        doc.setTextColor(255, 255, 255);
+        doc.text('Civil Service Mock Exam Results', 105, 20, { align: 'center' });
+        
+        doc.setFontSize(10);
+        doc.setFont('helvetica', 'normal');
+        doc.text('Unofficial Result - Mock Reviewer PH (CSE)', 105, 30, { align: 'center' });
+
+        // --- INFO GRID SECTION (2 Columns) ---
+        let yPos = 60;
+        
+        // Left Column: Exam Details
+        doc.setFontSize(14);
+        doc.setTextColor(...PRIMARY_COLOR);
+        doc.setFont('helvetica', 'bold');
+        doc.text('Exam Details', 20, 55);
+
+        doc.setFontSize(11);
+        doc.setTextColor(...MUTED_COLOR);
+        doc.setFont('helvetica', 'normal');
+        
+        // Helper to draw label-value pairs
+        const drawRow = (label, value, x, y) => {
+            doc.setFont('helvetica', 'bold');
+            doc.text(label, x, y);
+            doc.setFont('helvetica', 'normal');
+            doc.text(value, x + 35, y);
+        };
+
+        resetText();
+        drawRow('Exam Type:', result.examType === 'professional' ? 'Professional Level' : 'Sub-Professional Level', 20, yPos);
+        drawRow('Date:', new Date(result.date).toLocaleDateString(), 20, yPos + 8);
+        drawRow('Language:', result.language === 'english' ? 'English' : 'English/Filipino', 20, yPos + 16);
+
+        // Right Column: Score Snapshot
+        doc.setFontSize(14);
+        doc.setTextColor(...PRIMARY_COLOR);
+        doc.setFont('helvetica', 'bold');
+        doc.text('Score Overview', 110, 55);
+
+        resetText();
+        // Calculate Percentage Color
+        const percentageVal = Math.round((result.score / result.totalQuestions) * 100);
+        const isPassing = percentageVal >= 80;
+        
+        // Draw a big score box
+        doc.setFillColor(...LIGHT_BG_COLOR);
+        doc.roundedRect(110, 58, 80, 25, 3, 3, 'F');
+        
+        doc.setFontSize(10);
+        doc.setTextColor(...MUTED_COLOR);
+        doc.text('FINAL SCORE', 115, 66);
+        
+        doc.setFontSize(20);
+        doc.setFont('helvetica', 'bold');
+        doc.setTextColor(...(isPassing ? [22, 163, 74] : PRIMARY_COLOR)); // Green if passing, else Blue
+        doc.text(`${result.score}/${result.totalQuestions}`, 115, 76);
+        
+        doc.setFontSize(14);
+        doc.text(`${percentageVal}%`, 185, 76, { align: 'right' });
+
+        // Stats below box
+        yPos = 95;
+        resetText();
+        doc.setFontSize(10);
+        drawRow('Time Taken:', result.timeTaken, 110, yPos - 6);
+        drawRow('Answered:', `${result.answersCount || 0}/${result.totalQuestions}`, 110, yPos + 2);
+
+        // Divider Line
+        doc.setDrawColor(226, 232, 240);
+        doc.line(20, 105, 190, 105);
+
+        // --- CATEGORY PERFORMANCE SECTION ---
+        yPos = 120;
+        doc.setFontSize(14);
+        doc.setTextColor(...PRIMARY_COLOR);
+        doc.setFont('helvetica', 'bold');
+        doc.text('Category Performance', 20, yPos);
+        yPos += 10;
+
+        doc.setFontSize(11);
+        
+        if (result.categoryScores) {
+            Object.entries(result.categoryScores).forEach(([category, scores], index) => {
+                if (yPos > 260) {
+                    doc.addPage();
+                    yPos = 20;
+                }
+
+                // Zebra striping for better readability
+                if (index % 2 === 0) {
+                    doc.setFillColor(...LIGHT_BG_COLOR);
+                    doc.rect(20, yPos - 6, 170, 10, 'F');
+                }
+
+                // Category Name
+                resetText();
+                doc.text(category, 25, yPos);
+
+                // Score Details (Right aligned logic)
+                doc.setFont('helvetica', 'bold');
+                const scoreText = `${scores.correct}/${scores.total}`;
+                const percText = `(${scores.percentage}%)`;
+                
+                doc.text(scoreText, 160, yPos, { align: 'right' });
+                
+                doc.setTextColor(...PRIMARY_COLOR);
+                doc.text(percText, 185, yPos, { align: 'right' });
+
+                yPos += 10;
+            });
+        }
+
+        // --- SUMMARY BOX ---
+        yPos += 5;
+        if (yPos > 240) {
             doc.addPage();
             yPos = 20;
-          }
-          
-          doc.text(`${category}: ${scores.correct}/${scores.total} (${scores.percentage}%)`, 20, yPos);
-          yPos += 7;
-        });
-      }
-      
-      // Performance Summary
-      if (yPos > 250) {
-        doc.addPage();
-        yPos = 20;
-      }
-      
-      doc.setFontSize(16);
-      doc.setTextColor(59, 130, 246);
-      doc.text('Performance Summary', 20, yPos);
-      yPos += 10;
-      
-      doc.setFontSize(11);
-      doc.setTextColor(0, 0, 0);
-      
-      const percentage = Math.round((result.score / result.totalQuestions) * 100);
-      let summaryText = '';
-      if (percentage >= 80) {
-        summaryText = "Excellent! You're well-prepared for the actual Civil Service Exam.";
-      } else if (percentage >= 60) {
-        summaryText = "Good effort! Review the areas where you struggled.";
-      } else {
-        summaryText = "Needs improvement. Focus on studying key concepts and practice more.";
-      }
-      
-      const splitText = doc.splitTextToSize(summaryText, 170);
-      doc.text(splitText, 20, yPos);
-      yPos += splitText.length * 7 + 10;
-      
-      // Footer
-      doc.setFontSize(10);
-      doc.setTextColor(128, 128, 128);
-      doc.text('Unofficial Result - Mock Reviewer PH (CSE)', 105, 290, { align: 'center' });
-      doc.text(new Date().toLocaleDateString(), 105, 295, { align: 'center' });
-      
-      // Save PDF
-      const fileName = `csc-exam-results-${result.examType}-${new Date().toISOString().split('T')[0]}.pdf`;
-      doc.save(fileName);
-      
+        }
+
+        // Background Box for Summary
+        doc.setFillColor(...LIGHT_BG_COLOR);
+        doc.setDrawColor(...PRIMARY_COLOR);
+        doc.roundedRect(20, yPos, 170, 35, 3, 3, 'FD'); // Fill and Draw border
+
+        doc.setFontSize(12);
+        doc.setTextColor(...PRIMARY_COLOR);
+        doc.setFont('helvetica', 'bold');
+        doc.text('Performance Verdict', 28, yPos + 10);
+
+        doc.setFontSize(11);
+        doc.setTextColor(...TEXT_COLOR);
+        doc.setFont('helvetica', 'normal');
+
+        let summaryText = '';
+        if (percentageVal >= 80) {
+            summaryText = "Excellent! You're well-prepared for the actual Civil Service Exam.";
+        } else if (percentageVal >= 60) {
+            summaryText = "Good effort! Review the areas where you struggled to improve your score.";
+        } else {
+            summaryText = "Needs improvement. Focus on studying key concepts and practice more.";
+        }
+
+        const splitText = doc.splitTextToSize(summaryText, 155);
+        doc.text(splitText, 28, yPos + 20);
+
+        // --- FOOTER ---
+        const pageHeight = doc.internal.pageSize.height;
+        doc.setDrawColor(200, 200, 200);
+        doc.line(20, pageHeight - 20, 190, pageHeight - 20);
+        
+        doc.setFontSize(9);
+        doc.setTextColor(150, 150, 150);
+        doc.text(`Generated on ${new Date().toLocaleDateString()} at ${new Date().toLocaleTimeString()}`, 105, pageHeight - 12, { align: 'center' });
+
+        // Save PDF
+        const fileName = `csc-exam-results-${result.examType}-${new Date().toISOString().split('T')[0]}.pdf`;
+        doc.save(fileName);
+
     } catch (error) {
-      console.error('Error generating PDF:', error);
-      alert('Failed to generate PDF. Please try again.');
+        console.error('Error generating PDF:', error);
+        alert('Failed to generate PDF. Please try again.');
     } finally {
-      setIsGeneratingPDF(false);
+        setIsGeneratingPDF(false);
     }
-  };
+};
 
   if (isLoading) {
     return <LoadingSpinner message="Loading results..." />;
