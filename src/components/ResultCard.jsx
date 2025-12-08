@@ -126,7 +126,7 @@ function ResultCard({ result }) {
       )}
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-white dark:bg-gray-950 p-4 rounded-xl border border-gray-200">
+        <div className="bg-white dark:bg-gray-950 p-2 rounded-xl border border-gray-200">
           <div className="flex items-center space-x-3">
             <Target className="w-5 h-5 text-blue-600" />
             <div>
@@ -136,7 +136,7 @@ function ResultCard({ result }) {
           </div>
         </div>
         
-        <div className="bg-white dark:bg-gray-950 p-4 rounded-xl border border-gray-200">
+        <div className="bg-white dark:bg-gray-950 p-2 rounded-xl border border-gray-200">
           <div className="flex items-center space-x-3">
             <BarChart3 className="w-5 h-5 text-purple-600" />
             <div>
@@ -146,7 +146,7 @@ function ResultCard({ result }) {
           </div>
         </div>
         
-        <div className="bg-white dark:bg-gray-950 p-4 rounded-xl border border-gray-200">
+        <div className="bg-white dark:bg-gray-950 p-2 rounded-xl border border-gray-200">
           <div className="flex items-center space-x-3">
             <Clock className="w-5 h-5 text-green-600" />
             <div>
@@ -156,7 +156,7 @@ function ResultCard({ result }) {
           </div>
         </div>
         
-        <div className="bg-white dark:bg-gray-950 p-4 rounded-xl border border-gray-200">
+        <div className="bg-white dark:bg-gray-950 p-2 rounded-xl border border-gray-200">
           <div className="flex items-center space-x-3">
             <Info className="w-5 h-5 text-yellow-600" />
             <div>

@@ -278,7 +278,7 @@ function Results() {
             <button
               onClick={handleDownloadPDF}
               disabled={isGeneratingPDF}
-              className="flex items-center space-x-2 px-4 py-2 bg-linear-to-r from-red-500 to-red-600 text-white rounded-xl font-medium hover:from-red-600 hover:to-red-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex items-center space-x-2 px-3 py-2 bg-linear-to-r from-red-500 to-red-600 text-white rounded-xl font-medium hover:from-red-600 hover:to-red-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isGeneratingPDF ? (
                 <>
@@ -288,17 +288,17 @@ function Results() {
               ) : (
                 <>
                   <FileText className="w-4 h-4" />
-                  <span>Download PDF</span>
+                  <span className="text-sm">PDF</span>
                 </>
               )}
             </button>
           </div>
           <button
             onClick={handleDownloadJSON}
-            className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-gray-950 border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 hover:dark:bg-gray-500 transition-colors"
+            className="flex items-center space-x-2 px-3 py-2 bg-white dark:bg-gray-950 border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 hover:dark:bg-gray-500 transition-colors"
           >
             <Download className="w-4 h-4" />
-            <span>Download JSON</span>
+            <span className="text-sm">JSON</span>
           </button>
           <button
             onClick={() => {
@@ -314,17 +314,17 @@ function Results() {
                 alert('Results copied to clipboard!');
               }
             }}
-            className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-gray-950 border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 hover:dark:bg-gray-500 transition-colors"
+            className="flex items-center space-x-2 px-3 py-2 bg-white dark:bg-gray-950 border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 hover:dark:bg-gray-500 transition-colors"
           >
             <Share2 className="w-4 h-4" />
-            <span>Share</span>
+            <span className="text-sm">Share</span>
           </button>
           <button
             onClick={handleRetakeExam}
             className="flex items-center space-x-2 px-4 py-2 bg-linear-to-r from-blue-500 to-purple-500 text-white rounded-xl font-medium hover:from-blue-600 hover:to-purple-600 transition-all"
           >
             <RotateCcw className="w-4 h-4" />
-            <span>Retake Exam</span>
+            <span className="text-sm">Retake?</span>
           </button>
         </div>
       </div>
