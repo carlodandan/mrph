@@ -36,10 +36,10 @@ function DisclaimerModal() {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 p-4">
-      <div className="bg-white dark:bg-black rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-gray-950/80 p-4">
+      <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
         {/* Header */}
-        <div className="sticky top-0 bg-white dark:bg-black p-6 border-b border-gray-200 z-10">
+        <div className="sticky top-0 bg-white dark:bg-gray-950 p-6 border-b border-gray-200 z-10">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="p-2 bg-yellow-100 rounded-lg">
@@ -47,7 +47,7 @@ function DisclaimerModal() {
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-gray-80 dark:text-white">Important Disclaimer</h2>
-                <p className="text-gray-600 dark:text-amber-100 mt-1">Please read carefully before proceeding</p>
+                <p className="text-gray-600 dark:text-gray-200 mt-1">Please read carefully before proceeding</p>
               </div>
             </div>
             <button
@@ -94,7 +94,7 @@ function DisclaimerModal() {
                   </p>
                 </div>
 
-                <div className="p-4 bg-purple-50 rounded-xl border border-purple-200">
+                <div className="p-4 bg-purple-50 dark:bg-purple-950 rounded-xl border border-purple-200">
                   <div className="flex items-center space-x-3 mb-3">
                     <div className="p-2 bg-purple-100 rounded-lg">
                       <span className="font-bold text-purple-700">👥</span>
@@ -118,7 +118,7 @@ function DisclaimerModal() {
                   </p>
                 </div>
 
-                <div className="p-4 bg-red-50 rounded-xl border border-red-200">
+                <div className="p-4 bg-red-50 dark:bg-red-950 rounded-xl border border-red-200">
                   <div className="flex items-center space-x-3 mb-3">
                     <div className="p-2 bg-red-100 rounded-lg">
                       <span className="font-bold text-red-700">⚖️</span>
@@ -164,7 +164,7 @@ function DisclaimerModal() {
             </div>
 
             {/* Checkbox */}
-            <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+            <div className="mt-6 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg">
               <label className="flex items-start space-x-3 cursor-pointer">
                 <input
                   type="checkbox"
@@ -176,7 +176,7 @@ function DisclaimerModal() {
                   <span className="text-gray-80 dark:text-white font-medium">
                     Don't show this message again
                   </span>
-                  <p className="text-gray-600 dark:text-amber-100 text-sm mt-1">
+                  <p className="text-gray-600 dark:text-gray-200 text-sm mt-1">
                     You can always view this disclaimer from the settings or footer
                   </p>
                 </div>
@@ -186,11 +186,11 @@ function DisclaimerModal() {
         </div>
 
         {/* Footer */}
-        <div className="sticky bottom-0 bg-white dark:bg-black p-6 border-t border-gray-200">
+        <div className="sticky bottom-0 bg-white dark:bg-gray-950 p-6 border-t border-gray-200">
           <div className="flex flex-col sm:flex-row gap-4">
             <button
               onClick={() => window.open('https://csc.gov.ph', '_blank', 'noopener,noreferrer')}
-              className="flex-1 py-4 bg-white dark:bg-black border-2 border-blue-600 text-blue-700 rounded-xl font-bold hover:bg-blue-50 dark:bg-gray-900 transition-colors flex items-center justify-center space-x-2"
+              className="flex-1 py-4 bg-white dark:bg-gray-950 border-2 border-blue-600 text-blue-700 rounded-xl font-bold hover:bg-blue-50 dark:bg-gray-900 transition-colors flex items-center justify-center space-x-2"
             >
               <span>🌐</span>
               <span>Visit Official CSC Website</span>

@@ -88,7 +88,7 @@ function Tutorial() {
           <div className="flex items-center space-x-4">
             <Link
               to="/"
-              className="flex items-center space-x-2 text-gray-600 dark:text-amber-100 hover:text-gray-80 dark:text-white font-medium"
+              className="flex items-center space-x-2 text-gray-600 dark:text-gray-200 hover:text-gray-80 dark:text-white font-medium"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Back to Home</span>
@@ -100,7 +100,7 @@ function Tutorial() {
           </h1>
         </div>
 
-        <p className="text-gray-600 dark:text-amber-100 text-center md:text-left mb-4">
+        <p className="text-gray-600 dark:text-gray-200 text-center md:text-left mb-4">
           Watch detailed guides for each exam type to maximize your preparation
         </p>
       </div>
@@ -111,7 +111,7 @@ function Tutorial() {
         <div className="lg:w-2/3">
           <div id="video-player" className="mb-8">
             {selectedVideo ? (
-              <div className="bg-white dark:bg-black rounded-2xl shadow-xl overflow-hidden">
+              <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-xl overflow-hidden">
                 <div className="p-4 bg-linear-to-r from-gray-800 to-gray-900">
                   <div className="flex items-center space-x-3">
                     <div className={`p-2 rounded-lg bg-linear-to-br ${selectedVideo.color}`}>
@@ -160,7 +160,7 @@ function Tutorial() {
                       <ul className="space-y-2">
                         {selectedVideo.features.map((feature, index) => (
                           <li key={index} className="flex items-start">
-                            <div className="w-2 h-2 bg-blue-50 dark:bg-gray-9000 rounded-full mt-2 mr-3"></div>
+                            <div className="w-2 h-2 bg-blue-50 dark:bg-gray-900 rounded-full mt-2 mr-3"></div>
                             <span className="text-gray-700 dark:text-gray-200">{feature}</span>
                           </li>
                         ))}
@@ -169,7 +169,7 @@ function Tutorial() {
                     
                     <div>
                       <h4 className="font-semibold text-gray-80 dark:text-white mb-3">Ready to Practice?</h4>
-                      <p className="text-gray-600 dark:text-amber-100 mb-4">
+                      <p className="text-gray-600 dark:text-gray-200 mb-4">
                         After watching this tutorial, apply what you've learned with our interactive exam.
                       </p>
                       <Link
@@ -187,7 +187,7 @@ function Tutorial() {
                 <div className="text-center p-8">
                   <Play className="w-16 h-16 text-gray-400 mx-auto mb-4" />
                   <h3 className="text-xl font-bold text-gray-700 dark:text-gray-200 mb-2">Select a Tutorial to Begin</h3>
-                  <p className="text-gray-600 dark:text-amber-100 max-w-md">
+                  <p className="text-gray-600 dark:text-gray-200 max-w-md">
                     Choose from our comprehensive exam guides to start your preparation journey.
                   </p>
                 </div>
@@ -198,9 +198,9 @@ function Tutorial() {
 
         {/* Right Column - Video Selection */}
         <div className="lg:w-1/3">
-          <div className="bg-white dark:bg-black rounded-2xl shadow-lg p-6 sticky top-6">
+          <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-lg p-6 sticky top-6">
             <h3 className="text-xl font-bold text-gray-80 dark:text-white mb-6">Exam Tutorials</h3>
-            <p className="text-gray-600 dark:text-amber-100 mb-6">
+            <p className="text-gray-600 dark:text-gray-200 mb-6">
               Select a tutorial below to learn about each exam type and get preparation tips.
             </p>
             
@@ -234,7 +234,7 @@ function Tutorial() {
                       </div>
                     </div>
                     
-                    <div className={`w-3 h-3 rounded-full ${selectedVideo?.id === video.id ? 'bg-blue-50 dark:bg-gray-9000' : 'bg-gray-300'}`}></div>
+                    <div className={`w-3 h-3 rounded-full ${selectedVideo?.id === video.id ? 'bg-blue-50 dark:bg-gray-900' : 'bg-gray-300'}`}></div>
                   </div>
                 </div>
               ))}
@@ -245,15 +245,15 @@ function Tutorial() {
               <h4 className="font-semibold text-gray-80 dark:text-white mb-4">Exam Overview</h4>
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600 dark:text-amber-100">Total Tutorials</span>
+                  <span className="text-gray-600 dark:text-gray-200">Total Tutorials</span>
                   <span className="font-semibold text-gray-80 dark:text-white">3</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600 dark:text-amber-100">Total Duration</span>
+                  <span className="text-gray-600 dark:text-gray-200">Total Duration</span>
                   <span className="font-semibold text-gray-80 dark:text-white">4mins. and 36secs.</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600 dark:text-amber-100">Last Updated</span>
+                  <span className="text-gray-600 dark:text-gray-200">Last Updated</span>
                   <span className="font-semibold text-gray-80 dark:text-white">December 2025</span>
                 </div>
               </div>
@@ -263,7 +263,7 @@ function Tutorial() {
             <div className="mt-8">
               <Link
                 to="/"
-                className="block w-full text-center px-4 py-3 bg-linear-to-r from-blue-50 to-purple-50 text-blue-700 rounded-xl font-semibold border-2 border-blue-200 hover:border-blue-300 hover:bg-linear-to-r hover:from-blue-100 hover:to-purple-100 transition-all"
+                className="block w-full text-center px-4 py-3 bg-linear-to-r from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-950 text-blue-700 rounded-xl font-semibold border-2 border-blue-200 hover:border-blue-300 hover:bg-linear-to-r hover:from-blue-100 hover:to-purple-100 transition-all"
               >
                 ← Return to Home Page
               </Link>
@@ -274,7 +274,7 @@ function Tutorial() {
 
       {/* Additional Information */}
       <div className="mt-12">
-        <div className="bg-linear-to-r from-blue-50 to-cyan-50 rounded-2xl p-8">
+        <div className="bg-linear-to-r from-blue-50 to-cyan-50 dark:from-gray-900 dark:to-gray-950 rounded-2xl p-8">
           <h3 className="text-2xl font-bold text-gray-80 dark:text-white mb-4 text-center">
             Need More Help?
           </h3>
@@ -284,7 +284,7 @@ function Tutorial() {
                 <FileText className="w-6 h-6 text-blue-600" />
               </div>
               <h4 className="font-bold text-gray-80 dark:text-white mb-2">Exam Guidelines</h4>
-              <p className="text-gray-600 dark:text-amber-100 text-sm">
+              <p className="text-gray-600 dark:text-gray-200 text-sm">
                 Review official exam rules, time limits, and question formats.
               </p>
             </div>
@@ -294,7 +294,7 @@ function Tutorial() {
                 <Users className="w-6 h-6 text-green-600" />
               </div>
               <h4 className="font-bold text-gray-80 dark:text-white mb-2">Community Support</h4>
-              <p className="text-gray-600 dark:text-amber-100 text-sm">
+              <p className="text-gray-600 dark:text-gray-200 text-sm">
                 Join our community for tips, discussions, and peer support.
               </p>
             </div>
@@ -304,7 +304,7 @@ function Tutorial() {
                 <TrendingUp className="w-6 h-6 text-purple-600" />
               </div>
               <h4 className="font-bold text-gray-80 dark:text-white mb-2">Progress Tracking</h4>
-              <p className="text-gray-600 dark:text-amber-100 text-sm">
+              <p className="text-gray-600 dark:text-gray-200 text-sm">
                 Monitor your improvement with detailed analytics and reports.
               </p>
             </div>

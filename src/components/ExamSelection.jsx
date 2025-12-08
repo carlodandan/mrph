@@ -42,7 +42,7 @@ function ExamSelection() {
     <div className="py-8">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold text-gray-80 dark:text-white mb-3">Choose Your Exam Type</h2>
-        <p className="text-gray-600 dark:text-amber-100 max-w-2xl mx-auto">
+        <p className="text-gray-600 dark:text-gray-200 max-w-2xl mx-auto">
           Select the Civil Service Exam level that matches your qualifications and goals
         </p>
       </div>
@@ -61,13 +61,13 @@ function ExamSelection() {
                 <div className={`p-3 rounded-xl bg-linear-to-br ${exam.color} text-white`}>
                   {exam.icon}
                 </div>
-                <span className="px-3 py-1 bg-white dark:bg-black rounded-full text-xs font-semibold text-gray-700 dark:text-gray-200 shadow-sm">
+                <span className="px-3 py-1 bg-white dark:bg-gray-950 rounded-full text-xs font-semibold text-gray-700 dark:text-gray-200 shadow-sm">
                   {exam.difficulty}
                 </span>
               </div>
 
               <h3 className="text-xl font-bold text-gray-80 dark:text-white mb-2">{exam.title}</h3>
-              <p className="text-gray-600 dark:text-amber-100 mb-6">{exam.description}</p>
+              <p className="text-gray-600 dark:text-gray-200 mb-6">{exam.description}</p>
 
               <div className="flex items-center justify-between text-sm text-gray-700 dark:text-gray-200">
                 <div className="flex items-center space-x-2">
@@ -81,7 +81,7 @@ function ExamSelection() {
               </div>
 
               <div className="mt-6">
-                <button className="w-full py-3 bg-white dark:bg-black text-gray-80 dark:text-white font-semibold rounded-xl border-2 border-gray-200 group-hover:border-gray-300 group-hover:bg-gray-50 transition-all">
+                <button className="w-full py-3 bg-white dark:bg-gray-900 text-gray-950 dark:text-white font-semibold rounded-xl border-2 border-gray-200 group-hover:border-gray-500 group-hover:bg-gray-50 group-hover:dark:text-gray-950 transition-all">
                   Start Exam
                 </button>
               </div>
@@ -91,9 +91,9 @@ function ExamSelection() {
       </div>
 
       <div className="mt-10 text-center">
-        <div className="inline-flex items-center space-x-2 px-4 py-2 bg-white dark:bg-black rounded-full shadow-md">
-          <div className="w-2 h-2 bg-green-50 dark:bg-gray-9000 rounded-full animate-pulse"></div>
-          <span className="text-sm text-gray-600 dark:text-amber-100">Some questions here are generated via AI (Gemini, Deepseek and ChatGPT), some are from social media groups and old reviewer from a review center. If you see inconsistency, please submit a report.</span>
+        <div className="inline-flex items-center space-x-2 px-4 py-2 bg-white dark:bg-gray-950 rounded-full shadow-md">
+          <div className="w-2 h-2 bg-green-50 dark:bg-gray-900 rounded-full animate-pulse"></div>
+          <span className="text-sm text-gray-600 dark:text-gray-200">Some questions here are generated via AI (Gemini, Deepseek and ChatGPT), some are from social media groups and old reviewer from a review center. If you see inconsistency, please submit a report.</span>
         </div>
       </div>
     </div>

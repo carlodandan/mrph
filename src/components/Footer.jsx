@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="py-2 border-t border-gray-200">
       <div className="container mx-auto px-4">
-        <div className="text-center text-gray-600 dark:text-amber-100">
+        <div className="text-center text-gray-600 dark:text-gray-200">
           <p className="mb-4">
             This is an unofficial mock exam / reviewer tool. Always refer to the official 
             Civil Service Commission website for the most accurate information.

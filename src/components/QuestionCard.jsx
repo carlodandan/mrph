@@ -58,11 +58,11 @@ function QuestionCard({
 
   return (
     <>
-      <div className="bg-white dark:bg-black rounded-2xl shadow-xl p-6 md:p-8 fade-in">
+      <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-xl p-6 md:p-8 fade-in">
         {/* Progress Bar */}
         <div className="mb-4">
           <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-medium text-gray-600 dark:text-amber-100">
+            <span className="text-sm font-medium text-gray-600 dark:text-gray-200">
               Question {questionNumber} of {totalQuestions}
             </span>
             <span className="text-sm font-semibold text-blue-600">
@@ -98,7 +98,7 @@ function QuestionCard({
 
             {question.category && (
               <div className="inline-flex items-center px-3 py-1 bg-gray-100 dark:bg-gray-950 rounded-full">
-                <span className="text-xs font-medium text-gray-600 dark:text-amber-100">{question.category}</span>
+                <span className="text-xs font-medium text-gray-600 dark:text-gray-200">{question.category}</span>
               </div>
             )}
           </div>
@@ -120,7 +120,7 @@ function QuestionCard({
                   />
                   <button
                     onClick={() => setIsImageZoomed(true)}
-                    className="absolute top-3 right-3 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full backdrop-blur-sm transition-all"
+                    className="absolute top-3 right-3 bg-gray-950/60 hover:bg-gray-950/80 text-white p-2 rounded-full backdrop-blur-sm transition-all"
                     title="Zoom image"
                   >
                     <Maximize2 className="w-4 h-4" />
@@ -152,7 +152,7 @@ function QuestionCard({
 
         {/* Options */}
         <div className="space-y-4 mb-8">
-          <h4 className="text-sm font-semibold text-gray-600 dark:text-amber-100 uppercase tracking-wide mb-2">
+          <h4 className="text-sm font-semibold text-gray-600 dark:text-gray-200 uppercase tracking-wide mb-2">
             Select your answer:
           </h4>
           {question.options && question.options.map((option, index) => {
@@ -164,12 +164,12 @@ function QuestionCard({
                 className={`w-full p-2 rounded-xl border-2 text-left transition-all duration-200 ${
                   isSelected
                     ? 'border-blue-500 bg-blue-50 dark:bg-gray-900 shadow-md transform scale-[1.02]'
-                    : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50'
+                    : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50 hover:dark:bg-gray-800'
                 }`}
               >
                 <div className="flex items-center space-x-4">
                   <div className={`w-8 h-8 flex items-center justify-center rounded-lg ${
-                    isSelected ? 'bg-blue-50 dark:bg-gray-9000 text-white' : 'bg-gray-100 dark:bg-gray-950 text-gray-600 dark:text-amber-100'
+                    isSelected ? 'bg-blue-50 dark:bg-gray-600 text-gray-950 dark:text-gray-50' : 'bg-gray-200 dark:bg-gray-600 text-gray-950 dark:text-gray-50'
                   }`}>
                     {isSelected ? (
                       <CheckCircle className="w-5 h-5" />
@@ -177,7 +177,7 @@ function QuestionCard({
                       <span className="font-bold">{getLetter(index)}</span>
                     )}
                   </div>
-                  <div className="flex-1 text-gray-80 dark:text-white">
+                  <div className="flex-1 text-gray-950 dark:text-gray-50">
                     {containsLatex(option.text) ? (
                       renderTextWithLatex(option.text)
                     ) : (
@@ -202,7 +202,7 @@ function QuestionCard({
               className={`px-4 py-2 font-medium ${
                 !localSelected 
                   ? 'text-gray-400 cursor-not-allowed' 
-                  : 'text-gray-600 dark:text-amber-100 hover:text-gray-80 dark:text-white'
+                  : 'text-gray-600 dark:text-gray-200 hover:text-gray-80 dark:text-white'
               }`}
               disabled={!localSelected}
             >
@@ -214,7 +214,7 @@ function QuestionCard({
 
       {/* Image zoom modal */}
       {isImageZoomed && question.src && (
-        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
+        <div className="fixed inset-0 bg-gray-950/90 z-50 flex items-center justify-center p-4">
           <div className="relative max-w-6xl max-h-[90vh]">
             <img 
               src={question.src}
@@ -223,13 +223,13 @@ function QuestionCard({
             />
             <button
               onClick={() => setIsImageZoomed(false)}
-              className="absolute top-4 right-4 bg-black/70 hover:bg-black text-white p-3 rounded-full backdrop-blur-sm transition-all"
+              className="absolute top-4 right-4 bg-gray-950/70 hover:bg-gray-950 text-white p-3 rounded-full backdrop-blur-sm transition-all"
               title="Close zoom"
             >
               <X className="w-6 h-6" />
             </button>
             <div className="absolute bottom-4 left-0 right-0 text-center">
-              <div className="inline-block bg-black/70 text-white text-sm px-4 py-2 rounded-lg backdrop-blur-sm">
+              <div className="inline-block bg-gray-950/70 text-white text-sm px-4 py-2 rounded-lg backdrop-blur-sm">
                 {question.imageAlt || "Question image"}
               </div>
             </div>

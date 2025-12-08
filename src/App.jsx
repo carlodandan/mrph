@@ -15,16 +15,15 @@ function App() {
   return (
     <ErrorBoundary>
       <Router>
-        <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50 dark:from-gray-500 dark:to-gray-950">
+        <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-950">
           <DisclaimerModal />
           <Header />
-          
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/exam/:type" element={<Exam />} />
-            <Route path="/results" element={<Results />} />
-            <Route path="/tutorial" element={<Tutorial />} />
-          </Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/exam/:type" element={<Exam />} />
+              <Route path="/results" element={<Results />} />
+              <Route path="/tutorial" element={<Tutorial />} />
+            </Routes>
           <Footer />
         </div>
       </Router>

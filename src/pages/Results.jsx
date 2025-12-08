@@ -153,9 +153,9 @@ function Results() {
   if (!result) {
     return (
       <div className="container mx-auto px-4 py-4 text-center">
-        <div className="max-w-md mx-auto bg-white dark:bg-black rounded-2xl shadow-lg p-8">
+        <div className="max-w-md mx-auto bg-white dark:bg-gray-950 rounded-2xl shadow-lg p-8">
           <h2 className="text-2xl font-bold text-gray-80 dark:text-white mb-4">No Results Found</h2>
-          <p className="text-gray-600 dark:text-amber-100 mb-6">
+          <p className="text-gray-600 dark:text-gray-200 mb-6">
             You haven't taken any exams yet. Start your preparation now!
           </p>
           <button
@@ -176,7 +176,7 @@ function Results() {
         <div className="flex items-center space-x-4">
           <button
             onClick={() => navigate('/')}
-            className="flex items-center space-x-2 text-gray-600 dark:text-amber-100 hover:text-gray-80 dark:text-white font-medium"
+            className="flex items-center space-x-2 text-gray-600 dark:text-gray-200 hover:text-gray-80 dark:text-white font-medium"
           >
             <ArrowLeft className="w-5 h-5" />
             <span>Back to Home</span>
@@ -205,7 +205,7 @@ function Results() {
           </div>
           <button
             onClick={handleDownloadJSON}
-            className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-black border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 transition-colors"
+            className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-gray-950 border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 transition-colors"
           >
             <Download className="w-4 h-4" />
             <span>Download JSON</span>
@@ -224,7 +224,7 @@ function Results() {
                 alert('Results copied to clipboard!');
               }
             }}
-            className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-black border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 transition-colors"
+            className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-gray-950 border border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl hover:bg-gray-50 transition-colors"
           >
             <Share2 className="w-4 h-4" />
             <span>Share</span>
@@ -245,7 +245,7 @@ function Results() {
       </div>
 
       {/* Study Recommendations */}
-      <div className="bg-white dark:bg-black rounded-2xl shadow-lg p-6 mb-8">
+      <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-lg p-6 mb-8">
         <h3 className="text-xl font-bold text-gray-80 dark:text-white mb-6">Study Recommendations</h3>
         
         <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -260,7 +260,7 @@ function Results() {
                 </div>
               ))}
             {!Object.entries(result.categoryScores || {}).some(([, scores]) => scores.percentage >= 80) && (
-              <p className="text-sm text-gray-600 dark:text-amber-100">Keep practicing to identify your strengths!</p>
+              <p className="text-sm text-gray-600 dark:text-gray-200">Keep practicing to identify your strengths!</p>
             )}
           </div>
           
@@ -275,7 +275,7 @@ function Results() {
                 </div>
               ))}
             {!Object.entries(result.categoryScores || {}).some(([, scores]) => scores.percentage < 60) && (
-              <p className="text-sm text-gray-600 dark:text-amber-100">Great job! Focus on maintaining your performance.</p>
+              <p className="text-sm text-gray-600 dark:text-gray-200">Great job! Focus on maintaining your performance.</p>
             )}
           </div>
           
@@ -332,7 +332,7 @@ function Results() {
         </button>
         <button
           onClick={() => navigate('/')}
-          className="px-8 py-3 bg-white dark:bg-black border-2 border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl font-semibold hover:bg-gray-50 transition-colors"
+          className="px-8 py-3 bg-white dark:bg-gray-950 border-2 border-gray-300 text-gray-700 dark:text-gray-200 rounded-xl font-semibold hover:bg-gray-50 transition-colors"
         >
           Back to Dashboard
         </button>

@@ -5,14 +5,14 @@ function ResultCard({ result }) {
   const [expandedQuestions, setExpandedQuestions] = useState({});
 
   const getScoreColor = (percentage) => {
-    if (percentage >= 80) return 'text-green-600';
-    if (percentage >= 60) return 'text-yellow-600';
+    if (percentage >= 80) return 'text-green-600 dark:text-green-900';
+    if (percentage >= 60) return 'text-yellow-600 dark:text-gray-900';
     return 'text-red-600';
   };
 
   const getScoreBgColor = (percentage) => {
-    if (percentage >= 80) return 'bg-green-100';
-    if (percentage >= 60) return 'bg-yellow-100';
+    if (percentage >= 80) return 'bg-green-100 dark:bg-gray-900';
+    if (percentage >= 60) return 'bg-yellow-100 dark:bg-gray-900';
     return 'bg-red-100';
   };
 
@@ -29,7 +29,7 @@ function ResultCard({ result }) {
   const hasEvaluations = result.evaluations && result.evaluations.length > 0;
 
   return (
-    <div className="bg-linear-to-br from-white to-blue-50 rounded-2xl shadow-xl p-6 md:p-8 border border-gray-200">
+    <div className="bg-linear-to-br from-white to-blue-50 dark:from-gray-950 dark:to-gray-800 rounded-2xl shadow-xl p-6 md:p-8 border border-gray-200">
       {/* Header */}
       <div className="flex items-center justify-between mb-8">
         <div className="flex items-center space-x-3">
@@ -38,7 +38,7 @@ function ResultCard({ result }) {
           </div>
           <div>
             <h3 className="text-xl font-bold text-gray-80 dark:text-white">Exam Results</h3>
-            <p className="text-gray-600 dark:text-amber-100">
+            <p className="text-gray-600 dark:text-gray-200">
               {result.examType === 'professional' ? 'Professional' : 'Sub-Professional'} Level • {new Date(result.date).toLocaleDateString()}
             </p>
           </div>
@@ -81,7 +81,7 @@ function ResultCard({ result }) {
             <span className={`text-4xl font-bold ${getScoreColor(percentage)}`}>
               {percentage}%
             </span>
-            <span className="text-gray-600 dark:text-amber-100">Score</span>
+            <span className="text-gray-600 dark:text-gray-200">Score</span>
           </div>
         </div>
       </div>
@@ -97,13 +97,13 @@ function ResultCard({ result }) {
                 <div key={category} className="flex items-center justify-between">
                   <span className="text-gray-700 dark:text-gray-200">{category}</span>
                   <div className="flex items-center space-x-3">
-                    <span className="text-sm text-gray-600 dark:text-amber-100">
+                    <span className="text-sm text-gray-600 dark:text-gray-200">
                       {scores.correct}/{scores.total}
                     </span>
                     <div className="w-32 bg-gray-200 rounded-full h-2">
                       <div 
                         className={`h-2 rounded-full ${
-                          categoryPercentage >= 80 ? 'bg-green-50 dark:bg-gray-9000' :
+                          categoryPercentage >= 80 ? 'bg-green-50 dark:bg-gray-900' :
                           categoryPercentage >= 60 ? 'bg-yellow-500' :
                           'bg-red-500'
                         }`}
@@ -126,41 +126,41 @@ function ResultCard({ result }) {
       )}
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-white dark:bg-black p-4 rounded-xl border border-gray-200">
+        <div className="bg-white dark:bg-gray-950 p-4 rounded-xl border border-gray-200">
           <div className="flex items-center space-x-3">
             <Target className="w-5 h-5 text-blue-600" />
             <div>
-              <p className="text-sm text-gray-600 dark:text-amber-100">Correct</p>
+              <p className="text-sm text-gray-600 dark:text-gray-200">Correct</p>
               <p className="text-2xl font-bold text-gray-80 dark:text-white">{result.score}</p>
             </div>
           </div>
         </div>
         
-        <div className="bg-white dark:bg-black p-4 rounded-xl border border-gray-200">
+        <div className="bg-white dark:bg-gray-950 p-4 rounded-xl border border-gray-200">
           <div className="flex items-center space-x-3">
             <BarChart3 className="w-5 h-5 text-purple-600" />
             <div>
-              <p className="text-sm text-gray-600 dark:text-amber-100">Total</p>
+              <p className="text-sm text-gray-600 dark:text-gray-200">Total</p>
               <p className="text-2xl font-bold text-gray-80 dark:text-white">{result.totalQuestions}</p>
             </div>
           </div>
         </div>
         
-        <div className="bg-white dark:bg-black p-4 rounded-xl border border-gray-200">
+        <div className="bg-white dark:bg-gray-950 p-4 rounded-xl border border-gray-200">
           <div className="flex items-center space-x-3">
             <Clock className="w-5 h-5 text-green-600" />
             <div>
-              <p className="text-sm text-gray-600 dark:text-amber-100">Time</p>
+              <p className="text-sm text-gray-600 dark:text-gray-200">Time</p>
               <p className="text-2xl font-bold text-gray-80 dark:text-white">{result.timeTaken}</p>
             </div>
           </div>
         </div>
         
-        <div className="bg-white dark:bg-black p-4 rounded-xl border border-gray-200">
+        <div className="bg-white dark:bg-gray-950 p-4 rounded-xl border border-gray-200">
           <div className="flex items-center space-x-3">
             <Info className="w-5 h-5 text-yellow-600" />
             <div>
-              <p className="text-sm text-gray-600 dark:text-amber-100">Answered</p>
+              <p className="text-sm text-gray-600 dark:text-gray-200">Answered</p>
               <p className="text-lg font-bold text-gray-80 dark:text-white">{result.answersCount || 0}/{result.totalQuestions}</p>
             </div>
           </div>
@@ -171,7 +171,7 @@ function ResultCard({ result }) {
       <div className="mb-8">
         <h4 className="text-lg font-semibold text-gray-80 dark:text-white mb-3">Performance Summary</h4>
         <div className={`p-4 rounded-xl ${getScoreBgColor(percentage)}`}>
-          <p className="text-gray-700 dark:text-gray-200">
+          <p className="text-gray-700 dark:text-gray-950">
             {percentage >= 80 
               ? "Excellent! You're well-prepared for the actual Civil Service Exam."
               : percentage >= 60
@@ -193,10 +193,10 @@ function ResultCard({ result }) {
               const question = evaluation.question;
               
               return (
-                <div key={evaluation.questionId || index} className="bg-white dark:bg-black rounded-xl border border-gray-200 overflow-hidden">
+                <div key={evaluation.questionId || index} className="bg-white dark:bg-gray-950 rounded-xl border border-gray-200 overflow-hidden">
                   <button
                     onClick={() => toggleQuestion(evaluation.questionId || index)}
-                    className="w-full p-4 flex items-center justify-between hover:bg-gray-50 transition-colors"
+                    className="w-full p-4 flex items-center justify-between hover:bg-gray-50 hover:dark:bg-gray-700 transition-colors"
                   >
                     <div className="flex items-center space-x-3">
                       {isCorrect ? (
@@ -230,7 +230,7 @@ function ResultCard({ result }) {
                   </button>
                   
                   {isExpanded && (
-                    <div className="p-4 border-t border-gray-200 bg-gray-50">
+                    <div className="p-4 border-t border-gray-200 bg-gray-50 dark:bg-gray-950">
                       <div className="space-y-4">
                         {/* Question */}
                         <div>
@@ -252,29 +252,29 @@ function ResultCard({ result }) {
                                   key={option.id} 
                                   className={`p-3 rounded-lg border ${
                                     isUserAnswer && isCorrectAnswer
-                                      ? 'bg-green-50 dark:bg-gray-900 border-green-200'
+                                      ? 'bg-green-50 dark:bg-gray-900 border-green-500'
                                       : isUserAnswer && !isCorrectAnswer
-                                      ? 'bg-red-50 border-red-200'
+                                      ? 'bg-red-50 dark:bg-gray-900 border-red-200'
                                       : isCorrectAnswer
-                                      ? 'bg-green-50 dark:bg-gray-900 border-green-200'
-                                      : 'bg-gray-50 border-gray-200'
+                                      ? 'bg-green-50 dark:bg-gray-900 border-green-500'
+                                      : 'bg-gray-50 dark:bg-gray-700 border-gray-200'
                                   }`}
                                 >
                                   <div className="flex items-center space-x-3">
                                     <div className={`w-6 h-6 flex items-center justify-center rounded ${
                                       isUserAnswer && isCorrectAnswer
-                                        ? 'bg-green-50 dark:bg-gray-9000 text-white'
+                                        ? 'bg-green-50 dark:bg-gray-900 dark:text-white text-gray-950'
                                         : isUserAnswer && !isCorrectAnswer
-                                        ? 'bg-red-500 text-white'
+                                        ? 'bg-red-300 text-white dark:text-gray-950'
                                         : isCorrectAnswer
-                                        ? 'bg-green-50 dark:bg-gray-9000 text-white'
-                                        : 'bg-gray-200 text-gray-700 dark:text-gray-200'
+                                        ? 'bg-green-300 dark:bg-green-900 dark:text-gray-950'
+                                        : 'bg-gray-200 text-gray-700 dark:text-gray-950'
                                     }`}>
                                       {letter}
                                     </div>
                                     <span className="text-gray-80 dark:text-white">{option.text}</span>
                                     {isUserAnswer && (
-                                      <span className="ml-auto text-sm font-medium">
+                                      <span className="ml-auto text-sm font-medium text-blue-700">
                                         Your choice
                                       </span>
                                     )}

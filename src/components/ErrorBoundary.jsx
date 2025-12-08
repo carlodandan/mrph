@@ -24,14 +24,14 @@ class ErrorBoundary extends Component {
     if (this.state.hasError) {
       return (
         <div className="min-h-screen bg-linear-to-br from-red-50 to-orange-50 flex items-center justify-center p-4">
-          <div className="bg-white dark:bg-black rounded-2xl shadow-2xl p-8 max-w-md w-full">
+          <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-2xl p-8 max-w-md w-full">
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-red-100 rounded-full mb-4">
                 <AlertTriangle className="w-8 h-8 text-red-600" />
               </div>
               
               <h2 className="text-2xl font-bold text-gray-80 dark:text-white mb-2">Something went wrong</h2>
-              <p className="text-gray-600 dark:text-amber-100 mb-6">
+              <p className="text-gray-600 dark:text-gray-200 mb-6">
                 An unexpected error occurred. Please try refreshing the page.
               </p>
               

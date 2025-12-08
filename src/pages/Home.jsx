@@ -46,14 +46,14 @@ function Home() {
           <span className="text-sm font-medium text-gray-700 dark:text-gray-200">Philippine Civil Service Examination</span>
         </div>
         
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Master the Civil Service Exam with{' '}
           <span className="bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Mock Reviewer PH
           </span>
         </h1>
         
-        <p className="text-xl text-gray-600 dark:text-amber-100 max-w-3xl mx-auto mb-8">
+        <p className="text-xl text-gray-600 dark:text-gray-200 max-w-3xl mx-auto mb-8">
           Prepare smarter with personalized mock tests and detailed explanations for both Professional and Sub-Professional levels.
         </p>
 
@@ -67,7 +67,7 @@ function Home() {
           </a>
           <Link 
             to="/tutorial"
-            className="px-8 py-4 bg-white dark:bg-black text-gray-80 dark:text-white rounded-xl font-semibold text-lg border-2 border-gray-300 hover:bg-gray-50 transition-all text-center"
+            className="px-8 py-4 bg-white dark:bg-gray-950 text-gray-80 dark:text-white rounded-xl font-semibold text-lg border-2 border-gray-300 hover:bg-gray-50 transition-all text-center"
           >
             Watch Tutorial
           </Link>
@@ -79,7 +79,7 @@ function Home() {
         {features.map((feature, index) => (
           <div 
             key={index}
-            className="bg-white dark:bg-black p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-gray-100"
+            className="bg-white dark:bg-gray-950 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-gray-100"
           >
             <div className="p-3 bg-linear-to-br from-blue-100 to-purple-100 rounded-xl w-fit mb-4">
               <div className="text-blue-600">
@@ -87,7 +87,7 @@ function Home() {
               </div>
             </div>
             <h3 className="text-lg font-bold text-gray-80 dark:text-white mb-2">{feature.title}</h3>
-            <p className="text-gray-600 dark:text-amber-100">{feature.description}</p>
+            <p className="text-gray-600 dark:text-gray-200">{feature.description}</p>
           </div>
         ))}
       </div>
@@ -115,7 +115,7 @@ function Home() {
           </button>
         </div>
 
-        <div className="bg-white dark:bg-black rounded-2xl p-8 shadow-lg">
+        <div className="bg-white dark:bg-gray-950 rounded-2xl p-8 shadow-lg">
           {activeTab === 'about' && (
             <div>
               <h3 className="text-2xl font-bold text-gray-80 dark:text-white mb-4">About the Civil Service Exam</h3>
@@ -166,23 +166,23 @@ function Home() {
               <h3 className="text-2xl font-bold text-gray-80 dark:text-white mb-4">Examination Requirements</h3>
               <ul className="space-y-3 text-gray-700 dark:text-gray-200">
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-9000 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-900 rounded-full mr-3"></div>
                   Filipino citizen
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-9000 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-900 rounded-full mr-3"></div>
                   At least 18 years old
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-9000 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-900 rounded-full mr-3"></div>
                   Of good moral character
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-9000 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-900 rounded-full mr-3"></div>
                   No criminal record
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-9000 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-blue-50 dark:bg-gray-900 rounded-full mr-3"></div>
                   Not removed from service for cause
                 </li>
               </ul>
