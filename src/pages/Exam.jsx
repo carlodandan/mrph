@@ -22,8 +22,6 @@ function Exam() {
   // Reset Screen position
   useEffect(() => {
     if (!isLoading && questions.length > 0) {
-      // Scroll to top smoothly
-      window.scrollTo({ top: 0, behavior: 'smooth' });
       
       // Also focus on the first question card for accessibility
       const questionCard = document.querySelector('[data-question-card]');
@@ -39,8 +37,6 @@ function Exam() {
     
     const initializeExam = async () => {
       if (hasShownContinuePrompt.current) return;
-
-      window.scrollTo(0, 0);
       
       const savedProgress = examService.loadProgress(type);
       

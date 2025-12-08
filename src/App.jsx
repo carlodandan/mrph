@@ -8,6 +8,7 @@ import TermsOfUse from './pages/TermsOfUse';
 import ErrorBoundary from './components/ErrorBoundary';
 import DisclaimerModal from './components/DisclaimerModal';
 import Footer from './components/Footer'; 
+import ScrollToTop from "./components/ScrollToTop";
 import Tutorial from './pages/Tutorial';
 import './index.css';
 import 'katex/dist/katex.min.css';
@@ -20,6 +21,7 @@ function App() {
         <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-950">
           <DisclaimerModal />
           <Header />
+          <ScrollToTop />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/exam/:type" element={<Exam />} />
