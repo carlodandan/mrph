@@ -300,7 +300,7 @@ function Exam() {
       <div className="container mx-auto px-4 py-4 text-center">
         <div className="max-w-md mx-auto bg-white dark:bg-gray-950 rounded-2xl shadow-lg p-8">
           <AlertCircle className="w-16 h-16 text-red-500 mx-auto mb-4" />
-          <h2 className="text-2xl font-bold text-gray-80 dark:text-white mb-2">No Questions Available</h2>
+          <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">No Questions Available</h2>
           <p className="text-gray-600 dark:text-gray-200 mb-6">
             Failed to load exam questions. Please try again.
           </p>
@@ -331,7 +331,7 @@ function Exam() {
           <div className="flex items-center space-x-4">
             <button
               onClick={() => navigate('/')}
-              className="flex items-center space-x-2 text-gray-600 dark:text-gray-200 hover:text-gray-80 dark:text-white font-medium"
+              className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 dark:text-white font-medium"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Back to Home</span>
@@ -375,7 +375,7 @@ function Exam() {
         {/* Right Column - Exam Progress */}
         <div className="lg:w-1/3">
           <div className="bg-white dark:bg-gray-950 rounded-xl shadow-lg p-6">
-            <h3 className="font-bold text-gray-80 dark:text-white mb-4 flex items-center">
+            <h3 className="font-bold text-gray-800 dark:text-white mb-4 flex items-center">
               <BookOpen className="w-5 h-5 mr-2 text-blue-600" />
               Exam Progress
             </h3>
@@ -480,7 +480,7 @@ function Exam() {
 
       {/* Question Navigator */}
       <div className="mb-8 bg-white dark:bg-gray-950 rounded-xl shadow-lg p-6">
-        <h4 className="font-bold text-gray-80 dark:text-white mb-4">Question Navigator</h4>
+        <h4 className="font-bold text-gray-800 dark:text-white mb-4">Question Navigator</h4>
         <div className="grid grid-cols-10 gap-2">
           {questions.map((q, index) => {
             const isAnswered = answers[q.id];
@@ -530,7 +530,7 @@ function Exam() {
 
       {/* Category Progress */}
       <div className="mb-8 bg-white dark:bg-gray-950 rounded-xl shadow-lg p-6">
-        <h4 className="font-bold text-gray-80 dark:text-white mb-4">Category Progress</h4>
+        <h4 className="font-bold text-gray-800 dark:text-white mb-4">Category Progress</h4>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {Object.entries(categoryProgress).map(([category, stats]) => {
             const percentage = Math.round((stats.answered / stats.total) * 100);

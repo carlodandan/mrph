@@ -41,7 +41,7 @@ function ExamSelection() {
   return (
     <div className="py-8">
       <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold text-gray-80 dark:text-white mb-3">Choose Your Exam Type</h2>
+        <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-3">Choose Your Exam Type</h2>
         <p className="text-gray-600 dark:text-gray-200 max-w-2xl mx-auto">
           Select the Civil Service Exam level that matches your qualifications and goals
         </p>
@@ -66,7 +66,7 @@ function ExamSelection() {
                 </span>
               </div>
 
-              <h3 className="text-xl font-bold text-gray-80 dark:text-white mb-2">{exam.title}</h3>
+              <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">{exam.title}</h3>
               <p className="text-gray-600 dark:text-gray-200 mb-6">{exam.description}</p>
 
               <div className="flex items-center justify-between text-sm text-gray-700 dark:text-gray-200">

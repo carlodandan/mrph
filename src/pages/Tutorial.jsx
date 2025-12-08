@@ -88,14 +88,14 @@ function Tutorial() {
           <div className="flex items-center space-x-4">
             <Link
               to="/"
-              className="flex items-center space-x-2 text-gray-600 dark:text-gray-200 hover:text-gray-80 dark:text-white font-medium"
+              className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 dark:text-white font-medium"
             >
               <ArrowLeft className="w-5 h-5" />
               <span>Back to Home</span>
             </Link>
           </div>
           
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-80 dark:text-white text-center md:text-left">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white text-center md:text-left">
             CSC Exam <span className="text-blue-600">Video Tutorials</span>
           </h1>
         </div>
@@ -148,12 +148,12 @@ function Tutorial() {
                 </div>
                 
                 <div className="p-6">
-                  <h3 className="text-lg font-bold text-gray-80 dark:text-white mb-3">Video Description</h3>
+                  <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-3">Video Description</h3>
                   <p className="text-gray-700 dark:text-gray-200 mb-6">{selectedVideo.description}</p>
                   
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-semibold text-gray-80 dark:text-white mb-3 flex items-center">
+                      <h4 className="font-semibold text-gray-800 dark:text-white mb-3 flex items-center">
                         <CheckCircle className="w-5 h-5 mr-2 text-green-500" />
                         Key Features
                       </h4>
@@ -168,7 +168,7 @@ function Tutorial() {
                     </div>
                     
                     <div>
-                      <h4 className="font-semibold text-gray-80 dark:text-white mb-3">Ready to Practice?</h4>
+                      <h4 className="font-semibold text-gray-800 dark:text-white mb-3">Ready to Practice?</h4>
                       <p className="text-gray-600 dark:text-gray-200 mb-4">
                         After watching this tutorial, apply what you've learned with our interactive exam.
                       </p>
@@ -199,7 +199,7 @@ function Tutorial() {
         {/* Right Column - Video Selection */}
         <div className="lg:w-1/3">
           <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-lg p-6 sticky top-6">
-            <h3 className="text-xl font-bold text-gray-80 dark:text-white mb-6">Exam Tutorials</h3>
+            <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-6">Exam Tutorials</h3>
             <p className="text-gray-600 dark:text-gray-200 mb-6">
               Select a tutorial below to learn about each exam type and get preparation tips.
             </p>
@@ -219,7 +219,7 @@ function Tutorial() {
                     </div>
                     
                     <div className="flex-1">
-                      <h4 className="font-bold text-gray-80 dark:text-white mb-1">{video.title}</h4>
+                      <h4 className="font-bold text-gray-800 dark:text-white mb-1">{video.title}</h4>
                       <div className="flex items-center text-sm text-gray-500 dark:text-gray-100 mb-2">
                         <Clock className="w-4 h-4 mr-1" />
                         <span className="mr-4">{video.duration}</span>
@@ -242,19 +242,19 @@ function Tutorial() {
 
             {/* Quick Stats */}
             <div className="mt-8 pt-6 border-t border-gray-200">
-              <h4 className="font-semibold text-gray-80 dark:text-white mb-4">Exam Overview</h4>
+              <h4 className="font-semibold text-gray-800 dark:text-white mb-4">Exam Overview</h4>
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600 dark:text-gray-200">Total Tutorials</span>
-                  <span className="font-semibold text-gray-80 dark:text-white">3</span>
+                  <span className="font-semibold text-gray-800 dark:text-white">3</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600 dark:text-gray-200">Total Duration</span>
-                  <span className="font-semibold text-gray-80 dark:text-white">4mins. and 36secs.</span>
+                  <span className="font-semibold text-gray-800 dark:text-white">4mins. and 36secs.</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600 dark:text-gray-200">Last Updated</span>
-                  <span className="font-semibold text-gray-80 dark:text-white">December 2025</span>
+                  <span className="font-semibold text-gray-800 dark:text-white">December 2025</span>
                 </div>
               </div>
             </div>
@@ -275,7 +275,7 @@ function Tutorial() {
       {/* Additional Information */}
       <div className="mt-12">
         <div className="bg-linear-to-r from-blue-50 to-cyan-50 dark:from-gray-900 dark:to-gray-950 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-gray-80 dark:text-white mb-4 text-center">
+          <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4 text-center">
             Need More Help?
           </h3>
           <div className="grid md:grid-cols-3 gap-6">
@@ -283,7 +283,7 @@ function Tutorial() {
               <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <FileText className="w-6 h-6 text-blue-600" />
               </div>
-              <h4 className="font-bold text-gray-80 dark:text-white mb-2">Exam Guidelines</h4>
+              <h4 className="font-bold text-gray-800 dark:text-white mb-2">Exam Guidelines</h4>
               <p className="text-gray-600 dark:text-gray-200 text-sm">
                 Review official exam rules, time limits, and question formats.
               </p>
@@ -293,7 +293,7 @@ function Tutorial() {
               <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6 text-green-600" />
               </div>
-              <h4 className="font-bold text-gray-80 dark:text-white mb-2">Community Support</h4>
+              <h4 className="font-bold text-gray-800 dark:text-white mb-2">Community Support</h4>
               <p className="text-gray-600 dark:text-gray-200 text-sm">
                 Join our community for tips, discussions, and peer support.
               </p>
@@ -303,7 +303,7 @@ function Tutorial() {
               <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <TrendingUp className="w-6 h-6 text-purple-600" />
               </div>
-              <h4 className="font-bold text-gray-80 dark:text-white mb-2">Progress Tracking</h4>
+              <h4 className="font-bold text-gray-800 dark:text-white mb-2">Progress Tracking</h4>
               <p className="text-gray-600 dark:text-gray-200 text-sm">
                 Monitor your improvement with detailed analytics and reports.
               </p>

@@ -138,7 +138,7 @@ function QuestionCard({
               <HelpCircle className="w-6 h-6 text-blue-600" />
             </div>
             <div className="flex-1">
-              <h3 className="text-lg font-semibold text-gray-80 dark:text-white mb-2">Question:</h3>
+              <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">Question:</h3>
               <div className="text-gray-700 dark:text-gray-200 text-lg leading-relaxed whitespace-pre-line">
                 {containsLatex(question.text) ? (
                   renderTextWithLatex(question.text)
@@ -202,7 +202,7 @@ function QuestionCard({
               className={`px-4 py-2 font-medium ${
                 !localSelected 
                   ? 'text-gray-400 cursor-not-allowed' 
-                  : 'text-gray-600 dark:text-gray-200 hover:text-gray-80 dark:text-white'
+                  : 'text-gray-600 dark:text-gray-200 hover:text-gray-800'
               }`}
               disabled={!localSelected}
             >

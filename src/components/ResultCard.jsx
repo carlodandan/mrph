@@ -37,7 +37,7 @@ function ResultCard({ result }) {
             <Trophy className="w-6 h-6 text-white" />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-gray-80 dark:text-white">Exam Results</h3>
+            <h3 className="text-xl font-bold text-gray-800 dark:text-white">Exam Results</h3>
             <p className="text-gray-600 dark:text-gray-200">
               {result.examType === 'professional' ? 'Professional' : 'Sub-Professional'} Level • {new Date(result.date).toLocaleDateString()}
             </p>
@@ -89,7 +89,7 @@ function ResultCard({ result }) {
       {/* Stats Grid */}
       {result.categoryScores && (
         <div className="mb-6">
-          <h4 className="text-lg font-semibold text-gray-80 dark:text-white mb-3">Category Performance</h4>
+          <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-3">Category Performance</h4>
           <div className="space-y-3">
             {Object.entries(result.categoryScores).map(([category, scores]) => {
               const categoryPercentage = Math.round((scores.correct / scores.total) * 100);
@@ -131,7 +131,7 @@ function ResultCard({ result }) {
             <Target className="w-5 h-5 text-blue-600" />
             <div>
               <p className="text-sm text-gray-600 dark:text-gray-200">Correct</p>
-              <p className="text-2xl font-bold text-gray-80 dark:text-white">{result.score}</p>
+              <p className="text-2xl font-bold text-gray-800 dark:text-white">{result.score}</p>
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@ function ResultCard({ result }) {
             <BarChart3 className="w-5 h-5 text-purple-600" />
             <div>
               <p className="text-sm text-gray-600 dark:text-gray-200">Total</p>
-              <p className="text-2xl font-bold text-gray-80 dark:text-white">{result.totalQuestions}</p>
+              <p className="text-2xl font-bold text-gray-800 dark:text-white">{result.totalQuestions}</p>
             </div>
           </div>
         </div>
@@ -151,7 +151,7 @@ function ResultCard({ result }) {
             <Clock className="w-5 h-5 text-green-600" />
             <div>
               <p className="text-sm text-gray-600 dark:text-gray-200">Time</p>
-              <p className="text-2xl font-bold text-gray-80 dark:text-white">{result.timeTaken}</p>
+              <p className="text-2xl font-bold text-gray-800 dark:text-white">{result.timeTaken}</p>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@ function ResultCard({ result }) {
             <Info className="w-5 h-5 text-yellow-600" />
             <div>
               <p className="text-sm text-gray-600 dark:text-gray-200">Answered</p>
-              <p className="text-lg font-bold text-gray-80 dark:text-white">{result.answersCount || 0}/{result.totalQuestions}</p>
+              <p className="text-lg font-bold text-gray-800 dark:text-white">{result.answersCount || 0}/{result.totalQuestions}</p>
             </div>
           </div>
         </div>
@@ -169,7 +169,7 @@ function ResultCard({ result }) {
 
       {/* Performance Summary */}
       <div className="mb-8">
-        <h4 className="text-lg font-semibold text-gray-80 dark:text-white mb-3">Performance Summary</h4>
+        <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-3">Performance Summary</h4>
         <div className={`p-4 rounded-xl ${getScoreBgColor(percentage)}`}>
           <p className="text-gray-700 dark:text-gray-950">
             {percentage >= 80 
@@ -185,7 +185,7 @@ function ResultCard({ result }) {
       {/* Question Review Section */}
       {hasEvaluations && (
         <div className="mb-8">
-          <h4 className="text-lg font-semibold text-gray-80 dark:text-white mb-3">Question Review</h4>
+          <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-3">Question Review</h4>
           <div className="space-y-4">
             {result.evaluations.map((evaluation, index) => {
               const isExpanded = expandedQuestions[evaluation.questionId || index];
@@ -205,7 +205,7 @@ function ResultCard({ result }) {
                         <XCircle className="w-5 h-5 text-red-600" />
                       )}
                       <div className="text-left">
-                        <span className="font-medium text-gray-80 dark:text-white">
+                        <span className="font-medium text-gray-800 dark:text-white">
                           Question {index + 1}: {question?.text?.substring(0, 60)}...
                         </span>
                         <div className="flex items-center space-x-2 mt-1">
@@ -235,7 +235,7 @@ function ResultCard({ result }) {
                         {/* Question */}
                         <div>
                           <h5 className="font-medium text-gray-700 dark:text-gray-200 mb-2">Question:</h5>
-                          <p className="text-gray-80 dark:text-white">{question?.text}</p>
+                          <p className="text-gray-800 dark:text-white">{question?.text}</p>
                         </div>
                         
                         {/* Options */}
@@ -272,7 +272,7 @@ function ResultCard({ result }) {
                                     }`}>
                                       {letter}
                                     </div>
-                                    <span className="text-gray-80 dark:text-white">{option.text}</span>
+                                    <span className="text-gray-800 dark:text-white">{option.text}</span>
                                     {isUserAnswer && (
                                       <span className="ml-auto text-sm font-medium text-blue-700">
                                         Your choice
@@ -295,7 +295,7 @@ function ResultCard({ result }) {
                           <div>
                             <h5 className="font-medium text-gray-700 dark:text-gray-200 mb-2">Explanation:</h5>
                             <div className="p-3 bg-blue-50 dark:bg-gray-900 rounded-lg border border-blue-100">
-                              <p className="text-gray-80 dark:text-white">{question.explanation}</p>
+                              <p className="text-gray-800 dark:text-white">{question.explanation}</p>
                             </div>
                           </div>
                         )}

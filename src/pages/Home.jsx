@@ -67,7 +67,7 @@ function Home() {
           </a>
           <Link 
             to="/tutorial"
-            className="px-8 py-4 bg-white dark:bg-gray-950 text-gray-80 dark:text-white rounded-xl font-semibold text-lg border-2 border-gray-300 hover:bg-gray-50 transition-all text-center"
+            className="px-8 py-4 bg-white dark:bg-gray-950 text-gray-800 dark:text-white rounded-xl font-semibold text-lg border-2 border-gray-300 hover:bg-gray-50 transition-all text-center"
           >
             Watch Tutorial
           </Link>
@@ -86,7 +86,7 @@ function Home() {
                 {feature.icon}
               </div>
             </div>
-            <h3 className="text-lg font-bold text-gray-80 dark:text-white mb-2">{feature.title}</h3>
+            <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-2">{feature.title}</h3>
             <p className="text-gray-600 dark:text-gray-200">{feature.description}</p>
           </div>
         ))}
@@ -118,13 +118,13 @@ function Home() {
         <div className="bg-white dark:bg-gray-950 rounded-2xl p-8 shadow-lg">
           {activeTab === 'about' && (
             <div>
-              <h3 className="text-2xl font-bold text-gray-80 dark:text-white mb-4">About the Civil Service Exam</h3>
+              <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">About the Civil Service Exam</h3>
               <p className="text-gray-700 dark:text-gray-200 mb-4">
                 The Civil Service Examination (CSE) is conducted by the Philippine Civil Service Commission (CSC) to determine the fitness of individuals who want to enter government service.
               </p>
               <div className="grid md:grid-cols-2 gap-6 mt-6">
                 <div className="p-4 bg-blue-50 dark:bg-gray-900 rounded-xl">
-                  <h4 className="font-bold text-gray-80 dark:text-white mb-2">Professional Level</h4>
+                  <h4 className="font-bold text-gray-800 dark:text-white mb-2">Professional Level</h4>
                   <ul className="text-gray-700 dark:text-gray-200 space-y-2">
                     <li>• For college graduates</li>
                     <li>• 170 multiple-choice items</li>
@@ -133,7 +133,7 @@ function Home() {
                   </ul>
                 </div>
                 <div className="p-4 bg-green-50 dark:bg-gray-900 rounded-xl">
-                  <h4 className="font-bold text-gray-80 dark:text-white mb-2">Sub-Professional Level</h4>
+                  <h4 className="font-bold text-gray-800 dark:text-white mb-2">Sub-Professional Level</h4>
                   <ul className="text-gray-700 dark:text-gray-200 space-y-2">
                     <li>• For non-college graduates</li>
                     <li>• 165 multiple-choice items</li>
@@ -147,7 +147,7 @@ function Home() {
 
           {activeTab === 'tips' && (
             <div>
-              <h3 className="text-2xl font-bold text-gray-80 dark:text-white mb-6">Effective Study Tips</h3>
+              <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">Effective Study Tips</h3>
               <div className="space-y-4">
                 {tips.map((tip, index) => (
                   <div key={index} className="flex items-start space-x-3">
@@ -163,7 +163,7 @@ function Home() {
 
           {activeTab === 'requirements' && (
             <div>
-              <h3 className="text-2xl font-bold text-gray-80 dark:text-white mb-4">Examination Requirements</h3>
+              <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Examination Requirements</h3>
               <ul className="space-y-3 text-gray-700 dark:text-gray-200">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-blue-50 dark:bg-gray-900 rounded-full mr-3"></div>

@@ -36,7 +36,7 @@ function DisclaimerModal() {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-gray-950/80 p-4">
+    <div className="fixed inset-0 z-9999 flex items-center justify-center bg-gray-950/80 p-4">
       <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="sticky top-0 bg-white dark:bg-gray-950 p-6 border-b border-gray-200 z-10">
@@ -46,7 +46,7 @@ function DisclaimerModal() {
                 <AlertTriangle className="w-8 h-8 text-yellow-600" />
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-80 dark:text-white">Important Disclaimer</h2>
+                <h2 className="text-2xl font-bold text-gray-800 dark:text-white">Important Disclaimer</h2>
                 <p className="text-gray-600 dark:text-gray-200 mt-1">Please read carefully before proceeding</p>
               </div>
             </div>
@@ -65,7 +65,7 @@ function DisclaimerModal() {
             {/* Main Warning */}
             <div className="p-5 bg-linear-to-r from-yellow-50 to-orange-50 rounded-xl border-2 border-yellow-300">
               <div className="flex items-start space-x-3">
-                <AlertTriangle className="w-6 h-6 text-yellow-600 flex-shrink-0 mt-0.5" />
+                <AlertTriangle className="w-6 h-6 text-yellow-600 shrink-0 mt-0.5" />
                 <div>
                   <h3 className="text-lg font-bold text-yellow-800 mb-2">
                     Unofficial Mock Exam / Reviewer Tool
@@ -79,15 +79,15 @@ function DisclaimerModal() {
 
             {/* Sources Section */}
             <div>
-              <h3 className="text-xl font-bold text-gray-80 dark:text-white mb-4">Question Sources</h3>
+              <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">Question Sources</h3>
               
               <div className="grid md:grid-cols-2 gap-4 mb-6">
-                <div className="p-4 bg-blue-50 dark:bg-gray-900 dark:bg-gray-900 rounded-xl border border-blue-200">
+                <div className="p-4 bg-blue-50 dark:bg-gray-900 rounded-xl border border-blue-200">
                   <div className="flex items-center space-x-3 mb-3">
                     <div className="p-2 bg-blue-100 rounded-lg">
                       <span className="font-bold text-blue-700">🤖</span>
                     </div>
-                    <h4 className="font-bold text-gray-80 dark:text-white">AI-Generated Questions</h4>
+                    <h4 className="font-bold text-gray-800 dark:text-white">AI-Generated Questions</h4>
                   </div>
                   <p className="text-gray-700 dark:text-gray-200 text-sm">
                     Some questions are generated via AI models including Gemini, DeepSeek, and ChatGPT. These may require additional verification.
@@ -99,7 +99,7 @@ function DisclaimerModal() {
                     <div className="p-2 bg-purple-100 rounded-lg">
                       <span className="font-bold text-purple-700">👥</span>
                     </div>
-                    <h4 className="font-bold text-gray-80 dark:text-white">Community & Social Media</h4>
+                    <h4 className="font-bold text-gray-800 dark:text-white">Community & Social Media</h4>
                   </div>
                   <p className="text-gray-700 dark:text-gray-200 text-sm">
                     Questions collected from social media groups, online forums, and user submissions from various sources.
@@ -111,7 +111,7 @@ function DisclaimerModal() {
                     <div className="p-2 bg-green-100 rounded-lg">
                       <span className="font-bold text-green-700">📚</span>
                     </div>
-                    <h4 className="font-bold text-gray-80 dark:text-white">Review Center Materials</h4>
+                    <h4 className="font-bold text-gray-800 dark:text-white">Review Center Materials</h4>
                   </div>
                   <p className="text-gray-700 dark:text-gray-200 text-sm">
                     Based on old review materials from various review centers and practice books.
@@ -123,7 +123,7 @@ function DisclaimerModal() {
                     <div className="p-2 bg-red-100 rounded-lg">
                       <span className="font-bold text-red-700">⚖️</span>
                     </div>
-                    <h4 className="font-bold text-gray-80 dark:text-white">Legal References</h4>
+                    <h4 className="font-bold text-gray-800 dark:text-white">Legal References</h4>
                   </div>
                   <p className="text-gray-700 dark:text-gray-200 text-sm">
                     Questions based on RA 6713, Philippine Constitution, and other relevant laws and regulations.
@@ -173,7 +173,7 @@ function DisclaimerModal() {
                   className="w-5 h-5 text-blue-600 rounded border-gray-300 focus:ring-blue-500 mt-1"
                 />
                 <div>
-                  <span className="text-gray-80 dark:text-white font-medium">
+                  <span className="text-gray-800 dark:text-white font-medium">
                     Don't show this message again
                   </span>
                   <p className="text-gray-600 dark:text-gray-200 text-sm mt-1">
@@ -190,7 +190,7 @@ function DisclaimerModal() {
           <div className="flex flex-col sm:flex-row gap-4">
             <button
               onClick={() => window.open('https://csc.gov.ph', '_blank', 'noopener,noreferrer')}
-              className="flex-1 py-4 bg-white dark:bg-gray-950 border-2 border-blue-600 text-blue-700 rounded-xl font-bold hover:bg-blue-50 dark:bg-gray-900 transition-colors flex items-center justify-center space-x-2"
+              className="flex-1 py-4 bg-white dark:bg-gray-950 border-2 border-blue-600 text-blue-700 rounded-xl font-bold hover:bg-blue-50 transition-colors flex items-center justify-center space-x-2"
             >
               <span>🌐</span>
               <span>Visit Official CSC Website</span>

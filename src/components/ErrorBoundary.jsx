@@ -30,13 +30,13 @@ class ErrorBoundary extends Component {
                 <AlertTriangle className="w-8 h-8 text-red-600" />
               </div>
               
-              <h2 className="text-2xl font-bold text-gray-80 dark:text-white mb-2">Something went wrong</h2>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">Something went wrong</h2>
               <p className="text-gray-600 dark:text-gray-200 mb-6">
                 An unexpected error occurred. Please try refreshing the page.
               </p>
               
               <div className="bg-gray-50 rounded-xl p-4 mb-6">
-                <p className="text-sm text-gray-700 dark:text-gray-200 font-mono break-words">
+                <p className="text-sm text-gray-700 dark:text-gray-200 font-mono wrap-break-words">
                   {this.state.error?.message || 'Unknown error'}
                 </p>
               </div>
