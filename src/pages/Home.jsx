@@ -43,7 +43,7 @@ function Home() {
       <div className="text-center mb-6 pt-4">
         <div className="inline-flex items-center px-4 py-2 bg-linear-to-r from-blue-100 to-purple-100 rounded-full mb-4">
           <Star className="w-4 h-4 text-yellow-500 mr-2" />
-          <span className="text-sm font-medium text-gray-700 dark:text-gray-200">Philippine Civil Service Examination</span>
+          <span className="text-sm font-medium text-gray-700 dark:text-gray-950">Philippine Civil Service Examination</span>
         </div>
         
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
@@ -67,7 +67,7 @@ function Home() {
           </a>
           <Link 
             to="/tutorial"
-            className="px-8 py-4 bg-white dark:bg-gray-950 text-gray-800 dark:text-white rounded-xl font-semibold text-lg border-2 border-gray-300 hover:bg-gray-50 transition-all text-center"
+            className="px-8 py-4 bg-white dark:bg-gray-950 text-gray-800 dark:text-white rounded-xl font-semibold text-lg border-2 border-gray-300 hover:bg-gray-50 hover:dark:bg-gray-500 transition-all text-center"
           >
             Watch Tutorial
           </Link>

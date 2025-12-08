@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Exam from './pages/Exam';
 import Results from './pages/Results';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfUse from './pages/TermsOfUse';
 import ErrorBoundary from './components/ErrorBoundary';
 import DisclaimerModal from './components/DisclaimerModal';
 import Footer from './components/Footer'; 
@@ -23,6 +25,8 @@ function App() {
               <Route path="/exam/:type" element={<Exam />} />
               <Route path="/results" element={<Results />} />
               <Route path="/tutorial" element={<Tutorial />} />
+              <Route path="/privacy" element={<PrivacyPolicy />} />
+              <Route path="/terms" element={<TermsOfUse />} />
             </Routes>
           <Footer />
         </div>

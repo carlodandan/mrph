@@ -26,7 +26,9 @@ export default defineConfig({
         '/exam/subprofessional',
         '/exam/practice',
         '/results',
-        '/tutorials'
+        '/tutorials',
+        '/privacy',
+        '/terms'
       ],
       readable: true,
       robots: [

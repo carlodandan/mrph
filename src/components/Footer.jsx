@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa6";
 import { SiKofi } from "react-icons/si";
+import { Link } from 'react-router-dom'
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -36,6 +37,24 @@ function Footer() {
               <SiKofi className="w-4 h-4" />
               <span>Buy me a coffee</span>
             </a>
+
+            <span className="hidden sm:block text-gray-400">• </span>
+
+            <Link 
+                to="/privacy" 
+                className="text-blue-600 hover:text-blue-800 hover:underline"
+              >
+                Privacy Policy
+            </Link>
+            
+            <span className="hidden sm:block text-gray-400">• </span>
+
+            <Link 
+                to="/terms" 
+                className="text-blue-600 hover:text-blue-800 hover:underline"
+              >
+                Terms of Use
+            </Link>
           </div>
           
           <p className="text-sm text-gray-500 dark:text-gray-100">
