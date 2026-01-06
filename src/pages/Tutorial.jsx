@@ -95,7 +95,7 @@ function Tutorial() {
             </Link>
           </div>
           
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white text-center md:text-left">
+          <h1 className="text-3xl md:text-2xl font-bold text-gray-800 dark:text-white text-center md:text-left">
             CSC Exam <span className="text-blue-600">Video Tutorials</span>
           </h1>
         </div>
@@ -120,7 +120,7 @@ function Tutorial() {
                       </div>
                     </div>
                     <div>
-                      <h2 className="text-xl font-bold text-white">{selectedVideo.title}</h2>
+                      <h2 className="text-lg font-bold text-white">{selectedVideo.title}</h2>
                       <div className="flex items-center space-x-4 mt-2 text-sm text-gray-300">
                         <span className="flex items-center">
                           <Clock className="w-4 h-4 mr-1" />
@@ -186,7 +186,7 @@ function Tutorial() {
               <div className="bg-linear-to-br from-gray-100 to-gray-200 rounded-2xl aspect-video flex items-center justify-center">
                 <div className="text-center p-8">
                   <Play className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-gray-700 dark:text-gray-200 mb-2">Select a Tutorial to Begin</h3>
+                  <h3 className="text-lg font-bold text-gray-700 dark:text-gray-200 mb-2">Select a Tutorial to Begin</h3>
                   <p className="text-gray-600 dark:text-gray-200 max-w-md">
                     Choose from our comprehensive exam guides to start your preparation journey.
                   </p>
@@ -199,7 +199,7 @@ function Tutorial() {
         {/* Right Column - Video Selection */}
         <div className="lg:w-1/3">
           <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-lg p-6 sticky top-6">
-            <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-6">Exam Tutorials</h3>
+            <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-6">Exam Tutorials</h3>
             <p className="text-gray-600 dark:text-gray-200 mb-6">
               Select a tutorial below to learn about each exam type and get preparation tips.
             </p>

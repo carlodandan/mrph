@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
           
           <div className="space-y-6 text-gray-700 dark:text-gray-200">
             <section>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-3">1. Data Collection Policy</h2>
+              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-3">1. Data Collection Policy</h2>
               <p>Mock Reviewer PH is designed with your privacy as a top priority. We operate on a strict no-tracking, no-collection principle:</p>
               <ul className="list-disc pl-5 mt-2 space-y-1">
                 <li>We do not collect personal information (name, email, address, phone number)</li>
@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
             </section>
             
             <section>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-3">2. Local Data Storage</h2>
+              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-3">2. Local Data Storage</h2>
               <p>All your study data is stored exclusively on your device:</p>
               <ul className="list-disc pl-5 mt-2 space-y-1">
                 <li>Mock exam results and scores</li>
@@ -33,17 +33,17 @@ const PrivacyPolicy = () => {
             </section>
             
             <section>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-3">3. Third-Party Services</h2>
+              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-3">3. Third-Party Services</h2>
               <p>Mock Reviewer PH does not integrate with third-party analytics, advertising, or tracking services. We are a standalone educational tool with no external dependencies that could compromise your privacy.</p>
             </section>
             
             <section>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-3">4. Changes to Privacy Policy</h2>
+              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-3">4. Changes to Privacy Policy</h2>
               <p>We may update this Privacy Policy to reflect changes in our practices. We will notify users of any material changes by updating the "Last Updated" date at the top of this policy. Continued use of Mock Reviewer PH constitutes acceptance of the updated policy.</p>
             </section>
             
             <section>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-3">7. Contact Information</h2>
+              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-3">7. Contact Information</h2>
               <p>If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
               <p className="mt-2 p-4 bg-blue-50 dark:bg-gray-900 rounded-lg">
                 <strong>Email:</strong> carlodandan.personal@proton.me<br />
@@ -53,7 +53,7 @@ const PrivacyPolicy = () => {
             </section>
             
             <section>
-              <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-3">8. Your Privacy Rights</h2>
+              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-3">8. Your Privacy Rights</h2>
               <p>As a user of Mock Reviewer PH, you have the right to:</p>
               <ul className="list-disc pl-5 mt-2 space-y-1">
                 <li>Delete all your data by clearing browser storage</li>

@@ -336,7 +336,7 @@ function Results() {
 
       {/* Study Recommendations */}
       <div className="bg-white dark:bg-gray-950 rounded-2xl shadow-lg p-6 mb-8">
-        <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-6">Study Recommendations</h3>
+        <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-6">Study Recommendations</h3>
         
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <div className="p-4 bg-blue-50 dark:bg-gray-900 rounded-xl">

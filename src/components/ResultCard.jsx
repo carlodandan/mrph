@@ -37,7 +37,7 @@ function ResultCard({ result }) {
             <Trophy className="w-6 h-6 text-white" />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-gray-800 dark:text-white">Exam Results</h3>
+            <h3 className="text-lg font-bold text-gray-800 dark:text-white">Exam Results</h3>
             <p className="text-gray-600 dark:text-gray-200">
               {result.examType === 'professional' ? 'Professional' : 'Sub-Professional'} Level • {new Date(result.date).toLocaleDateString()}
             </p>
@@ -78,7 +78,7 @@ function ResultCard({ result }) {
             </defs>
           </svg>
           <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <span className={`text-4xl font-bold ${getScoreColor(percentage)}`}>
+            <span className={`text-2xl font-bold ${getScoreColor(percentage)}`}>
               {percentage}%
             </span>
             <span className="text-gray-600 dark:text-gray-200">Score</span>

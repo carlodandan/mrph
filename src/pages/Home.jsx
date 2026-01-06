@@ -46,14 +46,14 @@ function Home() {
           <span className="text-sm font-medium text-gray-700 dark:text-gray-950">Philippine Civil Service Examination</span>
         </div>
         
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Master the Civil Service Exam with{' '}
           <span className="bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Mock Reviewer PH
           </span>
         </h1>
         
-        <p className="text-xl text-gray-600 dark:text-gray-200 max-w-3xl mx-auto mb-8">
+        <p className="text-lg text-gray-600 dark:text-gray-200 max-w-3xl mx-auto mb-8">
           Prepare smarter with personalized mock tests and detailed explanations for both Professional and Sub-Professional levels.
         </p>
 

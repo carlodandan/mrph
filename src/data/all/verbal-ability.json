@@ -1183,5 +1183,170 @@
     "category": "Verbal Ability",
     "difficulty": "hard",
     "language": "english"
+  },
+  {
+    "id": "verbal_80",
+    "text": "The book _______ by the teacher yesterday.",
+    "options": [
+      { "id": "a", "text": "is given" },
+      { "id": "b", "text": "was given" },
+      { "id": "c", "text": "has given" },
+      { "id": "d", "text": "had give" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The sentence ends with the word 'yesterday'. This is a specific time marker indicating that the action took place in the past. Therefore, we must use a Past Tense verb.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_81",
+    "text": "The decision _______ by the committee tomorrow morning.",
+    "options": [
+      { "id": "a", "text": "will announce" },
+      { "id": "b", "text": "will be announced" },
+      { "id": "c", "text": "is announced" },
+      { "id": "d", "text": "announced" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The sentence refers to the future ('tomorrow morning') and uses Passive Voice because the decision receives the action. The correct form is 'will be' + past participle.",
+    "category": "Verbal Ability",
+    "difficulty": "medium",
+    "language": "english"
+  },
+  {
+    "id": "verbal_82",
+    "text": "My car _______ right now by the mechanic.",
+    "options": [
+      { "id": "a", "text": "is repairing" },
+      { "id": "b", "text": "was repaired" },
+      { "id": "c", "text": "is being repaired" },
+      { "id": "d", "text": "has been repaired" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The phrase 'right now' indicates the Present Continuous tense. In Passive Voice, this is formed with 'is/are being' + past participle.",
+    "category": "Verbal Ability",
+    "difficulty": "medium",
+    "language": "english"
+  },
+  {
+    "id": "verbal_83",
+    "text": "Thousands of photos _______ on this website every day.",
+    "options": [
+      { "id": "a", "text": "are uploaded" },
+      { "id": "b", "text": "are uploading" },
+      { "id": "c", "text": "were uploaded" },
+      { "id": "d", "text": "have uploaded" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The phrase 'every day' indicates a regular action (Present Simple). Passive Voice is required because photos cannot upload themselves.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_84",
+    "text": "The window _______ before the storm started.",
+    "options": [
+      { "id": "a", "text": "has broken" },
+      { "id": "b", "text": "had been broken" },
+      { "id": "c", "text": "was breaking" },
+      { "id": "d", "text": "had broken" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The action happened before another past action ('storm started'), requiring the Past Perfect. Passive Voice ('had been broken') is used as the window received the action.",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_85",
+    "text": "Penicillin _______ by Alexander Fleming in 1928.",
+    "options": [
+      { "id": "a", "text": "discovered" },
+      { "id": "b", "text": "has been discovered" },
+      { "id": "c", "text": "was discovered" },
+      { "id": "d", "text": "is discovered" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "For a specific completed action in the past with a known date (1928), we use the Past Simple Passive ('was discovered').",
+    "category": "Verbal Ability",
+    "difficulty": "medium",
+    "language": "english"
+  },
+  {
+    "id": "verbal_86",
+    "text": "All the tickets _______ before we arrived at the cinema.",
+    "options": [
+      { "id": "a", "text": "were sold" },
+      { "id": "b", "text": "have been sold" },
+      { "id": "c", "text": "had been sold" },
+      { "id": "d", "text": "sold" }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The selling happened prior to the past arrival ('we arrived'). This sequence requires the Past Perfect Passive ('had been sold').",
+    "category": "Verbal Ability",
+    "difficulty": "hard",
+    "language": "english"
+  },
+  {
+    "id": "verbal_87",
+    "text": "Wait here while the documents _______.",
+    "options": [
+      { "id": "a", "text": "are printing" },
+      { "id": "b", "text": "are being printed" },
+      { "id": "c", "text": "have printed" },
+      { "id": "d", "text": "will print" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The action is happening currently while the subject waits. We use the Present Continuous Passive ('are being printed').",
+    "category": "Verbal Ability",
+    "difficulty": "medium",
+    "language": "english"
+  },
+  {
+    "id": "verbal_88",
+    "text": "The thief _______ by the police yet.",
+    "options": [
+      { "id": "a", "text": "has not been caught" },
+      { "id": "b", "text": "was not caught" },
+      { "id": "c", "text": "is not caught" },
+      { "id": "d", "text": "had not caught" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The word 'yet' implies a connection between past and present, requiring the Present Perfect Passive ('has not been caught').",
+    "category": "Verbal Ability",
+    "difficulty": "medium",
+    "language": "english"
+  },
+  {
+    "id": "verbal_89",
+    "text": "English _______ in many countries.",
+    "options": [
+      { "id": "a", "text": "speaking" },
+      { "id": "b", "text": "is spoken" },
+      { "id": "c", "text": "speaks" },
+      { "id": "d", "text": "has spoken" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "This expresses a general truth or fact. We use the Present Simple Passive ('is spoken'). Active forms like 'speaks' are incorrect because languages do not speak.",
+    "category": "Verbal Ability",
+    "difficulty": "easy",
+    "language": "english"
+  },
+  {
+    "id": "verbal_90",
+    "text": "The project _______ by next Friday.",
+    "options": [
+      { "id": "a", "text": "will complete" },
+      { "id": "b", "text": "will be completed" },
+      { "id": "c", "text": "is completed" },
+      { "id": "d", "text": "has been completed" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The time marker 'by next Friday' indicates a future deadline. We use the Future Passive ('will be completed').",
+    "category": "Verbal Ability",
+    "difficulty": "medium",
+    "language": "english"
   }
 ]

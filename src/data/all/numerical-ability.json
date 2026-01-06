@@ -1897,5 +1897,20 @@
     "category": "Numerical Ability",
     "difficulty": "easy",
     "language": "english"
+  },
+  {
+    "id": "num_126",
+    "text": "A teacher failed 17 students. If this is 20% of the class, how many students were there?",
+    "options": [
+      { "id": "a", "text": "83" },
+      { "id": "b", "text": "85" },
+      { "id": "c", "text": "87" },
+      { "id": "d", "text": "90" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Simplest solution is, to multiply the given value by 5 (will be equivalent of 100%).",
+    "category": "Numerical Ability",
+    "difficulty": "easy",
+    "language": "english"
   }
 ]

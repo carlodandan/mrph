@@ -66,7 +66,7 @@ function ExamSelection() {
                 </span>
               </div>
 
-              <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">{exam.title}</h3>
+              <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-2">{exam.title}</h3>
               <p className="text-gray-600 dark:text-gray-200 mb-6">{exam.description}</p>
 
               <div className="flex items-center justify-between text-sm text-gray-700 dark:text-gray-200">

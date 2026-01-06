@@ -79,7 +79,7 @@ function DisclaimerModal() {
 
             {/* Sources Section */}
             <div>
-              <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">Question Sources</h3>
+              <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-4">Question Sources</h3>
               
               <div className="grid md:grid-cols-2 gap-4 mb-6">
                 <div className="p-4 bg-blue-50 dark:bg-gray-900 rounded-xl border border-blue-200">
